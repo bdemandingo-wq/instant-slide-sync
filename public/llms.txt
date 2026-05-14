@@ -60,6 +60,28 @@ Hours:
 - Saturday: 8:00 AM – 5:00 PM
 - Sunday: 9:00 AM – 3:00 PM
 
+## Pages
+
+- [Homepage](/): Instant quotes, booking, and overview of TIDYWISE cleaning services.
+- [Book Now](/#booking): Multi-step booking form with live pricing.
+- [Pricing Guide](/house-cleaning-cost-south-florida): Full breakdown of cleaning costs by service and home size.
+- [FAQ](/faq): Answers to common cleaning, scheduling, and pricing questions.
+- [Blog](/blog): Cleaning guides, tips, and city-specific resources.
+- [Service Areas](/service-areas): Every city and neighborhood we serve in South Florida.
+- [Standard Cleaning](/standard-cleaning): Recurring weekly, bi-weekly, monthly maintenance cleaning.
+- [Deep Cleaning](/deep-cleaning): Top-to-bottom detailed clean for first-time or seasonal service.
+- [Move-In/Out Cleaning](/move-in-out-cleaning): Empty-home clean for renters, buyers, and sellers.
+- [Airbnb Cleaning](/airbnb-cleaning): Short-term rental turnover service for hosts.
+- [Carpet Cleaning](/carpet-cleaning): Deep extraction carpet and rug cleaning.
+- [Office Cleaning](/office-cleaning): Commercial cleaning for offices and small businesses.
+- [Post-Construction Cleaning](/post-construction-cleaning): Debris and dust removal after renovations.
+- [Broward County](/broward-county-cleaning): Service overview for Broward County cities.
+- [Miami-Dade](/miami-dade-cleaning): Service overview for Miami-Dade County cities.
+- [Palm Beach County](/palm-beach-county-cleaning): Service overview for Palm Beach County cities.
+- [Reviews](/reviews): Verified customer reviews and ratings.
+- [Referral Program](/referral-program): Earn credits when friends book.
+- [Cleaner Application](/apply): Apply to join the TIDYWISE cleaning team.
+
 ## Key Pages
 
 Homepage: https://www.tidywisecleaning.com
