@@ -40,7 +40,7 @@ const Hero = () => {
               Your Home Deserves Better Than Average.
             </h1>
 
-            <p className="text-lg md:text-xl text-white/80 max-w-xl leading-relaxed">
+            <p className="text-lg md:text-xl text-white/90 max-w-xl leading-relaxed">
               TIDYWISE delivers professional home cleaning across Fort Lauderdale, Boca Raton, West Palm Beach, Miami & 40+ South Florida cities — with transparent pricing, vetted cleaners, and a satisfaction guarantee.
             </p>
 
@@ -113,7 +113,7 @@ const Hero = () => {
         style={{ transform: "translateX(-50%)" }}
         aria-hidden="true"
       >
-        <a href="#social-proof" className="flex flex-col items-center gap-2 text-white/60 hover:text-white transition-colors">
+        <a href="#social-proof" className="flex flex-col items-center gap-2 text-white/80 hover:text-white transition-colors">
           <span className="text-sm font-medium">See pricing & services</span>
           <div className="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center p-2 animate-bounce">
             <div className="w-1 h-2 bg-white/50 rounded-full" />

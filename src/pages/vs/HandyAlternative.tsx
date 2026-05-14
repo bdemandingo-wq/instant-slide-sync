@@ -176,7 +176,7 @@ const HandyAlternative = () => {
         <section className="py-16 bg-primary text-primary-foreground text-center">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold mb-4">Done with Inconsistent Gig Cleaners? Try TIDYWISE.</h2>
-            <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
+            <p className="text-primary-foreground/90 mb-8 max-w-xl mx-auto">
               Satisfaction guaranteed. Same-day booking. Real team. Real results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

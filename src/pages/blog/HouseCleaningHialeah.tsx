@@ -142,7 +142,7 @@ const HouseCleaningHialeah = () => {
 
             <div className="mt-12 p-6 bg-primary text-primary-foreground rounded-xl text-center">
               <h2 className="font-display text-2xl font-bold mb-3">Book Hialeah Cleaning Today</h2>
-              <p className="text-primary-foreground/80 mb-5">Instant quote. Same-day availability. Hablamos español.</p>
+              <p className="text-primary-foreground/90 mb-5">Instant quote. Same-day availability. Hablamos español.</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
