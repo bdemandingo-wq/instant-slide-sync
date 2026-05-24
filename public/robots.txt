@@ -39,7 +39,6 @@ Disallow: /admin
 Disallow: /auth
 Disallow: /customer-portal
 Disallow: /my-bookings
-Disallow: /contractor-rate-sheet
 Disallow: /confirmation
 Disallow: /*?*
 Disallow: /*.json$
