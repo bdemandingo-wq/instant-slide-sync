@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 import { ChevronDown, Phone, Mail, MapPin, Shield, Leaf } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { trackPhoneCall } from "@/lib/trackPhoneCall";
-import { CITY_CLEANING_GUIDES } from "@/data/cityCleaningGuides";
-import {
-  CITY_SERVICE_AREAS,
-  CLEANING_TIPS_AND_GUIDES,
-  COMPARE_CLEANING_SERVICES,
-} from "@/data/siteIndex";
+import { COMPARE_CLEANING_SERVICES } from "@/data/siteIndex";
+
 
 // FooterAccordionSection — CSS-driven accordion that collapses on mobile
 // and is permanently expanded on md+. Uses the grid-template-rows: 0fr → 1fr
@@ -186,7 +182,7 @@ const Footer = () => {
             </div>
           </section>
 
-          {/* ── 2. Compare + Cleaning Tips (3-col grid on lg) ────────── */}
+          {/* ── 2. Compare Cleaning Services ─────────────────────────── */}
           <section className="md:border-t md:border-background/20 md:pt-8">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-0 md:gap-y-8">
               <FooterAccordionSection title="Compare Cleaning Services">
@@ -205,63 +201,30 @@ const Footer = () => {
               </FooterAccordionSection>
 
               <FooterAccordionSection
-                title="Cleaning Tips & Guides"
+                title="Explore More"
                 className="md:col-span-2"
               >
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
-                  {CLEANING_TIPS_AND_GUIDES.map((item) => (
-                    <li key={item.path}>
-                      <Link
-                        to={item.path}
-                        className="text-background/70 hover:text-background transition-colors"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
+                <ul className="space-y-2 text-sm">
+                  <li>
+                    <Link to="/service-areas" className="text-background/70 hover:text-background transition-colors">
+                      View all service areas →
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/blog" className="text-background/70 hover:text-background transition-colors">
+                      Browse all cleaning tips &amp; city guides →
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/sitemap" className="text-background/70 hover:text-background transition-colors">
+                      Full sitemap →
+                    </Link>
+                  </li>
                 </ul>
               </FooterAccordionSection>
             </div>
           </section>
 
-          {/* ── 3. All Service Areas (full width) ────────────────────── */}
-          <FooterAccordionSection
-            title="All Service Areas We Cover"
-            className="md:border-t md:border-background/20 md:pt-8"
-          >
-            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-4 gap-y-2 text-sm">
-              {CITY_SERVICE_AREAS.map((city) => (
-                <li key={city.path} className="break-words">
-                  <Link
-                    to={city.path}
-                    className="text-background/70 hover:text-background transition-colors"
-                  >
-                    {city.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </FooterAccordionSection>
-
-          {/* ── 4. Cleaning Guides by City (blog posts, full width) ──── */}
-          <FooterAccordionSection
-            title="Cleaning Guides by City"
-            className="md:border-t md:border-background/20 md:pt-8"
-            headingClassName="font-display text-xs font-semibold uppercase tracking-wider text-background/80"
-          >
-            <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
-              {CITY_CLEANING_GUIDES.map((city) => (
-                <li key={city.path}>
-                  <Link
-                    to={city.path}
-                    className="text-background/70 hover:text-background hover:underline transition-colors"
-                  >
-                    House Cleaning {city.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </FooterAccordionSection>
 
           {/* ── 5. Trust signals — always visible, full width ────────── */}
           <section
