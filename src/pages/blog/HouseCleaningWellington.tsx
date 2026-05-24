@@ -30,7 +30,7 @@ const HouseCleaningWellington = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Wellington FL | From $108 | TIDYWISE"
-        pageDescription="House cleaning in Wellington, FL from $108. Licensed & insured. Equestrian estates, Palm Beach Polo & all communities. Polo season scheduling available."
+        pageDescription="House cleaning in Wellington, FL from $108. Licensed & insured. Equestrian estates, Palm Beach Polo & all communities. Polo season scheduling."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-wellington"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

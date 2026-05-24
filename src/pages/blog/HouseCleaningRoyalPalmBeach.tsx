@@ -30,7 +30,7 @@ const HouseCleaningRoyalPalmBeach = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Royal Palm Beach FL | From $108 | TIDYWISE"
-        pageDescription="House cleaning in Royal Palm Beach, FL from $108. Licensed & insured. The Acreage, Crestwood, Versailles & all communities. Free instant quotes."
+        pageDescription="House cleaning in Royal Palm Beach, FL from $108. Licensed & insured. The Acreage, Crestwood, Versailles & all areas. Free instant quotes."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-royal-palm-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

@@ -30,7 +30,7 @@ const HouseCleaningBoyntonBeach = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Boynton Beach FL | From $108 | TIDYWISE"
-        pageDescription="Trusted house cleaning in Boynton Beach, FL from $108. Licensed & insured. Aberdeen, Valencia Reserve, Leisureville & all neighborhoods. Book today."
+        pageDescription="Top-rated house cleaning in Boynton Beach, FL from $108. Licensed & insured. Aberdeen, Valencia Reserve, Leisureville & all areas. Book today."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-boynton-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

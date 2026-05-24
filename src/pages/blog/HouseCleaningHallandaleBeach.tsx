@@ -30,7 +30,7 @@ const HouseCleaningHallandaleBeach = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Hallandale Beach FL | From $108 | TIDYWISE"
-        pageDescription="House cleaning in Hallandale Beach, FL from $108. Licensed & insured. Golden Isles, oceanfront condos & all neighborhoods. Flexible snowbird scheduling."
+        pageDescription="House cleaning in Hallandale Beach, FL from $108. Licensed & insured. Golden Isles, oceanfront condos & all areas. Flexible snowbird schedules."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-hallandale-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

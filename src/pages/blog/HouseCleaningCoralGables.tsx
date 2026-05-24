@@ -30,7 +30,7 @@ const HouseCleaningCoralGables = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Coral Gables FL | From $108 | TIDYWISE"
-        pageDescription="Expert house cleaning in Coral Gables, FL from $108. Licensed & insured. Gables Estates, Biltmore & all neighborhoods. Mediterranean home specialists."
+        pageDescription="Expert house cleaning in Coral Gables, FL from $108. Licensed & insured. Gables Estates, Biltmore & all neighborhoods. Historic home specialists."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-coral-gables"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

@@ -30,7 +30,7 @@ const HouseCleaningDoral = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Doral FL | From $108 | TIDYWISE"
-        pageDescription="Bilingual house cleaning in Doral, FL from $108. Hablamos español. Licensed & insured. Downtown Doral, Landmark & all communities. Book online now."
+        pageDescription="Bilingual house cleaning in Doral, FL from $108. Hablamos español. Licensed & insured. Downtown Doral, Landmark & all communities. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-doral"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
