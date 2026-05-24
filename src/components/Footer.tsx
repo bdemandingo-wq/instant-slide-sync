@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 import { ChevronDown, Phone, Mail, MapPin, Shield, Leaf } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { trackPhoneCall } from "@/lib/trackPhoneCall";
-import { CITY_CLEANING_GUIDES } from "@/data/cityCleaningGuides";
-import {
-  CITY_SERVICE_AREAS,
-  CLEANING_TIPS_AND_GUIDES,
-  COMPARE_CLEANING_SERVICES,
-} from "@/data/siteIndex";
+import { COMPARE_CLEANING_SERVICES } from "@/data/siteIndex";
+
 
 // FooterAccordionSection — CSS-driven accordion that collapses on mobile
 // and is permanently expanded on md+. Uses the grid-template-rows: 0fr → 1fr
