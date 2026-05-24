@@ -30,7 +30,7 @@ const HouseCleaningDavie = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Davie FL | From $108 | TIDYWISE"
-        pageDescription="Reliable house cleaning in Davie, FL from $108. Licensed & insured. Ranch homes, equestrian properties & all neighborhoods. Same-day booking available."
+        pageDescription="Reliable house cleaning in Davie, FL from $108. Licensed & insured. Ranch homes, equestrian properties & all neighborhoods. Same-day booking."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-davie"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

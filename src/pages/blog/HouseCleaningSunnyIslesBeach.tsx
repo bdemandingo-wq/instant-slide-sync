@@ -30,7 +30,7 @@ const HouseCleaningSunnyIslesBeach = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Sunny Isles Beach FL | TIDYWISE"
-        pageDescription="Luxury house cleaning in Sunny Isles Beach, FL. Ultra-luxury tower specialists. Porsche Design Tower, Regalia & all buildings. Discreet white-glove service."
+        pageDescription="Luxury house cleaning in Sunny Isles Beach, FL. Ultra-luxury tower specialists. Porsche Design Tower, Regalia & all buildings. White-glove service."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-sunny-isles-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}

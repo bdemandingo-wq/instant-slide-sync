@@ -30,7 +30,7 @@ const HouseCleaningDelrayBeach = () => {
     <>
       <SEOSchema
         pageTitle="House Cleaning Delray Beach FL | From $108 | TIDYWISE"
-        pageDescription="Top-rated house cleaning in Delray Beach, FL from $108. Licensed & insured. Mizner Country Club, Lake Ida & all neighborhoods. Seasonal service available."
+        pageDescription="Top-rated house cleaning in Delray Beach, FL from $108. Licensed & insured. Mizner Country Club, Lake Ida & all areas. Seasonal cleaning available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-delray-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
