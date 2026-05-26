@@ -150,24 +150,14 @@ const Sitemap = () => {
     { name: "Miami Gardens", path: "/miami-gardens-cleaning" },
   ];
 
+  // Featured blog posts only — the full list lives at /blog and in sitemap.xml.
+  // Keeping the sitemap page lean (under the 150-link audit threshold) without
+  // hiding any URL from search engines.
   const blogPosts = [
     { name: "Move In/Out Cleaning Checklist", path: "/blog/move-in-out-cleaning-checklist" },
     { name: "Deep Cleaning vs Standard Cleaning", path: "/blog/deep-cleaning-vs-standard-cleaning" },
-    { name: "Pet-Friendly Cleaning Tips", path: "/blog/pet-friendly-cleaning-tips" },
-    { name: "Hurricane Season Cleaning Prep", path: "/blog/hurricane-season-cleaning-prep" },
-    { name: "How to Prepare for Cleaning Service", path: "/blog/how-to-prepare-for-cleaning-service" },
     { name: "Broward County Cost Guide", path: "/blog/broward-cost-guide" },
-    { name: "Miami Permit Rules", path: "/blog/miami-permit-rules" },
-    { name: "Palm Beach Seasonal Discounts", path: "/blog/palm-beach-seasonal-discounts" },
     { name: "Spring Cleaning Guide", path: "/blog/spring-cleaning-guide-south-florida" },
-    { name: "Eco-Friendly Cleaning Products", path: "/blog/eco-friendly-cleaning-products" },
-    { name: "Allergy-Free Home Cleaning", path: "/blog/allergy-free-home-cleaning" },
-    { name: "Holiday Cleaning Checklist", path: "/blog/holiday-cleaning-checklist" },
-    { name: "Bathroom Deep Cleaning Guide", path: "/blog/bathroom-deep-cleaning-guide" },
-    { name: "Kitchen Cleaning Hacks", path: "/blog/kitchen-cleaning-hacks" },
-    { name: "Airbnb Turnover Cleaning Tips", path: "/blog/airbnb-turnover-cleaning-tips" },
-    { name: "Mold Prevention Florida", path: "/blog/mold-prevention-florida-homes" },
-    { name: "Condo Cleaning Rules", path: "/blog/condo-cleaning-rules-south-florida" },
     { name: "Post-Construction Cleaning Guide", path: "/blog/post-construction-cleaning-guide" },
   ];
 
@@ -291,9 +281,9 @@ const Sitemap = () => {
                 </ul>
               </div>
 
-              {/* Blog Posts */}
+              {/* Blog Posts — featured selection, full archive at /blog */}
               <div className="bg-card border border-border rounded-xl p-6 lg:col-span-3">
-                <h2 className="font-display text-xl font-bold text-foreground mb-4">Blog Articles</h2>
+                <h2 className="font-display text-xl font-bold text-foreground mb-4">Featured Blog Articles</h2>
                 <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
                   {blogPosts.map((post) => (
                     <li key={post.path}>
@@ -303,6 +293,11 @@ const Sitemap = () => {
                     </li>
                   ))}
                 </ul>
+                <p className="mt-4 text-sm">
+                  <Link to="/blog" className="text-primary font-medium hover:underline">
+                    Browse all cleaning guides &amp; city blog posts →
+                  </Link>
+                </p>
               </div>
             </div>
           </div>
