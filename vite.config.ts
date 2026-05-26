@@ -17,6 +17,24 @@ function sitemapPlugin(): Plugin {
   };
 }
 
+// Emits per-route static HTML (dist/<route>/index.html) with title /
+// description / canonical / og / twitter pulled from each page's <SEOSchema>.
+// Makes non-JS crawlers (Encited, ChatGPT, initial Googlebot fetch) see real
+// per-page SEO instead of the homepage placeholder served to the SPA shell.
+function prerenderPlugin(): Plugin {
+  return {
+    name: "prerender-routes",
+    apply: "build",
+    closeBundle() {
+      try {
+        execSync("npx tsx src/lib/prerender-routes.ts", { stdio: "inherit" });
+      } catch (e) {
+        console.error("⚠️ Prerender failed:", e);
+      }
+    },
+  };
+}
+
 // All SEO-critical routes to prerender as static HTML
 // This makes them visible to Googlebot, AI crawlers, and social preview scrapers
 const PRERENDER_ROUTES = [
@@ -135,6 +153,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === "development" && componentTagger(),
     sitemapPlugin(),
+    prerenderPlugin(),
   ].filter(Boolean),
   resolve: {
     alias: {
