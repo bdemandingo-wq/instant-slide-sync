@@ -1,0 +1,14 @@
+# gitleaks fingerprints for known false positives.
+# Format: <commit>:<file>:<ruleId>:<startLine>
+# Run `gitleaks detect --no-banner` to regenerate after rotating secrets.
+#
+# All Supabase entries below are the PUBLISHABLE (anon) key — designed to be
+# embedded in client-side code; security is enforced via Row Level Security.
+
+# .env publishable + url (anon key, safe in browser)
+.env:jwt:1
+.env:jwt:2
+
+# generate-blog-post/index.ts:93 — reads CRON_SECRET from Deno.env, no
+# hardcoded JWT. The regex matched on adjacent token-handling code.
+supabase/functions/generate-blog-post/index.ts:jwt:93
