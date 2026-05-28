@@ -88,9 +88,22 @@ async function sendOne(opts: {
         to: [to],
       }),
     });
-    const body = await res.json().catch(() => ({}));
+    // Capture raw text first so we can log it if JSON parsing fails — when
+    // OpenPhone returns an HTML error page the silent catch(() => ({}))
+    // would otherwise hide the root cause of integration failures.
+    const rawBody = await res.text().catch(() => "");
+    let body: any = {};
+    try {
+      body = rawBody ? JSON.parse(rawBody) : {};
+    } catch (parseErr) {
+      console.warn(
+        `SMS response not JSON (${recipientType} → ${to}):`,
+        rawBody.slice(0, 500),
+        parseErr
+      );
+    }
     if (!res.ok) {
-      errorMessage = `HTTP ${res.status}: ${JSON.stringify(body).slice(0, 500)}`;
+      errorMessage = `HTTP ${res.status}: ${(rawBody || JSON.stringify(body)).slice(0, 500)}`;
       console.error(`SMS error (${recipientType} → ${to}):`, errorMessage);
     } else {
       success = true;
