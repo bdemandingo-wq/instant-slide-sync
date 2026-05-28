@@ -146,13 +146,27 @@ const BookingForm = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
-  // Date constraints — Eastern time aware (server enforces too)
+  // Date constraints — Eastern time aware (server enforces too).
+  // Anchor "today" to Eastern time directly so a user booking from another
+  // timezone (PT/MT/HI customer) doesn't see a window shifted by hours
+  // around midnight or DST transitions. The server validates the final
+  // value via a trigger so this is purely client UX.
   const { minDate, maxDate } = useMemo(() => {
-    const now = new Date();
-    const min = new Date(now);
+    // Build today's Y/M/D in America/New_York then construct local Dates
+    // with those components — the calendar component cares about Date
+    // calendar-day comparisons, not the absolute instant.
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).formatToParts(new Date());
+    const get = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? "0");
+    const todayET = new Date(get("year"), get("month") - 1, get("day"));
+    const min = new Date(todayET);
     min.setDate(min.getDate() + 2);
     min.setHours(0, 0, 0, 0);
-    const max = new Date(now);
+    const max = new Date(todayET);
     max.setDate(max.getDate() + 90);
     max.setHours(23, 59, 59, 999);
     return { minDate: min, maxDate: max };
