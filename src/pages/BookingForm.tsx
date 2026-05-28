@@ -107,13 +107,33 @@ const BookingForm = () => {
   // Idempotency key generated once per mount; ensures retries don't double-book.
   const idempotencyKey = useRef<string>(crypto.randomUUID());
 
-  // Load pricing tiers + blocked dates on mount
+  // Load pricing tiers + blocked dates on mount. Both fetches need surfaced
+  // failures: tiers→[] silently shows $0 pricing, blocked_dates→empty Set
+  // means users can book on dates we've explicitly blocked off.
   useEffect(() => {
-    loadPricingTiers().then(setTiers);
+    loadPricingTiers()
+      .then(setTiers)
+      .catch((err) => {
+        console.error("[BookingForm] Failed to load pricing tiers:", err);
+        toast({
+          title: "Couldn't load pricing",
+          description: "Please refresh the page. If this keeps happening, call us at (561) 571-8725.",
+          variant: "destructive",
+        });
+      });
     supabase
       .from("booking_blocked_dates")
       .select("blocked_date")
-      .then(({ data }) => {
+      .then(({ data, error }) => {
+        if (error) {
+          console.error("[BookingForm] Failed to load blocked dates:", error);
+          toast({
+            title: "Couldn't load schedule",
+            description: "Please refresh — the calendar may show unavailable dates as available.",
+            variant: "destructive",
+          });
+          return;
+        }
         if (data) setBlockedDates(new Set(data.map((d) => d.blocked_date)));
       });
   }, []);
