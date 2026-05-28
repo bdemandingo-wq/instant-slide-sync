@@ -36,6 +36,40 @@ serve(async (req) => {
         });
       }
 
+      // CRITICAL: the OTP must go to THE USER, not to admin. Previously the
+      // SMS recipient was hardcoded to ADMIN_PHONE_NUMBER which meant every
+      // password reset SMS landed on the same admin device — the requesting
+      // user never received their own code. Resolve the user's phone via
+      // Supabase auth.users.phone first (set when account was created with
+      // phone OTP) and fall back to the profiles/customers table for users
+      // who signed up via email only.
+      let userPhone = (user as any).phone as string | null | undefined;
+      if (!userPhone) {
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("phone")
+          .eq("id", user.id)
+          .maybeSingle();
+        userPhone = (profile as any)?.phone ?? null;
+      }
+      if (!userPhone) {
+        return new Response(
+          JSON.stringify({
+            error:
+              "No phone number on file for that account. Please contact support to reset your password.",
+          }),
+          {
+            status: 400,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          }
+        );
+      }
+
+      // Normalize to E.164 — OpenPhone rejects ambiguous formats.
+      const normalizedPhone = userPhone.startsWith("+")
+        ? userPhone.replace(/[^\d+]/g, "")
+        : `+1${userPhone.replace(/\D/g, "")}`;
+
       // Generate 6-digit OTP
       const otpCode = Math.floor(100000 + Math.random() * 900000).toString();
       const expiresAt = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes
@@ -66,7 +100,7 @@ serve(async (req) => {
         body: JSON.stringify({
           content: `Your TIDYWISE password reset code is: ${otpCode}\n\nThis code expires in 10 minutes.`,
           from: OPENPHONE_PHONE_NUMBER_ID,
-          to: [ADMIN_PHONE_NUMBER],
+          to: [normalizedPhone],
         }),
       });
 
@@ -76,7 +110,7 @@ serve(async (req) => {
         throw new Error("Failed to send SMS");
       }
 
-      console.log("OTP sent via SMS to admin phone");
+      console.log(`OTP sent via SMS to user phone (user.id=${user.id})`);
 
       return new Response(JSON.stringify({ success: true }), {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
