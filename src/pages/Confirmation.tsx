@@ -41,13 +41,29 @@ const Confirmation = () => {
         .eq("id", bookingId)
         .maybeSingle();
 
-      // Fallback for unauthenticated customers: lookup via idempotency key RPC
+      // Fallback for unauthenticated customers: lookup via idempotency key RPC.
+      // Retry up to 3 times with backoff because the booking row might still be
+      // committing when the redirect lands (BookingForm uses a client-side UUID
+      // and navigates immediately on insert success — replication lag or a
+      // transient network blip on the RPC would otherwise render "Booking not
+      // found" for a real, valid booking).
       if ((!data || error) && key) {
-        const { data: rpcData } = await supabase.rpc("get_booking_by_idempotency_key", {
-          _booking_id: bookingId,
-          _idempotency_key: key,
-        });
-        if (rpcData && rpcData.length > 0) data = rpcData[0] as Booking;
+        const attempts = [0, 500, 1500]; // ms backoff before each try
+        for (const delay of attempts) {
+          if (delay > 0) await new Promise((r) => setTimeout(r, delay));
+          const { data: rpcData, error: rpcErr } = await supabase.rpc(
+            "get_booking_by_idempotency_key",
+            { _booking_id: bookingId, _idempotency_key: key }
+          );
+          if (rpcErr) {
+            console.warn("[Confirmation] idempotency RPC retry:", rpcErr);
+            continue;
+          }
+          if (rpcData && rpcData.length > 0) {
+            data = rpcData[0] as Booking;
+            break;
+          }
+        }
       }
       setBooking((data as Booking) ?? null);
       setLoading(false);
