@@ -88,7 +88,13 @@ const CleanerApplication = () => {
     const filenames: string[] = [];
     
     for (const file of uploadedFiles) {
-      const fileExt = file.name.split(".").pop();
+      // file.name.split(".").pop() returns undefined for extension-less
+      // filenames ("resume", "scan") and the upload key would become
+      // "<uuid>.undefined" — works but signals "broken" in storage. Derive
+      // from MIME first, fall back to "bin".
+      const mimeExt = file.type.split("/")[1];
+      const nameExt = file.name.includes(".") ? file.name.split(".").pop() : undefined;
+      const fileExt = (nameExt || mimeExt || "bin").toLowerCase().replace(/[^a-z0-9]/g, "");
       const fileName = `${crypto.randomUUID()}.${fileExt}`;
       
       const { error } = await supabase.storage
