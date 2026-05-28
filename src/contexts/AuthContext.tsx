@@ -73,8 +73,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const signUp = async (email: string, password: string, fullName: string) => {
-    const redirectUrl = `${window.location.origin}/`;
-    
+    // Route the confirmation link back through /auth so the token-handling
+    // page actually mounts to process the verify. Landing on / would drop
+    // the user on the marketing home page mid-redirect and the magic-link
+    // token would never be exchanged for a session.
+    const redirectUrl = `${window.location.origin}/auth`;
+
     const { error } = await supabase.auth.signUp({
       email,
       password,
