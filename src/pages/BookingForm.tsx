@@ -437,6 +437,19 @@ const BookingForm = () => {
                 <p className="text-muted-foreground">Lock in your price — takes under 2 minutes.</p>
               </div>
 
+              {/* If tiers failed to load, never let the user submit a $0
+                  booking. The pricing-load toast already warned them; this
+                  banner reinforces and the disabled submit lower down does
+                  the actual blocking. */}
+              {tiers.length === 0 && !isCustomService && (
+                <div className="mb-4 rounded-lg border border-destructive/40 bg-destructive/10 p-3 text-sm">
+                  <p className="font-semibold text-destructive mb-1">Pricing unavailable</p>
+                  <p className="text-foreground/80">
+                    Please refresh the page. If this keeps happening, call us at (561) 571-8725 and we'll book you over the phone.
+                  </p>
+                </div>
+              )}
+
               {/* Live Booking Summary */}
               <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mb-6 space-y-3">
                 <div className="flex justify-between items-start gap-3">
