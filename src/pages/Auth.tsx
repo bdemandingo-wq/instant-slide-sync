@@ -93,10 +93,17 @@ const Auth = () => {
       const response = await supabase.functions.invoke("sms-password-reset", {
         body: { action: "verify", email, otp: otpCode, newPassword },
       });
-      const result = response.data;
+      const result = response.data as { success?: boolean; error?: string } | null;
       const invokeError = response.error;
-      if (invokeError || result?.error) {
-        const msg = result?.error || (typeof invokeError === 'object' && invokeError?.message) || "Invalid or expired code";
+      // Treat ANYTHING other than {success:true} as a failure. The old logic
+      // only flagged invokeError || result.error which allowed success=false
+      // or unexpected response shapes to slip through and toast "Password
+      // reset!" without the password actually changing.
+      if (invokeError || !result || result.error || result.success !== true) {
+        const msg =
+          result?.error ||
+          (typeof invokeError === 'object' && invokeError?.message) ||
+          "Invalid or expired code";
         toast({ title: "Error", description: msg, variant: "destructive" });
       } else {
         toast({ title: "Password reset!", description: "You can now sign in with your new password." });
