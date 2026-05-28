@@ -100,7 +100,7 @@ const Confirmation = () => {
                 <CheckCircle className="w-12 h-12 text-green-600" aria-hidden="true" />
               </div>
               <h1 className="text-3xl font-bold text-foreground mb-2">Booking Confirmed!</h1>
-              <p className="text-muted-foreground">Thanks {booking.customer_name.split(" ")[0]} — we'll text you shortly.</p>
+              <p className="text-muted-foreground">Thanks {booking.customer_name?.trim()?.split(/\s+/)[0] || "for booking"} — we'll text you shortly.</p>
             </div>
 
             <div className="bg-muted rounded-lg p-6 mb-6 space-y-3">
@@ -126,7 +126,11 @@ const Confirmation = () => {
                 <div className="flex justify-between">
                   <span className="font-semibold text-foreground">Total Price</span>
                   <span className="text-2xl font-bold text-primary">
-                    {booking.total_price > 0 ? `$${Number(booking.total_price).toFixed(2)}` : "Custom Quote"}
+                    {(() => {
+                      const n = Number(booking.total_price);
+                      if (!Number.isFinite(n) || n <= 0) return "Custom Quote";
+                      return `$${n.toFixed(2)}`;
+                    })()}
                   </span>
                 </div>
               </div>
