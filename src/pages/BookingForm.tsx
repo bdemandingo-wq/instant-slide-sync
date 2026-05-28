@@ -327,12 +327,15 @@ const BookingForm = () => {
         });
       }
 
-      // SMS notification (admin + personal + customer if consent)
+      // SMS notification (admin + personal + customer if consent).
+      // Non-fatal to the booking flow but admin needs visibility — previously
+      // failures only hit console.error, so a dead OpenPhone integration
+      // would silently stop sending us booking alerts and we wouldn't notice
+      // until a customer complained nobody contacted them.
       try {
-        await supabase.functions.invoke("send-sms-notification", {
+        const { error: smsErr } = await supabase.functions.invoke("send-sms-notification", {
           body: {
             type: "booking",
-            // Top-level fields drive routing & consent gating in the edge function
             bookingId,
             customerPhone: parsed.data.phone,
             smsConsent: parsed.data.smsConsent === true,
@@ -353,8 +356,11 @@ const BookingForm = () => {
             },
           },
         });
+        if (smsErr) {
+          console.error("[BookingForm] send-sms-notification returned error:", smsErr);
+        }
       } catch (smsError) {
-        console.error("SMS notification error:", smsError);
+        console.error("[BookingForm] send-sms-notification threw:", smsError);
         // Non-fatal — booking still succeeded
       }
 
