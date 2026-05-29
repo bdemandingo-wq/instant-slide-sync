@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
 import { User, Session } from "@supabase/supabase-js";
 import { supabase } from "@/integrations/supabase/client";
+import { Sentry } from "@/lib/sentry";
 
 interface AuthContextType {
   user: User | null;
@@ -63,6 +64,16 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
     return () => subscription.unsubscribe();
   }, []);
+
+  // Tag Sentry events with the authenticated user so production errors
+  // can be traced to a specific account. Clears on sign-out.
+  useEffect(() => {
+    if (user) {
+      Sentry.setUser({ id: user.id, email: user.email ?? undefined });
+    } else {
+      Sentry.setUser(null);
+    }
+  }, [user]);
 
   const signIn = async (email: string, password: string) => {
     const { error } = await supabase.auth.signInWithPassword({
