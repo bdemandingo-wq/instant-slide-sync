@@ -95,9 +95,9 @@ const cleaningServiceSchema = {
     "@type": "OfferCatalog",
     "name": "TIDYWISE Cleaning Services Menu",
     "itemListElement": [
-      { "@type": "Offer", "name": "Standard House Cleaning", "description": "Regular maintenance cleaning for homes. Includes all rooms dusted and vacuumed, kitchen and bathrooms sanitized, floors mopped, trash emptied.", "price": "150", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "150", "maxPrice": "350", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Standard Cleaning", "serviceType": "House Cleaning" } },
-      { "@type": "Offer", "name": "Deep House Cleaning", "description": "Comprehensive deep cleaning including baseboards, inside cabinets, light fixtures, and all surfaces.", "price": "250", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "250", "maxPrice": "500", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Deep Cleaning", "serviceType": "Deep House Cleaning" } },
-      { "@type": "Offer", "name": "Move In / Move Out Cleaning", "description": "Complete top-to-bottom cleaning for move-ins and move-outs. Includes inside appliances, windows, and inspection-ready clean.", "price": "300", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "600", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Move In/Out Cleaning", "serviceType": "Move Out Cleaning" } },
+      { "@type": "Offer", "name": "Standard House Cleaning", "description": "Regular maintenance cleaning for homes. Includes all rooms dusted and vacuumed, kitchen and bathrooms sanitized, floors mopped, trash emptied.", "price": "150", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "150", "maxPrice": "780", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Standard Cleaning", "serviceType": "House Cleaning" } },
+      { "@type": "Offer", "name": "Deep House Cleaning", "description": "Comprehensive deep cleaning including baseboards, inside cabinets, light fixtures, and all surfaces.", "price": "250", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "250", "maxPrice": "1440", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Deep Cleaning", "serviceType": "Deep House Cleaning" } },
+      { "@type": "Offer", "name": "Move In / Move Out Cleaning", "description": "Complete top-to-bottom cleaning for move-ins and move-outs. Includes inside appliances, windows, and inspection-ready clean.", "price": "300", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "1700", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Move In/Out Cleaning", "serviceType": "Move Out Cleaning" } },
       { "@type": "Offer", "name": "Carpet Cleaning", "description": "Professional deep extraction carpet cleaning for all carpet types. Includes stain treatment and odor elimination.", "itemOffered": { "@type": "Service", "name": "Carpet Cleaning", "serviceType": "Carpet Cleaning" } },
       { "@type": "Offer", "name": "Upholstery Cleaning", "description": "Expert furniture and fabric cleaning for sofas, chairs, and all upholstered items.", "itemOffered": { "@type": "Service", "name": "Upholstery Cleaning", "serviceType": "Upholstery Cleaning" } }
     ]
@@ -148,16 +148,12 @@ const websiteSchema = {
   }
 };
 
-const videoSchema = {
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "TIDYWISE House Cleaning Service — South Florida",
-  "description": "See how TIDYWISE delivers professional home cleaning across Fort Lauderdale, Boca Raton, and 40+ South Florida cities.",
-  "thumbnailUrl": `${WEBSITE}/og-image.webp`,
-  "uploadDate": "2025-01-01",
-  "duration": "PT2M30S",
-  "publisher": { "@id": `${WEBSITE}/#business` }
-};
+// videoSchema removed — Google's VideoObject parser requires contentUrl
+// or embedUrl, and the previous declaration had neither plus a fabricated
+// duration/uploadDate for a video that doesn't actually exist. Search
+// Console was flagging it as an invalid VideoObject which can crowd out
+// the valid LocalBusiness rich result. Re-add this block ONLY when a
+// real video is published with a proper contentUrl.
 
 const SEOSchema = ({
   pageTitle,
@@ -374,11 +370,8 @@ const SEOSchema = ({
           {JSON.stringify(websiteSchema)}
         </script>
       )}
-      {isHome && (
-        <script type="application/ld+json">
-          {JSON.stringify(videoSchema)}
-        </script>
-      )}
+      {/* videoSchema render removed — see comment above its definition.
+          Restore alongside the schema once a real video URL exists. */}
 
       {/* Non-home pages get a simplified business reference */}
       {!isHome && (

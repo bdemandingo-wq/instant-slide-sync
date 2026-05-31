@@ -7,6 +7,11 @@ interface AuthContextType {
   user: User | null;
   session: Session | null;
   isAdmin: boolean;
+  // True until the admin-role lookup has resolved at least once for
+  // the current user. Pages that gate on isAdmin should wait on this
+  // before redirecting non-admins away — otherwise on a cold load a
+  // real admin briefly sees isAdmin=false and gets bounced.
+  adminLoading: boolean;
   loading: boolean;
   signIn: (email: string, password: string) => Promise<{ error: any }>;
   signUp: (email: string, password: string, fullName: string) => Promise<{ error: any }>;
@@ -19,17 +24,26 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
+  // Track the admin-role check separately from auth loading so pages
+  // gating on isAdmin can wait for the actual lookup to finish.
+  // Previously loading flipped to false the moment session resolved,
+  // BEFORE checkAdminRole returned — opening a brief window where a
+  // real admin saw isAdmin=false and got bounced out of /admin.
+  const [adminLoading, setAdminLoading] = useState(true);
   const [loading, setLoading] = useState(true);
 
   const checkAdminRole = async (userId: string) => {
-    const { data } = await supabase
-      .from("user_roles")
-      .select("role")
-      .eq("user_id", userId)
-      .eq("role", "admin")
-      .maybeSingle();
-    
-    setIsAdmin(!!data);
+    try {
+      const { data } = await supabase
+        .from("user_roles")
+        .select("role")
+        .eq("user_id", userId)
+        .eq("role", "admin")
+        .maybeSingle();
+      setIsAdmin(!!data);
+    } finally {
+      setAdminLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -38,14 +52,15 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       (event, session) => {
         setSession(session);
         setUser(session?.user ?? null);
-        
+
         if (session?.user) {
-          // Defer the admin check to avoid deadlock
+          setAdminLoading(true);
           setTimeout(() => {
             checkAdminRole(session.user.id);
           }, 0);
         } else {
           setIsAdmin(false);
+          setAdminLoading(false);
         }
         setLoading(false);
       }
@@ -55,9 +70,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
       setUser(session?.user ?? null);
-      
+
       if (session?.user) {
+        setAdminLoading(true);
         checkAdminRole(session.user.id);
+      } else {
+        setAdminLoading(false);
       }
       setLoading(false);
     });
@@ -108,7 +126,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, isAdmin, loading, signIn, signUp, signOut }}>
+    <AuthContext.Provider value={{ user, session, isAdmin, adminLoading, loading, signIn, signUp, signOut }}>
       {children}
     </AuthContext.Provider>
   );

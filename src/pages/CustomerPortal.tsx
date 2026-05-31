@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SEOHead from "@/components/seo/SEOHead";
+import { Sentry } from "@/lib/sentry";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
@@ -57,6 +58,10 @@ const CustomerPortal = () => {
         // user saw "No bookings yet" indefinitely with no path to recover.
         // Surface it so they can retry.
         console.error("[CustomerPortal] Failed to load bookings:", error);
+        Sentry.captureException(
+          error instanceof Error ? error : new Error(String(error.message ?? error)),
+          { tags: { area: "customer-portal-load-bookings" } },
+        );
         setFetchError(error.message || "Failed to load bookings.");
         setBookings([]);
       } else {

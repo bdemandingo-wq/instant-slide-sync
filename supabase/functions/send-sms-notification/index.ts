@@ -144,16 +144,49 @@ const handler = async (req: Request): Promise<Response> => {
     }
 
     const payload: SmsNotificationRequest = await req.json();
-    const { type, data, customerPhone, smsConsent, bookingId } = payload;
-    console.log("SMS notification:", type, "consent:", smsConsent, "phone:", customerPhone ? "yes" : "no");
+    const { type, data, bookingId } = payload;
+    console.log("SMS notification:", type, "bookingId:", bookingId ? "yes" : "no");
 
     let adminMessage: string;
     let customerMessage: string | null = null;
+    let trustedCustomerPhone: string | null = null;
+    let trustedSmsConsent = false;
 
     switch (type) {
       case "booking":
-        adminMessage = formatBookingSms(data);
-        customerMessage = formatCustomerBookingSms(data);
+        // Anti-spam: verify that the booking row actually exists, and
+        // read customerPhone + smsConsent FROM THE ROW — never from the
+        // request body. Previously the function trusted the body, so
+        // any anonymous caller could POST {type:'booking', smsConsent:
+        // true, customerPhone:'+1...'} and TidyWise would SMS that
+        // number from your OpenPhone account.
+        if (!bookingId) {
+          throw new Error("booking notifications require a bookingId");
+        }
+        {
+          const { data: bookingRow } = await supabaseAdmin
+            .from("bookings")
+            .select("customer_phone, sms_consent, customer_name, service_type, frequency, preferred_date, address, total_price")
+            .eq("id", bookingId)
+            .maybeSingle();
+          if (!bookingRow) {
+            throw new Error("booking not found for the supplied bookingId");
+          }
+          const row = bookingRow as Record<string, unknown>;
+          // Use server-confirmed values for the customer-facing SMS,
+          // but admin-facing copy can keep using the body data (the
+          // booking row is authoritative either way; this just avoids
+          // re-deriving formatted fields).
+          adminMessage = formatBookingSms(data);
+          customerMessage = formatCustomerBookingSms({
+            customerName: row.customer_name,
+            serviceType: row.service_type,
+            preferredDate: row.preferred_date,
+            totalPrice: row.total_price,
+          });
+          trustedCustomerPhone = (row.customer_phone as string | null) ?? null;
+          trustedSmsConsent = row.sms_consent === true;
+        }
         break;
       case "cleaner_application":
         adminMessage = formatApplicationSms(data);
@@ -182,16 +215,16 @@ const handler = async (req: Request): Promise<Response> => {
     });
 
     let customerResult: { success: boolean } | null = null;
-    if (customerMessage && smsConsent === true && customerPhone) {
+    if (customerMessage && trustedSmsConsent && trustedCustomerPhone) {
       customerResult = await sendOne({
-        to: customerPhone,
+        to: trustedCustomerPhone,
         message: customerMessage,
         recipientType: "customer",
         messageType: `${type}_customer`,
         bookingId,
       });
     } else if (customerMessage) {
-      console.log("Skipping customer SMS — consent or phone missing.");
+      console.log("Skipping customer SMS — consent or phone missing on booking row.");
     }
 
     return new Response(

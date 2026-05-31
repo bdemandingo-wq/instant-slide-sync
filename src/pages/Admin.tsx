@@ -75,27 +75,31 @@ const Admin = () => {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [activeTab, setActiveTab] = useState("bookings");
-  const { user, isAdmin, loading: authLoading, signOut } = useAuth();
+  const { user, isAdmin, loading: authLoading, adminLoading, signOut } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
+  // Wait for BOTH the auth and admin-role checks to resolve before
+  // bouncing. Previously this fired on (!authLoading) alone, but
+  // isAdmin starts as `false` and only flips true after a separate
+  // RPC returns — so a real admin briefly saw isAdmin=false on cold
+  // loads and got kicked back to /.
   useEffect(() => {
-    if (!authLoading) {
-      if (!user) {
-        navigate("/auth");
-      } else if (!isAdmin) {
-        toast({
-          title: "Access Denied",
-          description: "You don't have admin privileges.",
-          variant: "destructive",
-        });
-        navigate("/");
-      } else {
-        fetchBookings();
-        fetchApplications();
-      }
+    if (authLoading || adminLoading) return;
+    if (!user) {
+      navigate("/auth");
+    } else if (!isAdmin) {
+      toast({
+        title: "Access Denied",
+        description: "You don't have admin privileges.",
+        variant: "destructive",
+      });
+      navigate("/");
+    } else {
+      fetchBookings();
+      fetchApplications();
     }
-  }, [user, isAdmin, authLoading, navigate]);
+  }, [user, isAdmin, authLoading, adminLoading, navigate]);
 
   const fetchBookings = async () => {
     try {

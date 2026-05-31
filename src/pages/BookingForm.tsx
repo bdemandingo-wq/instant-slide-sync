@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Sentry } from "@/lib/sentry";
 import SEOHead from "@/components/seo/SEOHead";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { format } from "date-fns";
@@ -320,6 +321,7 @@ const BookingForm = () => {
           return;
         }
         console.error("Database error:", dbError);
+        Sentry.captureException(dbError, { tags: { area: "booking-submit" } });
         toast({
           title: "Couldn't save your booking",
           description: dbError.message.includes("Bookings must be") || dbError.message.includes("unavailable")
@@ -372,9 +374,15 @@ const BookingForm = () => {
         });
         if (smsErr) {
           console.error("[BookingForm] send-sms-notification returned error:", smsErr);
+          Sentry.captureException(smsErr instanceof Error ? smsErr : new Error(String(smsErr)), {
+            tags: { area: "booking-sms-notification" },
+          });
         }
       } catch (smsError) {
         console.error("[BookingForm] send-sms-notification threw:", smsError);
+        Sentry.captureException(smsError instanceof Error ? smsError : new Error(String(smsError)), {
+          tags: { area: "booking-sms-notification" },
+        });
         // Non-fatal — booking still succeeded
       }
 
@@ -382,6 +390,9 @@ const BookingForm = () => {
       navigate(`/confirmation/${bookingId}?k=${encodeURIComponent(idempotencyKey.current)}`, { replace: true });
     } catch (error) {
       console.error("Booking error:", error);
+      Sentry.captureException(error instanceof Error ? error : new Error(String(error)), {
+        tags: { area: "booking-submit" },
+      });
       toast({
         title: "Something went wrong",
         description: "Please try again or call us at (561) 571-8725.",

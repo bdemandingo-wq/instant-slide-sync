@@ -124,9 +124,15 @@ function discoverRoutes(projectRoot: string): Route[] {
 }
 
 /**
- * Pull pageTitle / pageDescription / canonicalUrl out of a <SEOSchema /> JSX
- * block via regex. Cheap and reliable since these props are always passed as
- * plain string literals in this codebase.
+ * Pull title / description / canonical out of either a <SEOSchema /> OR
+ * <SEOHead /> JSX block. Both component names appear in this codebase;
+ * the prior regex only matched SEOSchema, so pages using SEOHead (FAQ,
+ * Sitemap, ContractorRateSheet, etc.) silently inherited the homepage's
+ * meta in their static HTML — costing them SEO-specific titles.
+ *
+ * SEOSchema uses prop names pageTitle/pageDescription/canonicalUrl.
+ * SEOHead uses title/description/canonical. We try both shapes per
+ * file so a future renamed prop on either component still parses.
  */
 function extractMetaFromComponent(projectRoot: string, sourceFile: string, routePath: string): RouteMeta | null {
   const candidates = [
@@ -138,13 +144,26 @@ function extractMetaFromComponent(projectRoot: string, sourceFile: string, route
   if (!file) return null;
 
   const src = readFileSync(file, "utf-8");
-  const seoMatch = src.match(/<SEOSchema[\s\S]*?\/>/);
-  if (!seoMatch) return null;
-  const block = seoMatch[0];
 
-  const titleMatch = block.match(/pageTitle\s*=\s*"([^"]+)"/) || block.match(/pageTitle\s*=\s*\{?\s*`([^`]+)`/);
-  const descMatch = block.match(/pageDescription\s*=\s*"([^"]+)"/);
-  const canonicalMatch = block.match(/canonicalUrl\s*=\s*"([^"]+)"/);
+  // Match whichever SEO component shows up first.
+  const seoSchemaMatch = src.match(/<SEOSchema[\s\S]*?\/>/);
+  const seoHeadMatch = src.match(/<SEOHead[\s\S]*?\/>/);
+  const block = seoSchemaMatch?.[0] ?? seoHeadMatch?.[0];
+  if (!block) return null;
+
+  // SEOSchema prop names: pageTitle, pageDescription, canonicalUrl.
+  // SEOHead prop names:   title,     description,     canonical.
+  const titleMatch =
+    block.match(/pageTitle\s*=\s*"([^"]+)"/) ||
+    block.match(/pageTitle\s*=\s*\{?\s*`([^`]+)`/) ||
+    block.match(/\btitle\s*=\s*"([^"]+)"/) ||
+    block.match(/\btitle\s*=\s*\{?\s*`([^`]+)`/);
+  const descMatch =
+    block.match(/pageDescription\s*=\s*"([^"]+)"/) ||
+    block.match(/\bdescription\s*=\s*"([^"]+)"/);
+  const canonicalMatch =
+    block.match(/canonicalUrl\s*=\s*"([^"]+)"/) ||
+    block.match(/\bcanonical\s*=\s*"([^"]+)"/);
 
   if (!titleMatch || !descMatch) return null;
 

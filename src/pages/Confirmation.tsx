@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useSearchParams, useNavigate } from "react-router-dom";
+import { Sentry } from "@/lib/sentry";
 import SEOHead from "@/components/seo/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -57,6 +58,14 @@ const Confirmation = () => {
           );
           if (rpcErr) {
             console.warn("[Confirmation] idempotency RPC retry:", rpcErr);
+            // Only flag to Sentry on the LAST retry — earlier ones are
+            // expected race-window misses that resolve naturally.
+            if (attempt === 4) {
+              Sentry.captureException(
+                rpcErr instanceof Error ? rpcErr : new Error(String(rpcErr.message ?? rpcErr)),
+                { tags: { area: "confirmation-idempotency-retry-exhausted" } },
+              );
+            }
             continue;
           }
           if (rpcData && rpcData.length > 0) {
@@ -98,7 +107,10 @@ const Confirmation = () => {
   }
 
   const addOns = booking.add_ons ?? [];
-  const hasPets = booking.pet_info && booking.pet_info !== "null";
+  // Dropped the `!== "null"` string-literal guard — pet_info is
+  // either a real string or SQL null. The defensive check was masking
+  // any real future bug that produced the literal string "null".
+  const hasPets = !!booking.pet_info;
 
   return (
     <>

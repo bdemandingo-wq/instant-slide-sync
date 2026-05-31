@@ -27,15 +27,20 @@ const Auth = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<{ email?: string; password?: string }>({});
   
-  const { signIn, signUp, user, loading } = useAuth();
+  const { signIn, signUp, user, loading, isAdmin } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
+  // Route signed-in users to the right place. Admins → /admin; everyone
+  // else → /my-bookings. Previously the function sent EVERY user to
+  // /admin, which then bounced regular customers back to / with an
+  // "Access Denied" — repeat customers literally couldn't log in to
+  // their portal.
   useEffect(() => {
     if (!loading && user) {
-      navigate("/admin");
+      navigate(isAdmin ? "/admin" : "/my-bookings");
     }
-  }, [user, loading, navigate]);
+  }, [user, loading, isAdmin, navigate]);
 
   const validateForm = () => {
     const newErrors: { email?: string; password?: string } = {};

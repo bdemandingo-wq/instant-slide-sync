@@ -220,18 +220,35 @@ export async function loadPricingTiers(): Promise<PricingTier[]> {
   if (tierCache) return tierCache;
   if (tierCachePromise) return tierCachePromise;
   tierCachePromise = (async () => {
-    const { data, error } = await supabase
-      .from("service_pricing")
-      .select("service_type, tier_index, label, max_sqft, base_price")
-      .eq("is_active", true)
-      .order("service_type")
-      .order("tier_index");
-    if (error || !data) {
-      tierCachePromise = null;
-      return [];
+    // Retry with exponential backoff on transient failures so a single
+    // network blip doesn't leave the booking form showing "Pricing
+    // unavailable" until the user refreshes. Stops after 3 attempts
+    // so a sustained outage falls through to the empty-array banner
+    // path.
+    const delays = [0, 600, 1500];
+    let lastError: unknown = null;
+    for (const ms of delays) {
+      if (ms > 0) await new Promise((r) => setTimeout(r, ms));
+      try {
+        const { data, error } = await supabase
+          .from("service_pricing")
+          .select("service_type, tier_index, label, max_sqft, base_price")
+          .eq("is_active", true)
+          .order("service_type")
+          .order("tier_index");
+        if (error || !data) {
+          lastError = error;
+          continue;
+        }
+        tierCache = data as PricingTier[];
+        return tierCache;
+      } catch (err) {
+        lastError = err;
+      }
     }
-    tierCache = data as PricingTier[];
-    return tierCache;
+    console.error("[loadPricingTiers] failed after retries", lastError);
+    tierCachePromise = null;
+    return [];
   })();
   return tierCachePromise;
 }
