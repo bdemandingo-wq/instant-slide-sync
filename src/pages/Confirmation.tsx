@@ -60,9 +60,9 @@ const Confirmation = () => {
             console.warn("[Confirmation] idempotency RPC retry:", rpcErr);
             // Only flag to Sentry on the LAST retry — earlier ones are
             // expected race-window misses that resolve naturally.
-            if (attempt === 4) {
+            if (delay === attempts[attempts.length - 1]) {
               Sentry.captureException(
-                rpcErr instanceof Error ? rpcErr : new Error(String(rpcErr.message ?? rpcErr)),
+                rpcErr instanceof Error ? rpcErr : new Error(String(rpcErr)),
                 { tags: { area: "confirmation-idempotency-retry-exhausted" } },
               );
             }
