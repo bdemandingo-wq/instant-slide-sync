@@ -45,7 +45,7 @@ Deno.serve(async (req) => {
     scheduled_at: body.scheduled_at,
     service: body.service ?? null,
     total_amount: Number.isFinite(+body.total_amount) ? +body.total_amount : 0,
-    frequency: body.frequency ?? "one_time",
+    frequency: normalizeFrequency(body.frequency),
     bathrooms: body.bathrooms ?? null,
     square_footage: body.square_footage ?? null,
     extras: Array.isArray(body.extras) ? body.extras : [],
