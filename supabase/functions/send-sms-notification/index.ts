@@ -164,28 +164,47 @@ const handler = async (req: Request): Promise<Response> => {
           throw new Error("booking notifications require a bookingId");
         }
         {
-          const { data: bookingRow } = await supabaseAdmin
-            .from("bookings")
-            .select("customer_phone, sms_consent, customer_name, service_type, frequency, preferred_date, address, total_price")
-            .eq("id", bookingId)
-            .maybeSingle();
-          if (!bookingRow) {
-            throw new Error("booking not found for the supplied bookingId");
+          // The booking row is inserted by the (anonymous) client right
+          // before this function is invoked. Occasionally the read here
+          // races the write and returns null. Retry a few times before
+          // giving up so the customer SMS can still use verified values.
+          let row: Record<string, unknown> | null = null;
+          for (let attempt = 0; attempt < 4; attempt++) {
+            const { data: bookingRow } = await supabaseAdmin
+              .from("bookings")
+              .select("customer_phone, sms_consent, customer_name, service_type, frequency, preferred_date, address, total_price")
+              .eq("id", bookingId)
+              .maybeSingle();
+            if (bookingRow) {
+              row = bookingRow as Record<string, unknown>;
+              break;
+            }
+            await new Promise((r) => setTimeout(r, 750));
           }
-          const row = bookingRow as Record<string, unknown>;
-          // Use server-confirmed values for the customer-facing SMS,
-          // but admin-facing copy can keep using the body data (the
-          // booking row is authoritative either way; this just avoids
-          // re-deriving formatted fields).
+
+          // Admin/personal copy uses the request body — it never depends
+          // on the DB read, so the team is always notified.
           adminMessage = formatBookingSms(data);
-          customerMessage = formatCustomerBookingSms({
-            customerName: row.customer_name,
-            serviceType: row.service_type,
-            preferredDate: row.preferred_date,
-            totalPrice: row.total_price,
-          });
-          trustedCustomerPhone = (row.customer_phone as string | null) ?? null;
-          trustedSmsConsent = row.sms_consent === true;
+
+          if (row) {
+            // Verified values for the customer-facing SMS.
+            customerMessage = formatCustomerBookingSms({
+              customerName: row.customer_name,
+              serviceType: row.service_type,
+              preferredDate: row.preferred_date,
+              totalPrice: row.total_price,
+            });
+            trustedCustomerPhone = (row.customer_phone as string | null) ?? null;
+            trustedSmsConsent = row.sms_consent === true;
+          } else {
+            // Could not verify the booking row in time. Still send the
+            // admin/personal alerts (above); just skip the customer SMS
+            // since we cannot confirm consent/phone from the DB.
+            console.warn(
+              "booking row not found after retries; sending admin/personal SMS only:",
+              bookingId,
+            );
+          }
         }
         break;
       case "cleaner_application":
