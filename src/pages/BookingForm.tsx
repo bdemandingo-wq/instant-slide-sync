@@ -414,7 +414,7 @@ const BookingForm = () => {
               baths: parsed.data.baths,
               sqft,
               totalPrice: isCustomQuote ? "Custom Quote" : breakdown.total.toString(),
-              preferredDate: format(preferredDate, "EEEE, MMMM d, yyyy"),
+              preferredDate: `${format(preferredDate, "EEEE, MMMM d, yyyy")} at ${TIME_SLOTS.find((s) => s.value === preferredTime)?.label ?? preferredTime}`,
               smsConsent: parsed.data.smsConsent === true,
             },
           },
