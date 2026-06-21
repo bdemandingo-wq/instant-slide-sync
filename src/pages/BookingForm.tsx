@@ -50,6 +50,20 @@ interface IncomingState {
   addOnQuantities?: AddOnQuantities;
 }
 
+// Selectable arrival windows. Value is 24h "HH:mm"; label is customer-friendly.
+const TIME_SLOTS: { value: string; label: string }[] = [
+  { value: "08:00", label: "8:00 AM" },
+  { value: "09:00", label: "9:00 AM" },
+  { value: "10:00", label: "10:00 AM" },
+  { value: "11:00", label: "11:00 AM" },
+  { value: "12:00", label: "12:00 PM" },
+  { value: "13:00", label: "1:00 PM" },
+  { value: "14:00", label: "2:00 PM" },
+  { value: "15:00", label: "3:00 PM" },
+  { value: "16:00", label: "4:00 PM" },
+  { value: "17:00", label: "5:00 PM" },
+];
+
 // Zod schema mirroring DB constraints
 const bookingSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name too long"),
@@ -102,8 +116,10 @@ const BookingForm = () => {
     smsConsent: false,
   });
   const [preferredDate, setPreferredDate] = useState<Date | undefined>();
+  const [preferredTime, setPreferredTime] = useState<string>("");
   const [errors, setErrors] = useState<BookingErrors>({});
   const [dateError, setDateError] = useState<string | null>(null);
+  const [timeError, setTimeError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   // Idempotency key generated once per mount; ensures retries don't double-book.
   const idempotencyKey = useRef<string>(crypto.randomUUID());
@@ -251,6 +267,13 @@ const BookingForm = () => {
     }
     setDateError(null);
 
+    // Validate time
+    if (!preferredTime) {
+      setTimeError("Please select a preferred time");
+      return;
+    }
+    setTimeError(null);
+
     // Validate form
     const parsed = bookingSchema.safeParse(formData);
     if (!parsed.success) {
@@ -351,7 +374,7 @@ const BookingForm = () => {
             email: parsed.data.email,
             phone: parsed.data.phone,
             address: parsed.data.address,
-            scheduled_at: new Date(`${format(preferredDate, "yyyy-MM-dd")}T14:00:00`).toISOString(),
+            scheduled_at: new Date(`${format(preferredDate, "yyyy-MM-dd")}T${preferredTime}:00`).toISOString(),
             service: serviceLabel,
             total_amount: isCustomQuote ? 0 : breakdown.total,
             frequency: freqLabel,
@@ -391,7 +414,7 @@ const BookingForm = () => {
               baths: parsed.data.baths,
               sqft,
               totalPrice: isCustomQuote ? "Custom Quote" : breakdown.total.toString(),
-              preferredDate: format(preferredDate, "EEEE, MMMM d, yyyy"),
+              preferredDate: `${format(preferredDate, "EEEE, MMMM d, yyyy")} at ${TIME_SLOTS.find((s) => s.value === preferredTime)?.label ?? preferredTime}`,
               smsConsent: parsed.data.smsConsent === true,
             },
           },
@@ -735,6 +758,31 @@ const BookingForm = () => {
                     </Popover>
                     {dateError && <p id="bf-date-error" className="text-sm text-destructive">{dateError}</p>}
                     <p className="text-xs text-muted-foreground">Bookings open 2–90 days out. Some dates may be unavailable.</p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="bf-time">Preferred Arrival Time *</Label>
+                    <Select
+                      value={preferredTime}
+                      onValueChange={(v) => { setPreferredTime(v); setTimeError(null); }}
+                    >
+                      <SelectTrigger
+                        id="bf-time"
+                        className="w-full"
+                        aria-invalid={!!timeError}
+                        aria-describedby={timeError ? "bf-time-error" : undefined}
+                      >
+                        <Clock className="mr-2 h-4 w-4 text-primary" />
+                        <SelectValue placeholder="Select a time" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {TIME_SLOTS.map((slot) => (
+                          <SelectItem key={slot.value} value={slot.value}>{slot.label}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                    {timeError && <p id="bf-time-error" className="text-sm text-destructive">{timeError}</p>}
+                    <p className="text-xs text-muted-foreground">We'll arrive within a short window of your selected time.</p>
                   </div>
                 </fieldset>
 
