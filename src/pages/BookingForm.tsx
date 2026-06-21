@@ -343,6 +343,30 @@ const BookingForm = () => {
         });
       }
 
+      // Forward booking to external CRM calendar (non-fatal).
+      try {
+        await supabase.functions.invoke("forward-booking-to-crm", {
+          body: {
+            name: parsed.data.name,
+            email: parsed.data.email,
+            phone: parsed.data.phone,
+            address: parsed.data.address,
+            scheduled_at: new Date(`${format(preferredDate, "yyyy-MM-dd")}T14:00:00`).toISOString(),
+            service: serviceLabel,
+            total_amount: isCustomQuote ? 0 : breakdown.total,
+            frequency: freqLabel,
+            bathrooms: parsed.data.baths,
+            square_footage: sqft.toString(),
+            extras: addOnLabels,
+            notes: parsed.data.specialInstructions || null,
+          },
+        });
+      } catch (crmErr) {
+        console.error("[BookingForm] forward-booking-to-crm failed:", crmErr);
+      }
+
+
+
       // SMS notification (admin + personal + customer if consent).
       // Non-fatal to the booking flow but admin needs visibility — previously
       // failures only hit console.error, so a dead OpenPhone integration
