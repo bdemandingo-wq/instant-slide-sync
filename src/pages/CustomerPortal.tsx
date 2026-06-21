@@ -59,7 +59,7 @@ const CustomerPortal = () => {
         // Surface it so they can retry.
         console.error("[CustomerPortal] Failed to load bookings:", error);
         Sentry.captureException(
-          error instanceof Error ? error : new Error(String(error.message ?? error)),
+          error instanceof Error ? error : new Error(String(error)),
           { tags: { area: "customer-portal-load-bookings" } },
         );
         setFetchError(error.message || "Failed to load bookings.");
