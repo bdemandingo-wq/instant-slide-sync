@@ -32,3 +32,6 @@ verify_jwt = false
 
 [functions.sms-password-reset]
 verify_jwt = false
+
+[functions.forward-booking-to-crm]
+verify_jwt = false
