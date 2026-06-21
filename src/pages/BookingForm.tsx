@@ -374,7 +374,7 @@ const BookingForm = () => {
             email: parsed.data.email,
             phone: parsed.data.phone,
             address: parsed.data.address,
-            scheduled_at: new Date(`${format(preferredDate, "yyyy-MM-dd")}T14:00:00`).toISOString(),
+            scheduled_at: new Date(`${format(preferredDate, "yyyy-MM-dd")}T${preferredTime}:00`).toISOString(),
             service: serviceLabel,
             total_amount: isCustomQuote ? 0 : breakdown.total,
             frequency: freqLabel,
