@@ -1,0 +1,2 @@
+ALTER TABLE public.bookings DROP CONSTRAINT IF EXISTS bookings_time_slot_check;
+ALTER TABLE public.bookings ADD CONSTRAINT bookings_time_slot_check CHECK (time_slot IS NULL OR time_slot ~ '^([01][0-9]|2[0-3]):[0-5][0-9]$' OR time_slot = ANY (ARRAY['morning'::text, 'afternoon'::text]));
