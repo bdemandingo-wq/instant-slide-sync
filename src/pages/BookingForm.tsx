@@ -267,6 +267,13 @@ const BookingForm = () => {
     }
     setDateError(null);
 
+    // Validate time
+    if (!preferredTime) {
+      setTimeError("Please select a preferred time");
+      return;
+    }
+    setTimeError(null);
+
     // Validate form
     const parsed = bookingSchema.safeParse(formData);
     if (!parsed.success) {
