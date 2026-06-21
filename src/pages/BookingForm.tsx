@@ -759,6 +759,31 @@ const BookingForm = () => {
                     {dateError && <p id="bf-date-error" className="text-sm text-destructive">{dateError}</p>}
                     <p className="text-xs text-muted-foreground">Bookings open 2–90 days out. Some dates may be unavailable.</p>
                   </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="bf-time">Preferred Arrival Time *</Label>
+                    <Select
+                      value={preferredTime}
+                      onValueChange={(v) => { setPreferredTime(v); setTimeError(null); }}
+                    >
+                      <SelectTrigger
+                        id="bf-time"
+                        className="w-full"
+                        aria-invalid={!!timeError}
+                        aria-describedby={timeError ? "bf-time-error" : undefined}
+                      >
+                        <Clock className="mr-2 h-4 w-4 text-primary" />
+                        <SelectValue placeholder="Select a time" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {TIME_SLOTS.map((slot) => (
+                          <SelectItem key={slot.value} value={slot.value}>{slot.label}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                    {timeError && <p id="bf-time-error" className="text-sm text-destructive">{timeError}</p>}
+                    <p className="text-xs text-muted-foreground">We'll arrive within a short window of your selected time.</p>
+                  </div>
                 </fieldset>
 
                 {/* Contact */}
