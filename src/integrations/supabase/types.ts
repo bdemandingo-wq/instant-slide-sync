@@ -148,6 +148,7 @@ export type Database = {
           preferred_date: string
           review_email_sent_at: string | null
           service_type: string
+          sms_consent: boolean
           special_instructions: string | null
           sqft: number
           status: Database["public"]["Enums"]["booking_status"]
@@ -172,6 +173,7 @@ export type Database = {
           preferred_date: string
           review_email_sent_at?: string | null
           service_type: string
+          sms_consent?: boolean
           special_instructions?: string | null
           sqft: number
           status?: Database["public"]["Enums"]["booking_status"]
@@ -196,6 +198,7 @@ export type Database = {
           preferred_date?: string
           review_email_sent_at?: string | null
           service_type?: string
+          sms_consent?: boolean
           special_instructions?: string | null
           sqft?: number
           status?: Database["public"]["Enums"]["booking_status"]
@@ -796,6 +799,7 @@ export type Database = {
           preferred_date: string
           review_email_sent_at: string | null
           service_type: string
+          sms_consent: boolean
           special_instructions: string | null
           sqft: number
           status: Database["public"]["Enums"]["booking_status"]

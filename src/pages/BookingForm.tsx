@@ -330,6 +330,8 @@ const BookingForm = () => {
           ? parsed.data.petInfo || "Yes"
           : null,
         status: "pending" as const,
+        sms_consent: parsed.data.smsConsent === true,
+        time_slot: preferredTime,
         idempotency_key: idempotencyKey.current,
       };
 
