@@ -7,6 +7,16 @@ import { corsHeaders } from "npm:@supabase/supabase-js@2/cors";
 const CRM_INGEST_URL =
   "https://slwfkaqczvwvvvavkgpr.supabase.co/functions/v1/ingest-external-booking";
 
+// Map TidyWise labels/keys -> CRM's accepted frequency enum
+// (recurring_bookings_frequency_check). Anything unrecognized => one_time.
+function normalizeFrequency(input: unknown): string {
+  const v = String(input ?? "").toLowerCase().replace(/[\s_-]/g, "");
+  if (v.includes("week") && (v.includes("bi") || v.includes("2"))) return "biweekly";
+  if (v.includes("week")) return "weekly";
+  if (v.includes("month")) return "monthly";
+  return "one_time";
+}
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
