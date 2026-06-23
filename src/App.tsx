@@ -162,6 +162,7 @@ const UpholsteryCarpetPricing = lazy(() => import("./pages/UpholsteryCarpetPrici
 const ReferralProgram = lazy(() => import("./pages/ReferralProgram"));
 const ContractorRateSheet = lazy(() => import("./pages/ContractorRateSheet"));
 const AirbnbCleaning = lazy(() => import("./pages/AirbnbCleaning"));
+const BrowardAirbnbTurnover = lazy(() => import("./pages/BrowardAirbnbTurnover"));
 const OfficeCleaning = lazy(() => import("./pages/OfficeCleaning"));
 const PostConstructionCleaning = lazy(() => import("./pages/PostConstructionCleaning"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
@@ -201,6 +202,7 @@ const AppRoutes = () => {
         <Route path="/referral-program" element={<ReferralProgram />} />
         <Route path="/contractor-rate-sheet" element={<ContractorRateSheet />} />
         <Route path="/airbnb-cleaning" element={<AirbnbCleaning />} />
+        <Route path="/broward-airbnb-turnover-cleaning" element={<BrowardAirbnbTurnover />} />
         <Route path="/office-cleaning" element={<OfficeCleaning />} />
         <Route path="/post-construction-cleaning" element={<PostConstructionCleaning />} />
         <Route path="/sitemap" element={<Sitemap />} />
