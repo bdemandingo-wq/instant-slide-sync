@@ -138,6 +138,7 @@ const Footer = () => {
                   <li><Link to="/move-in-out-cleaning" className="text-background/70 hover:text-background transition-colors">Move In/Out Cleaning</Link></li>
                   <li><Link to="/carpet-cleaning" className="text-background/70 hover:text-background transition-colors">Carpet Cleaning</Link></li>
                   <li><Link to="/upholstery-cleaning" className="text-background/70 hover:text-background transition-colors">Upholstery Cleaning</Link></li>
+                  <li><Link to="/upholstery-carpet-cleaning-pricing" className="text-background/70 hover:text-background transition-colors">Upholstery & Carpet Prices</Link></li>
                   <li><Link to="/post-construction-cleaning" className="text-background/70 hover:text-background transition-colors">Post-Construction Cleaning</Link></li>
                   <li><Link to="/office-cleaning" className="text-background/70 hover:text-background transition-colors">Office Cleaning</Link></li>
                   <li><Link to={{ pathname: "/", hash: "#booking" }} className="text-background/70 hover:text-background transition-colors">Get a Quote</Link></li>
