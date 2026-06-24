@@ -70,6 +70,7 @@ export const COMPARE_CLEANING_SERVICES: ReadonlyArray<FooterLink> = [
   { name: "TIDYWISE vs Merry Maids",          path: "/merry-maids-alternative" },
   { name: "TIDYWISE vs Molly Maid",           path: "/molly-maid-alternative" },
   { name: "TIDYWISE vs The Maids",            path: "/the-maids-alternative" },
+  { name: "TIDYWISE vs The Florida Maid",     path: "/the-florida-maid-alternative" },
   { name: "TIDYWISE vs TaskRabbit",           path: "/taskrabbit-alternative" },
   { name: "TIDYWISE vs Amazon Home Services", path: "/amazon-home-services-alternative" },
   { name: "Compare All Cleaning Services",    path: "/cleaning-service-alternatives" },

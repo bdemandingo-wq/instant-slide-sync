@@ -139,6 +139,7 @@ const Footer = () => {
                   <li><Link to="/carpet-cleaning" className="text-background/70 hover:text-background transition-colors">Carpet Cleaning</Link></li>
                   <li><Link to="/upholstery-cleaning" className="text-background/70 hover:text-background transition-colors">Upholstery Cleaning</Link></li>
                   <li><Link to="/upholstery-carpet-cleaning-pricing" className="text-background/70 hover:text-background transition-colors">Upholstery & Carpet Prices</Link></li>
+                  <li><Link to="/deep-cleaning-vs-standard-cleaning" className="text-background/70 hover:text-background transition-colors">Deep vs Standard Cleaning</Link></li>
                   <li><Link to="/post-construction-cleaning" className="text-background/70 hover:text-background transition-colors">Post-Construction Cleaning</Link></li>
                   <li><Link to="/broward-airbnb-turnover-cleaning" className="text-background/70 hover:text-background transition-colors">Broward Airbnb Turnover</Link></li>
                   <li><Link to="/office-cleaning" className="text-background/70 hover:text-background transition-colors">Office Cleaning</Link></li>
@@ -175,6 +176,7 @@ const Footer = () => {
                   <li><Link to="/reviews" className="text-background/70 hover:text-background transition-colors">Customer Reviews</Link></li>
                   <li><Link to="/blog" className="text-background/70 hover:text-background transition-colors">Blog & Tips</Link></li>
                   <li><Link to="/house-cleaning-cost-south-florida" className="text-background/70 hover:text-background transition-colors">Pricing Guide</Link></li>
+                  <li><Link to="/fort-lauderdale-move-out-checklist" className="text-background/70 hover:text-background transition-colors">Move-Out Checklist</Link></li>
                   <li><Link to="/cleaning-service-alternatives" className="text-background/70 hover:text-background transition-colors">Compare Services</Link></li>
                   <li><Link to="/referral-program" className="text-background/70 hover:text-background transition-colors">Referral Program</Link></li>
                   <li><Link to="/contractor-rate-sheet" className="text-background/70 hover:text-background transition-colors">Contractor Rates</Link></li>
