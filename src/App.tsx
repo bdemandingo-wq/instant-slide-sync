@@ -96,6 +96,7 @@ const MollyMaidAlternative = lazy(() => import("./pages/vs/MollyMaidAlternative"
 const MerryMaidsAlternative = lazy(() => import("./pages/vs/MerryMaidsAlternative"));
 const HandyAlternative = lazy(() => import("./pages/vs/HandyAlternative"));
 const TheMaidsAlternative = lazy(() => import("./pages/vs/TheMaidsAlternative"));
+const FloridaMaidAlternative = lazy(() => import("./pages/vs/FloridaMaidAlternative"));
 const CleaningServiceAlternatives = lazy(() => import("./pages/vs/CleaningServiceAlternatives"));
 const TaskRabbitAlternative = lazy(() => import("./pages/vs/TaskRabbitAlternative"));
 const AmazonHomeServicesAlternative = lazy(() => import("./pages/vs/AmazonHomeServicesAlternative"));
@@ -159,6 +160,8 @@ const MoveInOutCleaning = lazy(() => import("./pages/MoveInOutCleaning"));
 const CarpetCleaning = lazy(() => import("./pages/CarpetCleaning"));
 const UpholsteryCleaning = lazy(() => import("./pages/UpholsteryCleaning"));
 const UpholsteryCarpetPricing = lazy(() => import("./pages/UpholsteryCarpetPricing"));
+const DeepVsStandardCleaning = lazy(() => import("./pages/DeepVsStandardCleaning"));
+const FortLauderdaleMoveOutChecklist = lazy(() => import("./pages/FortLauderdaleMoveOutChecklist"));
 const ReferralProgram = lazy(() => import("./pages/ReferralProgram"));
 const ContractorRateSheet = lazy(() => import("./pages/ContractorRateSheet"));
 const AirbnbCleaning = lazy(() => import("./pages/AirbnbCleaning"));
@@ -199,6 +202,9 @@ const AppRoutes = () => {
         <Route path="/carpet-cleaning" element={<CarpetCleaning />} />
         <Route path="/upholstery-cleaning" element={<UpholsteryCleaning />} />
         <Route path="/upholstery-carpet-cleaning-pricing" element={<UpholsteryCarpetPricing />} />
+        <Route path="/deep-cleaning-vs-standard-cleaning" element={<DeepVsStandardCleaning />} />
+        <Route path="/fort-lauderdale-move-out-checklist" element={<FortLauderdaleMoveOutChecklist />} />
+        <Route path="/the-florida-maid-alternative" element={<FloridaMaidAlternative />} />
         <Route path="/referral-program" element={<ReferralProgram />} />
         <Route path="/contractor-rate-sheet" element={<ContractorRateSheet />} />
         <Route path="/airbnb-cleaning" element={<AirbnbCleaning />} />
