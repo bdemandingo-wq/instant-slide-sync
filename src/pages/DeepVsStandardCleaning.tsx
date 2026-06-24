@@ -170,8 +170,8 @@ const DeepVsStandardCleaning = () => {
                 </thead>
                 <tbody>
                   {Object.entries(grouped).map(([area, rows]) => (
-                    <>
-                      <tr key={area} className="bg-muted/40">
+                    <Fragment key={area}>
+                      <tr className="bg-muted/40">
                         <td colSpan={3} className="px-4 py-2 font-semibold text-foreground">{area}</td>
                       </tr>
                       {rows.map((row, i) => (
@@ -181,7 +181,7 @@ const DeepVsStandardCleaning = () => {
                           <td className="px-4 py-3"><Cell on={row.deep} /></td>
                         </tr>
                       ))}
-                    </>
+                    </Fragment>
                   ))}
                 </tbody>
               </table>
