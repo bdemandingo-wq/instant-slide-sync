@@ -38,15 +38,15 @@ const TaskRabbitAlternative = () => {
   };
 
   const comparison = [
-    { feature: "Dedicated cleaning teams", clean collective: true, taskrabbit: false, note: "TaskRabbit uses individual gig workers" },
-    { feature: "Flat-rate transparent pricing", clean collective: true, taskrabbit: false, note: "TaskRabbit charges hourly (hard to predict)" },
-    { feature: "Liability insurance included", clean collective: true, taskrabbit: false, note: "Individual tasker coverage varies" },
-    { feature: "Background-checked cleaners", clean collective: true, taskrabbit: true, note: "" },
-    { feature: "Eco-friendly products", clean collective: true, taskrabbit: false, note: "Taskers bring their own supplies" },
-    { feature: "Free re-clean guarantee", clean collective: true, taskrabbit: false, note: "" },
-    { feature: "Recurring cleaning discounts", clean collective: true, taskrabbit: false, note: "" },
-    { feature: "Same team every visit", clean collective: true, taskrabbit: false, note: "" },
-    { feature: "South Florida specialized", clean collective: true, taskrabbit: false, note: "TaskRabbit is generalist, not cleaning-focused" },
+    { feature: "Dedicated cleaning teams", tidywise: true, taskrabbit: false, note: "TaskRabbit uses individual gig workers" },
+    { feature: "Flat-rate transparent pricing", tidywise: true, taskrabbit: false, note: "TaskRabbit charges hourly (hard to predict)" },
+    { feature: "Liability insurance included", tidywise: true, taskrabbit: false, note: "Individual tasker coverage varies" },
+    { feature: "Background-checked cleaners", tidywise: true, taskrabbit: true, note: "" },
+    { feature: "Eco-friendly products", tidywise: true, taskrabbit: false, note: "Taskers bring their own supplies" },
+    { feature: "Free re-clean guarantee", tidywise: true, taskrabbit: false, note: "" },
+    { feature: "Recurring cleaning discounts", tidywise: true, taskrabbit: false, note: "" },
+    { feature: "Same team every visit", tidywise: true, taskrabbit: false, note: "" },
+    { feature: "South Florida specialized", tidywise: true, taskrabbit: false, note: "TaskRabbit is generalist, not cleaning-focused" },
   ];
 
   return (
@@ -165,7 +165,7 @@ const TaskRabbitAlternative = () => {
                         {row.note && <span className="block text-xs text-muted-foreground mt-0.5">{row.note}</span>}
                       </td>
                       <td className="p-4 text-center">
-                        {row.clean collective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
+                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
                       </td>
                       <td className="p-4 text-center">
                         {row.taskrabbit ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}

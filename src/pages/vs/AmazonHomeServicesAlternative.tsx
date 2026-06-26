@@ -38,15 +38,15 @@ const AmazonHomeServicesAlternative = () => {
   };
 
   const comparison = [
-    { feature: "Direct, accountable cleaning teams", clean collective: true, amazon: false, note: "Amazon uses third-party contractors" },
-    { feature: "Flat-rate transparent pricing", clean collective: true, amazon: false, note: "Amazon adds service fees on top" },
-    { feature: "Eco-friendly products included", clean collective: true, amazon: false, note: "Varies by provider" },
-    { feature: "Free re-clean guarantee", clean collective: true, amazon: true, note: "Amazon has happiness guarantee" },
-    { feature: "Same team every visit", clean collective: true, amazon: false, note: "Provider availability varies" },
-    { feature: "South Florida specialized", clean collective: true, amazon: false, note: "Amazon is a national marketplace" },
-    { feature: "Local phone support", clean collective: true, amazon: false, note: "Amazon routes through their platform" },
-    { feature: "No platform middleman", clean collective: true, amazon: false, note: "" },
-    { feature: "Recurring discounts", clean collective: true, amazon: false, note: "" },
+    { feature: "Direct, accountable cleaning teams", tidywise: true, amazon: false, note: "Amazon uses third-party contractors" },
+    { feature: "Flat-rate transparent pricing", tidywise: true, amazon: false, note: "Amazon adds service fees on top" },
+    { feature: "Eco-friendly products included", tidywise: true, amazon: false, note: "Varies by provider" },
+    { feature: "Free re-clean guarantee", tidywise: true, amazon: true, note: "Amazon has happiness guarantee" },
+    { feature: "Same team every visit", tidywise: true, amazon: false, note: "Provider availability varies" },
+    { feature: "South Florida specialized", tidywise: true, amazon: false, note: "Amazon is a national marketplace" },
+    { feature: "Local phone support", tidywise: true, amazon: false, note: "Amazon routes through their platform" },
+    { feature: "No platform middleman", tidywise: true, amazon: false, note: "" },
+    { feature: "Recurring discounts", tidywise: true, amazon: false, note: "" },
   ];
 
   return (
@@ -151,7 +151,7 @@ const AmazonHomeServicesAlternative = () => {
                         {row.note && <span className="block text-xs text-muted-foreground mt-0.5">{row.note}</span>}
                       </td>
                       <td className="p-4 text-center">
-                        {row.clean collective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
+                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
                       </td>
                       <td className="p-4 text-center">
                         {row.amazon ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}

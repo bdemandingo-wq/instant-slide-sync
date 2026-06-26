@@ -25,16 +25,16 @@ const faqItems = [
 ];
 
 const comparisonRows = [
-  { feature: "Dedicated in-house cleaning team", clean collective: true, competitor: false },
-  { feature: "Company liability insurance", clean collective: true, competitor: false },
-  { feature: "Background-checked cleaners", clean collective: true, competitor: true },
-  { feature: "Consistent same team", clean collective: true, competitor: false },
-  { feature: "Eco-friendly products included", clean collective: true, competitor: false },
-  { feature: "No platform service fees", clean collective: true, competitor: false },
-  { feature: "Satisfaction guarantee (free re-clean)", clean collective: true, competitor: false },
-  { feature: "Transparent pricing online", clean collective: true, competitor: true },
-  { feature: "Locally operated in South Florida", clean collective: true, competitor: false },
-  { feature: "Commercial & Airbnb cleaning", clean collective: true, competitor: false },
+  { feature: "Dedicated in-house cleaning team", tidywise: true, competitor: false },
+  { feature: "Company liability insurance", tidywise: true, competitor: false },
+  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
+  { feature: "Consistent same team", tidywise: true, competitor: false },
+  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
+  { feature: "No platform service fees", tidywise: true, competitor: false },
+  { feature: "Satisfaction guarantee (free re-clean)", tidywise: true, competitor: false },
+  { feature: "Transparent pricing online", tidywise: true, competitor: true },
+  { feature: "Locally operated in South Florida", tidywise: true, competitor: false },
+  { feature: "Commercial & Airbnb cleaning", tidywise: true, competitor: false },
 ];
 
 const HandyAlternative = () => {
@@ -117,7 +117,7 @@ const HandyAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.clean collective
+                        {row.tidywise
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
