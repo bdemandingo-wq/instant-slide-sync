@@ -26,16 +26,16 @@ const faqItems = [
 ];
 
 const comparisonRows = [
-  { feature: "Transparent pricing published online", clean collective: true, competitor: false },
-  { feature: "Instant online quote & booking", clean collective: true, competitor: false },
-  { feature: "Same-day availability", clean collective: true, competitor: false },
-  { feature: "Satisfaction guarantee (24-hr re-clean)", clean collective: true, competitor: false },
-  { feature: "Background-checked cleaners", clean collective: true, competitor: true },
-  { feature: "Eco-friendly products included", clean collective: true, competitor: false },
-  { feature: "Locally owned in South Florida", clean collective: true, competitor: true },
-  { feature: "Recurring discounts up to 15%", clean collective: true, competitor: false },
-  { feature: "Serves 40+ South Florida cities", clean collective: true, competitor: false },
-  { feature: "No in-home estimate required", clean collective: true, competitor: false },
+  { feature: "Transparent pricing published online", tidywise: true, competitor: false },
+  { feature: "Instant online quote & booking", tidywise: true, competitor: false },
+  { feature: "Same-day availability", tidywise: true, competitor: false },
+  { feature: "Satisfaction guarantee (24-hr re-clean)", tidywise: true, competitor: false },
+  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
+  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
+  { feature: "Locally owned in South Florida", tidywise: true, competitor: true },
+  { feature: "Recurring discounts up to 15%", tidywise: true, competitor: false },
+  { feature: "Serves 40+ South Florida cities", tidywise: true, competitor: false },
+  { feature: "No in-home estimate required", tidywise: true, competitor: false },
 ];
 
 const FloridaMaidAlternative = () => {
@@ -103,7 +103,7 @@ const FloridaMaidAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.clean collective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
+                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
                       </td>
                       <td className="px-6 py-4 text-center">
                         {row.competitor ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
