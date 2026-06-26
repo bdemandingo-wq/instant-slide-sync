@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Parkland?",
-    a: "House cleaning in Parkland costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Parkland's large luxury homes in Heron Bay, Woodlands, and Watercrest are priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Parkland costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Parkland's large luxury homes in Heron Bay, Woodlands, and Watercrest are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Parkland, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Parkland communities including Heron Bay, Woodlands, Watercrest, Miralago at Watercrest, and Cascades. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Parkland communities including Heron Bay, Woodlands, Watercrest, Miralago at Watercrest, and Cascades. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Parkland's gated communities?",
-    a: "Yes. TIDYWISE is experienced with Parkland's gated community access protocols. Our teams handle visitor gate registration, HOA parking requirements, and community security at Heron Bay, Woodlands, Watercrest, and other Parkland communities — your appointment runs without complications."
+    a: "Yes. CLEAN COLLECTIVE is experienced with Parkland's gated community access protocols. Our teams handle visitor gate registration, HOA parking requirements, and community security at Heron Bay, Woodlands, Watercrest, and other Parkland communities — your appointment runs without complications."
   },
   {
     q: "How often should Parkland homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningParkland = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Parkland FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Parkland FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Parkland, FL from $108. Licensed & insured. Heron Bay, Woodlands, Watercrest & all gated communities. Luxury home specialists."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-parkland"
         pageType="blog"
@@ -114,10 +114,10 @@ const HouseCleaningParkland = () => {
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Parkland Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Background-checked cleaners — non-negotiable", b: "Parkland's gated communities create an expectation of security throughout the neighborhood. Every TIDYWISE cleaner passes a criminal background check before their first assignment. Never hire a service that can't confirm this." },
+                { t: "Background-checked cleaners — non-negotiable", b: "Parkland's gated communities create an expectation of security throughout the neighborhood. Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment. Never hire a service that can't confirm this." },
                 { t: "Gated community access experience", b: "Heron Bay, Woodlands, and Parkland Golf & Country Club all require advance visitor registration. An inexperienced service can cost you a wasted appointment when the gate turns them away. Our teams know the protocols." },
                 { t: "Licensed and insured in Broward County", b: "Always request the certificate of insurance before letting any cleaner into a Parkland home. A legitimate service provides it within minutes." },
-                { t: "Consistent team assignments", b: "Parkland clients expect the same team on every visit — not a rotation of unfamiliar faces. TIDYWISE assigns dedicated recurring teams so you build real trust over time." },
+                { t: "Consistent team assignments", b: "Parkland clients expect the same team on every visit — not a rotation of unfamiliar faces. CLEAN COLLECTIVE assigns dedicated recurring teams so you build real trust over time." },
                 { t: "Premium surface expertise", b: "Parkland homes have natural stone, custom cabinetry, and designer finishes throughout. Ask exactly what products will be used before booking — the wrong cleaner on the wrong surface causes permanent damage." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">

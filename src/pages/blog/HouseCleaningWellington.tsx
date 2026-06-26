@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Wellington, FL?",
-    a: "House cleaning in Wellington costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Wellington's larger equestrian estates and luxury homes are priced by square footage. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Wellington costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Wellington's larger equestrian estates and luxury homes are priced by square footage. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Wellington, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Wellington communities including Palm Beach Polo and Country Club, Versailles, Olympia, Binks Forest, and Equestrian Club Estates. Licensed, insured, and background-checked."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Wellington communities including Palm Beach Polo and Country Club, Versailles, Olympia, Binks Forest, and Equestrian Club Estates. Licensed, insured, and background-checked."
   },
   {
     q: "Do you clean Wellington homes during polo and equestrian season?",
-    a: "Yes. Wellington's January–April equestrian and polo season brings a seasonal influx of high-net-worth residents who need reliable cleaning during their stay. TIDYWISE accommodates short-term seasonal bookings, pre-arrival deep cleans, and recurring service through the competition season — no long-term contracts required."
+    a: "Yes. Wellington's January–April equestrian and polo season brings a seasonal influx of high-net-worth residents who need reliable cleaning during their stay. CLEAN COLLECTIVE accommodates short-term seasonal bookings, pre-arrival deep cleans, and recurring service through the competition season — no long-term contracts required."
   },
   {
     q: "Do you clean equestrian properties and barn-adjacent homes in Wellington?",
-    a: "Yes. TIDYWISE understands the specific cleaning challenges of Wellington's equestrian properties. Homes near horse facilities track significantly more outdoor debris than typical suburban homes. We provide thorough cleaning that accounts for the higher tracking load common in Wellington's equestrian corridors."
+    a: "Yes. CLEAN COLLECTIVE understands the specific cleaning challenges of Wellington's equestrian properties. Homes near horse facilities track significantly more outdoor debris than typical suburban homes. We provide thorough cleaning that accounts for the higher tracking load common in Wellington's equestrian corridors."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningWellington = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Wellington FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Wellington FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Wellington, FL from $108. Licensed & insured. Equestrian estates, Palm Beach Polo & all communities. Polo season scheduling."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-wellington"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningWellington = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Wellington Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Wellington communities, including:
+              CLEAN COLLECTIVE serves all Wellington communities, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Palm Beach Polo and Country Club", "Versailles", "Olympia", "Binks Forest",
@@ -122,7 +122,7 @@ const HouseCleaningWellington = () => {
               {[
                 { t: "Pre-arrival deep cleans", b: "Many Wellington properties sit unoccupied through summer and fall. A thorough deep clean before the season starts — removing dust accumulation, refreshing bathrooms, kitchen, and living areas — ensures the home is ready for immediate use on arrival." },
                 { t: "Heavy equestrian tracking", b: "Properties near horse facilities or in Wellington's equestrian corridors track substantially more outdoor debris than typical suburban homes — sand, hay, and barn dust. Bi-weekly professional cleaning is the only practical way to manage it during an active season." },
-                { t: "Flexible seasonal scheduling", b: "Season regulars need service for January through April, then pause until next year. TIDYWISE accommodates seasonal booking with no long-term contracts — book for the season, pause when you leave, restart when you return." },
+                { t: "Flexible seasonal scheduling", b: "Season regulars need service for January through April, then pause until next year. CLEAN COLLECTIVE accommodates seasonal booking with no long-term contracts — book for the season, pause when you leave, restart when you return." },
                 { t: "Luxury finishes and premium surfaces", b: "Wellington's country club homes and equestrian estates have the same premium finishes found in Palm Beach Gardens or Boca Raton — natural stone, custom cabinetry, designer fixtures. We use appropriate products for every surface." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">

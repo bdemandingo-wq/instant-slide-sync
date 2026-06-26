@@ -11,7 +11,7 @@ const PostConstructionCleaningGuide = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Post-Construction Cleaning: What to Expect | TIDYWISE"
+        pageTitle="Post-Construction Cleaning: What to Expect | CLEAN COLLECTIVE"
         pageDescription="Just finished a renovation? Here's everything you need to know about post-construction cleaning in South Florida."
         canonicalUrl="https://www.tidywisecleaning.com/blog/post-construction-cleaning-guide"
         pageType="blog"
@@ -138,7 +138,7 @@ const PostConstructionCleaningGuide = () => {
                   Construction Cleanup Specialists
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  TIDYWISE offers professional post-construction cleaning throughout South Florida. 
+                  CLEAN COLLECTIVE offers professional post-construction cleaning throughout South Florida. 
                   We'll get your newly renovated space sparkling and move-in ready.
                 </p>
                 <Link 

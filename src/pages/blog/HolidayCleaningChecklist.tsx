@@ -11,7 +11,7 @@ const HolidayCleaningChecklist = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Holiday Cleaning Checklist for Guests | TIDYWISE"
+        pageTitle="Holiday Cleaning Checklist for Guests | CLEAN COLLECTIVE"
         pageDescription="Get your South Florida home guest-ready for the holidays with our complete cleaning checklist."
         canonicalUrl="https://www.tidywisecleaning.com/blog/holiday-cleaning-checklist"
         pageType="blog"
@@ -112,7 +112,7 @@ const HolidayCleaningChecklist = () => {
                   Too Busy for Holiday Cleaning?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Let TIDYWISE handle the deep cleaning so you can focus on decorating and cooking! 
+                  Let CLEAN COLLECTIVE handle the deep cleaning so you can focus on decorating and cooking! 
                   Book early—holiday slots fill up fast.
                 </p>
                 <Link 

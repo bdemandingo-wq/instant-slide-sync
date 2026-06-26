@@ -10,19 +10,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Coral Springs?",
-    a: "House cleaning in Coral Springs costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Coral Springs costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Coral Springs, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Coral Springs neighborhoods including Eagle Trace, Heron Bay, Ramblewood, and North Springs. We are licensed, insured, and background-check all cleaners."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Coral Springs neighborhoods including Eagle Trace, Heron Bay, Ramblewood, and North Springs. We are licensed, insured, and background-check all cleaners."
   },
   {
     q: "Do you use eco-friendly products for Coral Springs families with kids?",
-    a: "Yes. TIDYWISE uses eco-friendly, non-toxic cleaning products as standard — a priority for the many Coral Springs families with young children and pets. Our products are tough on dirt but safe for your household."
+    a: "Yes. CLEAN COLLECTIVE uses eco-friendly, non-toxic cleaning products as standard — a priority for the many Coral Springs families with young children and pets. Our products are tough on dirt but safe for your household."
   },
   {
     q: "How often should Coral Springs homeowners book professional cleaning?",
-    a: "Most Coral Springs homeowners book bi-weekly service to manage South Florida's humidity and dust. Monthly deep cleaning is popular for larger homes with pools and patios. TIDYWISE offers 5–15% off recurring bookings."
+    a: "Most Coral Springs homeowners book bi-weekly service to manage South Florida's humidity and dust. Monthly deep cleaning is popular for larger homes with pools and patios. CLEAN COLLECTIVE offers 5–15% off recurring bookings."
   }
 ];
 
@@ -30,7 +30,7 @@ const CoralSpringsCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Coral Springs House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Coral Springs House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Professional cleaning Coral Springs FL. House cleaning for Heron Bay, Wyndham, Eagle Trace. Licensed & insured. Same-day quotes. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/coral-springs-cleaning"
         pageType="county"
@@ -102,7 +102,7 @@ const CoralSpringsCleaning = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-12">
-              Why Coral Springs Families Choose TIDYWISE
+              Why Coral Springs Families Choose CLEAN COLLECTIVE
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">
@@ -137,7 +137,7 @@ const CoralSpringsCleaning = () => {
             </h2>
             <div className="max-w-4xl mx-auto prose prose-lg text-muted-foreground">
               <p>
-                TIDYWISE is proud to serve the Coral Springs community with professional house cleaning services 
+                CLEAN COLLECTIVE is proud to serve the Coral Springs community with professional house cleaning services 
                 tailored to the needs of local families. From the prestigious homes of Heron Bay to the 
                 established neighborhoods of Ramblewood and Country Woods, we provide consistent, reliable 
                 cleaning you can count on.
@@ -150,7 +150,7 @@ const CoralSpringsCleaning = () => {
               </p>
               <p>
                 Whether you need weekly maintenance cleaning to keep up with busy family life, deep cleaning 
-                before the holidays, or move-in/move-out services, TIDYWISE has you covered. We're fully 
+                before the holidays, or move-in/move-out services, CLEAN COLLECTIVE has you covered. We're fully 
                 licensed, insured, and our cleaners pass thorough background checks for your peace of mind.
               </p>
             </div>

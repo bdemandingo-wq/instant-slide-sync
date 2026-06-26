@@ -11,7 +11,7 @@ const AirbnbTurnoverCleaningTips = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Airbnb & Vacation Rental Turnover Cleaning Tips | TIDYWISE"
+        pageTitle="Airbnb & Vacation Rental Turnover Cleaning Tips | CLEAN COLLECTIVE"
         pageDescription="Maximize your rental reviews with quick and thorough turnover cleaning. Essential tips for South Florida property hosts."
         canonicalUrl="https://www.tidywisecleaning.com/blog/airbnb-turnover-cleaning-tips"
         pageType="blog"
@@ -129,7 +129,7 @@ const AirbnbTurnoverCleaningTips = () => {
                   Professional Turnover Cleaning
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  TIDYWISE specializes in vacation rental turnovers across South Florida. We understand 
+                  CLEAN COLLECTIVE specializes in vacation rental turnovers across South Florida. We understand 
                   tight timelines and 5-star expectations. Book same-day service available!
                 </p>
                 <Link 

@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Boynton Beach?",
-    a: "House cleaning in Boynton Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Boynton Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Boynton Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Boynton Beach communities including Tuscany Bay, Nautica, Valencia, and Venetian Isles. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Boynton Beach communities including Tuscany Bay, Nautica, Valencia, and Venetian Isles. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you serve 55+ and active adult communities in Boynton Beach?",
-    a: "Yes. TIDYWISE serves all Boynton Beach communities including active adult and 55+ communities. Our background-checked teams are trustworthy and work efficiently with minimal disruption. No long-term contracts required."
+    a: "Yes. CLEAN COLLECTIVE serves all Boynton Beach communities including active adult and 55+ communities. Our background-checked teams are trustworthy and work efficiently with minimal disruption. No long-term contracts required."
   },
   {
     q: "How often should Boynton Beach homeowners book professional cleaning?",
-    a: "Most Boynton Beach homeowners book bi-weekly cleaning for regular maintenance. Monthly deep cleaning is popular for snowbirds and seasonal residents. TIDYWISE offers 5–15% discounts on recurring bookings."
+    a: "Most Boynton Beach homeowners book bi-weekly cleaning for regular maintenance. Monthly deep cleaning is popular for snowbirds and seasonal residents. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings."
   }
 ];
 
@@ -29,7 +29,7 @@ const BoyntonBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Boynton Beach House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Boynton Beach House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Boynton Beach FL residential cleaning experts. Leisureville, Aberdeen & Canyon Lakes. Standard, deep & move-out cleaning. Free instant quote online!"
         canonicalUrl="https://www.tidywisecleaning.com/boynton-beach-cleaning"
         pageType="county"

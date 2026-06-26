@@ -11,7 +11,7 @@ const BathroomDeepCleaningGuide = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Complete Bathroom Deep Cleaning Guide | TIDYWISE"
+        pageTitle="Complete Bathroom Deep Cleaning Guide | CLEAN COLLECTIVE"
         pageDescription="Step-by-step bathroom deep cleaning guide designed for Florida's humid climate. Tackle mold, soap scum, and grime."
         canonicalUrl="https://www.tidywisecleaning.com/blog/bathroom-deep-cleaning-guide"
         pageType="blog"

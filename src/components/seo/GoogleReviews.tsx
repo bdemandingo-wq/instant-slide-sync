@@ -5,7 +5,7 @@ const reviews = [
     id: 1,
     name: "Ashleigh Craig",
     rating: 5,
-    text: "I used Tidywise to do a deep clean of my home, and I couldn't be happier with the results! From the moment I booked, the communication was professional and prompt. The team arrived on time, fully equipped, and ready to work. They paid attention to every detail—baseboards, windows, inside appliances—nothing was missed. My home looked and smelled amazing afterward. Highly recommend!",
+    text: "I used Clean Collective to do a deep clean of my home, and I couldn't be happier with the results! From the moment I booked, the communication was professional and prompt. The team arrived on time, fully equipped, and ready to work. They paid attention to every detail—baseboards, windows, inside appliances—nothing was missed. My home looked and smelled amazing afterward. Highly recommend!",
     date: "2 weeks ago",
   },
   {
@@ -34,7 +34,7 @@ const GoogleReviews = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 mb-4 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-md px-2 py-1"
-            aria-label="Read all TIDYWISE reviews on Google (opens in a new tab)"
+            aria-label="Read all CLEAN COLLECTIVE reviews on Google (opens in a new tab)"
           >
             <img 
               src="https://www.google.com/favicon.ico" 

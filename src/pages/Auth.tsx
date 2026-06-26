@@ -181,8 +181,8 @@ const Auth = () => {
   return (
     <>
       <SEOHead
-        title="Sign In to Your TIDYWISE Account | South Florida Cleaning"
-        description="Sign in or create your TIDYWISE account to book South Florida house cleaning, track upcoming visits, view past invoices, and manage your service preferences."
+        title="Sign In to Your CLEAN COLLECTIVE Account | South Florida Cleaning"
+        description="Sign in or create your CLEAN COLLECTIVE account to book South Florida house cleaning, track upcoming visits, view past invoices, and manage your service preferences."
         canonical="https://www.tidywisecleaning.com/auth"
       />
     <div className="min-h-screen bg-muted py-12 px-4">
@@ -198,7 +198,7 @@ const Auth = () => {
         <Card className="shadow-elevated">
           <CardContent className="p-8">
             <div className="text-center mb-8">
-              <img src={logo} alt="TIDYWISE — South Florida house cleaning company logo" className="h-16 w-auto mx-auto mb-4" />
+              <img src={logo} alt="CLEAN COLLECTIVE — South Florida house cleaning company logo" className="h-16 w-auto mx-auto mb-4" />
               <h1 className="font-display text-2xl font-bold text-foreground mb-2">
                 {isForgotPassword ? "Reset Password" : isLogin ? "Admin Login" : "Create Account"}
               </h1>
@@ -221,7 +221,7 @@ const Auth = () => {
                       <Input
                         id="email"
                         type="email"
-                        placeholder="admin@tidywise.com"
+                        placeholder="admin@clean collective.com"
                         className="pl-10"
                         value={email}
                         onChange={(e) => {
@@ -330,7 +330,7 @@ const Auth = () => {
                       <Input
                         id="email"
                         type="email"
-                        placeholder="admin@tidywise.com"
+                        placeholder="admin@clean collective.com"
                         className="pl-10"
                         value={email}
                         onChange={(e) => {
@@ -404,10 +404,10 @@ const Auth = () => {
 
       <section aria-labelledby="auth-info-heading" className="mt-12 max-w-3xl mx-auto bg-background rounded-xl border border-border p-8 space-y-6">
         <h2 id="auth-info-heading" className="font-display text-2xl font-bold text-foreground">
-          Manage your TIDYWISE cleaning service online
+          Manage your CLEAN COLLECTIVE cleaning service online
         </h2>
         <p className="text-muted-foreground leading-relaxed">
-          Your TIDYWISE account is the easiest way to stay on top of your South Florida
+          Your CLEAN COLLECTIVE account is the easiest way to stay on top of your South Florida
           cleaning service. Sign in above to book a new appointment, reschedule an
           existing visit, view past invoices and receipts, save your preferred cleaner,
           update your address or gate code, and leave a tip after a job. Everything is
@@ -426,16 +426,16 @@ const Auth = () => {
             <li>View and download your full booking and payment history</li>
             <li>Update saved payment methods, addresses, and pet/parking notes</li>
             <li>Leave reviews or tips for your cleaner directly from your dashboard</li>
-            <li>Track your TIDYWISE referral credit balance and rewards</li>
+            <li>Track your CLEAN COLLECTIVE referral credit balance and rewards</li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-display text-lg font-semibold text-foreground mb-3">
-            New to TIDYWISE?
+            New to CLEAN COLLECTIVE?
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            TIDYWISE is South Florida's local house cleaning service — serving{" "}
+            CLEAN COLLECTIVE is South Florida's local house cleaning service — serving{" "}
             <Link to="/fort-lauderdale-cleaning" className="text-primary hover:underline">Fort Lauderdale</Link>,{" "}
             <Link to="/boca-raton-cleaning" className="text-primary hover:underline">Boca Raton</Link>,{" "}
             <Link to="/west-palm-beach-cleaning" className="text-primary hover:underline">West Palm Beach</Link>,
@@ -455,7 +455,7 @@ const Auth = () => {
             Trusted, insured, and South-Florida-local
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            Every TIDYWISE cleaner is background-checked and trained on our 50-point
+            Every CLEAN COLLECTIVE cleaner is background-checked and trained on our 50-point
             quality checklist. We're fully insured, eco-friendly products are standard,
             and every visit comes with our re-clean guarantee. Have questions before you
             sign up? Browse our <Link to="/faq" className="text-primary hover:underline">FAQ</Link>,

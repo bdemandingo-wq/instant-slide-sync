@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Margate?",
-    a: "House cleaning in Margate costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Margate costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Margate, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Margate neighborhoods including Century Village, Royal Crest Estates, Boulevard Heights, and Margate Isles. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Margate neighborhoods including Century Village, Royal Crest Estates, Boulevard Heights, and Margate Isles. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Century Village and active adult communities in Margate?",
-    a: "Yes. TIDYWISE serves Century Village and all Margate active adult communities. Our background-checked, insured teams are professional and trustworthy. We work efficiently and quietly with no long-term contracts required."
+    a: "Yes. CLEAN COLLECTIVE serves Century Village and all Margate active adult communities. Our background-checked, insured teams are professional and trustworthy. We work efficiently and quietly with no long-term contracts required."
   },
   {
     q: "How often should Margate homeowners book professional cleaning?",
-    a: "Most Margate homeowners book bi-weekly cleaning for regular upkeep. Monthly service is popular with retirees and seasonal residents. TIDYWISE offers 5–15% discounts on recurring bookings and same-day availability for urgent needs."
+    a: "Most Margate homeowners book bi-weekly cleaning for regular upkeep. Monthly service is popular with retirees and seasonal residents. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings and same-day availability for urgent needs."
   }
 ];
 
@@ -29,7 +29,7 @@ const MargateCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Margate House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Margate House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Margate FL value-priced residential cleaning. Oriole Golf, Coral Gate & Palm Lakes. Weekly, bi-weekly or monthly options. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/margate-cleaning"
         pageType="county"

@@ -11,7 +11,7 @@ const MiamiPermitRules = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Cleaning Permit Rules Miami-Dade 2025 | TIDYWISE"
+        pageTitle="Cleaning Permit Rules Miami-Dade 2025 | CLEAN COLLECTIVE"
         pageDescription="Miami-Dade cleaning permit rules for 2025. Condo requirements, HOA policies, and what to know before hiring a cleaning service in Miami. Free consultation!"
         canonicalUrl="https://www.tidywisecleaning.com/blog/miami-permit-rules"
         pageType="blog"
@@ -56,7 +56,7 @@ const MiamiPermitRules = () => {
               </h2>
               <p className="text-muted-foreground mb-6">
                 Many Miami condos require cleaning services to be registered with building management. 
-                At TIDYWISE, we handle this for you—we're registered with major buildings throughout 
+                At CLEAN COLLECTIVE, we handle this for you—we're registered with major buildings throughout 
                 <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade County</Link>.
               </p>
 
@@ -91,7 +91,7 @@ const MiamiPermitRules = () => {
                 <li>• Workers' compensation (for employees)</li>
               </ul>
               <p className="text-muted-foreground mb-6">
-                TIDYWISE meets all <a href="https://www.miamidade.gov" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Miami-Dade County</a> requirements 
+                CLEAN COLLECTIVE meets all <a href="https://www.miamidade.gov" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Miami-Dade County</a> requirements 
                 and is fully licensed, bonded, and insured.
               </p>
 

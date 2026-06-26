@@ -11,7 +11,7 @@ const MoveInOutCleaningChecklist = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Move In/Out Cleaning Checklist 2025 | TIDYWISE"
+        pageTitle="Move In/Out Cleaning Checklist 2025 | CLEAN COLLECTIVE"
         pageDescription="Complete move in/out cleaning checklist for South Florida rentals & homes. Get your security deposit back with our professional cleaning guide. Free quote!"
         canonicalUrl="https://www.tidywisecleaning.com/blog/move-in-out-cleaning-checklist"
         pageType="blog"
@@ -163,7 +163,7 @@ const MoveInOutCleaningChecklist = () => {
 
               <div className="bg-primary/10 p-6 rounded-xl">
                 <h3 className="font-display text-xl font-semibold text-foreground mb-4">
-                  Let TIDYWISE Handle Your Move Cleaning
+                  Let CLEAN COLLECTIVE Handle Your Move Cleaning
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   Don't stress about move cleaning! Our professional team serves 

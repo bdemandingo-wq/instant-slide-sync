@@ -11,7 +11,7 @@ const HurricaneSeasonCleaningPrep = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Hurricane Season Cleaning & Prep Guide | TIDYWISE"
+        pageTitle="Hurricane Season Cleaning & Prep Guide | CLEAN COLLECTIVE"
         pageDescription="Prepare your South Florida home for hurricane season. Pre-storm cleaning checklist, post-storm cleanup tips, and professional cleaning services. Be ready!"
         canonicalUrl="https://www.tidywisecleaning.com/blog/hurricane-season-cleaning-prep"
         pageType="blog"
@@ -153,10 +153,10 @@ const HurricaneSeasonCleaningPrep = () => {
 
               <div className="bg-primary/10 p-6 rounded-xl">
                 <h3 className="font-display text-xl font-semibold text-foreground mb-4">
-                  TIDYWISE is Here for You
+                  CLEAN COLLECTIVE is Here for You
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Whether you need pre-storm prep or post-storm cleanup, TIDYWISE serves 
+                  Whether you need pre-storm prep or post-storm cleanup, CLEAN COLLECTIVE serves 
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.

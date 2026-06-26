@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Weston?",
-    a: "House cleaning in Weston costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Weston's larger luxury homes are priced based on square footage and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Weston costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Weston's larger luxury homes are priced based on square footage and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Weston, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Weston communities including Windmill Ranch Estates, The Ridges, Savanna, Sector 7, and Bonaventure. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Weston communities including Windmill Ranch Estates, The Ridges, Savanna, Sector 7, and Bonaventure. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Weston gated communities and country club neighborhoods?",
-    a: "Yes. TIDYWISE is experienced with Weston's premier gated communities. Our teams handle visitor gate protocols, HOA parking requirements, and community access at Windmill Ranch, The Ridges, Savanna, and all Weston gated neighborhoods — so your appointment runs without complications."
+    a: "Yes. CLEAN COLLECTIVE is experienced with Weston's premier gated communities. Our teams handle visitor gate protocols, HOA parking requirements, and community access at Windmill Ranch, The Ridges, Savanna, and all Weston gated neighborhoods — so your appointment runs without complications."
   },
   {
     q: "How often should Weston homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningWeston = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Weston FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Weston FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Weston, FL from $108. Licensed & insured. Windmill Ranch Estates, The Ridges, Savanna & all Weston gated communities. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-weston"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningWeston = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Weston Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Weston communities, including:
+              CLEAN COLLECTIVE serves all Weston communities, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Windmill Ranch Estates", "The Ridges", "Savanna", "Sector 7", "Bonaventure",
@@ -119,14 +119,14 @@ const HouseCleaningWeston = () => {
               Weston's large planned communities come with large homes — most in the 3,000–5,000+ square foot range. At this size, keeping a home genuinely clean requires more than a quick pass with a vacuum. Tile throughout, screen-enclosed pools, multiple bathrooms, and open-plan living areas all accumulate South Florida's humidity-driven dust and buildup faster than smaller homes.
             </p>
             <p className="text-muted-foreground mb-4">
-              Many Weston homeowners also have live-in help or young families — making eco-friendly, non-toxic cleaning products non-negotiable. TIDYWISE uses eco-certified products that are safe for children, pets, and the premium surfaces found in Weston's luxury homes.
+              Many Weston homeowners also have live-in help or young families — making eco-friendly, non-toxic cleaning products non-negotiable. CLEAN COLLECTIVE uses eco-certified products that are safe for children, pets, and the premium surfaces found in Weston's luxury homes.
             </p>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Weston Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Licensed and insured in Broward County", b: "Always verify the certificate of insurance. A reputable service can email it to you within minutes of asking." },
-                { t: "Background-checked cleaners", b: "Weston's gated communities and luxury homes require complete trust. Every TIDYWISE cleaner passes a criminal background check before their first assignment." },
+                { t: "Background-checked cleaners", b: "Weston's gated communities and luxury homes require complete trust. Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment." },
                 { t: "Gated community experience", b: "Windmill Ranch, The Ridges, and Weston Hills all have access requirements. Look for a service experienced with gate protocols, visitor parking, and HOA coordination." },
                 { t: "Transparent pricing online", b: "Legitimate cleaning services publish their rates. If a company won't quote without an in-home visit, the price is typically higher than what published services charge." },
                 { t: "Eco-friendly product options", b: "For homes with young children or pets, ask whether eco-certified products are included as standard — not an expensive add-on." },

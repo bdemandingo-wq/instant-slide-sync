@@ -74,8 +74,8 @@ const AiBlogPost = () => {
     return (
       <>
         <SEOSchema
-          pageTitle="Article Archived | TIDYWISE Blog"
-          pageDescription="This TIDYWISE article has been archived. Browse our latest South Florida cleaning guides, tips, and city-specific resources for homeowners and renters."
+          pageTitle="Article Archived | CLEAN COLLECTIVE Blog"
+          pageDescription="This CLEAN COLLECTIVE article has been archived. Browse our latest South Florida cleaning guides, tips, and city-specific resources for homeowners and renters."
           canonicalUrl="https://www.tidywisecleaning.com/blog"
           pageType="blog"
         />
@@ -102,7 +102,7 @@ const AiBlogPost = () => {
 
               <div className="prose prose-lg max-w-none space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
-                  TIDYWISE is South Florida's local house cleaning service. We publish
+                  CLEAN COLLECTIVE is South Florida's local house cleaning service. We publish
                   guides on the kinds of cleaning challenges that are unique to living
                   here — humidity, salt air, pollen counts, hurricane prep, year-round
                   Airbnb turnover, and the wear-and-tear of pets, pools, and lanais.
@@ -115,7 +115,7 @@ const AiBlogPost = () => {
                   Browse our most-read cleaning guides
                 </h2>
                 <ul className="space-y-2 text-muted-foreground list-disc pl-5">
-                  <li><Link to="/blog" className="text-primary hover:underline">All TIDYWISE blog posts</Link> — the full library of cleaning guides for South Florida</li>
+                  <li><Link to="/blog" className="text-primary hover:underline">All CLEAN COLLECTIVE blog posts</Link> — the full library of cleaning guides for South Florida</li>
                   <li><Link to="/deep-cleaning" className="text-primary hover:underline">Deep cleaning service</Link> — what's included and when to book one</li>
                   <li><Link to="/standard-cleaning" className="text-primary hover:underline">Standard recurring cleaning</Link> — weekly, biweekly, or monthly visits</li>
                   <li><Link to="/move-in-out-cleaning" className="text-primary hover:underline">Move-in / move-out cleaning</Link> — security-deposit-back checklists</li>
@@ -229,7 +229,7 @@ const AiBlogPost = () => {
                 Ready for Professional Cleaning?
               </h3>
               <p className="text-muted-foreground mb-4">
-                Let TIDYWISE handle your cleaning needs. We serve all of South Florida 
+                Let CLEAN COLLECTIVE handle your cleaning needs. We serve all of South Florida 
                 with eco-friendly, professional cleaning services.
               </p>
               <Link 

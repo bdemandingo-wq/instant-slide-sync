@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Royal Palm Beach?",
-    a: "House cleaning in Royal Palm Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Royal Palm Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Royal Palm Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Royal Palm Beach communities including The Acreage, Countryside, Frontier, Binks Estates, and Saratoga Pines. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Royal Palm Beach communities including The Acreage, Countryside, Frontier, Binks Estates, and Saratoga Pines. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Royal Palm Beach?",
-    a: "Yes. TIDYWISE offers weekly, bi-weekly, and monthly recurring cleaning throughout Royal Palm Beach. Recurring clients save 5–15% on every visit and receive priority scheduling. Most Royal Palm Beach families book bi-weekly service."
+    a: "Yes. CLEAN COLLECTIVE offers weekly, bi-weekly, and monthly recurring cleaning throughout Royal Palm Beach. Recurring clients save 5–15% on every visit and receive priority scheduling. Most Royal Palm Beach families book bi-weekly service."
   },
   {
     q: "How often should Royal Palm Beach homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const RoyalPalmBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Royal Palm Beach Cleaning | Insured | TIDYWISE"
+        pageTitle="Royal Palm Beach Cleaning | Insured | CLEAN COLLECTIVE"
         pageDescription="Royal Palm Beach FL family-owned cleaning service. Madison Green, Saratoga & Crestwood. Consistent quality at honest prices. Schedule your clean today!"
         canonicalUrl="https://www.tidywisecleaning.com/royal-palm-beach-cleaning"
         pageType="county"

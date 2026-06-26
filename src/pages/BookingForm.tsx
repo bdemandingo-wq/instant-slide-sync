@@ -454,8 +454,8 @@ const BookingForm = () => {
   return (
     <>
       <SEOHead
-        title="Book Cleaning Online | TIDYWISE South Florida"
-        description="Book a TIDYWISE house cleaning in 60 seconds. Flat-rate quote, vetted cleaners, free re-clean guarantee. Serving Broward, Palm Beach & Miami-Dade."
+        title="Book Cleaning Online | CLEAN COLLECTIVE South Florida"
+        description="Book a CLEAN COLLECTIVE house cleaning in 60 seconds. Flat-rate quote, vetted cleaners, free re-clean guarantee. Serving Broward, Palm Beach & Miami-Dade."
         canonical="/booking"
       />
       <main id="main-content" className="min-h-screen bg-muted pb-32 md:pb-12">
@@ -932,7 +932,7 @@ const BookingForm = () => {
                     aria-invalid={!!errors.smsConsent}
                   />
                   <span className="flex-1 text-sm text-muted-foreground">
-                    <span className="font-medium text-foreground">Text me booking updates *</span> — I agree to receive SMS confirmations and reminders from TIDYWISE at the phone number above. Reply STOP to opt out at any time. Message &amp; data rates may apply.
+                    <span className="font-medium text-foreground">Text me booking updates *</span> — I agree to receive SMS confirmations and reminders from CLEAN COLLECTIVE at the phone number above. Reply STOP to opt out at any time. Message &amp; data rates may apply.
                   </span>
                 </label>
                 {errors.smsConsent && <p className="text-sm text-destructive">{errors.smsConsent}</p>}

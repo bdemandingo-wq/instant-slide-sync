@@ -1,6 +1,6 @@
-# Pricing — TIDYWISE Cleaning (South Florida)
+# Pricing — CLEAN COLLECTIVE Cleaning (South Florida)
 
-TIDYWISE is a licensed and insured professional cleaning service serving South Florida — Broward, Miami-Dade, and Palm Beach County.
+CLEAN COLLECTIVE is a licensed and insured professional cleaning service serving South Florida — Broward, Miami-Dade, and Palm Beach County.
 
 Website: https://www.tidywisecleaning.com
 Phone: (561) 571-8725

@@ -12,10 +12,10 @@ const AmazonHomeServicesAlternative = () => {
     mainEntity: [
       {
         "@type": "Question",
-        name: "How does TIDYWISE compare to Amazon Home Services for house cleaning?",
+        name: "How does CLEAN COLLECTIVE compare to Amazon Home Services for house cleaning?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "TIDYWISE is a dedicated South Florida cleaning company, while Amazon Home Services is a marketplace that connects you with third-party providers in your area. Key differences: TIDYWISE uses its own trained, insured teams (not third-party contractors), offers flat-rate pricing with no booking fees, uses eco-friendly products, and provides a free re-clean guarantee. Amazon Home Services adds a service fee on top of provider rates and quality can vary by local provider.",
+          text: "CLEAN COLLECTIVE is a dedicated South Florida cleaning company, while Amazon Home Services is a marketplace that connects you with third-party providers in your area. Key differences: CLEAN COLLECTIVE uses its own trained, insured teams (not third-party contractors), offers flat-rate pricing with no booking fees, uses eco-friendly products, and provides a free re-clean guarantee. Amazon Home Services adds a service fee on top of provider rates and quality can vary by local provider.",
         },
       },
       {
@@ -23,7 +23,7 @@ const AmazonHomeServicesAlternative = () => {
         name: "Is Amazon Home Services available in South Florida?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Amazon Home Services is available in South Florida, but the quality and coverage of local cleaning providers varies significantly. In South Florida specifically, TIDYWISE serves 40+ cities across Broward, Miami-Dade, and Palm Beach counties with consistent quality, local knowledge, and direct accountability.",
+          text: "Amazon Home Services is available in South Florida, but the quality and coverage of local cleaning providers varies significantly. In South Florida specifically, CLEAN COLLECTIVE serves 40+ cities across Broward, Miami-Dade, and Palm Beach counties with consistent quality, local knowledge, and direct accountability.",
         },
       },
       {
@@ -31,28 +31,28 @@ const AmazonHomeServicesAlternative = () => {
         name: "Why should I use a local cleaning company instead of Amazon Home Services?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "A local cleaning company like TIDYWISE offers direct accountability — when you call with a problem, you reach the company that actually cleaned your home, not a platform. You also get local expertise (South Florida humidity, mold prevention, hurricane prep), personalized service, and the ability to build a relationship with a consistent team. Amazon Home Services connects you to third-party contractors where quality, consistency, and accountability are less predictable.",
+          text: "A local cleaning company like CLEAN COLLECTIVE offers direct accountability — when you call with a problem, you reach the company that actually cleaned your home, not a platform. You also get local expertise (South Florida humidity, mold prevention, hurricane prep), personalized service, and the ability to build a relationship with a consistent team. Amazon Home Services connects you to third-party contractors where quality, consistency, and accountability are less predictable.",
         },
       },
     ],
   };
 
   const comparison = [
-    { feature: "Direct, accountable cleaning teams", tidywise: true, amazon: false, note: "Amazon uses third-party contractors" },
-    { feature: "Flat-rate transparent pricing", tidywise: true, amazon: false, note: "Amazon adds service fees on top" },
-    { feature: "Eco-friendly products included", tidywise: true, amazon: false, note: "Varies by provider" },
-    { feature: "Free re-clean guarantee", tidywise: true, amazon: true, note: "Amazon has happiness guarantee" },
-    { feature: "Same team every visit", tidywise: true, amazon: false, note: "Provider availability varies" },
-    { feature: "South Florida specialized", tidywise: true, amazon: false, note: "Amazon is a national marketplace" },
-    { feature: "Local phone support", tidywise: true, amazon: false, note: "Amazon routes through their platform" },
-    { feature: "No platform middleman", tidywise: true, amazon: false, note: "" },
-    { feature: "Recurring discounts", tidywise: true, amazon: false, note: "" },
+    { feature: "Direct, accountable cleaning teams", clean collective: true, amazon: false, note: "Amazon uses third-party contractors" },
+    { feature: "Flat-rate transparent pricing", clean collective: true, amazon: false, note: "Amazon adds service fees on top" },
+    { feature: "Eco-friendly products included", clean collective: true, amazon: false, note: "Varies by provider" },
+    { feature: "Free re-clean guarantee", clean collective: true, amazon: true, note: "Amazon has happiness guarantee" },
+    { feature: "Same team every visit", clean collective: true, amazon: false, note: "Provider availability varies" },
+    { feature: "South Florida specialized", clean collective: true, amazon: false, note: "Amazon is a national marketplace" },
+    { feature: "Local phone support", clean collective: true, amazon: false, note: "Amazon routes through their platform" },
+    { feature: "No platform middleman", clean collective: true, amazon: false, note: "" },
+    { feature: "Recurring discounts", clean collective: true, amazon: false, note: "" },
   ];
 
   return (
     <>
       <SEOSchema
-        pageTitle="Amazon Home Services Alternative | TIDYWISE Cleaning"
+        pageTitle="Amazon Home Services Alternative | CLEAN COLLECTIVE Cleaning"
         pageDescription="Amazon Home Services alternative for cleaning in South Florida. Local teams, flat-rate pricing & direct accountability. Fort Lauderdale, Miami, Boca Raton."
         canonicalUrl="https://www.tidywisecleaning.com/amazon-home-services-alternative"
         pageType="service"
@@ -68,7 +68,7 @@ const AmazonHomeServicesAlternative = () => {
               Amazon Home Services Alternative for House Cleaning in South Florida
             </h1>
             <p className="text-muted-foreground text-lg mb-8 max-w-2xl">
-              Amazon connects you to third-party providers. TIDYWISE IS the provider — our own trained, insured team, flat-rate pricing, and direct accountability.
+              Amazon connects you to third-party providers. CLEAN COLLECTIVE IS the provider — our own trained, insured team, flat-rate pricing, and direct accountability.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button size="lg" asChild>
@@ -89,7 +89,7 @@ const AmazonHomeServicesAlternative = () => {
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">The Short Version</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-primary/5 border border-primary/20 rounded-lg p-5">
-                <h3 className="font-semibold text-foreground mb-3">TIDYWISE</h3>
+                <h3 className="font-semibold text-foreground mb-3">CLEAN COLLECTIVE</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> We are the cleaning company — not a middleman</li>
                   <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Flat-rate pricing with no booking surcharges</li>
@@ -125,7 +125,7 @@ const AmazonHomeServicesAlternative = () => {
               This means the cleaner who shows up isn't an Amazon employee — they're an independent contractor or small business that signed up with Amazon's platform. Quality, professionalism, and what's included can vary widely by provider.
             </p>
             <p className="text-muted-foreground">
-              TIDYWISE is different: we are the cleaning company. Every cleaner is part of our team, trained to our standards, and backed by our liability insurance. When you call us, you speak to the people who actually clean your home.
+              CLEAN COLLECTIVE is different: we are the cleaning company. Every cleaner is part of our team, trained to our standards, and backed by our liability insurance. When you call us, you speak to the people who actually clean your home.
             </p>
           </div>
         </section>
@@ -139,7 +139,7 @@ const AmazonHomeServicesAlternative = () => {
                 <thead className="bg-card">
                   <tr>
                     <th className="text-left p-4 font-semibold">Feature</th>
-                    <th className="text-center p-4 font-semibold text-primary">TIDYWISE</th>
+                    <th className="text-center p-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
                     <th className="text-center p-4 font-semibold text-muted-foreground">Amazon Home Services</th>
                   </tr>
                 </thead>
@@ -151,7 +151,7 @@ const AmazonHomeServicesAlternative = () => {
                         {row.note && <span className="block text-xs text-muted-foreground mt-0.5">{row.note}</span>}
                       </td>
                       <td className="p-4 text-center">
-                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
+                        {row.clean collective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
                       </td>
                       <td className="p-4 text-center">
                         {row.amazon ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
@@ -176,7 +176,7 @@ const AmazonHomeServicesAlternative = () => {
             <ul className="space-y-4 text-muted-foreground">
               <li className="flex gap-3">
                 <span className="text-primary font-bold mt-0.5">→</span>
-                <div><strong className="text-foreground">Humidity and mold prevention.</strong> Year-round humidity at 70-90% means mold is a constant risk. TIDYWISE uses products specifically effective against mold spores in Florida conditions. A generic marketplace provider may not know to prioritize this.</div>
+                <div><strong className="text-foreground">Humidity and mold prevention.</strong> Year-round humidity at 70-90% means mold is a constant risk. CLEAN COLLECTIVE uses products specifically effective against mold spores in Florida conditions. A generic marketplace provider may not know to prioritize this.</div>
               </li>
               <li className="flex gap-3">
                 <span className="text-primary font-bold mt-0.5">→</span>

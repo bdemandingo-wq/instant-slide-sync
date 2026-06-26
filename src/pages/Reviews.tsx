@@ -17,7 +17,7 @@ const allReviews = [
     date: "2025-06-10",
     dateLabel: "June 2025",
     city: "Fort Lauderdale, FL",
-    text: "I used Tidywise to do a deep clean of my home, and I couldn't be happier with the results! From the moment I booked, the communication was professional and prompt. The team arrived on time, fully equipped, and ready to work. They paid attention to every detail—baseboards, windows, inside appliances—nothing was missed. My home looked and smelled amazing afterward. Highly recommend!",
+    text: "I used Clean Collective to do a deep clean of my home, and I couldn't be happier with the results! From the moment I booked, the communication was professional and prompt. The team arrived on time, fully equipped, and ready to work. They paid attention to every detail—baseboards, windows, inside appliances—nothing was missed. My home looked and smelled amazing afterward. Highly recommend!",
   },
   {
     name: "Sallie Sutherland",
@@ -41,7 +41,7 @@ const allReviews = [
     date: "2026-01-18",
     dateLabel: "January 2026",
     city: "Deerfield Beach, FL",
-    text: "Booked a move-out clean for my condo. The team was prompt, friendly, and left the place spotless — I got my full deposit back. Will absolutely use TIDYWISE again at my new place.",
+    text: "Booked a move-out clean for my condo. The team was prompt, friendly, and left the place spotless — I got my full deposit back. Will absolutely use CLEAN COLLECTIVE again at my new place.",
   },
   {
     name: "James O'Connor",
@@ -73,7 +73,7 @@ const Reviews = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://www.tidywisecleaning.com/reviews/#business",
-    "name": "TIDYWISE Cleaning Services",
+    "name": "CLEAN COLLECTIVE Cleaning Services",
     "url": "https://www.tidywisecleaning.com/reviews",
     "telephone": "+1-561-571-8725",
     "image": "https://www.tidywisecleaning.com/og-image.webp",
@@ -105,8 +105,8 @@ const Reviews = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="TidyWise Reviews | Trusted Cleaning Service in South Florida"
-        pageDescription="Read genuine reviews from TidyWise cleaning customers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton. 5-star service guaranteed."
+        pageTitle="Clean Collective Reviews | Trusted Cleaning Service in South Florida"
+        pageDescription="Read genuine reviews from Clean Collective cleaning customers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton. 5-star service guaranteed."
         canonicalUrl="https://www.tidywisecleaning.com/reviews"
         pageType="article"
         breadcrumbs={[
@@ -125,10 +125,10 @@ const Reviews = () => {
               <Shield className="w-4 h-4" /> Verified customer reviews
             </div>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Real Reviews from Happy TidyWise Customers
+              Real Reviews from Happy Clean Collective Customers
             </h1>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              See why families and property managers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton trust TIDYWISE for spotless, dependable cleaning every time.
+              See why families and property managers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton trust CLEAN COLLECTIVE for spotless, dependable cleaning every time.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -180,7 +180,7 @@ const Reviews = () => {
             <div className="text-center mb-10 max-w-2xl mx-auto">
               <h2 className="font-display text-3xl font-bold text-foreground mb-3">What Our Customers Say</h2>
               <p className="text-muted-foreground">
-                Honest feedback from real TIDYWISE clients across South Florida — homes, condos, Airbnbs, and offices.
+                Honest feedback from real CLEAN COLLECTIVE clients across South Florida — homes, condos, Airbnbs, and offices.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -228,7 +228,7 @@ const Reviews = () => {
             <div className="text-center mb-10 max-w-2xl mx-auto">
               <h2 className="font-display text-3xl font-bold text-foreground mb-3">Before & After: Real Jobs</h2>
               <p className="text-muted-foreground">
-                Photos from recent TIDYWISE jobs across Broward and Palm Beach County. More coming soon — share yours and get a referral credit.
+                Photos from recent CLEAN COLLECTIVE jobs across Broward and Palm Beach County. More coming soon — share yours and get a referral credit.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">

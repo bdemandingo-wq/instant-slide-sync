@@ -8,42 +8,42 @@ import StickyCallButton from "@/components/seo/StickyCallButton";
 
 const faqItems = [
   {
-    q: "How does TIDYWISE compare to The Florida Maid?",
-    a: "TIDYWISE is a locally owned cleaning company based in Deerfield Beach, FL, serving 40+ cities across Broward, Miami-Dade, and Palm Beach County. We publish transparent pricing online — standard cleaning from $150, deep cleaning from $250, move in/out from $300 — and let you book instantly without waiting for an in-home estimate. Every clean is backed by our satisfaction guarantee.",
+    q: "How does CLEAN COLLECTIVE compare to The Florida Maid?",
+    a: "CLEAN COLLECTIVE is a locally owned cleaning company based in Deerfield Beach, FL, serving 40+ cities across Broward, Miami-Dade, and Palm Beach County. We publish transparent pricing online — standard cleaning from $150, deep cleaning from $250, move in/out from $300 — and let you book instantly without waiting for an in-home estimate. Every clean is backed by our satisfaction guarantee.",
   },
   {
-    q: "Does TIDYWISE offer transparent pricing like a quote upfront?",
-    a: "Yes. Unlike many local maid services that require a phone call or in-home visit before quoting, TIDYWISE shows pricing online and gives you an exact, upfront estimate in minutes. There are no hidden trip charges or surprise add-ons — what you're quoted is what you pay.",
+    q: "Does CLEAN COLLECTIVE offer transparent pricing like a quote upfront?",
+    a: "Yes. Unlike many local maid services that require a phone call or in-home visit before quoting, CLEAN COLLECTIVE shows pricing online and gives you an exact, upfront estimate in minutes. There are no hidden trip charges or surprise add-ons — what you're quoted is what you pay.",
   },
   {
-    q: "What is the TIDYWISE satisfaction guarantee?",
+    q: "What is the CLEAN COLLECTIVE satisfaction guarantee?",
     a: "If anything isn't cleaned to your standard, let us know within 24 hours and we'll return to make it right at no extra cost. We stand behind every visit with background-checked, professionally trained cleaners and a 4.9-star average across 127+ verified reviews.",
   },
   {
-    q: "Which South Florida areas does TIDYWISE serve as a Florida Maid alternative?",
-    a: "TIDYWISE serves Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs, Boca Raton, Delray Beach, West Palm Beach, Miami, Miami Beach, Aventura, Coral Gables, and 40+ other cities across Broward, Palm Beach, and Miami-Dade counties. Call (561) 571-8725 to confirm your area.",
+    q: "Which South Florida areas does CLEAN COLLECTIVE serve as a Florida Maid alternative?",
+    a: "CLEAN COLLECTIVE serves Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs, Boca Raton, Delray Beach, West Palm Beach, Miami, Miami Beach, Aventura, Coral Gables, and 40+ other cities across Broward, Palm Beach, and Miami-Dade counties. Call (561) 571-8725 to confirm your area.",
   },
 ];
 
 const comparisonRows = [
-  { feature: "Transparent pricing published online", tidywise: true, competitor: false },
-  { feature: "Instant online quote & booking", tidywise: true, competitor: false },
-  { feature: "Same-day availability", tidywise: true, competitor: false },
-  { feature: "Satisfaction guarantee (24-hr re-clean)", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "Locally owned in South Florida", tidywise: true, competitor: true },
-  { feature: "Recurring discounts up to 15%", tidywise: true, competitor: false },
-  { feature: "Serves 40+ South Florida cities", tidywise: true, competitor: false },
-  { feature: "No in-home estimate required", tidywise: true, competitor: false },
+  { feature: "Transparent pricing published online", clean collective: true, competitor: false },
+  { feature: "Instant online quote & booking", clean collective: true, competitor: false },
+  { feature: "Same-day availability", clean collective: true, competitor: false },
+  { feature: "Satisfaction guarantee (24-hr re-clean)", clean collective: true, competitor: false },
+  { feature: "Background-checked cleaners", clean collective: true, competitor: true },
+  { feature: "Eco-friendly products included", clean collective: true, competitor: false },
+  { feature: "Locally owned in South Florida", clean collective: true, competitor: true },
+  { feature: "Recurring discounts up to 15%", clean collective: true, competitor: false },
+  { feature: "Serves 40+ South Florida cities", clean collective: true, competitor: false },
+  { feature: "No in-home estimate required", clean collective: true, competitor: false },
 ];
 
 const FloridaMaidAlternative = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="The Florida Maid Alternative | Transparent Pricing | TIDYWISE"
-        pageDescription="Looking for a Florida Maid alternative? TIDYWISE offers transparent online pricing from $150, instant booking & a satisfaction guarantee across Fort Lauderdale, Boca Raton & Miami."
+        pageTitle="The Florida Maid Alternative | Transparent Pricing | CLEAN COLLECTIVE"
+        pageDescription="Looking for a Florida Maid alternative? CLEAN COLLECTIVE offers transparent online pricing from $150, instant booking & a satisfaction guarantee across Fort Lauderdale, Boca Raton & Miami."
         canonicalUrl="https://www.tidywisecleaning.com/the-florida-maid-alternative"
         pageType="service"
         faqItems={faqItems}
@@ -64,7 +64,7 @@ const FloridaMaidAlternative = () => {
               The Better Florida Maid Alternative
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto mb-8">
-              TIDYWISE delivers professional home cleaning across South Florida with upfront pricing,
+              CLEAN COLLECTIVE delivers professional home cleaning across South Florida with upfront pricing,
               instant online booking, and a satisfaction guarantee on every visit — no in-home estimate,
               no surprise charges, no guessing what you'll pay.
             </p>
@@ -85,7 +85,7 @@ const FloridaMaidAlternative = () => {
 
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="font-display text-3xl font-bold text-center mb-4">TIDYWISE vs The Florida Maid</h2>
+            <h2 className="font-display text-3xl font-bold text-center mb-4">CLEAN COLLECTIVE vs The Florida Maid</h2>
             <p className="text-center text-muted-foreground mb-10">
               A direct comparison focused on what matters most: transparent pricing and a guarantee you can trust.
             </p>
@@ -94,7 +94,7 @@ const FloridaMaidAlternative = () => {
                 <thead className="bg-muted">
                   <tr>
                     <th className="text-left px-6 py-4 font-semibold">Feature</th>
-                    <th className="text-center px-6 py-4 font-semibold text-primary">TIDYWISE</th>
+                    <th className="text-center px-6 py-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
                     <th className="text-center px-6 py-4 font-semibold text-muted-foreground">The Florida Maid</th>
                   </tr>
                 </thead>
@@ -103,7 +103,7 @@ const FloridaMaidAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
+                        {row.clean collective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
                       </td>
                       <td className="px-6 py-4 text-center">
                         {row.competitor ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
@@ -114,23 +114,23 @@ const FloridaMaidAlternative = () => {
               </table>
             </div>
             <p className="text-center text-muted-foreground text-xs mt-4">
-              Comparison reflects publicly available information and TIDYWISE's standard service offering. Details may vary by provider.
+              Comparison reflects publicly available information and CLEAN COLLECTIVE's standard service offering. Details may vary by provider.
             </p>
           </div>
         </section>
 
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4 max-w-3xl">
-            <h2 className="font-display text-3xl font-bold mb-6">Why South Florida Homeowners Switch to TIDYWISE</h2>
+            <h2 className="font-display text-3xl font-bold mb-6">Why South Florida Homeowners Switch to CLEAN COLLECTIVE</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
                 The biggest frustration with many local maid services is not knowing what you'll pay until
-                someone visits your home or you sit through a phone call. TIDYWISE removes that friction
+                someone visits your home or you sit through a phone call. CLEAN COLLECTIVE removes that friction
                 entirely: our pricing is published online, and you get an exact quote in minutes. Standard
                 cleaning starts at $150, deep cleaning at $250, and move in/out at $300.
               </p>
               <p>
-                Just as important is accountability. Every TIDYWISE clean is backed by a satisfaction
+                Just as important is accountability. Every CLEAN COLLECTIVE clean is backed by a satisfaction
                 guarantee — if something isn't right, we return within 24 hours and fix it at no charge.
                 Our cleaners are background-checked, professionally trained, and rated 4.9 stars across
                 127+ verified reviews.

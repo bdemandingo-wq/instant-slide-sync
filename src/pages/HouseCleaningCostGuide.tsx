@@ -8,7 +8,7 @@ import SEOSchema from "@/components/seo/SEOSchema";
 const faqItems = [
   {
     q: "How much does house cleaning cost in South Florida?",
-    a: "House cleaning in South Florida typically costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices vary based on home size (square footage), number of bedrooms and bathrooms, and service type. TIDYWISE offers transparent pricing with no hidden fees."
+    a: "House cleaning in South Florida typically costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices vary based on home size (square footage), number of bedrooms and bathrooms, and service type. CLEAN COLLECTIVE offers transparent pricing with no hidden fees."
   },
   {
     q: "How much does a standard cleaning cost in Fort Lauderdale?",
@@ -24,7 +24,7 @@ const faqItems = [
   },
   {
     q: "Are there discounts for recurring cleaning in South Florida?",
-    a: "Yes. TIDYWISE offers 15% off weekly service, 10% off bi-weekly service, and 5% off monthly service. Recurring customers also benefit from a consistent team that knows their home."
+    a: "Yes. CLEAN COLLECTIVE offers 15% off weekly service, 10% off bi-weekly service, and 5% off monthly service. Recurring customers also benefit from a consistent team that knows their home."
   },
   {
     q: "What factors affect house cleaning prices in South Florida?",
@@ -93,7 +93,7 @@ const HouseCleaningCostGuide = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Cost South Florida 2026 | TIDYWISE"
+        pageTitle="House Cleaning Cost South Florida 2026 | CLEAN COLLECTIVE"
         pageDescription="South Florida house cleaning prices: standard from $108, deep from $208, move-out from $283. Fort Lauderdale, Miami, Boca Raton & 40+ cities. Instant quote."
         canonicalUrl="https://www.tidywisecleaning.com/house-cleaning-cost-south-florida"
         pageType="service"
@@ -275,7 +275,7 @@ const HouseCleaningCostGuide = () => {
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="font-display text-2xl font-bold mb-4">Compare Services & Alternatives</h2>
             <p className="text-muted-foreground mb-6">
-              Learn more about each service type or compare TIDYWISE to other South Florida cleaning options.
+              Learn more about each service type or compare CLEAN COLLECTIVE to other South Florida cleaning options.
             </p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
               <Link to="/standard-cleaning" className="text-primary hover:underline">→ Standard Cleaning Service</Link>

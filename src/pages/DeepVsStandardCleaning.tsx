@@ -51,14 +51,14 @@ const faqItems = [
   },
   {
     q: "How much does each cleaning cost in South Florida?",
-    a: "TIDYWISE standard cleaning starts at $150 and deep cleaning starts at $250. Final pricing depends on home size and condition. A 3-bedroom deep clean typically runs $250–$350 and takes 4–5 hours. You can get an exact, transparent quote online in minutes — no in-home estimate required.",
+    a: "CLEAN COLLECTIVE standard cleaning starts at $150 and deep cleaning starts at $250. Final pricing depends on home size and condition. A 3-bedroom deep clean typically runs $250–$350 and takes 4–5 hours. You can get an exact, transparent quote online in minutes — no in-home estimate required.",
   },
   {
     q: "How often should I book a deep clean versus a standard clean?",
     a: "Most South Florida homeowners book an initial deep clean, then switch to recurring standard cleans every 1–4 weeks to maintain it. We recommend a deep clean quarterly, plus before hosting guests, after illness, or before listing a home for sale. Florida humidity and dust also make periodic deep cleans worthwhile for allergy control.",
   },
   {
-    q: "Which clean is right for a first-time TIDYWISE client?",
+    q: "Which clean is right for a first-time CLEAN COLLECTIVE client?",
     a: "We recommend a deep clean for your first visit. It resets the home to a high baseline so future recurring standard cleans stay efficient and affordable. After the first deep clean, most clients keep their home looking great with standard maintenance visits.",
   },
 ];
@@ -79,7 +79,7 @@ const DeepVsStandardCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Deep Cleaning vs Standard Cleaning | Task-by-Task Comparison | TIDYWISE"
+        pageTitle="Deep Cleaning vs Standard Cleaning | Task-by-Task Comparison | CLEAN COLLECTIVE"
         pageDescription="See exactly what's included in a deep clean vs a standard clean. Side-by-side task checklist by room, South Florida pricing & a free quote. Compare before you book."
         canonicalUrl="https://www.tidywisecleaning.com/deep-cleaning-vs-standard-cleaning"
         pageType="service"
@@ -105,7 +105,7 @@ const DeepVsStandardCleaning = () => {
               </h1>
               <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8">
                 Not sure which clean you need? Here's a clear, task-by-task breakdown of exactly what's
-                included in a TIDYWISE standard clean versus a deep clean — by room — so you can book
+                included in a CLEAN COLLECTIVE standard clean versus a deep clean — by room — so you can book
                 with confidence across Fort Lauderdale, Boca Raton, Miami & 40+ South Florida cities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -211,7 +211,7 @@ const DeepVsStandardCleaning = () => {
                 South Florida, a quarterly deep clean also helps control dust, allergens, and grout grime.
               </p>
               <p>
-                Most TIDYWISE clients book an initial deep clean, then maintain it with affordable recurring
+                Most CLEAN COLLECTIVE clients book an initial deep clean, then maintain it with affordable recurring
                 standard cleans. You'll get a transparent, upfront quote online — no in-home estimate, no
                 surprises.
               </p>

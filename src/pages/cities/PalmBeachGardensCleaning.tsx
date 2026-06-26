@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Palm Beach Gardens?",
-    a: "House cleaning in Palm Beach Gardens costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Country club and luxury homes may be priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Palm Beach Gardens costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Country club and luxury homes may be priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Palm Beach Gardens, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Palm Beach Gardens communities including Frenchman's Creek, The Club at Admirals Cove, BallenIsles, and Evergrene. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Palm Beach Gardens communities including Frenchman's Creek, The Club at Admirals Cove, BallenIsles, and Evergrene. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Palm Beach Gardens country clubs and gated communities?",
-    a: "Yes. TIDYWISE is experienced with Palm Beach Gardens' premier gated and country club communities. Our teams handle visitor gate protocols, HOA parking requirements, and building access so appointments run without complications."
+    a: "Yes. CLEAN COLLECTIVE is experienced with Palm Beach Gardens' premier gated and country club communities. Our teams handle visitor gate protocols, HOA parking requirements, and building access so appointments run without complications."
   },
   {
     q: "Do you offer seasonal cleaning in Palm Beach Gardens for snowbirds?",
-    a: "Yes. Palm Beach Gardens has a significant seasonal population. TIDYWISE accommodates flexible scheduling with no long-term contracts — including arrival deep cleans and departure closing cleans for part-time residents."
+    a: "Yes. Palm Beach Gardens has a significant seasonal population. CLEAN COLLECTIVE accommodates flexible scheduling with no long-term contracts — including arrival deep cleans and departure closing cleans for part-time residents."
   }
 ];
 
@@ -29,7 +29,7 @@ const PalmBeachGardensCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Palm Beach Gardens Cleaning | Insured | TIDYWISE"
+        pageTitle="Palm Beach Gardens Cleaning | Insured | CLEAN COLLECTIVE"
         pageDescription="Palm Beach Gardens FL luxury home cleaning. PGA National, The Gardens & Frenchman's Creek. White-glove service with meticulous attention. Book today!"
         canonicalUrl="https://www.tidywisecleaning.com/palm-beach-gardens-cleaning"
         pageType="county"

@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Coral Gables?",
-    a: "House cleaning in Coral Gables costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Larger Mediterranean estates are priced by square footage and number of bathrooms. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Coral Gables costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Larger Mediterranean estates are priced by square footage and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Coral Gables, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Coral Gables neighborhoods including Gables Estates, Biltmore, Coral Gables Country Club, Coconut Grove adjacent areas, and South Miami Heights. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Coral Gables neighborhoods including Gables Estates, Biltmore, Coral Gables Country Club, Coconut Grove adjacent areas, and South Miami Heights. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Coral Gables Mediterranean and historic homes?",
-    a: "Yes. TIDYWISE has experience with Coral Gables' historic Mediterranean Revival architecture. Our teams understand how to clean and protect natural stone, ornate tile work, vintage fixtures, and delicate surfaces found in Coral Gables' classic homes without causing damage."
+    a: "Yes. CLEAN COLLECTIVE has experience with Coral Gables' historic Mediterranean Revival architecture. Our teams understand how to clean and protect natural stone, ornate tile work, vintage fixtures, and delicate surfaces found in Coral Gables' classic homes without causing damage."
   },
   {
     q: "How often should Coral Gables homeowners book professional cleaning?",
-    a: "Most Coral Gables homeowners book bi-weekly cleaning for larger homes and estates. Monthly deep cleaning is popular for maintaining natural stone floors and premium finishes. TIDYWISE accommodates seasonal and flexible scheduling with no long-term contracts."
+    a: "Most Coral Gables homeowners book bi-weekly cleaning for larger homes and estates. Monthly deep cleaning is popular for maintaining natural stone floors and premium finishes. CLEAN COLLECTIVE accommodates seasonal and flexible scheduling with no long-term contracts."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningCoralGables = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Coral Gables FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Coral Gables FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="Expert house cleaning in Coral Gables, FL from $108. Licensed & insured. Gables Estates, Biltmore & all neighborhoods. Historic home specialists."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-coral-gables"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningCoralGables = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Coral Gables Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Coral Gables neighborhoods and surrounding areas:
+              CLEAN COLLECTIVE serves all Coral Gables neighborhoods and surrounding areas:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Gables Estates", "Biltmore", "Coral Gables Country Club", "Cocoplum", "Old Cutler",

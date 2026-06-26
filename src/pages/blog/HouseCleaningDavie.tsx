@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Davie, FL?",
-    a: "House cleaning in Davie costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Davie's mix of ranch homes, equestrian properties, and suburban houses are priced by square footage and number of bathrooms. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Davie costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Davie's mix of ranch homes, equestrian properties, and suburban houses are priced by square footage and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Davie, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Davie communities including Pine Island Ridge, Long Lake Ranches, Laurel Oaks, Imagination Farms, and the downtown Davie area. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Davie communities including Pine Island Ridge, Long Lake Ranches, Laurel Oaks, Imagination Farms, and the downtown Davie area. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean equestrian and ranch properties in Davie?",
-    a: "Yes. TIDYWISE understands the specific cleaning challenges of Davie's ranch-style and equestrian properties — heavy tracking from outdoor living areas, barn dust, and the large open-plan interiors typical of ranch homes. We clean properties throughout Davie's agricultural and equestrian corridors."
+    a: "Yes. CLEAN COLLECTIVE understands the specific cleaning challenges of Davie's ranch-style and equestrian properties — heavy tracking from outdoor living areas, barn dust, and the large open-plan interiors typical of ranch homes. We clean properties throughout Davie's agricultural and equestrian corridors."
   },
   {
     q: "How often should Davie homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningDavie = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Davie FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Davie FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="Reliable house cleaning in Davie, FL from $108. Licensed & insured. Ranch homes, equestrian properties & all neighborhoods. Same-day booking."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-davie"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningDavie = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Davie Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Davie neighborhoods, from equestrian estates to planned communities:
+              CLEAN COLLECTIVE serves all Davie neighborhoods, from equestrian estates to planned communities:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Pine Island Ridge", "Long Lake Ranches", "Laurel Oaks", "Imagination Farms",
@@ -123,7 +123,7 @@ const HouseCleaningDavie = () => {
                 { t: "Heavy outdoor tracking", b: "Properties with horses, large yards, or unpaved areas track significantly more dirt, sand, and organic material indoors than typical suburban homes. This requires more thorough floor cleaning and more frequent professional visits to stay ahead of buildup." },
                 { t: "Large open-plan interiors", b: "Davie's ranch-style homes typically have large square footage with open floor plans, high ceilings, and extensive tile. These take longer to clean properly — and benefit from the systematic approach a professional team provides." },
                 { t: "Screen enclosures and outdoor living areas", b: "Pool cages, covered patios, and outdoor kitchens are standard in Davie. We clean screen-enclosed areas as part of comprehensive service, including pool deck surroundings and covered lanai spaces." },
-                { t: "Eco-friendly products for families and animals", b: "Many Davie households have children, dogs, horses, or other animals. TIDYWISE uses non-toxic, eco-certified products — safe for all family members and safe if tracked back outside near animals." },
+                { t: "Eco-friendly products for families and animals", b: "Many Davie households have children, dogs, horses, or other animals. CLEAN COLLECTIVE uses non-toxic, eco-certified products — safe for all family members and safe if tracked back outside near animals." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

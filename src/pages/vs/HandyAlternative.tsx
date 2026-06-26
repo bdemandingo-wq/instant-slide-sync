@@ -7,42 +7,42 @@ import SEOSchema from "@/components/seo/SEOSchema";
 
 const faqItems = [
   {
-    q: "How is TIDYWISE different from Handy cleaning service?",
-    a: "Handy is a gig-economy platform that connects you with independent contractors — quality and consistency can vary by booking. TIDYWISE is a dedicated cleaning company with a trained, vetted, and insured team. Every TIDYWISE cleaner passes a background check and is covered by our company's liability insurance. We serve 40+ cities across South Florida starting at $150."
+    q: "How is CLEAN COLLECTIVE different from Handy cleaning service?",
+    a: "Handy is a gig-economy platform that connects you with independent contractors — quality and consistency can vary by booking. CLEAN COLLECTIVE is a dedicated cleaning company with a trained, vetted, and insured team. Every CLEAN COLLECTIVE cleaner passes a background check and is covered by our company's liability insurance. We serve 40+ cities across South Florida starting at $150."
   },
   {
-    q: "Is TIDYWISE more reliable than Handy in South Florida?",
-    a: "TIDYWISE maintains a 4.9-star rating across 127+ verified reviews and a satisfaction guarantee — if you're not happy, we re-clean for free. Unlike platform-based services, you work directly with our team, not a rotating pool of gig workers."
+    q: "Is CLEAN COLLECTIVE more reliable than Handy in South Florida?",
+    a: "CLEAN COLLECTIVE maintains a 4.9-star rating across 127+ verified reviews and a satisfaction guarantee — if you're not happy, we re-clean for free. Unlike platform-based services, you work directly with our team, not a rotating pool of gig workers."
   },
   {
-    q: "Does TIDYWISE cost more than Handy?",
-    a: "TIDYWISE pricing starts at $150 for standard cleaning and is competitively priced with Handy. Unlike Handy, TIDYWISE includes eco-friendly products and does not charge service fees or platform markups on top of the cleaner's rate."
+    q: "Does CLEAN COLLECTIVE cost more than Handy?",
+    a: "CLEAN COLLECTIVE pricing starts at $150 for standard cleaning and is competitively priced with Handy. Unlike Handy, CLEAN COLLECTIVE includes eco-friendly products and does not charge service fees or platform markups on top of the cleaner's rate."
   },
   {
-    q: "What South Florida cities does TIDYWISE serve instead of Handy?",
-    a: "TIDYWISE serves 40+ cities including Fort Lauderdale, Miami, Boca Raton, West Palm Beach, Hollywood, Coral Springs, Deerfield Beach, Hialeah, Aventura, and more across Broward, Miami-Dade, and Palm Beach County."
+    q: "What South Florida cities does CLEAN COLLECTIVE serve instead of Handy?",
+    a: "CLEAN COLLECTIVE serves 40+ cities including Fort Lauderdale, Miami, Boca Raton, West Palm Beach, Hollywood, Coral Springs, Deerfield Beach, Hialeah, Aventura, and more across Broward, Miami-Dade, and Palm Beach County."
   }
 ];
 
 const comparisonRows = [
-  { feature: "Dedicated in-house cleaning team", tidywise: true, competitor: false },
-  { feature: "Company liability insurance", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Consistent same team", tidywise: true, competitor: false },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "No platform service fees", tidywise: true, competitor: false },
-  { feature: "Satisfaction guarantee (free re-clean)", tidywise: true, competitor: false },
-  { feature: "Transparent pricing online", tidywise: true, competitor: true },
-  { feature: "Locally operated in South Florida", tidywise: true, competitor: false },
-  { feature: "Commercial & Airbnb cleaning", tidywise: true, competitor: false },
+  { feature: "Dedicated in-house cleaning team", clean collective: true, competitor: false },
+  { feature: "Company liability insurance", clean collective: true, competitor: false },
+  { feature: "Background-checked cleaners", clean collective: true, competitor: true },
+  { feature: "Consistent same team", clean collective: true, competitor: false },
+  { feature: "Eco-friendly products included", clean collective: true, competitor: false },
+  { feature: "No platform service fees", clean collective: true, competitor: false },
+  { feature: "Satisfaction guarantee (free re-clean)", clean collective: true, competitor: false },
+  { feature: "Transparent pricing online", clean collective: true, competitor: true },
+  { feature: "Locally operated in South Florida", clean collective: true, competitor: false },
+  { feature: "Commercial & Airbnb cleaning", clean collective: true, competitor: false },
 ];
 
 const HandyAlternative = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Handy Alternative South Florida | TIDYWISE House Cleaning"
-        pageDescription="Looking for a Handy alternative in South Florida? TidyWise offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 571-8725."
+        pageTitle="Handy Alternative South Florida | CLEAN COLLECTIVE House Cleaning"
+        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 571-8725."
         canonicalUrl="https://www.tidywisecleaning.com/handy-alternative"
         pageType="service"
         faqItems={faqItems}
@@ -63,7 +63,7 @@ const HandyAlternative = () => {
               The More Reliable Handy Alternative in South Florida
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto mb-8">
-              TIDYWISE is a dedicated cleaning company — not a gig platform. A trained, insured, and background-checked team
+              CLEAN COLLECTIVE is a dedicated cleaning company — not a gig platform. A trained, insured, and background-checked team
               shows up every time. Serving Fort Lauderdale, Miami, Boca Raton & 40+ South Florida cities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -93,7 +93,7 @@ const HandyAlternative = () => {
                 If something goes wrong (a broken item, a no-show, a poor clean), you're navigating a platform's dispute process — not talking to a local business that stands behind its work.
               </p>
               <p>
-                TIDYWISE is different. We're a South Florida cleaning company with a real team, real insurance, and a real satisfaction guarantee: if you're not happy with your clean, we come back and fix it — free.
+                CLEAN COLLECTIVE is different. We're a South Florida cleaning company with a real team, real insurance, and a real satisfaction guarantee: if you're not happy with your clean, we come back and fix it — free.
               </p>
             </div>
           </div>
@@ -102,13 +102,13 @@ const HandyAlternative = () => {
         {/* Comparison Table */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="font-display text-3xl font-bold text-center mb-10">TIDYWISE vs Handy</h2>
+            <h2 className="font-display text-3xl font-bold text-center mb-10">CLEAN COLLECTIVE vs Handy</h2>
             <div className="rounded-xl border overflow-hidden shadow-sm">
               <table className="w-full text-sm">
                 <thead className="bg-muted">
                   <tr>
                     <th className="text-left px-6 py-4 font-semibold">Feature</th>
-                    <th className="text-center px-6 py-4 font-semibold text-primary">TIDYWISE</th>
+                    <th className="text-center px-6 py-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
                     <th className="text-center px-6 py-4 font-semibold text-muted-foreground">Handy</th>
                   </tr>
                 </thead>
@@ -117,7 +117,7 @@ const HandyAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise
+                        {row.clean collective
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
@@ -175,7 +175,7 @@ const HandyAlternative = () => {
         {/* CTA */}
         <section className="py-16 bg-primary text-primary-foreground text-center">
           <div className="container mx-auto px-4">
-            <h2 className="font-display text-3xl font-bold mb-4">Done with Inconsistent Gig Cleaners? Try TIDYWISE.</h2>
+            <h2 className="font-display text-3xl font-bold mb-4">Done with Inconsistent Gig Cleaners? Try CLEAN COLLECTIVE.</h2>
             <p className="text-primary-foreground/90 mb-8 max-w-xl mx-auto">
               Satisfaction guaranteed. Same-day booking. Real team. Real results.
             </p>

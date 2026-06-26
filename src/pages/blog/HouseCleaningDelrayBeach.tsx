@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Delray Beach?",
-    a: "House cleaning in Delray Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Delray Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Delray Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Delray Beach communities including Mizner Country Club, Polo Club, Lake Ida, and downtown Delray. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Delray Beach communities including Mizner Country Club, Polo Club, Lake Ida, and downtown Delray. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer seasonal cleaning in Delray Beach for snowbirds?",
-    a: "Yes. Many Delray Beach residents are seasonal snowbirds who need reliable cleaning service during the winter season and a thorough deep clean before they leave in spring. TIDYWISE accommodates flexible and seasonal scheduling with no long-term contracts required."
+    a: "Yes. Many Delray Beach residents are seasonal snowbirds who need reliable cleaning service during the winter season and a thorough deep clean before they leave in spring. CLEAN COLLECTIVE accommodates flexible and seasonal scheduling with no long-term contracts required."
   },
   {
     q: "Do you clean near the Delray Beach downtown area and Atlantic Avenue?",
-    a: "Yes. TIDYWISE serves all Delray Beach neighborhoods including homes and condos near Atlantic Avenue, the beach, and downtown Delray. We also serve surrounding communities including Boynton Beach, Boca Raton, and Lake Worth."
+    a: "Yes. CLEAN COLLECTIVE serves all Delray Beach neighborhoods including homes and condos near Atlantic Avenue, the beach, and downtown Delray. We also serve surrounding communities including Boynton Beach, Boca Raton, and Lake Worth."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningDelrayBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Delray Beach FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Delray Beach FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="Top-rated house cleaning in Delray Beach, FL from $108. Licensed & insured. Mizner Country Club, Lake Ida & all areas. Seasonal cleaning available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-delray-beach"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningDelrayBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Delray Beach Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Delray Beach neighborhoods, from beachfront to western communities:
+              CLEAN COLLECTIVE serves all Delray Beach neighborhoods, from beachfront to western communities:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Mizner Country Club", "Polo Club", "Lake Ida", "Pineapple Grove", "Old School Square",
@@ -119,17 +119,17 @@ const HouseCleaningDelrayBeach = () => {
               Delray Beach attracts a significant seasonal population — snowbirds who use their homes October through April and need reliable service while they're in town, plus a thorough clean before they leave for the summer. Year-round residents deal with South Florida's heat, humidity, and the pollen-heavy fall season that makes allergen control a priority.
             </p>
             <p className="text-muted-foreground mb-4">
-              Many Delray Beach homes are in country club and gated communities with specific access requirements. TIDYWISE teams handle visitor gate protocols and parking coordination so appointments run smoothly.
+              Many Delray Beach homes are in country club and gated communities with specific access requirements. CLEAN COLLECTIVE teams handle visitor gate protocols and parking coordination so appointments run smoothly.
             </p>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Delray Beach Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Licensed and insured in Palm Beach County", b: "Always verify the certificate of insurance. Any reputable service provides it immediately on request." },
-                { t: "Background-checked cleaners", b: "Every TIDYWISE cleaner passes a criminal background check before their first assignment — essential in any community where neighbors share access codes and gate information." },
+                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment — essential in any community where neighbors share access codes and gate information." },
                 { t: "Seasonal flexibility", b: "Delray Beach has a large seasonal population. Look for a service that doesn't require long-term contracts and accommodates flexible scheduling for snowbird stays." },
                 { t: "Transparent pricing online", b: "Published rates signal a professional, legitimate operation. Services that won't quote without an in-home visit typically charge more." },
-                { t: "Satisfaction guarantee", b: "TIDYWISE re-cleans at no charge if you're not completely satisfied — no hoops to jump through." },
+                { t: "Satisfaction guarantee", b: "CLEAN COLLECTIVE re-cleans at no charge if you're not completely satisfied — no hoops to jump through." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

@@ -11,7 +11,7 @@ const DeepCleaningVsStandardCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Deep vs Standard Cleaning Differences | TIDYWISE"
+        pageTitle="Deep vs Standard Cleaning Differences | CLEAN COLLECTIVE"
         pageDescription="Learn the difference between deep cleaning and standard cleaning. Find which type is right for your South Florida home. Free quotes available!"
         canonicalUrl="https://www.tidywisecleaning.com/blog/deep-cleaning-vs-standard-cleaning"
         pageType="blog"
@@ -142,7 +142,7 @@ const DeepCleaningVsStandardCleaning = () => {
                   Book Your Cleaning Today
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  TIDYWISE serves 
+                  CLEAN COLLECTIVE serves 
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.
