@@ -102,7 +102,7 @@ serve(async (req) => {
     // SMS to customer — gated on sms_consent stored on the booking row.
     // Prior version sent regardless of consent → TCPA exposure.
     if (booking.sms_consent === true && customerPhone && customerPhone.length > 5) {
-      const customerSms = `✅ CLEAN COLLECTIVE Booking Confirmed!\n\n📅 Date: ${booking.preferred_date}\n🧽 Service: ${booking.service_type}\n📍 Address: ${booking.address}\n🏠 ${booking.beds} bed, ${booking.baths} bath (${sqft.toLocaleString()} sq ft)\n🔄 Frequency: ${booking.frequency}\n💰 Total: $${booking.total_price}\n\nPlease be home for the final walkthrough.\n\nThank you for choosing CLEAN COLLECTIVE! Reply STOP to opt out. 💙`;
+      const customerSms = `✅ Clean Collective Booking Confirmed!\n\n📅 Date: ${booking.preferred_date}\n🧽 Service: ${booking.service_type}\n📍 Address: ${booking.address}\n🏠 ${booking.beds} bed, ${booking.baths} bath (${sqft.toLocaleString()} sq ft)\n🔄 Frequency: ${booking.frequency}\n💰 Total: $${booking.total_price}\n\nPlease be home for the final walkthrough.\n\nThank you for choosing Clean Collective! Reply STOP to opt out. 💙`;
 
       const customerRes = await fetch("https://api.openphone.com/v1/messages", {
         method: "POST",

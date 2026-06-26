@@ -11,7 +11,7 @@ const EcoFriendlyCleaningProducts = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Eco-Friendly Cleaning Products for Homes | CLEAN COLLECTIVE"
+        pageTitle="Eco-Friendly Cleaning Products for Homes | Clean Collective"
         pageDescription="Discover sustainable cleaning products perfect for South Florida's climate. Protect your family and the environment."
         canonicalUrl="https://www.tidywisecleaning.com/blog/eco-friendly-cleaning-products"
         pageType="blog"
@@ -101,7 +101,7 @@ const EcoFriendlyCleaningProducts = () => {
 
               <div className="bg-primary/10 rounded-xl p-6 mt-8">
                 <h3 className="font-display text-xl font-bold text-foreground mb-3">
-                  CLEAN COLLECTIVE Uses Eco-Friendly Products
+                  Clean Collective Uses Eco-Friendly Products
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   We offer green cleaning options for all our services. Ask about our eco-friendly 

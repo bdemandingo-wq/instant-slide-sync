@@ -23,15 +23,15 @@ const services = [
 const faqItems = [
   {
     q: "How much does house cleaning cost in Broward County?",
-    a: "House cleaning in Broward County costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes for all Broward cities."
+    a: "House cleaning in Broward County costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes for all Broward cities."
   },
   {
-    q: "What cities in Broward County does CLEAN COLLECTIVE serve?",
-    a: "CLEAN COLLECTIVE serves all 31 municipalities in Broward County including Fort Lauderdale, Hollywood, Coral Springs, Pompano Beach, Pembroke Pines, Miramar, Weston, Deerfield Beach, Plantation, Sunrise, Davie, and more. We cover all of Broward from the coast to the western suburbs."
+    q: "What cities in Broward County does Clean Collective serve?",
+    a: "Clean Collective serves all 31 municipalities in Broward County including Fort Lauderdale, Hollywood, Coral Springs, Pompano Beach, Pembroke Pines, Miramar, Weston, Deerfield Beach, Plantation, Sunrise, Davie, and more. We cover all of Broward from the coast to the western suburbs."
   },
   {
-    q: "Is CLEAN COLLECTIVE licensed and insured in Broward County?",
-    a: "Yes. CLEAN COLLECTIVE is fully licensed and insured in Broward County, Florida. We carry general liability insurance and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment."
+    q: "Is Clean Collective licensed and insured in Broward County?",
+    a: "Yes. Clean Collective is fully licensed and insured in Broward County, Florida. We carry general liability insurance and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment."
   },
   {
     q: "How do I book a cleaning service in Broward County?",
@@ -43,7 +43,7 @@ const BrowardCountyCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Broward County Cleaning Services | CLEAN COLLECTIVE"
+        pageTitle="Broward County Cleaning Services | Clean Collective"
         pageDescription="Need Broward County cleaning services? Licensed & insured. Same-day quotes. Serving Fort Lauderdale, Hollywood, Coral Springs. Call now for 10% off!"
         canonicalUrl="https://www.tidywisecleaning.com/broward-county-cleaning"
         pageType="county"
@@ -103,7 +103,7 @@ const BrowardCountyCleaning = () => {
             <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
               From <Link to="/blog/broward-cost-guide" className="text-primary hover:underline">affordable cleaning in Broward County</Link> to 
               premium <Link to="/miami-dade-cleaning" className="text-primary hover:underline">Miami-Dade services</Link>, 
-              CLEAN COLLECTIVE delivers exceptional results every time.
+              Clean Collective delivers exceptional results every time.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

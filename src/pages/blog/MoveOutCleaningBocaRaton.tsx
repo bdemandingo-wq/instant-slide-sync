@@ -9,18 +9,18 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does move-out cleaning cost in Boca Raton?",
-    a: "Move-out cleaning in Boca Raton costs $283–$600 depending on home size. A 1-bedroom condo starts at $283. A 3-bedroom home runs $450–$530. A 4+ bedroom home can reach $600. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "Move-out cleaning in Boca Raton costs $283–$600 depending on home size. A 1-bedroom condo starts at $283. A 3-bedroom home runs $450–$530. A 4+ bedroom home can reach $600. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "Will move-out cleaning help me get my security deposit back in Boca Raton?",
-    a: "Yes. A professional move-out clean that meets landlord or management company standards is one of the best ways to secure your full security deposit. CLEAN COLLECTIVE has helped hundreds of South Florida renters pass move-out inspections. We include inside appliances, windows, and all surfaces."
+    a: "Yes. A professional move-out clean that meets landlord or management company standards is one of the best ways to secure your full security deposit. Clean Collective has helped hundreds of South Florida renters pass move-out inspections. We include inside appliances, windows, and all surfaces."
   },
   {
     q: "How long does a move-out cleaning take in Boca Raton?",
     a: "A move-out cleaning in Boca Raton typically takes 3–6 hours depending on home size. A 1–2 bedroom condo takes 3–4 hours. A 3–4 bedroom home takes 5–6 hours. We recommend booking at least 24 hours before your inspection."
   },
   {
-    q: "Does CLEAN COLLECTIVE offer same-day move-out cleaning in Boca Raton?",
+    q: "Does Clean Collective offer same-day move-out cleaning in Boca Raton?",
     a: "Yes, same-day booking is available subject to availability. Call (561) 571-8725 for same-day move-out cleaning in Boca Raton and surrounding Palm Beach County areas."
   }
 ];
@@ -47,7 +47,7 @@ const MoveOutCleaningBocaRaton = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Move-Out Cleaning Boca Raton, FL | CLEAN COLLECTIVE"
+        pageTitle="Move-Out Cleaning Boca Raton, FL | Clean Collective"
         pageDescription="Move-out cleaning in Boca Raton, FL from $283. Get your deposit back. Licensed & insured. Mizner Park, Boca West, Royal Palm & all Boca neighborhoods."
         canonicalUrl="https://www.tidywisecleaning.com/blog/move-out-cleaning-boca-raton"
         pageType="blog"
@@ -71,7 +71,7 @@ const MoveOutCleaningBocaRaton = () => {
               Move-Out Cleaning in Boca Raton, FL — Get Your Deposit Back
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Moving out of a Boca Raton home or condo? A professional move-out clean is the single most reliable way to get your security deposit back. CLEAN COLLECTIVE specializes in inspection-ready move-out cleaning for Boca Raton's homes, condos, and apartments — from Mizner Park to Boca West.
+              Moving out of a Boca Raton home or condo? A professional move-out clean is the single most reliable way to get your security deposit back. Clean Collective specializes in inspection-ready move-out cleaning for Boca Raton's homes, condos, and apartments — from Mizner Park to Boca West.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
@@ -108,7 +108,7 @@ const MoveOutCleaningBocaRaton = () => {
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Complete Move-Out Cleaning Checklist</h2>
-            <p className="text-muted-foreground mb-4">Everything included in every CLEAN COLLECTIVE move-out clean:</p>
+            <p className="text-muted-foreground mb-4">Everything included in every Clean Collective move-out clean:</p>
             <div className="grid sm:grid-cols-2 gap-2 mb-8">
               {checklist.map(item => (
                 <div key={item} className="flex gap-2 items-start text-sm">

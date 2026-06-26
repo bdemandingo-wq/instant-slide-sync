@@ -81,11 +81,11 @@ const faqs = [
     questions: [
       {
         q: "Are your cleaners background-checked?",
-        a: "Absolutely. Every team member undergoes a thorough background check before joining CLEAN COLLECTIVE. Your safety and peace of mind are our top priorities."
+        a: "Absolutely. Every team member undergoes a thorough background check before joining Clean Collective. Your safety and peace of mind are our top priorities."
       },
       {
         q: "Are you licensed and insured?",
-        a: "Yes, CLEAN COLLECTIVE is fully licensed, bonded, and insured. This protects both you and our team in the unlikely event of any issues."
+        a: "Yes, Clean Collective is fully licensed, bonded, and insured. This protects both you and our team in the unlikely event of any issues."
       },
       {
         q: "What if something is damaged during cleaning?",
@@ -157,8 +157,8 @@ const FAQ = () => {
   return (
     <>
       <SEOHead
-        title="Cleaning Service FAQ South Florida | CLEAN COLLECTIVE"
-        description="Find answers about CLEAN COLLECTIVE cleaning services, pricing, booking & cancellations. Serving 40+ South Florida cities. Call (561) 571-8725."
+        title="Cleaning Service FAQ South Florida | Clean Collective"
+        description="Find answers about Clean Collective cleaning services, pricing, booking & cancellations. Serving 40+ South Florida cities. Call (561) 571-8725."
         canonical="https://www.tidywisecleaning.com/faq"
         schemaJson={[
           faqSchema,

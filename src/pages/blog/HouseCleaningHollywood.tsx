@@ -38,7 +38,7 @@ const HouseCleaningHollywood = () => {
         name: "Are your cleaners licensed and insured in Hollywood, FL?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes. Every CLEAN COLLECTIVE cleaner serving Hollywood is background-checked, licensed, and fully insured. We carry liability insurance and treat your home as if it were our own.",
+          text: "Yes. Every Clean Collective cleaner serving Hollywood is background-checked, licensed, and fully insured. We carry liability insurance and treat your home as if it were our own.",
         },
       },
     ],
@@ -47,7 +47,7 @@ const HouseCleaningHollywood = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Hollywood FL | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Hollywood FL | Licensed & Insured | Clean Collective"
         pageDescription="House cleaning in Hollywood, FL from $118. Licensed & insured. Hollywood Beach, Emerald Hills, Dania Beach & all Hollywood neighborhoods. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-hollywood-florida"
         pageType="article"
@@ -76,7 +76,7 @@ const HouseCleaningHollywood = () => {
               2026 House Cleaning Prices in Hollywood, FL
             </h2>
             <p className="text-muted-foreground mb-4">
-              Prices depend on home size and service type. Here's what Hollywood residents typically pay with CLEAN COLLECTIVE:
+              Prices depend on home size and service type. Here's what Hollywood residents typically pay with Clean Collective:
             </p>
             <div className="overflow-x-auto rounded-lg border border-border">
               <table className="w-full text-sm">
@@ -146,10 +146,10 @@ const HouseCleaningHollywood = () => {
             </div>
           </section>
 
-          {/* Why CLEAN COLLECTIVE */}
+          {/* Why Clean Collective */}
           <section className="mb-10">
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-              Why Hollywood Residents Choose CLEAN COLLECTIVE
+              Why Hollywood Residents Choose Clean Collective
             </h2>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex gap-2"><span className="text-primary font-bold">✓</span> <span><strong className="text-foreground">Transparent pricing</strong> — get your exact price online without calling anyone.</span></li>

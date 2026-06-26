@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Boynton Beach?",
-    a: "House cleaning in Boynton Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Larger homes in Aberdeen or Valencia Reserve and waterfront properties are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Boynton Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Larger homes in Aberdeen or Valencia Reserve and waterfront properties are priced by square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Boynton Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Boynton Beach communities including Aberdeen Country Club, Valencia Reserve, Leisureville, Tuscany Bay, Renaissance Commons, and downtown Boynton Beach. Licensed, insured, and background-checked."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Boynton Beach communities including Aberdeen Country Club, Valencia Reserve, Leisureville, Tuscany Bay, Renaissance Commons, and downtown Boynton Beach. Licensed, insured, and background-checked."
   },
   {
     q: "Do you service active adult and 55+ communities in Boynton Beach?",
-    a: "Yes. CLEAN COLLECTIVE serves Boynton Beach's active adult communities including Leisureville, Aberdeen, and Valencia Reserve. Our teams provide reliable, consistent service that residents can count on — same team each visit, no strangers in your home."
+    a: "Yes. Clean Collective serves Boynton Beach's active adult communities including Leisureville, Aberdeen, and Valencia Reserve. Our teams provide reliable, consistent service that residents can count on — same team each visit, no strangers in your home."
   },
   {
     q: "Do you offer seasonal cleaning for Boynton Beach snowbirds?",
-    a: "Yes. Boynton Beach has a large seasonal population, particularly in its active adult communities. CLEAN COLLECTIVE offers arrival deep cleans, recurring winter service, and departure cleans with no long-term contracts. Book on your schedule."
+    a: "Yes. Boynton Beach has a large seasonal population, particularly in its active adult communities. Clean Collective offers arrival deep cleans, recurring winter service, and departure cleans with no long-term contracts. Book on your schedule."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningBoyntonBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Boynton Beach FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Boynton Beach FL | From $108 | Clean Collective"
         pageDescription="Top-rated house cleaning in Boynton Beach, FL from $108. Licensed & insured. Aberdeen, Valencia Reserve, Leisureville & all areas. Book today."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-boynton-beach"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningBoyntonBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Boynton Beach Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Boynton Beach neighborhoods, including:
+              Clean Collective serves all Boynton Beach neighborhoods, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Aberdeen Country Club", "Valencia Reserve", "Leisureville", "Tuscany Bay",
@@ -120,7 +120,7 @@ const HouseCleaningBoyntonBeach = () => {
             </p>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Active adult and 55+ communities", b: "Aberdeen, Leisureville, and similar communities have residents who want a reliable, trustworthy team on a consistent schedule. CLEAN COLLECTIVE assigns the same team to recurring clients so you build a real relationship rather than meeting someone new every visit." },
+                { t: "Active adult and 55+ communities", b: "Aberdeen, Leisureville, and similar communities have residents who want a reliable, trustworthy team on a consistent schedule. Clean Collective assigns the same team to recurring clients so you build a real relationship rather than meeting someone new every visit." },
                 { t: "Newer planned developments", b: "Boynton Beach's growing western communities like Valencia Reserve and Renaissance Commons have newer construction with open floor plans and large tile areas. Professional cleaning keeps these homes genuinely clean, not just surface-level." },
                 { t: "Waterfront and Intracoastal homes", b: "Eastern Boynton Beach along the Intracoastal faces salt air and coastal humidity. Windows, screens, and outdoor surfaces need more frequent attention than inland properties." },
                 { t: "Seasonal snowbird scheduling", b: "Boynton Beach's active adult communities have significant seasonal populations. We accommodate flexible winter/spring scheduling with no long-term commitments and clear, upfront pricing." },

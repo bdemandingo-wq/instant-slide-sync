@@ -189,7 +189,7 @@ serve(async (req) => {
         messages: [
           {
             role: 'system',
-            content: `You are a professional content writer for CLEAN COLLECTIVE, a cleaning service company in South Florida. 
+            content: `You are a professional content writer for Clean Collective, a cleaning service company in South Florida. 
 Write engaging, SEO-optimized blog posts about cleaning tips and home care.
 Your content should be helpful, practical, and relevant to South Florida homeowners.
 Focus on actionable advice that readers can implement immediately.
@@ -211,7 +211,7 @@ The content should include:
 - An engaging introduction
 - 3-5 main sections with subheadings
 - Practical tips and actionable advice
-- A call-to-action mentioning CLEAN COLLECTIVE services
+- A call-to-action mentioning Clean Collective services
 - Proper HTML formatting (use <h2>, <h3>, <p>, <ul>, <li>, <strong> tags)`
           }
         ],

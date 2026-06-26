@@ -41,7 +41,7 @@ const allReviews = [
     date: "2026-01-18",
     dateLabel: "January 2026",
     city: "Deerfield Beach, FL",
-    text: "Booked a move-out clean for my condo. The team was prompt, friendly, and left the place spotless — I got my full deposit back. Will absolutely use CLEAN COLLECTIVE again at my new place.",
+    text: "Booked a move-out clean for my condo. The team was prompt, friendly, and left the place spotless — I got my full deposit back. Will absolutely use Clean Collective again at my new place.",
   },
   {
     name: "James O'Connor",
@@ -73,7 +73,7 @@ const Reviews = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://www.tidywisecleaning.com/reviews/#business",
-    "name": "CLEAN COLLECTIVE Cleaning Services",
+    "name": "Clean Collective Cleaning Services",
     "url": "https://www.tidywisecleaning.com/reviews",
     "telephone": "+1-561-571-8725",
     "image": "https://www.tidywisecleaning.com/og-image.webp",
@@ -128,7 +128,7 @@ const Reviews = () => {
               Real Reviews from Happy Clean Collective Customers
             </h1>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              See why families and property managers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton trust CLEAN COLLECTIVE for spotless, dependable cleaning every time.
+              See why families and property managers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton trust Clean Collective for spotless, dependable cleaning every time.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -180,7 +180,7 @@ const Reviews = () => {
             <div className="text-center mb-10 max-w-2xl mx-auto">
               <h2 className="font-display text-3xl font-bold text-foreground mb-3">What Our Customers Say</h2>
               <p className="text-muted-foreground">
-                Honest feedback from real CLEAN COLLECTIVE clients across South Florida — homes, condos, Airbnbs, and offices.
+                Honest feedback from real Clean Collective clients across South Florida — homes, condos, Airbnbs, and offices.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -228,7 +228,7 @@ const Reviews = () => {
             <div className="text-center mb-10 max-w-2xl mx-auto">
               <h2 className="font-display text-3xl font-bold text-foreground mb-3">Before & After: Real Jobs</h2>
               <p className="text-muted-foreground">
-                Photos from recent CLEAN COLLECTIVE jobs across Broward and Palm Beach County. More coming soon — share yours and get a referral credit.
+                Photos from recent Clean Collective jobs across Broward and Palm Beach County. More coming soon — share yours and get a referral credit.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">

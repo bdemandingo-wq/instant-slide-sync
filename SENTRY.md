@@ -1,7 +1,7 @@
 # Sentry observability
 
 Sentry is wired into the marketing/booking site and reports errors to
-the same Sentry project as the CLEAN COLLECTIVE SaaS app. Events from this
+the same Sentry project as the Clean Collective SaaS app. Events from this
 repo are tagged `app: "clean collective-marketing"` so they're filterable.
 
 ## What's captured

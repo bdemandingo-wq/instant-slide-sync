@@ -27,7 +27,7 @@ const PostConstructionCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Post-Construction Cleaning | South Florida | CLEAN COLLECTIVE"
+        pageTitle="Post-Construction Cleaning | South Florida | Clean Collective"
         pageDescription="Post-construction & renovation cleanup in South Florida. Dust removal, window cleaning, paint splatter cleanup & move-in ready detail."
         canonicalUrl="https://www.tidywisecleaning.com/post-construction-cleaning"
       />

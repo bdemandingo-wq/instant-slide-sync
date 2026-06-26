@@ -121,7 +121,7 @@ const RelatedLinks = ({ currentPage, pageType, county, cityName }: RelatedLinksP
     <section className="py-12 bg-muted/50">
       <div className="container mx-auto px-4 max-w-5xl">
         <h2 className="font-display text-2xl font-bold text-foreground mb-6">
-          Explore More CLEAN COLLECTIVE Services
+          Explore More Clean Collective Services
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">

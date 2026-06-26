@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Doral?",
-    a: "House cleaning in Doral costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Doral's newer luxury planned community homes and executive apartments are priced by square footage. CLEAN COLLECTIVE provides instant online quotes in English and Spanish."
+    a: "House cleaning in Doral costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Doral's newer luxury planned community homes and executive apartments are priced by square footage. Clean Collective provides instant online quotes in English and Spanish."
   },
   {
-    q: "Does CLEAN COLLECTIVE offer Spanish-language service in Doral?",
-    a: "Yes. CLEAN COLLECTIVE serves Doral's predominantly Spanish-speaking community — with strong Venezuelan, Colombian, and Cuban populations. Our bilingual team communicates in Spanish throughout booking, service, and follow-up. Hablamos español."
+    q: "Does Clean Collective offer Spanish-language service in Doral?",
+    a: "Yes. Clean Collective serves Doral's predominantly Spanish-speaking community — with strong Venezuelan, Colombian, and Cuban populations. Our bilingual team communicates in Spanish throughout booking, service, and follow-up. Hablamos español."
   },
   {
     q: "What is the best cleaning service in Doral, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Doral communities including Downtown Doral, Landmark at Doral, Waterford, Doral Isles, and the Doral business corridor. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Doral communities including Downtown Doral, Landmark at Doral, Waterford, Doral Isles, and the Doral business corridor. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Doral corporate apartments and executive rentals?",
-    a: "Yes. Doral's proximity to Miami International Airport creates strong demand for corporate housing and executive apartments. CLEAN COLLECTIVE provides same-day Airbnb and short-term rental turnovers, move-in/move-out cleaning, and recurring service for Doral's corporate and STR housing market."
+    a: "Yes. Doral's proximity to Miami International Airport creates strong demand for corporate housing and executive apartments. Clean Collective provides same-day Airbnb and short-term rental turnovers, move-in/move-out cleaning, and recurring service for Doral's corporate and STR housing market."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningDoral = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Doral FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Doral FL | From $108 | Clean Collective"
         pageDescription="Bilingual house cleaning in Doral, FL from $108. Hablamos español. Licensed & insured. Downtown Doral, Landmark & all communities. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-doral"
         pageType="blog"
@@ -53,7 +53,7 @@ const HouseCleaningDoral = () => {
               House Cleaning in Doral, FL — Servicio en Español · From $108
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Doral is Miami-Dade's fastest-growing city — a business and residential hub just minutes from Miami International Airport, with a thriving Latin American community and some of the county's newest luxury planned developments. CLEAN COLLECTIVE serves Doral in English and Spanish, with transparent pricing and consistent teams. Here's what Doral homeowners need to know.
+              Doral is Miami-Dade's fastest-growing city — a business and residential hub just minutes from Miami International Airport, with a thriving Latin American community and some of the county's newest luxury planned developments. Clean Collective serves Doral in English and Spanish, with transparent pricing and consistent teams. Here's what Doral homeowners need to know.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
@@ -104,7 +104,7 @@ const HouseCleaningDoral = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Doral Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Doral neighborhoods, including:
+              Clean Collective serves all Doral neighborhoods, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Downtown Doral", "Landmark at Doral", "Waterford", "Doral Isles",
@@ -114,14 +114,14 @@ const HouseCleaningDoral = () => {
               ))}
             </div>
 
-            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why Doral Homeowners Choose CLEAN COLLECTIVE</h2>
+            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why Doral Homeowners Choose Clean Collective</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Bilingual Spanish-speaking team", b: "Doral's community communicates primarily in Spanish. CLEAN COLLECTIVE's bilingual team handles booking, service, and all follow-up in the language you prefer. No miscommunications, no language barriers." },
+                { t: "Bilingual Spanish-speaking team", b: "Doral's community communicates primarily in Spanish. Clean Collective's bilingual team handles booking, service, and all follow-up in the language you prefer. No miscommunications, no language barriers." },
                 { t: "Newer construction expertise", b: "Doral's planned communities — Downtown Doral, Landmark, Waterford — are among Miami-Dade's newest luxury developments. Open floor plans, modern appliances, and premium finishes are standard. We use products appropriate for newer construction materials." },
-                { t: "Corporate and STR cleaning", b: "Doral's airport proximity drives a large corporate housing and short-term rental market. CLEAN COLLECTIVE handles same-day turnovers, move-in/move-out cleans, and recurring service for landlords, property managers, and STR hosts throughout Doral." },
+                { t: "Corporate and STR cleaning", b: "Doral's airport proximity drives a large corporate housing and short-term rental market. Clean Collective handles same-day turnovers, move-in/move-out cleans, and recurring service for landlords, property managers, and STR hosts throughout Doral." },
                 { t: "Transparent pricing with no hidden fees", b: "You see the exact price before you book — in English or Spanish. No in-home estimates, no surprise charges. What you're quoted is what you pay." },
-                { t: "Licensed and insured in Miami-Dade County", b: "CLEAN COLLECTIVE carries full general liability insurance. Request the certificate any time — we email it within minutes." },
+                { t: "Licensed and insured in Miami-Dade County", b: "Clean Collective carries full general liability insurance. Request the certificate any time — we email it within minutes." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

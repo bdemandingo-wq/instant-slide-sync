@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Deerfield Beach?",
-    a: "House cleaning in Deerfield Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Deerfield Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Deerfield Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and is based in Deerfield Beach at 65 SW 12th Ave. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, and Riverwalk. Licensed, insured, and background-checked."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is based in Deerfield Beach at 65 SW 12th Ave. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, and Riverwalk. Licensed, insured, and background-checked."
   },
   {
-    q: "Is CLEAN COLLECTIVE local to Deerfield Beach?",
-    a: "Yes. CLEAN COLLECTIVE is headquartered in Deerfield Beach, FL. Being locally based means faster response times, same-day availability, and a genuine commitment to serving our home community. We know Deerfield Beach better than anyone."
+    q: "Is Clean Collective local to Deerfield Beach?",
+    a: "Yes. Clean Collective is headquartered in Deerfield Beach, FL. Being locally based means faster response times, same-day availability, and a genuine commitment to serving our home community. We know Deerfield Beach better than anyone."
   },
   {
     q: "Do you offer vacation rental and Airbnb cleaning in Deerfield Beach?",
-    a: "Yes. Deerfield Beach's coastal location attracts a strong vacation rental market. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Deerfield Beach. Contact us for short-term rental pricing."
+    a: "Yes. Deerfield Beach's coastal location attracts a strong vacation rental market. Clean Collective provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Deerfield Beach. Contact us for short-term rental pricing."
   }
 ];
 
@@ -29,7 +29,7 @@ const DeerfieldBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Deerfield Beach House Cleaning | Insured | CLEAN COLLECTIVE"
+        pageTitle="Deerfield Beach House Cleaning | Insured | Clean Collective"
         pageDescription="Deerfield Beach FL beachside home & condo cleaning. The Cove, Hillsboro Beach & Century Village experts. Eco-friendly options available. Book today!"
         canonicalUrl="https://www.tidywisecleaning.com/deerfield-beach-cleaning"
         pageType="county"

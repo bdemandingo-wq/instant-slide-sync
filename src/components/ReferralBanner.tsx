@@ -14,7 +14,7 @@ const ReferralBanner = () => {
             Tell a Friend. Earn $25.
           </h2>
           <p className="text-secondary-foreground/90 text-lg max-w-lg mx-auto">
-            Love CLEAN COLLECTIVE? Share it. When a friend books their first clean, you both get $25 off your next service. No limits — refer as many people as you want.
+            Love Clean Collective? Share it. When a friend books their first clean, you both get $25 off your next service. No limits — refer as many people as you want.
           </p>
           <Button
             size="lg"

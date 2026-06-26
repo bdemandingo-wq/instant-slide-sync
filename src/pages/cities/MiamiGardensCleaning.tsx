@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami Gardens?",
-    a: "House cleaning in Miami Gardens costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Miami Gardens costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Miami Gardens, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miami Gardens neighborhoods including Carol City, Lake Lucerne, Andover, and Scott Lake. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miami Gardens neighborhoods including Carol City, Lake Lucerne, Andover, and Scott Lake. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your Miami Gardens cleaning teams speak Spanish?",
-    a: "Yes. CLEAN COLLECTIVE cleaning teams are bilingual (English/Spanish), ensuring clear communication and excellent service throughout Miami Gardens' diverse community."
+    a: "Yes. Clean Collective cleaning teams are bilingual (English/Spanish), ensuring clear communication and excellent service throughout Miami Gardens' diverse community."
   },
   {
     q: "How often should Miami Gardens homeowners book professional cleaning?",
-    a: "Most Miami Gardens homeowners book bi-weekly cleaning to stay on top of South Florida's humidity and dust. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings with priority scheduling for regular clients."
+    a: "Most Miami Gardens homeowners book bi-weekly cleaning to stay on top of South Florida's humidity and dust. Clean Collective offers 5–15% discounts on recurring bookings with priority scheduling for regular clients."
   }
 ];
 
@@ -29,7 +29,7 @@ const MiamiGardensCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Miami Gardens House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Miami Gardens House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Miami Gardens FL reliable home cleaning. Hard Rock Stadium area, Andover & Scott Lake. Recurring maintenance plans available. Free quote online!"
         canonicalUrl="https://www.tidywisecleaning.com/miami-gardens-cleaning"
         pageType="county"

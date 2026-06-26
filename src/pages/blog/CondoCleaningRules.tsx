@@ -11,7 +11,7 @@ const CondoCleaningRules = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Condo Cleaning Rules & Tips for South Florida | CLEAN COLLECTIVE"
+        pageTitle="Condo Cleaning Rules & Tips for South Florida | Clean Collective"
         pageDescription="Navigate HOA rules and building regulations while keeping your South Florida condo spotless."
         canonicalUrl="https://www.tidywisecleaning.com/blog/condo-cleaning-rules-south-florida"
         pageType="blog"
@@ -121,7 +121,7 @@ const CondoCleaningRules = () => {
 
               <div className="bg-primary/10 rounded-xl p-6 mt-8">
                 <h3 className="font-display text-xl font-bold text-foreground mb-3">
-                  CLEAN COLLECTIVE Knows Condo Cleaning
+                  Clean Collective Knows Condo Cleaning
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   We're experienced with South Florida condo buildings and their requirements. 

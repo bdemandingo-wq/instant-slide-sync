@@ -64,7 +64,7 @@ const BrowardAirbnbTurnover = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Broward Airbnb Turnover Cleaning | Short-Term Rental | CLEAN COLLECTIVE"
+        pageTitle="Broward Airbnb Turnover Cleaning | Short-Term Rental | Clean Collective"
         pageDescription="Reliable Airbnb & short-term rental turnover cleaning in Broward County. Same-day between-guest turnovers, linen change, laundry, restocking & photo checklists. Serving Fort Lauderdale, Hollywood, Pompano & Deerfield."
         canonicalUrl="https://www.tidywisecleaning.com/broward-airbnb-turnover-cleaning"
         pageType="service"

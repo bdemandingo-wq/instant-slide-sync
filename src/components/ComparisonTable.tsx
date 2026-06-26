@@ -12,13 +12,13 @@ const ComparisonTable = () => {
   return (
     <div className="max-w-xl mx-auto mt-10">
       <h3 className="font-display text-xl font-semibold text-foreground text-center mb-6">
-        CLEAN COLLECTIVE vs. Other Services
+        Clean Collective vs. Other Services
       </h3>
       <div className="bg-card rounded-xl border border-border overflow-hidden shadow-soft">
         {/* Header */}
         <div className="grid grid-cols-3 bg-muted px-4 py-3 text-sm font-semibold">
           <span className="text-muted-foreground">Feature</span>
-          <span className="text-center text-primary">CLEAN COLLECTIVE</span>
+          <span className="text-center text-primary">Clean Collective</span>
           <span className="text-center text-muted-foreground">Others</span>
         </div>
         {/* Rows */}

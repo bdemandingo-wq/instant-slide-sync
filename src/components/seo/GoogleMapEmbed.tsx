@@ -39,21 +39,21 @@ const GoogleMapEmbed = () => {
           {/* Google Map Embed */}
           <div className="rounded-xl overflow-hidden shadow-lg border border-border h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14305.240331609677!2d-80.13057563545063!3d26.316456932118975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91df85192d2e3%3A0x33f6970e8c4c641f!2sCLEAN COLLECTIVE!5e0!3m2!1sen!2sus!4v1766738784534!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14305.240331609677!2d-80.13057563545063!3d26.316456932118975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91df85192d2e3%3A0x33f6970e8c4c641f!2sClean Collective!5e0!3m2!1sen!2sus!4v1766738784534!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="CLEAN COLLECTIVE Service Area - South Florida"
+              title="Clean Collective Service Area - South Florida"
             />
           </div>
 
           {/* Contact Information */}
           <div className="bg-card p-8 rounded-xl shadow-soft border border-border">
             <h3 className="font-display text-xl font-semibold text-foreground mb-6">
-              Contact CLEAN COLLECTIVE
+              Contact Clean Collective
             </h3>
             
             <div className="space-y-4">
@@ -63,7 +63,7 @@ const GoogleMapEmbed = () => {
                   <a 
                     href="tel:+15615718725" 
                     className="text-primary hover:underline"
-                    aria-label="Call CLEAN COLLECTIVE at 561-571-8725"
+                    aria-label="Call Clean Collective at 561-571-8725"
                   >
                     (561) 571-8725
                   </a>

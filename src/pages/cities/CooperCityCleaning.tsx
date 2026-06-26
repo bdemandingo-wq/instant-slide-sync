@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Cooper City?",
-    a: "House cleaning in Cooper City costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Cooper City costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Cooper City, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Cooper City communities including Rock Creek, Embassy Lakes, Monterra, and Flamingo Gardens adjacent areas. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Cooper City communities including Rock Creek, Embassy Lakes, Monterra, and Flamingo Gardens adjacent areas. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Cooper City?",
-    a: "Yes. CLEAN COLLECTIVE offers weekly, bi-weekly, and monthly recurring cleaning throughout Cooper City. Recurring clients save 5–15% on every visit and get priority scheduling. Most Cooper City families book bi-weekly service."
+    a: "Yes. Clean Collective offers weekly, bi-weekly, and monthly recurring cleaning throughout Cooper City. Recurring clients save 5–15% on every visit and get priority scheduling. Most Cooper City families book bi-weekly service."
   },
   {
-    q: "Are CLEAN COLLECTIVE cleaning products safe for kids and pets in Cooper City?",
-    a: "Yes. CLEAN COLLECTIVE uses eco-friendly, non-toxic cleaning products that are safe for children and pets. Cooper City's family-oriented community means many of our clients have young kids and animals — our products are specifically chosen with this in mind."
+    q: "Are Clean Collective cleaning products safe for kids and pets in Cooper City?",
+    a: "Yes. Clean Collective uses eco-friendly, non-toxic cleaning products that are safe for children and pets. Cooper City's family-oriented community means many of our clients have young kids and animals — our products are specifically chosen with this in mind."
   }
 ];
 
@@ -29,7 +29,7 @@ const CooperCityCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Cooper City House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Cooper City House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Cooper City FL family-focused home cleaning. Rock Creek, Embassy Lakes & Country Glen. Kid-safe & pet-friendly products. Schedule today!"
         canonicalUrl="https://www.tidywisecleaning.com/cooper-city-cleaning"
         pageType="county"

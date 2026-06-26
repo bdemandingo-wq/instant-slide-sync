@@ -10,15 +10,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami?",
-    a: "House cleaning in Miami costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Condo and high-rise cleaning may vary based on square footage and building access requirements. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Miami costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Condo and high-rise cleaning may vary based on square footage and building access requirements. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Miami, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miami neighborhoods including Brickell, Wynwood, Coconut Grove, Little Havana, and the Design District. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miami neighborhoods including Brickell, Wynwood, Coconut Grove, Little Havana, and the Design District. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Miami condos and high-rise apartments?",
-    a: "Yes. CLEAN COLLECTIVE specializes in Miami condo and high-rise cleaning. Our teams are familiar with building access requirements, HOA rules, and the unique challenges of humid Miami properties. We service all Miami-Dade buildings."
+    a: "Yes. Clean Collective specializes in Miami condo and high-rise cleaning. Our teams are familiar with building access requirements, HOA rules, and the unique challenges of humid Miami properties. We service all Miami-Dade buildings."
   },
   {
     q: "How often should Miami homeowners book professional cleaning?",
@@ -30,7 +30,7 @@ const MiamiCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Miami House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Miami House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Miami FL house & condo cleaning you can count on. Brickell, Wynwood, Coconut Grove & Little Havana. Same-day availability. Book now!"
         canonicalUrl="https://www.tidywisecleaning.com/miami-cleaning"
         pageType="county"
@@ -99,11 +99,11 @@ const MiamiCleaning = () => {
           </div>
         </section>
 
-        {/* Why Choose CLEAN COLLECTIVE in Miami */}
+        {/* Why Choose Clean Collective in Miami */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-8">
-              Why Miami Residents Choose CLEAN COLLECTIVE
+              Why Miami Residents Choose Clean Collective
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">

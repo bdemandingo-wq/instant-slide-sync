@@ -90,7 +90,7 @@ const Confirmation = () => {
   if (!booking) {
     return (
       <>
-        <SEOHead title="Booking Confirmation | CLEAN COLLECTIVE" description="Your booking confirmation" canonical="/confirmation" noIndex={true} />
+        <SEOHead title="Booking Confirmation | Clean Collective" description="Your booking confirmation" canonical="/confirmation" noIndex={true} />
         <div className="min-h-screen flex items-center justify-center bg-muted">
           <Card className="max-w-md mx-4">
             <CardContent className="p-8 text-center">
@@ -115,8 +115,8 @@ const Confirmation = () => {
   return (
     <>
       <SEOHead
-        title="Booking Confirmed | CLEAN COLLECTIVE"
-        description="Your CLEAN COLLECTIVE cleaning service booking has been confirmed."
+        title="Booking Confirmed | Clean Collective"
+        description="Your Clean Collective cleaning service booking has been confirmed."
         canonical={`/confirmation/${booking.id}`}
         noIndex={true}
       />

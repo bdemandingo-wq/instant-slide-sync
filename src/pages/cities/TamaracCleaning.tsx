@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Tamarac?",
-    a: "House cleaning in Tamarac costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Tamarac costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Tamarac, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Tamarac neighborhoods including Kings Point, Woodlands, Mainlands, Tamarac Lakes, and Colony West. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Tamarac neighborhoods including Kings Point, Woodlands, Mainlands, Tamarac Lakes, and Colony West. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you serve Kings Point and senior communities in Tamarac?",
-    a: "Yes. CLEAN COLLECTIVE serves Kings Point, Woodlands, and all Tamarac senior and active adult communities. Our insured, background-checked teams are respectful and trustworthy — working efficiently with no long-term contracts required."
+    a: "Yes. Clean Collective serves Kings Point, Woodlands, and all Tamarac senior and active adult communities. Our insured, background-checked teams are respectful and trustworthy — working efficiently with no long-term contracts required."
   },
   {
     q: "How often should Tamarac homeowners book professional cleaning?",
-    a: "Tamarac's retiree population typically books monthly cleaning for regular upkeep. Active households may prefer bi-weekly service. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings and accommodates any schedule with no long-term commitment required."
+    a: "Tamarac's retiree population typically books monthly cleaning for regular upkeep. Active households may prefer bi-weekly service. Clean Collective offers 5–15% discounts on recurring bookings and accommodates any schedule with no long-term commitment required."
   }
 ];
 
@@ -29,7 +29,7 @@ const TamaracCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Tamarac House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Tamarac House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Tamarac FL senior-friendly cleaning services. Woodmont, Colony West & Mainlands. Thorough, dependable & affordable. Schedule your cleaning online!"
         canonicalUrl="https://www.tidywisecleaning.com/tamarac-cleaning"
         pageType="county"

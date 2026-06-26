@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Sunrise, FL?",
-    a: "House cleaning in Sunrise costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Sunrise's mix of suburban homes, condos, and active adult communities are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Sunrise costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Sunrise's mix of suburban homes, condos, and active adult communities are priced by square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Sunrise, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Sunrise communities including Sunrise Lakes, Welleby, Sawgrass Lakes, Springtree, and Inverrary. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Sunrise communities including Sunrise Lakes, Welleby, Sawgrass Lakes, Springtree, and Inverrary. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Sunrise Lakes and other active adult communities in Sunrise?",
-    a: "Yes. CLEAN COLLECTIVE serves Sunrise Lakes and all of Sunrise's active adult and age-restricted communities. Our teams provide reliable, consistent service on a schedule that works for you — including building or community access coordination and consistent team assignments."
+    a: "Yes. Clean Collective serves Sunrise Lakes and all of Sunrise's active adult and age-restricted communities. Our teams provide reliable, consistent service on a schedule that works for you — including building or community access coordination and consistent team assignments."
   },
   {
     q: "How often should Sunrise homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningSunrise = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Sunrise FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Sunrise FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Sunrise, FL from $108. Licensed & insured. Sunrise Lakes, Welleby, Sawgrass Lakes, Inverrary & all neighborhoods. Same-day available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-sunrise"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningSunrise = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Sunrise Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Sunrise neighborhoods, including:
+              Clean Collective serves all Sunrise neighborhoods, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Sunrise Lakes", "Welleby", "Sawgrass Lakes", "Springtree", "Inverrary",
@@ -120,7 +120,7 @@ const HouseCleaningSunrise = () => {
             </p>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Sunrise Lakes and active adult communities", b: "Sunrise Lakes is one of Broward's largest age-restricted communities — residents want a reliable, trustworthy team on a predictable schedule. CLEAN COLLECTIVE assigns consistent teams to recurring clients so you're never meeting someone new." },
+                { t: "Sunrise Lakes and active adult communities", b: "Sunrise Lakes is one of Broward's largest age-restricted communities — residents want a reliable, trustworthy team on a predictable schedule. Clean Collective assigns consistent teams to recurring clients so you're never meeting someone new." },
                 { t: "Suburban family homes near Sawgrass", b: "Newer developments in western Sunrise cater to working families — larger homes, multiple bathrooms, kids, and pets. Eco-friendly products and consistent cleaning are priorities for these households." },
                 { t: "Condo and townhome communities", b: "Sunrise has a significant condo inventory, particularly in Inverrary and along University Drive. Building access requirements, visitor parking, and HOA compliance are part of every visit." },
                 { t: "Humidity and indoor air quality", b: "Western Broward's inland location doesn't have ocean breezes to offset South Florida's humidity. Dust and allergens accumulate quickly — professional cleaning at regular intervals is the most effective defense." },

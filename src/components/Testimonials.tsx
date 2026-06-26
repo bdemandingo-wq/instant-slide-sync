@@ -7,7 +7,7 @@ const testimonials = [
     name: "Maria G.",
     location: "Fort Lauderdale",
     rating: 5,
-    text: "CLEAN COLLECTIVE has been cleaning my home for 6 months now. Always on time, thorough, and friendly. My house has never looked better!",
+    text: "Clean Collective has been cleaning my home for 6 months now. Always on time, thorough, and friendly. My house has never looked better!",
   },
   {
     name: "Robert T.",
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Sandra L.",
     location: "Miami Beach",
     rating: 5,
-    text: "As a busy mom of 3, CLEAN COLLECTIVE is a lifesaver. The bi-weekly service keeps our home spotless and gives me back my weekends.",
+    text: "As a busy mom of 3, Clean Collective is a lifesaver. The bi-weekly service keeps our home spotless and gives me back my weekends.",
   },
   {
     name: "David R.",
@@ -56,7 +56,7 @@ const Testimonials = () => {
           Real People. Real Clean Homes.
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-          Join hundreds of happy South Florida homeowners who trust CLEAN COLLECTIVE.
+          Join hundreds of happy South Florida homeowners who trust Clean Collective.
         </p>
 
         {/* Horizontal scroll carousel */}

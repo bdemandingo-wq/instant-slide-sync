@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Aventura?",
-    a: "House cleaning in Aventura costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Luxury high-rise condos may be priced based on square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Aventura costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Luxury high-rise condos may be priced based on square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Aventura, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Aventura communities including Williams Island, Turnberry Isle, Harbor Centre, and Aventura Circle. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Aventura communities including Williams Island, Turnberry Isle, Harbor Centre, and Aventura Circle. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Aventura condos and luxury high-rises?",
-    a: "Yes. CLEAN COLLECTIVE specializes in Aventura condo and high-rise cleaning. Our teams handle building access protocols, service elevator use, and HOA requirements for Aventura's luxury towers."
+    a: "Yes. Clean Collective specializes in Aventura condo and high-rise cleaning. Our teams handle building access protocols, service elevator use, and HOA requirements for Aventura's luxury towers."
   },
   {
     q: "Do you offer Airbnb and vacation rental cleaning in Aventura?",
-    a: "Yes. Aventura has a strong short-term rental market. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Aventura. Contact us for short-term rental cleaning rates."
+    a: "Yes. Aventura has a strong short-term rental market. Clean Collective provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Aventura. Contact us for short-term rental cleaning rates."
   }
 ];
 
@@ -29,7 +29,7 @@ const AventuraCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Aventura House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Aventura House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Aventura FL luxury condo & high-rise cleaning specialists. Serving Turnberry, Williams Island & Aventura Mall area. Eco-friendly products. Book online now!"
         canonicalUrl="https://www.tidywisecleaning.com/aventura-cleaning"
         pageType="county"

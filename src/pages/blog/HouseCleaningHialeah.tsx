@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Hialeah?",
-    a: "House cleaning in Hialeah costs $108–$300 for standard cleaning, $208–$450 for deep cleaning, and $283–$550 for move in/out cleaning. Hialeah's mix of single-family homes, townhomes, and apartments are priced by square footage and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Hialeah costs $108–$300 for standard cleaning, $208–$450 for deep cleaning, and $283–$550 for move in/out cleaning. Hialeah's mix of single-family homes, townhomes, and apartments are priced by square footage and number of bathrooms. Clean Collective provides instant online quotes."
   },
   {
-    q: "Does CLEAN COLLECTIVE offer Spanish-language service in Hialeah?",
-    a: "Yes. CLEAN COLLECTIVE serves Hialeah's predominantly Spanish-speaking community. You can communicate with our team in Spanish throughout the booking process, during service, and for any follow-up questions. Hablamos español."
+    q: "Does Clean Collective offer Spanish-language service in Hialeah?",
+    a: "Yes. Clean Collective serves Hialeah's predominantly Spanish-speaking community. You can communicate with our team in Spanish throughout the booking process, during service, and for any follow-up questions. Hablamos español."
   },
   {
     q: "What is the best cleaning service in Hialeah, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Hialeah neighborhoods including Hialeah Gardens, Palm Springs North, Amelia Earhart area, and West Hialeah. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Hialeah neighborhoods including Hialeah Gardens, Palm Springs North, Amelia Earhart area, and West Hialeah. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean apartments and townhomes in Hialeah?",
-    a: "Yes. CLEAN COLLECTIVE cleans Hialeah's full range of home types — single-family homes, townhomes, condos, and apartments. Pricing is based on square footage and number of bathrooms, so apartment clients typically pay at the lower end of our standard range."
+    a: "Yes. Clean Collective cleans Hialeah's full range of home types — single-family homes, townhomes, condos, and apartments. Pricing is based on square footage and number of bathrooms, so apartment clients typically pay at the lower end of our standard range."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningHialeah = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Hialeah FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Hialeah FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Hialeah, FL from $108. Spanish-speaking team. Licensed & insured. Hialeah Gardens, Palm Springs North & all neighborhoods. Same-day available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-hialeah"
         pageType="blog"
@@ -53,7 +53,7 @@ const HouseCleaningHialeah = () => {
               House Cleaning in Hialeah, FL — Servicio en Español · From $108
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Hialeah is Miami-Dade's second-largest city and one of South Florida's most culturally vibrant communities — predominantly Cuban-American, with a strong sense of neighborhood identity and high standards for home. CLEAN COLLECTIVE serves Hialeah homeowners in English and Spanish, with transparent pricing and no-surprise billing. Here's what you need to know.
+              Hialeah is Miami-Dade's second-largest city and one of South Florida's most culturally vibrant communities — predominantly Cuban-American, with a strong sense of neighborhood identity and high standards for home. Clean Collective serves Hialeah homeowners in English and Spanish, with transparent pricing and no-surprise billing. Here's what you need to know.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
@@ -104,7 +104,7 @@ const HouseCleaningHialeah = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Hialeah Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Hialeah neighborhoods, including:
+              Clean Collective serves all Hialeah neighborhoods, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Hialeah Gardens", "Palm Springs North", "Amelia Earhart area", "West Hialeah",
@@ -114,13 +114,13 @@ const HouseCleaningHialeah = () => {
               ))}
             </div>
 
-            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why Hialeah Homeowners Choose CLEAN COLLECTIVE</h2>
+            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why Hialeah Homeowners Choose Clean Collective</h2>
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Spanish-speaking team", b: "Our bilingual cleaners and customer service staff communicate in Spanish and English. Book in the language you're comfortable with — every detail will be understood correctly." },
-                { t: "Transparent pricing with no hidden fees", b: "You'll see the exact price before you book — no in-home estimates required, no fees added at the end. Hialeah homeowners tell us this alone sets CLEAN COLLECTIVE apart from local competitors." },
-                { t: "Licensed and insured in Miami-Dade County", b: "CLEAN COLLECTIVE carries full general liability insurance. Request the certificate of insurance any time — we'll email it within minutes. Always verify insurance before letting any cleaner into your home." },
-                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment — essential regardless of how your cleaner was recommended." },
+                { t: "Transparent pricing with no hidden fees", b: "You'll see the exact price before you book — no in-home estimates required, no fees added at the end. Hialeah homeowners tell us this alone sets Clean Collective apart from local competitors." },
+                { t: "Licensed and insured in Miami-Dade County", b: "Clean Collective carries full general liability insurance. Request the certificate of insurance any time — we'll email it within minutes. Always verify insurance before letting any cleaner into your home." },
+                { t: "Background-checked cleaners", b: "Every Clean Collective cleaner passes a criminal background check before their first assignment — essential regardless of how your cleaner was recommended." },
                 { t: "Eco-friendly products safe for families", b: "Our cleaning products are non-toxic and eco-certified — important for households with children, elderly residents, or anyone with respiratory sensitivities." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">

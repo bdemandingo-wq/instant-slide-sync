@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Pompano Beach?",
-    a: "House cleaning in Pompano Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Pompano Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Pompano Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Pompano Beach neighborhoods including Lighthouse Point, Cresthaven, Pompano Beach Highlands, Crystal Lake, and Palm Aire. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Pompano Beach neighborhoods including Lighthouse Point, Cresthaven, Pompano Beach Highlands, Crystal Lake, and Palm Aire. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you handle salt air and coastal cleaning challenges in Pompano Beach?",
-    a: "Yes. Pompano Beach's coastal location means faster salt air buildup on windows, screens, and stainless steel. CLEAN COLLECTIVE teams are trained to remove salt film without scratching surfaces, and to address the humidity issues common in coastal Broward homes."
+    a: "Yes. Pompano Beach's coastal location means faster salt air buildup on windows, screens, and stainless steel. Clean Collective teams are trained to remove salt film without scratching surfaces, and to address the humidity issues common in coastal Broward homes."
   },
   {
     q: "Do you offer Airbnb and vacation rental cleaning in Pompano Beach?",
-    a: "Yes. Pompano Beach has a strong vacation rental market. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Pompano Beach. Contact us for short-term rental cleaning rates."
+    a: "Yes. Pompano Beach has a strong vacation rental market. Clean Collective provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Pompano Beach. Contact us for short-term rental cleaning rates."
   }
 ];
 
@@ -29,7 +29,7 @@ const PompanoBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Pompano Beach House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Pompano Beach House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Pompano Beach FL coastal home cleaning. Lighthouse Point, Palm Aire & Cypress Creek. Salt-air safe cleaning methods. Free estimates available!"
         canonicalUrl="https://www.tidywisecleaning.com/pompano-beach-cleaning"
         pageType="county"

@@ -27,7 +27,7 @@ const OfficeCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Office Cleaning Services | South Florida | CLEAN COLLECTIVE"
+        pageTitle="Office Cleaning Services | South Florida | Clean Collective"
         pageDescription="Professional office and commercial cleaning in South Florida. OSHA compliant, flexible scheduling, and customized plans for a spotless workspace."
         canonicalUrl="https://www.tidywisecleaning.com/office-cleaning"
       />
@@ -56,7 +56,7 @@ const OfficeCleaning = () => {
 
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-center mb-10">Why Businesses Choose CLEAN COLLECTIVE</h2>
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-center mb-10">Why Businesses Choose Clean Collective</h2>
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
               {benefits.map((benefit) => (
                 <div key={benefit} className="flex items-start gap-3 p-4 rounded-lg bg-muted/50">

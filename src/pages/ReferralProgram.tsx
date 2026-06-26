@@ -11,7 +11,7 @@ const ReferralProgram = () => {
     {
       icon: Users,
       title: "Share with Friends",
-      description: "Tell your friends and family about CLEAN COLLECTIVE cleaning services.",
+      description: "Tell your friends and family about Clean Collective cleaning services.",
     },
     {
       icon: Gift,
@@ -28,8 +28,8 @@ const ReferralProgram = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Referral Program | Earn $25 Credit | CLEAN COLLECTIVE Cleaning"
-        pageDescription="Refer a friend to CLEAN COLLECTIVE cleaning services and earn $25 credit. Your friend gets $25 off their first cleaning too! South Florida referral program."
+        pageTitle="Referral Program | Earn $25 Credit | Clean Collective Cleaning"
+        pageDescription="Refer a friend to Clean Collective cleaning services and earn $25 credit. Your friend gets $25 off their first cleaning too! South Florida referral program."
         canonicalUrl="https://www.tidywisecleaning.com/referral-program"
         pageType="home"
         county="South Florida"
@@ -156,11 +156,11 @@ const ReferralProgram = () => {
               <ul className="space-y-4 text-muted-foreground">
                 <li>• Referral credit is applied after the referred friend's first cleaning is complete.</li>
                 <li>• Your friend must mention your name when booking to activate the referral.</li>
-                <li>• Credits can be used toward any CLEAN COLLECTIVE cleaning service.</li>
+                <li>• Credits can be used toward any Clean Collective cleaning service.</li>
                 <li>• Credits do not expire and can be combined.</li>
                 <li>• Both new and existing customers can refer friends.</li>
-                <li>• Referred friends must be first-time CLEAN COLLECTIVE customers.</li>
-                <li>• CLEAN COLLECTIVE reserves the right to modify or end this program at any time.</li>
+                <li>• Referred friends must be first-time Clean Collective customers.</li>
+                <li>• Clean Collective reserves the right to modify or end this program at any time.</li>
               </ul>
             </div>
           </div>

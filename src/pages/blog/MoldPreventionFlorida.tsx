@@ -11,7 +11,7 @@ const MoldPreventionFlorida = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Mold Prevention Guide for Florida Homes | CLEAN COLLECTIVE"
+        pageTitle="Mold Prevention Guide for Florida Homes | Clean Collective"
         pageDescription="Florida's humidity creates perfect conditions for mold. Learn how to prevent and address mold issues in your home."
         canonicalUrl="https://www.tidywisecleaning.com/blog/mold-prevention-florida-homes"
         pageType="blog"
@@ -126,7 +126,7 @@ const MoldPreventionFlorida = () => {
                   Prevent Mold with Regular Cleaning
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Regular deep cleaning helps prevent mold growth. CLEAN COLLECTIVE cleans mold-prone areas 
+                  Regular deep cleaning helps prevent mold growth. Clean Collective cleans mold-prone areas 
                   as part of every service, helping keep your Florida home healthy.
                 </p>
                 <Link 

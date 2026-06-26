@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Homestead?",
-    a: "House cleaning in Homestead costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Homestead costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Homestead, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Homestead neighborhoods as well as Florida City and Redland. We are licensed, insured, and background-check every cleaner before their first appointment."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Homestead neighborhoods as well as Florida City and Redland. We are licensed, insured, and background-check every cleaner before their first appointment."
   },
   {
     q: "Do you serve rural and agricultural properties in Homestead?",
-    a: "Yes. CLEAN COLLECTIVE serves all Homestead property types including homes in the Redland agricultural area, new construction communities near the Homestead campus, and Florida City. We handle all sizes and configurations."
+    a: "Yes. Clean Collective serves all Homestead property types including homes in the Redland agricultural area, new construction communities near the Homestead campus, and Florida City. We handle all sizes and configurations."
   },
   {
     q: "How often should Homestead homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HomesteadCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Homestead House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Homestead House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Homestead FL affordable residential cleaning. Redland, Florida City & Leisure City coverage. Honest pricing, no hidden fees. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/homestead-cleaning"
         pageType="county"

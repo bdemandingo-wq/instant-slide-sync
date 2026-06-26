@@ -20,7 +20,7 @@ interface SEOSchemaProps {
 }
 
 const WEBSITE = "https://www.tidywisecleaning.com";
-const BUSINESS_NAME = "CLEAN COLLECTIVE Cleaning Services";
+const BUSINESS_NAME = "Clean Collective Cleaning Services";
 const PHONE = "+1-561-571-8725";
 
 /**
@@ -48,8 +48,8 @@ const cleaningServiceSchema = {
   "additionalType": "https://schema.org/CleaningService",
   "@id": `${WEBSITE}/#business`,
   "name": BUSINESS_NAME,
-  "alternateName": ["Clean Collective", "Clean Collective Cleaning", "CLEAN COLLECTIVE House Cleaning"],
-  "description": "CLEAN COLLECTIVE is a professional residential and commercial cleaning company serving 40+ cities across Broward, Miami-Dade, and Palm Beach County, Florida. We offer standard cleaning, deep cleaning, move-in/out cleaning, carpet cleaning, and upholstery cleaning.",
+  "alternateName": ["Clean Collective", "Clean Collective Cleaning", "Clean Collective House Cleaning"],
+  "description": "Clean Collective is a professional residential and commercial cleaning company serving 40+ cities across Broward, Miami-Dade, and Palm Beach County, Florida. We offer standard cleaning, deep cleaning, move-in/out cleaning, carpet cleaning, and upholstery cleaning.",
   "url": WEBSITE,
   "telephone": PHONE,
   "email": "support@tidywisecleaning.com",
@@ -68,7 +68,7 @@ const cleaningServiceSchema = {
     "addressCountry": "US"
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 26.3182, "longitude": -80.0944 },
-  "hasMap": "https://maps.google.com/?q=CLEAN COLLECTIVE+Cleaning+Deerfield+Beach+FL",
+  "hasMap": "https://maps.google.com/?q=Clean Collective+Cleaning+Deerfield+Beach+FL",
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "19:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "17:00" },
@@ -93,7 +93,7 @@ const cleaningServiceSchema = {
   "knowsAbout": ["House Cleaning", "Deep Cleaning", "Move-In Cleaning", "Move-Out Cleaning", "Carpet Cleaning", "Upholstery Cleaning", "Eco-Friendly Cleaning", "Commercial Cleaning"],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "CLEAN COLLECTIVE Cleaning Services Menu",
+    "name": "Clean Collective Cleaning Services Menu",
     "itemListElement": [
       { "@type": "Offer", "name": "Standard House Cleaning", "description": "Regular maintenance cleaning for homes. Includes all rooms dusted and vacuumed, kitchen and bathrooms sanitized, floors mopped, trash emptied.", "price": "150", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "150", "maxPrice": "780", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Standard Cleaning", "serviceType": "House Cleaning" } },
       { "@type": "Offer", "name": "Deep House Cleaning", "description": "Comprehensive deep cleaning including baseboards, inside cabinets, light fixtures, and all surfaces.", "price": "250", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "minPrice": "250", "maxPrice": "1440", "priceCurrency": "USD" }, "itemOffered": { "@type": "Service", "name": "Deep Cleaning", "serviceType": "Deep House Cleaning" } },
@@ -233,7 +233,7 @@ const SEOSchema = ({
         { "@type": "ListItem", "position": 2, "name": `${county} Cleaning`, "item": `${WEBSITE}/${county.toLowerCase().replace(/\s+/g, '-').replace('county', 'county-cleaning')}` },
         { "@type": "ListItem", "position": 3, "name": cityName ? `${cityName} Cleaning` : pageTitle, "item": canonicalUrl }
       ] : [
-        { "@type": "ListItem", "position": 2, "name": pageTitle.replace(' | CLEAN COLLECTIVE', ''), "item": canonicalUrl }
+        { "@type": "ListItem", "position": 2, "name": pageTitle.replace(' | Clean Collective', ''), "item": canonicalUrl }
       ])
     ]
   } : null;
@@ -274,7 +274,7 @@ const SEOSchema = ({
   const serviceSchema = pageType === 'service' ? {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": pageTitle.replace(' | CLEAN COLLECTIVE', ''),
+    "name": pageTitle.replace(' | Clean Collective', ''),
     "description": pageDescription,
     "url": canonicalUrl,
     "provider": { "@id": `${WEBSITE}/#business` },
