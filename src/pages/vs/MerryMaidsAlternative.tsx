@@ -7,20 +7,20 @@ import SEOSchema from "@/components/seo/SEOSchema";
 
 const faqItems = [
   {
-    q: "How does CLEAN COLLECTIVE compare to Merry Maids in South Florida?",
-    a: "CLEAN COLLECTIVE is a locally owned South Florida cleaning company offering transparent online pricing starting at $150, same-day booking, and background-checked cleaners. Unlike Merry Maids, a ServiceMaster franchise, CLEAN COLLECTIVE operates without franchise fees — meaning lower prices and more flexibility for customers across Broward, Miami-Dade, and Palm Beach County."
+    q: "How does Clean Collective compare to Merry Maids in South Florida?",
+    a: "Clean Collective is a locally owned South Florida cleaning company offering transparent online pricing starting at $150, same-day booking, and background-checked cleaners. Unlike Merry Maids, a ServiceMaster franchise, Clean Collective operates without franchise fees — meaning lower prices and more flexibility for customers across Broward, Miami-Dade, and Palm Beach County."
   },
   {
-    q: "Does CLEAN COLLECTIVE offer the same services as Merry Maids?",
-    a: "Yes and more. CLEAN COLLECTIVE offers standard cleaning, deep cleaning, move in/out cleaning, carpet cleaning, upholstery cleaning, Airbnb turnover cleaning, post-construction cleaning, and office cleaning — all across 40+ South Florida cities."
+    q: "Does Clean Collective offer the same services as Merry Maids?",
+    a: "Yes and more. Clean Collective offers standard cleaning, deep cleaning, move in/out cleaning, carpet cleaning, upholstery cleaning, Airbnb turnover cleaning, post-construction cleaning, and office cleaning — all across 40+ South Florida cities."
   },
   {
-    q: "Can I book CLEAN COLLECTIVE without a consultation like Merry Maids requires?",
-    a: "Yes. CLEAN COLLECTIVE provides instant online quotes without requiring an in-home consultation or sales call. You can book same-day at tidywisecleaning.com."
+    q: "Can I book Clean Collective without a consultation like Merry Maids requires?",
+    a: "Yes. Clean Collective provides instant online quotes without requiring an in-home consultation or sales call. You can book same-day at tidywisecleaning.com."
   },
   {
-    q: "What areas does CLEAN COLLECTIVE serve as a Merry Maids alternative?",
-    a: "CLEAN COLLECTIVE serves 40+ cities across Broward County (Fort Lauderdale, Hollywood, Coral Springs, Deerfield Beach), Miami-Dade County (Miami, Hialeah, Coral Gables), and Palm Beach County (Boca Raton, West Palm Beach, Delray Beach)."
+    q: "What areas does Clean Collective serve as a Merry Maids alternative?",
+    a: "Clean Collective serves 40+ cities across Broward County (Fort Lauderdale, Hollywood, Coral Springs, Deerfield Beach), Miami-Dade County (Miami, Hialeah, Coral Gables), and Palm Beach County (Boca Raton, West Palm Beach, Delray Beach)."
   }
 ];
 
@@ -41,7 +41,7 @@ const MerryMaidsAlternative = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Merry Maids Alternative South Florida | CLEAN COLLECTIVE Cleaning"
+        pageTitle="Merry Maids Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Merry Maids alternative in South Florida. Instant booking, transparent pricing from $118, eco-friendly cleaning. Fort Lauderdale, Miami, Boca Raton."
         canonicalUrl="https://www.tidywisecleaning.com/merry-maids-alternative"
         pageType="service"
@@ -63,7 +63,7 @@ const MerryMaidsAlternative = () => {
               The Better Merry Maids Alternative in South Florida
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto mb-8">
-              CLEAN COLLECTIVE is locally owned, instantly bookable, and competitively priced — no franchise markups,
+              Clean Collective is locally owned, instantly bookable, and competitively priced — no franchise markups,
               no waiting for a consultation. Serving 40+ cities across South Florida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -84,7 +84,7 @@ const MerryMaidsAlternative = () => {
         {/* Comparison Table */}
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="font-display text-3xl font-bold text-center mb-4">CLEAN COLLECTIVE vs Merry Maids</h2>
+            <h2 className="font-display text-3xl font-bold text-center mb-4">Clean Collective vs Merry Maids</h2>
             <p className="text-center text-muted-foreground mb-10">
               A side-by-side look at what you get with each service.
             </p>
@@ -93,7 +93,7 @@ const MerryMaidsAlternative = () => {
                 <thead className="bg-muted">
                   <tr>
                     <th className="text-left px-6 py-4 font-semibold">Feature</th>
-                    <th className="text-center px-6 py-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
+                    <th className="text-center px-6 py-4 font-semibold text-primary">Clean Collective</th>
                     <th className="text-center px-6 py-4 font-semibold text-muted-foreground">Merry Maids</th>
                   </tr>
                 </thead>

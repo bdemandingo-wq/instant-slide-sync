@@ -25,7 +25,7 @@ const GoogleMapEmbed = lazy(() => import("@/components/seo/GoogleMapEmbed"));
 // FAQ data for schema
 const homepageFaqs = [
   { q: "How much does house cleaning cost in South Florida?", a: "Our standard cleaning starts at $108 for homes up to 750 sq ft. Deep cleaning starts at $208 and move in/out cleaning starts at $283. Use our instant price calculator above for your exact quote based on home size and service type." },
-  { q: "Are your cleaners background-checked?", a: "Yes! Every CLEAN COLLECTIVE cleaner undergoes a thorough background check, is fully insured, and goes through our professional training program before their first assignment." },
+  { q: "Are your cleaners background-checked?", a: "Yes! Every Clean Collective cleaner undergoes a thorough background check, is fully insured, and goes through our professional training program before their first assignment." },
   { q: "Do I need to be home during the cleaning?", a: "No, many of our clients provide a spare key or door code. We're fully insured and bonded, so your home is protected. You can also be home if you prefer." },
   { q: "What cleaning products do you use?", a: "We use eco-friendly, non-toxic cleaning products that are safe for children, pets, and the environment. If you have specific product preferences or allergies, let us know and we'll accommodate." },
   { q: "What's your cancellation policy?", a: "We ask for at least 24 hours notice for cancellations. Same-day cancellations may be subject to a fee. We understand things come up, so we're always flexible and understanding." },
@@ -75,7 +75,7 @@ const Index = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="CLEAN COLLECTIVE — South Florida's Top-Rated House Cleaners"
+        pageTitle="Clean Collective — South Florida's Top-Rated House Cleaners"
         pageDescription="South Florida's most-loved house cleaners. Same-cleaner guarantee, eco-friendly products, instant online booking. 4.9★ from 127+ neighbors. Book today."
         canonicalUrl="https://www.tidywisecleaning.com/"
         pageType="home"

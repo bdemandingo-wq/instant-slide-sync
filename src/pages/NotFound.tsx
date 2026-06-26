@@ -14,8 +14,8 @@ const NotFound = () => {
   return (
     <>
       <SEOHead
-        title="Page Not Found | CLEAN COLLECTIVE Cleaning Services"
-        description="The page you're looking for doesn't exist. CLEAN COLLECTIVE offers professional house cleaning in Fort Lauderdale, Boca Raton & West Palm Beach."
+        title="Page Not Found | Clean Collective Cleaning Services"
+        description="The page you're looking for doesn't exist. Clean Collective offers professional house cleaning in Fort Lauderdale, Boca Raton & West Palm Beach."
         canonical="https://www.tidywisecleaning.com/404"
         noIndex={true}
       />
@@ -27,7 +27,7 @@ const NotFound = () => {
             Page Not Found
           </h2>
           <p className="text-muted-foreground mb-8">
-            CLEAN COLLECTIVE professional house cleaning in Fort Lauderdale, Boca Raton & West Palm Beach. 
+            Clean Collective professional house cleaning in Fort Lauderdale, Boca Raton & West Palm Beach. 
             Let's get you back on track!
           </p>
           

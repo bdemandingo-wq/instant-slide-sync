@@ -11,7 +11,7 @@ const HowToPrepareForCleaningService = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="How to Prepare for Your Cleaning Service Visit | CLEAN COLLECTIVE"
+        pageTitle="How to Prepare for Your Cleaning Service Visit | Clean Collective"
         pageDescription="Get the most from your professional cleaning service. Simple prep tips to maximize results. What to do before cleaners arrive. South Florida cleaning experts."
         canonicalUrl="https://www.tidywisecleaning.com/blog/how-to-prepare-for-cleaning-service"
         pageType="blog"
@@ -168,7 +168,7 @@ const HowToPrepareForCleaningService = () => {
                   Ready to Book?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  CLEAN COLLECTIVE makes professional cleaning easy. We serve 
+                  Clean Collective makes professional cleaning easy. We serve 
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.

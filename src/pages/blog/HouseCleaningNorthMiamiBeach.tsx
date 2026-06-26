@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in North Miami Beach?",
-    a: "House cleaning in North Miami Beach costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. North Miami Beach's mix of single-family homes and condos are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in North Miami Beach costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. North Miami Beach's mix of single-family homes and condos are priced by square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in North Miami Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all North Miami Beach neighborhoods including Point East, Ojus, Ives Dairy Road corridor, and areas near Oleta River State Park. Licensed, insured, and background-checked."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all North Miami Beach neighborhoods including Point East, Ojus, Ives Dairy Road corridor, and areas near Oleta River State Park. Licensed, insured, and background-checked."
   },
   {
     q: "Do you clean condos and townhomes in North Miami Beach?",
-    a: "Yes. North Miami Beach has a high concentration of condos, townhomes, and garden apartments. CLEAN COLLECTIVE cleans all unit types and handles building access requirements including visitor sign-in and parking for managed communities throughout North Miami Beach."
+    a: "Yes. North Miami Beach has a high concentration of condos, townhomes, and garden apartments. Clean Collective cleans all unit types and handles building access requirements including visitor sign-in and parking for managed communities throughout North Miami Beach."
   },
   {
-    q: "Is CLEAN COLLECTIVE licensed and insured in North Miami Beach?",
-    a: "Yes. CLEAN COLLECTIVE is fully licensed and insured in Miami-Dade County and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment. We serve North Miami Beach and all surrounding Miami-Dade communities."
+    q: "Is Clean Collective licensed and insured in North Miami Beach?",
+    a: "Yes. Clean Collective is fully licensed and insured in Miami-Dade County and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment. We serve North Miami Beach and all surrounding Miami-Dade communities."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningNorthMiamiBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning North Miami Beach FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning North Miami Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in North Miami Beach, FL from $108. Licensed & insured. Point East, Ojus, Ives Dairy Road corridor & all neighborhoods. Same-day available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-north-miami-beach"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningNorthMiamiBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">North Miami Beach Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all North Miami Beach neighborhoods:
+              Clean Collective serves all North Miami Beach neighborhoods:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Point East", "Ojus", "Ives Dairy Road corridor", "Oleta River area",
@@ -117,9 +117,9 @@ const HouseCleaningNorthMiamiBeach = () => {
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a North Miami Beach Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Licensed and insured in Miami-Dade", b: "Request the certificate of insurance before any cleaner enters your home. CLEAN COLLECTIVE provides it within minutes of request. If a service hesitates or can't produce one, walk away." },
-                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment — no exceptions." },
-                { t: "Experience with condos and managed buildings", b: "North Miami Beach has a high proportion of condos and managed communities with specific access protocols. CLEAN COLLECTIVE teams are accustomed to building sign-in requirements, visitor parking, and HOA compliance." },
+                { t: "Licensed and insured in Miami-Dade", b: "Request the certificate of insurance before any cleaner enters your home. Clean Collective provides it within minutes of request. If a service hesitates or can't produce one, walk away." },
+                { t: "Background-checked cleaners", b: "Every Clean Collective cleaner passes a criminal background check before their first assignment — no exceptions." },
+                { t: "Experience with condos and managed buildings", b: "North Miami Beach has a high proportion of condos and managed communities with specific access protocols. Clean Collective teams are accustomed to building sign-in requirements, visitor parking, and HOA compliance." },
                 { t: "Consistent teams for recurring clients", b: "Recurring North Miami Beach clients get the same team each visit. You build familiarity, your cleaners learn your preferences, and you stop re-explaining what matters in your home." },
                 { t: "Eco-friendly products", b: "Non-toxic, eco-certified products protect household members with respiratory sensitivities — more common in South Florida's high-humidity environment." },
               ].map(item => (

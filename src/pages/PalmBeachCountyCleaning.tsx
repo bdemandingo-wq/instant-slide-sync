@@ -23,19 +23,19 @@ const services = [
 const faqItems = [
   {
     q: "How much does house cleaning cost in Palm Beach County?",
-    a: "House cleaning in Palm Beach County costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Luxury and waterfront properties may be priced by square footage. CLEAN COLLECTIVE provides instant online quotes for all Palm Beach County cities."
+    a: "House cleaning in Palm Beach County costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Luxury and waterfront properties may be priced by square footage. Clean Collective provides instant online quotes for all Palm Beach County cities."
   },
   {
-    q: "What cities in Palm Beach County does CLEAN COLLECTIVE serve?",
-    a: "CLEAN COLLECTIVE serves all major Palm Beach County cities including Boca Raton, West Palm Beach, Delray Beach, Boynton Beach, Jupiter, Palm Beach Gardens, Lake Worth, Wellington, Royal Palm Beach, and surrounding areas. We cover all of Palm Beach County."
+    q: "What cities in Palm Beach County does Clean Collective serve?",
+    a: "Clean Collective serves all major Palm Beach County cities including Boca Raton, West Palm Beach, Delray Beach, Boynton Beach, Jupiter, Palm Beach Gardens, Lake Worth, Wellington, Royal Palm Beach, and surrounding areas. We cover all of Palm Beach County."
   },
   {
-    q: "Is CLEAN COLLECTIVE licensed and insured in Palm Beach County?",
-    a: "Yes. CLEAN COLLECTIVE is fully licensed and insured in Palm Beach County, Florida. We carry general liability insurance and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment."
+    q: "Is Clean Collective licensed and insured in Palm Beach County?",
+    a: "Yes. Clean Collective is fully licensed and insured in Palm Beach County, Florida. We carry general liability insurance and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment."
   },
   {
     q: "Do you offer seasonal cleaning in Palm Beach County for snowbirds?",
-    a: "Yes. Palm Beach County has one of the largest seasonal populations in Florida. CLEAN COLLECTIVE accommodates snowbird schedules with flexible booking, no long-term contracts, and thorough seasonal deep cleans — both on arrival in the fall and on departure in the spring."
+    a: "Yes. Palm Beach County has one of the largest seasonal populations in Florida. Clean Collective accommodates snowbird schedules with flexible booking, no long-term contracts, and thorough seasonal deep cleans — both on arrival in the fall and on departure in the spring."
   }
 ];
 
@@ -43,7 +43,7 @@ const PalmBeachCountyCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Palm Beach County Cleaning | CLEAN COLLECTIVE"
+        pageTitle="Palm Beach County Cleaning | Clean Collective"
         pageDescription="Top-rated cleaning West Palm Beach & Boca Raton. Licensed & insured. Eco-friendly products. Same-day quotes. Call (561) 571-8725 for 10% off!"
         canonicalUrl="https://www.tidywisecleaning.com/palm-beach-county-cleaning"
         pageType="county"

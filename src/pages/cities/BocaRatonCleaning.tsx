@@ -10,19 +10,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Boca Raton?",
-    a: "House cleaning in Boca Raton costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Country club and luxury homes may be priced based on square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Boca Raton costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Country club and luxury homes may be priced based on square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Boca Raton, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Boca Raton communities including Boca West, Broken Sound, Woodfield Country Club, and Royal Palm Yacht Club. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Boca Raton communities including Boca West, Broken Sound, Woodfield Country Club, and Royal Palm Yacht Club. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Boca Raton country clubs and gated communities?",
-    a: "Yes. CLEAN COLLECTIVE is experienced with country club and gated community access in Boca Raton. Our teams handle visitor gate protocols, parking coordination, and HOA requirements so appointments run smoothly at Boca West, Broken Sound, and similar communities."
+    a: "Yes. Clean Collective is experienced with country club and gated community access in Boca Raton. Our teams handle visitor gate protocols, parking coordination, and HOA requirements so appointments run smoothly at Boca West, Broken Sound, and similar communities."
   },
   {
     q: "Do you offer seasonal cleaning in Boca Raton for snowbirds?",
-    a: "Yes. CLEAN COLLECTIVE accommodates Boca Raton's large seasonal population with flexible scheduling and no long-term contracts. We offer deep cleaning for snowbird arrivals in October/November and a thorough closing clean when you leave for the summer."
+    a: "Yes. Clean Collective accommodates Boca Raton's large seasonal population with flexible scheduling and no long-term contracts. We offer deep cleaning for snowbird arrivals in October/November and a thorough closing clean when you leave for the summer."
   }
 ];
 
@@ -30,7 +30,7 @@ const BocaRatonCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Boca Raton House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Boca Raton House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Top-rated cleaning Boca Raton. Professional house & condo cleaning. Serving Mizner Park, Royal Palm, Boca West. Licensed & insured. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/boca-raton-cleaning"
         pageType="county"
@@ -99,11 +99,11 @@ const BocaRatonCleaning = () => {
           </div>
         </section>
 
-        {/* Why Choose CLEAN COLLECTIVE in Boca Raton */}
+        {/* Why Choose Clean Collective in Boca Raton */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-8">
-              Why Boca Raton Residents Choose CLEAN COLLECTIVE
+              Why Boca Raton Residents Choose Clean Collective
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">
@@ -130,7 +130,7 @@ const BocaRatonCleaning = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Trusted & Vetted</h3>
                 <p className="text-muted-foreground text-sm">
-                  Every CLEAN COLLECTIVE cleaner is background-checked, insured, and trained to handle luxury properties with care and discretion.
+                  Every Clean Collective cleaner is background-checked, insured, and trained to handle luxury properties with care and discretion.
                 </p>
               </div>
             </div>

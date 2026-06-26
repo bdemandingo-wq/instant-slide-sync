@@ -10,15 +10,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Fort Lauderdale?",
-    a: "House cleaning in Fort Lauderdale costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Fort Lauderdale costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Fort Lauderdale, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, and Coral Ridge. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, and Coral Ridge. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Fort Lauderdale condos and waterfront homes?",
-    a: "Yes. CLEAN COLLECTIVE specializes in Fort Lauderdale condo and waterfront home cleaning. Our teams are familiar with Las Olas Isles canal home access, building elevator protocols, and the unique challenges of coastal living."
+    a: "Yes. Clean Collective specializes in Fort Lauderdale condo and waterfront home cleaning. Our teams are familiar with Las Olas Isles canal home access, building elevator protocols, and the unique challenges of coastal living."
   },
   {
     q: "How often should Fort Lauderdale homeowners book professional cleaning?",
@@ -30,7 +30,7 @@ const FortLauderdaleCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Fort Lauderdale House Cleaning | Insured | CLEAN COLLECTIVE"
+        pageTitle="Fort Lauderdale House Cleaning | Insured | Clean Collective"
         pageDescription="Best cleaning in Fort Lauderdale. Licensed & insured house cleaning. Same-day quotes. Serving Las Olas, Victoria Park, Rio Vista. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/fort-lauderdale-cleaning"
         pageType="county"
@@ -99,11 +99,11 @@ const FortLauderdaleCleaning = () => {
           </div>
         </section>
 
-        {/* Why Choose CLEAN COLLECTIVE in Fort Lauderdale */}
+        {/* Why Choose Clean Collective in Fort Lauderdale */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-8">
-              Why Fort Lauderdale Residents Choose CLEAN COLLECTIVE
+              Why Fort Lauderdale Residents Choose Clean Collective
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">

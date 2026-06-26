@@ -37,7 +37,7 @@ Log in to your dashboard to view details.`;
 }
 
 function formatCustomerBookingSms(data: Record<string, unknown>): string {
-  return `CLEAN COLLECTIVE: Thanks ${data.customerName ?? ""}! Your ${data.serviceType ?? "cleaning"} booking for ${data.preferredDate ?? ""} is received. Total: $${data.totalPrice ?? ""}. We'll confirm shortly. Reply STOP to opt out.`;
+  return `Clean Collective: Thanks ${data.customerName ?? ""}! Your ${data.serviceType ?? "cleaning"} booking for ${data.preferredDate ?? ""} is received. Total: $${data.totalPrice ?? ""}. We'll confirm shortly. Reply STOP to opt out.`;
 }
 
 function formatApplicationSms(data: Record<string, unknown>): string {

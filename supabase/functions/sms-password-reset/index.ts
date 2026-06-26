@@ -98,7 +98,7 @@ serve(async (req) => {
           Authorization: OPENPHONE_API_KEY,
         },
         body: JSON.stringify({
-          content: `Your CLEAN COLLECTIVE password reset code is: ${otpCode}\n\nThis code expires in 10 minutes.`,
+          content: `Your Clean Collective password reset code is: ${otpCode}\n\nThis code expires in 10 minutes.`,
           from: OPENPHONE_PHONE_NUMBER_ID,
           to: [normalizedPhone],
         }),

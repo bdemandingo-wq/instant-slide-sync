@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Delray Beach?",
-    a: "House cleaning in Delray Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Seasonal opening and closing cleans start at $208. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Delray Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Seasonal opening and closing cleans start at $208. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Delray Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Delray Beach communities including Mizner Country Club, Polo Club, Lake Ida, and downtown Atlantic Avenue. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Delray Beach communities including Mizner Country Club, Polo Club, Lake Ida, and downtown Atlantic Avenue. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer seasonal cleaning in Delray Beach for snowbirds?",
-    a: "Yes. Many Delray Beach residents are seasonal snowbirds who need reliable cleaning during the winter season and a thorough deep clean before they leave in spring. CLEAN COLLECTIVE accommodates flexible scheduling with no long-term contracts required."
+    a: "Yes. Many Delray Beach residents are seasonal snowbirds who need reliable cleaning during the winter season and a thorough deep clean before they leave in spring. Clean Collective accommodates flexible scheduling with no long-term contracts required."
   },
   {
     q: "Do you service Delray Beach country clubs and gated communities?",
-    a: "Yes. CLEAN COLLECTIVE is experienced with Delray Beach's country club and gated communities including Mizner Country Club, Polo Club, and Gleneagles. Our teams handle visitor gate protocols, parking coordination, and HOA requirements smoothly."
+    a: "Yes. Clean Collective is experienced with Delray Beach's country club and gated communities including Mizner Country Club, Polo Club, and Gleneagles. Our teams handle visitor gate protocols, parking coordination, and HOA requirements smoothly."
   }
 ];
 
@@ -29,8 +29,8 @@ const DelrayBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Delray Beach House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
-        pageDescription="Delray Beach FL professional house cleaning. Atlantic Avenue, Tropic Isle & Lake Ida residents trust CLEAN COLLECTIVE. Recurring or one-time cleans. Get a quote!"
+        pageTitle="Delray Beach House Cleaning | Licensed & Insured | Clean Collective"
+        pageDescription="Delray Beach FL professional house cleaning. Atlantic Avenue, Tropic Isle & Lake Ida residents trust Clean Collective. Recurring or one-time cleans. Get a quote!"
         canonicalUrl="https://www.tidywisecleaning.com/delray-beach-cleaning"
         pageType="county"
         county="Delray Beach"

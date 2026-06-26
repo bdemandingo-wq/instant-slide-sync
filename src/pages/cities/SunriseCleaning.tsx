@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Sunrise?",
-    a: "House cleaning in Sunrise costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Sunrise costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Sunrise, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Sunrise neighborhoods including Sunrise Golf Village, Inverrary, Welleby, Springtree, and North Springs. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Sunrise neighborhoods including Sunrise Golf Village, Inverrary, Welleby, Springtree, and North Springs. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Sunrise?",
-    a: "Yes. CLEAN COLLECTIVE offers weekly, bi-weekly, and monthly recurring cleaning throughout Sunrise. Recurring clients save 5–15% on every visit and receive priority scheduling. Most Sunrise homeowners book bi-weekly service for regular maintenance."
+    a: "Yes. Clean Collective offers weekly, bi-weekly, and monthly recurring cleaning throughout Sunrise. Recurring clients save 5–15% on every visit and receive priority scheduling. Most Sunrise homeowners book bi-weekly service for regular maintenance."
   },
   {
     q: "Do you offer move-in/out cleaning in Sunrise?",
-    a: "Yes. CLEAN COLLECTIVE provides move-in and move-out cleaning throughout Sunrise. Our service covers everything from inside appliances and cabinets to window tracks and baseboards — everything needed to pass a landlord inspection and protect your deposit."
+    a: "Yes. Clean Collective provides move-in and move-out cleaning throughout Sunrise. Our service covers everything from inside appliances and cabinets to window tracks and baseboards — everything needed to pass a landlord inspection and protect your deposit."
   }
 ];
 
@@ -29,7 +29,7 @@ const SunriseCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Sunrise House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Sunrise House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Sunrise FL reliable cleaning near Sawgrass Mills. Sunrise Lakes & Welleby specialists. Weekly maintenance or one-time deep cleans. Get your quote today!"
         canonicalUrl="https://www.tidywisecleaning.com/sunrise-cleaning"
         pageType="county"

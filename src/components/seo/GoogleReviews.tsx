@@ -34,7 +34,7 @@ const GoogleReviews = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 mb-4 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-md px-2 py-1"
-            aria-label="Read all CLEAN COLLECTIVE reviews on Google (opens in a new tab)"
+            aria-label="Read all Clean Collective reviews on Google (opens in a new tab)"
           >
             <img 
               src="https://www.google.com/favicon.ico" 

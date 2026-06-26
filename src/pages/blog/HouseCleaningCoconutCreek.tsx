@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Coconut Creek?",
-    a: "House cleaning in Coconut Creek costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. Coconut Creek's mix of homes and Wynmoor Village condos are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Coconut Creek costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. Coconut Creek's mix of homes and Wynmoor Village condos are priced by square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Coconut Creek, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Coconut Creek communities including Wynmoor Village, Winston Park, Banyan Trails, and Wiles Road corridor. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Coconut Creek communities including Wynmoor Village, Winston Park, Banyan Trails, and Wiles Road corridor. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Wynmoor Village in Coconut Creek?",
-    a: "Yes. CLEAN COLLECTIVE serves Wynmoor Village — one of South Florida's largest active adult communities. Our teams are familiar with Wynmoor's community access procedures, visitor registration, and the consistent, trust-based service that residents expect."
+    a: "Yes. Clean Collective serves Wynmoor Village — one of South Florida's largest active adult communities. Our teams are familiar with Wynmoor's community access procedures, visitor registration, and the consistent, trust-based service that residents expect."
   },
   {
     q: "How often should Coconut Creek homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningCoconutCreek = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Coconut Creek FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Coconut Creek FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Coconut Creek, FL from $108. Licensed & insured. Wynmoor Village, Winston Park, Banyan Trails & all communities. Same-day available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-coconut-creek"
         pageType="blog"
@@ -108,11 +108,11 @@ const HouseCleaningCoconutCreek = () => {
               ))}
             </div>
 
-            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why Coconut Creek Residents Choose CLEAN COLLECTIVE</h2>
+            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why Coconut Creek Residents Choose Clean Collective</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Wynmoor Village specialists", b: "Wynmoor Village is a self-contained active adult community with its own access protocols and community standards. CLEAN COLLECTIVE teams are familiar with visitor registration and can navigate the community efficiently so your appointment starts on time." },
-                { t: "Same team, every visit", b: "Consistency matters more than any other single factor for recurring clients. You shouldn't have to re-explain your preferences every time. CLEAN COLLECTIVE assigns dedicated recurring teams so the relationship builds over time." },
+                { t: "Wynmoor Village specialists", b: "Wynmoor Village is a self-contained active adult community with its own access protocols and community standards. Clean Collective teams are familiar with visitor registration and can navigate the community efficiently so your appointment starts on time." },
+                { t: "Same team, every visit", b: "Consistency matters more than any other single factor for recurring clients. You shouldn't have to re-explain your preferences every time. Clean Collective assigns dedicated recurring teams so the relationship builds over time." },
                 { t: "Licensed and insured in Broward County", b: "Full general liability insurance, certificate available on request within minutes. Background checks on every cleaner. These aren't marketing bullets — they're the baseline for any service you should let into your home." },
                 { t: "Eco-friendly products", b: "Non-toxic, eco-certified products on every service — important for Coconut Creek's health-conscious community and anyone with respiratory concerns." },
               ].map(item => (

@@ -7,20 +7,20 @@ import SEOSchema from "@/components/seo/SEOSchema";
 
 const faqItems = [
   {
-    q: "How does CLEAN COLLECTIVE compare to Molly Maid in South Florida?",
-    a: "CLEAN COLLECTIVE is a locally owned cleaning company based in Deerfield Beach, FL serving Broward, Miami-Dade, and Palm Beach County. Unlike Molly Maid, which is a national franchise, CLEAN COLLECTIVE offers transparent online pricing, same-day quotes, and background-checked cleaners with no franchise fees passed to customers. Standard cleaning starts at $150."
+    q: "How does Clean Collective compare to Molly Maid in South Florida?",
+    a: "Clean Collective is a locally owned cleaning company based in Deerfield Beach, FL serving Broward, Miami-Dade, and Palm Beach County. Unlike Molly Maid, which is a national franchise, Clean Collective offers transparent online pricing, same-day quotes, and background-checked cleaners with no franchise fees passed to customers. Standard cleaning starts at $150."
   },
   {
-    q: "Is CLEAN COLLECTIVE cheaper than Molly Maid?",
-    a: "CLEAN COLLECTIVE offers transparent pricing starting at $150 for standard cleaning, $250 for deep cleaning, and $300 for move in/out cleaning. Molly Maid does not publish pricing online and requires an in-home estimate. Many South Florida customers report CLEAN COLLECTIVE is competitively priced with greater scheduling flexibility."
+    q: "Is Clean Collective cheaper than Molly Maid?",
+    a: "Clean Collective offers transparent pricing starting at $150 for standard cleaning, $250 for deep cleaning, and $300 for move in/out cleaning. Molly Maid does not publish pricing online and requires an in-home estimate. Many South Florida customers report Clean Collective is competitively priced with greater scheduling flexibility."
   },
   {
-    q: "Does CLEAN COLLECTIVE use eco-friendly products like Molly Maid?",
-    a: "Yes. CLEAN COLLECTIVE uses eco-friendly, non-toxic cleaning products that are safe for children and pets — at no extra charge. This is included in every cleaning service."
+    q: "Does Clean Collective use eco-friendly products like Molly Maid?",
+    a: "Yes. Clean Collective uses eco-friendly, non-toxic cleaning products that are safe for children and pets — at no extra charge. This is included in every cleaning service."
   },
   {
-    q: "Can I book CLEAN COLLECTIVE online instead of waiting for an estimate?",
-    a: "Yes. CLEAN COLLECTIVE offers instant online quotes and same-day booking at tidywisecleaning.com. No waiting for an in-home estimate or sales call required."
+    q: "Can I book Clean Collective online instead of waiting for an estimate?",
+    a: "Yes. Clean Collective offers instant online quotes and same-day booking at tidywisecleaning.com. No waiting for an in-home estimate or sales call required."
   }
 ];
 
@@ -41,7 +41,7 @@ const MollyMaidAlternative = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Molly Maid Alternative South Florida | CLEAN COLLECTIVE Cleaning"
+        pageTitle="Molly Maid Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Molly Maid alternative in South Florida. Transparent pricing, same-day booking & eco-friendly cleaning. Fort Lauderdale, Boca Raton, Miami & 40+ cities."
         canonicalUrl="https://www.tidywisecleaning.com/molly-maid-alternative"
         pageType="service"
@@ -63,7 +63,7 @@ const MollyMaidAlternative = () => {
               The Better Molly Maid Alternative in South Florida
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto mb-8">
-              CLEAN COLLECTIVE is a locally owned cleaning company serving Broward, Miami-Dade, and Palm Beach County.
+              Clean Collective is a locally owned cleaning company serving Broward, Miami-Dade, and Palm Beach County.
               Transparent pricing. Instant online booking. No franchise markups. Starting at $150.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -84,16 +84,16 @@ const MollyMaidAlternative = () => {
         {/* Comparison Table */}
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="font-display text-3xl font-bold text-center mb-4">CLEAN COLLECTIVE vs Molly Maid</h2>
+            <h2 className="font-display text-3xl font-bold text-center mb-4">Clean Collective vs Molly Maid</h2>
             <p className="text-center text-muted-foreground mb-10">
-              See why South Florida homeowners choose CLEAN COLLECTIVE over national franchise chains.
+              See why South Florida homeowners choose Clean Collective over national franchise chains.
             </p>
             <div className="rounded-xl border overflow-hidden shadow-sm">
               <table className="w-full text-sm">
                 <thead className="bg-muted">
                   <tr>
                     <th className="text-left px-6 py-4 font-semibold">Feature</th>
-                    <th className="text-center px-6 py-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
+                    <th className="text-center px-6 py-4 font-semibold text-primary">Clean Collective</th>
                     <th className="text-center px-6 py-4 font-semibold text-muted-foreground">Molly Maid</th>
                   </tr>
                 </thead>
@@ -151,7 +151,7 @@ const MollyMaidAlternative = () => {
             <h2 className="font-display text-3xl font-bold mb-6">Why Choose a Local South Florida Cleaner Over a National Franchise?</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                National cleaning franchises like Molly Maid operate through local franchise owners who pay royalty fees — costs that get passed on to you. CLEAN COLLECTIVE is independently owned and operated in Deerfield Beach, FL. Every dollar stays local, and every cleaner is personally vetted by our team.
+                National cleaning franchises like Molly Maid operate through local franchise owners who pay royalty fees — costs that get passed on to you. Clean Collective is independently owned and operated in Deerfield Beach, FL. Every dollar stays local, and every cleaner is personally vetted by our team.
               </p>
               <p>
                 We serve over 40 cities across Broward, Miami-Dade, and Palm Beach County, including{" "}

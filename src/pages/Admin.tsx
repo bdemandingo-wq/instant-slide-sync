@@ -246,8 +246,8 @@ const Admin = () => {
   return (
     <>
       <SEOHead
-        title="Admin Dashboard | CLEAN COLLECTIVE"
-        description="CLEAN COLLECTIVE admin dashboard for managing bookings, applications, and business operations."
+        title="Admin Dashboard | Clean Collective"
+        description="Clean Collective admin dashboard for managing bookings, applications, and business operations."
         canonical="https://www.tidywisecleaning.com/admin"
         noIndex={true}
       />
@@ -256,7 +256,7 @@ const Admin = () => {
       <header className="bg-background border-b border-border sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="CLEAN COLLECTIVE — South Florida house cleaning company logo" className="h-10 w-auto" />
+            <img src={logo} alt="Clean Collective — South Florida house cleaning company logo" className="h-10 w-auto" />
             <span className="font-display text-xl font-bold text-foreground">Admin Dashboard</span>
           </div>
           <Button variant="outline" onClick={handleSignOut}>

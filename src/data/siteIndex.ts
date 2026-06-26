@@ -66,13 +66,13 @@ export const CITY_SERVICE_AREAS: ReadonlyArray<FooterLink> = [
 
 // ---- Group C: Compare Cleaning Services -------------------------------------
 export const COMPARE_CLEANING_SERVICES: ReadonlyArray<FooterLink> = [
-  { name: "CLEAN COLLECTIVE vs Handy",                path: "/handy-alternative" },
-  { name: "CLEAN COLLECTIVE vs Merry Maids",          path: "/merry-maids-alternative" },
-  { name: "CLEAN COLLECTIVE vs Molly Maid",           path: "/molly-maid-alternative" },
-  { name: "CLEAN COLLECTIVE vs The Maids",            path: "/the-maids-alternative" },
-  { name: "CLEAN COLLECTIVE vs The Florida Maid",     path: "/the-florida-maid-alternative" },
-  { name: "CLEAN COLLECTIVE vs TaskRabbit",           path: "/taskrabbit-alternative" },
-  { name: "CLEAN COLLECTIVE vs Amazon Home Services", path: "/amazon-home-services-alternative" },
+  { name: "Clean Collective vs Handy",                path: "/handy-alternative" },
+  { name: "Clean Collective vs Merry Maids",          path: "/merry-maids-alternative" },
+  { name: "Clean Collective vs Molly Maid",           path: "/molly-maid-alternative" },
+  { name: "Clean Collective vs The Maids",            path: "/the-maids-alternative" },
+  { name: "Clean Collective vs The Florida Maid",     path: "/the-florida-maid-alternative" },
+  { name: "Clean Collective vs TaskRabbit",           path: "/taskrabbit-alternative" },
+  { name: "Clean Collective vs Amazon Home Services", path: "/amazon-home-services-alternative" },
   { name: "Compare All Cleaning Services",    path: "/cleaning-service-alternatives" },
 ];
 

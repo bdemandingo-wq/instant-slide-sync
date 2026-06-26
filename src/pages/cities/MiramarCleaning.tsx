@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miramar?",
-    a: "House cleaning in Miramar costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Miramar costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Miramar, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miramar communities including Monarch Lakes, Sunset Lakes, Riviera Isles, Miramar Country Club, and Nautica. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miramar communities including Monarch Lakes, Sunset Lakes, Riviera Isles, Miramar Country Club, and Nautica. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Miramar gated communities and HOA neighborhoods?",
-    a: "Yes. CLEAN COLLECTIVE is experienced with Miramar's gated and HOA communities. Our teams handle visitor gate protocols, parking coordination, and community access requirements so your appointment runs smoothly without any hassle."
+    a: "Yes. Clean Collective is experienced with Miramar's gated and HOA communities. Our teams handle visitor gate protocols, parking coordination, and community access requirements so your appointment runs smoothly without any hassle."
   },
   {
     q: "How often should Miramar homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const MiramarCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Miramar House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Miramar House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Miramar FL affordable house cleaning you can trust. Sunset Lakes, Silver Shores & Riviera Isles. Flexible scheduling. Satisfaction guaranteed!"
         canonicalUrl="https://www.tidywisecleaning.com/miramar-cleaning"
         pageType="county"

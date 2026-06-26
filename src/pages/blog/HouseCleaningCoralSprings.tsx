@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Coral Springs?",
-    a: "House cleaning in Coral Springs costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Coral Springs costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Coral Springs, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Coral Springs neighborhoods including Eagle Trace, Heron Bay, Ramblewood, and North Springs. We are licensed, insured, and background-check all cleaners."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Coral Springs neighborhoods including Eagle Trace, Heron Bay, Ramblewood, and North Springs. We are licensed, insured, and background-check all cleaners."
   },
   {
     q: "How often should Coral Springs homeowners book professional cleaning?",
-    a: "Most Coral Springs homeowners book bi-weekly service to manage South Florida's year-round dust and humidity. Monthly deep cleaning is popular for larger homes. CLEAN COLLECTIVE offers 15% off weekly, 10% off bi-weekly, and 5% off monthly recurring bookings."
+    a: "Most Coral Springs homeowners book bi-weekly service to manage South Florida's year-round dust and humidity. Monthly deep cleaning is popular for larger homes. Clean Collective offers 15% off weekly, 10% off bi-weekly, and 5% off monthly recurring bookings."
   },
   {
     q: "Do you clean Coral Springs condos and townhomes?",
-    a: "Yes. CLEAN COLLECTIVE cleans single-family homes, condos, townhomes, and apartments throughout Coral Springs. Our teams are familiar with HOA building access requirements and handle all residence types."
+    a: "Yes. Clean Collective cleans single-family homes, condos, townhomes, and apartments throughout Coral Springs. Our teams are familiar with HOA building access requirements and handle all residence types."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningCoralSprings = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Coral Springs FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Coral Springs FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Coral Springs, FL from $108. Licensed & insured. Eagle Trace, Heron Bay, Ramblewood & all Coral Springs neighborhoods. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-coral-springs"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningCoralSprings = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Coral Springs Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves every Coral Springs neighborhood, including:
+              Clean Collective serves every Coral Springs neighborhood, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Eagle Trace", "Heron Bay", "Ramblewood", "North Springs", "Coral Springs Country Club",
@@ -128,8 +128,8 @@ const HouseCleaningCoralSprings = () => {
                 { t: "Licensed and insured in Florida", b: "Florida law requires cleaning companies to carry liability insurance. Always ask for the certificate of insurance before letting anyone into your home." },
                 { t: "Background-checked cleaners", b: "Reputable services run criminal background checks on every cleaner. Ask directly — if a company can't answer confidently, look elsewhere." },
                 { t: "Transparent online pricing", b: "Legitimate local cleaners publish rates. If a company won't quote online or over the phone, expect a higher price and a pushy in-home estimate." },
-                { t: "Eco-friendly product options", b: "Many Coral Springs families with young children and pets want non-toxic cleaning products. CLEAN COLLECTIVE uses eco-friendly products as standard." },
-                { t: "Satisfaction guarantee", b: "Look for a free re-clean policy in writing. CLEAN COLLECTIVE re-cleans at no charge if you're not satisfied after any appointment." },
+                { t: "Eco-friendly product options", b: "Many Coral Springs families with young children and pets want non-toxic cleaning products. Clean Collective uses eco-friendly products as standard." },
+                { t: "Satisfaction guarantee", b: "Look for a free re-clean policy in writing. Clean Collective re-cleans at no charge if you're not satisfied after any appointment." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

@@ -36,7 +36,7 @@ const DeepCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Deep Cleaning South Florida | From $250 | CLEAN COLLECTIVE"
+        pageTitle="Deep Cleaning South Florida | From $250 | Clean Collective"
         pageDescription="Professional deep cleaning in South Florida from $250. Baseboards, cabinets, appliances & more. Eco-friendly cleaners. Instant quote online."
         canonicalUrl="https://www.tidywisecleaning.com/deep-cleaning"
         pageType="service"
@@ -175,7 +175,7 @@ const DeepCleaning = () => {
               Ready for a Deep Clean?
             </h2>
             <p className="text-primary-foreground mb-8 max-w-xl mx-auto">
-              Experience the CLEAN COLLECTIVE difference. Serving Broward, Palm Beach, and Miami-Dade counties.
+              Experience the Clean Collective difference. Serving Broward, Palm Beach, and Miami-Dade counties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>

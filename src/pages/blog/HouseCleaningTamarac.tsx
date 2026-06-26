@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Tamarac?",
-    a: "House cleaning in Tamarac costs $108–$300 for standard cleaning, $208–$450 for deep cleaning, and $283–$550 for move in/out cleaning. Tamarac's mix of single-family homes and active adult community condos are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Tamarac costs $108–$300 for standard cleaning, $208–$450 for deep cleaning, and $283–$550 for move in/out cleaning. Tamarac's mix of single-family homes and active adult community condos are priced by square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Tamarac, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Tamarac communities including Kings Point, Heathgate, Mainlands, Woodlands, and Sunflower. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Tamarac communities including Kings Point, Heathgate, Mainlands, Woodlands, and Sunflower. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Tamarac's 55+ and active adult communities?",
-    a: "Yes. CLEAN COLLECTIVE serves Tamarac's large active adult population including Kings Point and other 55+ communities. We provide reliable, consistent service on a schedule that works for residents — same team each visit, building access coordination, and no surprise fees."
+    a: "Yes. Clean Collective serves Tamarac's large active adult population including Kings Point and other 55+ communities. We provide reliable, consistent service on a schedule that works for residents — same team each visit, building access coordination, and no surprise fees."
   },
   {
     q: "Do you offer seasonal cleaning for Tamarac snowbirds?",
-    a: "Yes. Many Tamarac residents in active adult communities spend part of the year out of state. CLEAN COLLECTIVE offers arrival deep cleans, recurring winter service, and departure cleans with no long-term contracts and flexible scheduling."
+    a: "Yes. Many Tamarac residents in active adult communities spend part of the year out of state. Clean Collective offers arrival deep cleans, recurring winter service, and departure cleans with no long-term contracts and flexible scheduling."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningTamarac = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Tamarac FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Tamarac FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Tamarac, FL from $108. Licensed & insured. Kings Point, Heathgate, Mainlands & all Tamarac communities. Active adult community specialists."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-tamarac"
         pageType="blog"
@@ -114,9 +114,9 @@ const HouseCleaningTamarac = () => {
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What Active Adult Residents in Tamarac Need</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Same team every visit", b: "Tamarac's 55+ residents have told us consistently that having a stranger in their home each time is their biggest concern about professional cleaning. CLEAN COLLECTIVE assigns the same dedicated team to recurring clients — you build familiarity and real trust over time." },
-                { t: "Reliable scheduling", b: "For residents on fixed schedules, an unreliable cleaning service is worse than no service. CLEAN COLLECTIVE provides confirmed appointment windows and communicates proactively if anything changes." },
-                { t: "Eco-friendly products for health-conscious residents", b: "Many Tamarac residents have respiratory sensitivities or health conditions that make product choice important. CLEAN COLLECTIVE uses eco-certified, non-toxic products on every service — safe to breathe, safe to be home during." },
+                { t: "Same team every visit", b: "Tamarac's 55+ residents have told us consistently that having a stranger in their home each time is their biggest concern about professional cleaning. Clean Collective assigns the same dedicated team to recurring clients — you build familiarity and real trust over time." },
+                { t: "Reliable scheduling", b: "For residents on fixed schedules, an unreliable cleaning service is worse than no service. Clean Collective provides confirmed appointment windows and communicates proactively if anything changes." },
+                { t: "Eco-friendly products for health-conscious residents", b: "Many Tamarac residents have respiratory sensitivities or health conditions that make product choice important. Clean Collective uses eco-certified, non-toxic products on every service — safe to breathe, safe to be home during." },
                 { t: "Transparent pricing with no surprises", b: "You see the exact price before you book. No in-home estimates, no add-ons sprung at the end of the visit. What's quoted is what's charged." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">

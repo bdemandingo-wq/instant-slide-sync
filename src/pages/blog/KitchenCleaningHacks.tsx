@@ -11,7 +11,7 @@ const KitchenCleaningHacks = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="10 Kitchen Cleaning Hacks That Save Time | CLEAN COLLECTIVE"
+        pageTitle="10 Kitchen Cleaning Hacks That Save Time | Clean Collective"
         pageDescription="Professional kitchen cleaning tips from South Florida's cleaning experts. Make kitchen cleaning faster and easier."
         canonicalUrl="https://www.tidywisecleaning.com/blog/kitchen-cleaning-hacks"
         pageType="blog"
@@ -129,7 +129,7 @@ const KitchenCleaningHacks = () => {
                   Skip the Kitchen Cleaning
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Let CLEAN COLLECTIVE professionals handle your kitchen deep clean. We'll make it sparkle 
+                  Let Clean Collective professionals handle your kitchen deep clean. We'll make it sparkle 
                   while you enjoy your free time!
                 </p>
                 <Link 

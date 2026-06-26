@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Pompano Beach?",
-    a: "House cleaning in Pompano Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant quotes online."
+    a: "House cleaning in Pompano Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective provides instant quotes online."
   },
   {
     q: "Do you clean Airbnb and vacation rentals in Pompano Beach?",
-    a: "Yes. CLEAN COLLECTIVE provides Airbnb turnover cleaning and vacation rental cleaning throughout Pompano Beach. We offer same-day turnovers and can handle linen changes, restocking, and guest-ready preparation. Contact us for a custom quote."
+    a: "Yes. Clean Collective provides Airbnb turnover cleaning and vacation rental cleaning throughout Pompano Beach. We offer same-day turnovers and can handle linen changes, restocking, and guest-ready preparation. Contact us for a custom quote."
   },
   {
-    q: "Are CLEAN COLLECTIVE cleaners licensed and insured in Pompano Beach?",
-    a: "Yes. CLEAN COLLECTIVE is fully licensed and insured in Broward County. Every cleaner is background-checked before their first assignment. We carry general liability insurance and can provide a certificate of insurance on request."
+    q: "Are Clean Collective cleaners licensed and insured in Pompano Beach?",
+    a: "Yes. Clean Collective is fully licensed and insured in Broward County. Every cleaner is background-checked before their first assignment. We carry general liability insurance and can provide a certificate of insurance on request."
   },
   {
     q: "How often should I have my Pompano Beach home cleaned?",
@@ -29,7 +29,7 @@ const HouseCleaningPompanoBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Pompano Beach FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Pompano Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Pompano Beach, FL from $108. Licensed & insured. Lighthouse Point, Cresthaven, Pompano Beach Highlands & all neighborhoods. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-pompano-beach"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningPompanoBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Pompano Beach Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Pompano Beach neighborhoods from the beach to the western suburbs:
+              Clean Collective serves all Pompano Beach neighborhoods from the beach to the western suburbs:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Lighthouse Point", "Cresthaven", "Pompano Beach Highlands", "Crystal Lake",
@@ -119,17 +119,17 @@ const HouseCleaningPompanoBeach = () => {
               Pompano Beach's coastal location creates specific cleaning challenges. Salt air from the Atlantic deposits residue on windows, screens, and exterior-facing surfaces faster than inland homes. Canal-front properties deal with moisture and humidity on their lower floors. And the city's large vacation rental market means many homes need reliable turnover cleaning between guests.
             </p>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE teams are familiar with Pompano Beach's coastal conditions — from protecting stainless steel finishes from salt corrosion to keeping tile grout clean in the humid bathrooms that are common in Florida homes built before 2000.
+              Clean Collective teams are familiar with Pompano Beach's coastal conditions — from protecting stainless steel finishes from salt corrosion to keeping tile grout clean in the humid bathrooms that are common in Florida homes built before 2000.
             </p>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Pompano Beach Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Licensed and insured in Broward County", b: "Florida law requires liability insurance. Ask for the COI — a legitimate service sends it without hesitation." },
-                { t: "Background-checked cleaners", b: "You're giving access to your home. Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first appointment." },
+                { t: "Background-checked cleaners", b: "You're giving access to your home. Every Clean Collective cleaner passes a criminal background check before their first appointment." },
                 { t: "Coastal home experience", b: "Salt air, screen enclosures, and tile-heavy interiors require specific knowledge. Don't assume any cleaner knows how to handle them." },
                 { t: "Transparent pricing", b: "Published rates online mean no surprises. Services that require an in-home estimate before quoting typically price higher." },
-                { t: "Satisfaction guarantee", b: "CLEAN COLLECTIVE re-cleans for free if you're not satisfied — no excuses, no fine print." },
+                { t: "Satisfaction guarantee", b: "Clean Collective re-cleans for free if you're not satisfied — no excuses, no fine print." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

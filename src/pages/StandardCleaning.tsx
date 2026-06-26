@@ -51,7 +51,7 @@ const StandardCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Standard House Cleaning South Florida | From $150 | CLEAN COLLECTIVE"
+        pageTitle="Standard House Cleaning South Florida | From $150 | Clean Collective"
         pageDescription="Affordable house cleaning in Fort Lauderdale, Boca Raton & Miami from $150. Vacuuming, mopping, kitchen & bath cleaning. Book online today!"
         canonicalUrl="https://www.tidywisecleaning.com/standard-cleaning"
         pageType="service"
@@ -224,7 +224,7 @@ const StandardCleaning = () => {
               Ready for Regular Cleaning?
             </h2>
             <p className="text-primary-foreground mb-8 max-w-xl mx-auto">
-              Join hundreds of happy South Florida homeowners who trust CLEAN COLLECTIVE for their cleaning needs.
+              Join hundreds of happy South Florida homeowners who trust Clean Collective for their cleaning needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>

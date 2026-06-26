@@ -5,17 +5,17 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEOSchema from "@/components/seo/SEOSchema";
 
-const PAGE_TITLE = "Best Cleaning Service Alternatives South Florida | CLEAN COLLECTIVE";
-const PAGE_DESCRIPTION = "Compare top cleaning service alternatives in South Florida — Molly Maid, Merry Maids, The Maids, Handy vs CLEAN COLLECTIVE. Transparent pricing from $108. Instant quotes.";
+const PAGE_TITLE = "Best Cleaning Service Alternatives South Florida | Clean Collective";
+const PAGE_DESCRIPTION = "Compare top cleaning service alternatives in South Florida — Molly Maid, Merry Maids, The Maids, Handy vs Clean Collective. Transparent pricing from $108. Instant quotes.";
 
 const faqItems = [
   {
     q: "What are the best alternatives to national cleaning franchises in South Florida?",
-    a: "The best alternatives to Molly Maid, Merry Maids, and The Maids in South Florida are locally owned cleaning companies like CLEAN COLLECTIVE. Local companies offer transparent pricing, consistent teams, and no franchise fees — typically at a lower cost than national chains. CLEAN COLLECTIVE serves 40+ cities across Broward, Miami-Dade, and Palm Beach County with standard cleaning from $150."
+    a: "The best alternatives to Molly Maid, Merry Maids, and The Maids in South Florida are locally owned cleaning companies like Clean Collective. Local companies offer transparent pricing, consistent teams, and no franchise fees — typically at a lower cost than national chains. Clean Collective serves 40+ cities across Broward, Miami-Dade, and Palm Beach County with standard cleaning from $150."
   },
   {
     q: "What should I look for in a house cleaning service in South Florida?",
-    a: "Look for: (1) transparent published pricing, (2) background-checked and insured cleaners, (3) a satisfaction guarantee, (4) eco-friendly product options, (5) flexible scheduling including weekends, and (6) consistent cleaners rather than a rotating crew. CLEAN COLLECTIVE meets all of these criteria."
+    a: "Look for: (1) transparent published pricing, (2) background-checked and insured cleaners, (3) a satisfaction guarantee, (4) eco-friendly product options, (5) flexible scheduling including weekends, and (6) consistent cleaners rather than a rotating crew. Clean Collective meets all of these criteria."
   },
   {
     q: "Is it better to hire a local cleaning company or a national franchise in Florida?",
@@ -23,7 +23,7 @@ const faqItems = [
   },
   {
     q: "How much does house cleaning cost compared to national franchise services in South Florida?",
-    a: "CLEAN COLLECTIVE charges $108–$350 for standard cleaning depending on home size — typically 10–20% less than national franchise estimates, which often require an in-home consultation before quoting. CLEAN COLLECTIVE pricing is published online with no hidden fees."
+    a: "Clean Collective charges $108–$350 for standard cleaning depending on home size — typically 10–20% less than national franchise estimates, which often require an in-home consultation before quoting. Clean Collective pricing is published online with no hidden fees."
   }
 ];
 
@@ -83,7 +83,7 @@ const alternatives = [
     slug: "/amazon-home-services-alternative"
   },
   {
-    name: "CLEAN COLLECTIVE ✓ Recommended",
+    name: "Clean Collective ✓ Recommended",
     type: "Local South Florida Company",
     pricing: "From $108 — published online",
     pros: ["Instant online quotes", "Background-checked employees", "Eco-friendly products", "Satisfaction guarantee", "Locally owned — no franchise fees", "Same-day booking", "Consistent team"],
@@ -120,11 +120,11 @@ const CleaningServiceAlternatives = () => {
               Best House Cleaning Services in South Florida (Honest Comparison)
             </h1>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-8">
-              We compare the most popular cleaning services in Broward, Miami-Dade, and Palm Beach County — including Molly Maid, Merry Maids, The Maids, Handy, and CLEAN COLLECTIVE. Honest pros, cons, and pricing for each.
+              We compare the most popular cleaning services in Broward, Miami-Dade, and Palm Beach County — including Molly Maid, Merry Maids, The Maids, Handy, and Clean Collective. Honest pros, cons, and pricing for each.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link to="/#booking">Get CLEAN COLLECTIVE Quote</Link>
+                <Link to="/#booking">Get Clean Collective Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="tel:+15615718725" className="flex items-center gap-2">
@@ -154,7 +154,7 @@ const CleaningServiceAlternatives = () => {
                 </thead>
                 <tbody>
                   {[
-                    { name: "CLEAN COLLECTIVE", type: "Local Co.", pricing: true, booking: true, eco: true, local: true, highlight: true },
+                    { name: "Clean Collective", type: "Local Co.", pricing: true, booking: true, eco: true, local: true, highlight: true },
                     { name: "Molly Maid", type: "Franchise", pricing: false, booking: false, eco: false, local: false },
                     { name: "Merry Maids", type: "Franchise", pricing: false, booking: false, eco: false, local: false },
                     { name: "The Maids", type: "Franchise", pricing: false, booking: false, eco: false, local: false },
@@ -252,7 +252,7 @@ const CleaningServiceAlternatives = () => {
         {/* Testimonials */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="font-display text-3xl font-bold text-center mb-10">What South Florida Customers Say About CLEAN COLLECTIVE</h2>
+            <h2 className="font-display text-3xl font-bold text-center mb-10">What South Florida Customers Say About Clean Collective</h2>
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 { name: "Ashleigh Craig", location: "Fort Lauderdale", text: "The team arrived on time, fully equipped, and ready to work. They paid attention to every detail — baseboards, windows, inside appliances — nothing was missed." },

@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Lauderhill?",
-    a: "House cleaning in Lauderhill costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Lauderhill costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Lauderhill, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Lauderhill neighborhoods including Inverrary, Lawn Acres, Broadview Park, and City Center. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Lauderhill neighborhoods including Inverrary, Lawn Acres, Broadview Park, and City Center. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer move-in/out cleaning in Lauderhill?",
-    a: "Yes. CLEAN COLLECTIVE provides move-in and move-out cleaning throughout Lauderhill. Our service covers every inch — from inside appliances and window tracks to baseboards and bathroom grout — everything needed to get your security deposit back."
+    a: "Yes. Clean Collective provides move-in and move-out cleaning throughout Lauderhill. Our service covers every inch — from inside appliances and window tracks to baseboards and bathroom grout — everything needed to get your security deposit back."
   },
   {
     q: "How often should Lauderhill homeowners book professional cleaning?",
-    a: "Most Lauderhill homeowners book bi-weekly cleaning to stay on top of South Florida's humidity and dust. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings and priority scheduling for regular clients."
+    a: "Most Lauderhill homeowners book bi-weekly cleaning to stay on top of South Florida's humidity and dust. Clean Collective offers 5–15% discounts on recurring bookings and priority scheduling for regular clients."
   }
 ];
 
@@ -29,7 +29,7 @@ const LauderhillCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Lauderhill House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Lauderhill House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Lauderhill FL budget-friendly cleaning services. Inverrary, Sunrise Golf & Lauderhill Isles. Move in/out cleaning available. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/lauderhill-cleaning"
         pageType="county"

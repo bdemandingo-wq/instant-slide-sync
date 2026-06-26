@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Fort Lauderdale?",
-    a: "House cleaning in Fort Lauderdale costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size (square footage) and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Fort Lauderdale costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size (square footage) and number of bathrooms. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best house cleaning service in Fort Lauderdale?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, Coral Ridge, and Harbor Beach. We are licensed, insured, and background-check all cleaners."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, Coral Ridge, and Harbor Beach. We are licensed, insured, and background-check all cleaners."
   },
   {
     q: "Do house cleaners in Fort Lauderdale need to be licensed?",
-    a: "Yes. In Florida, cleaning companies operating as businesses should be licensed and carry general liability insurance. CLEAN COLLECTIVE is fully licensed and insured in Broward County, protecting your home and belongings during every clean."
+    a: "Yes. In Florida, cleaning companies operating as businesses should be licensed and carry general liability insurance. Clean Collective is fully licensed and insured in Broward County, protecting your home and belongings during every clean."
   },
   {
     q: "How often should I have my Fort Lauderdale home cleaned professionally?",
-    a: "Most Fort Lauderdale homeowners book bi-weekly cleaning to keep homes consistently clean. With South Florida's humidity and dust, monthly deep cleaning is also popular. CLEAN COLLECTIVE offers 15% off weekly, 10% off bi-weekly, and 5% off monthly bookings."
+    a: "Most Fort Lauderdale homeowners book bi-weekly cleaning to keep homes consistently clean. With South Florida's humidity and dust, monthly deep cleaning is also popular. Clean Collective offers 15% off weekly, 10% off bi-weekly, and 5% off monthly bookings."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningFortLauderdale = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Fort Lauderdale FL | CLEAN COLLECTIVE | From $108"
+        pageTitle="House Cleaning Fort Lauderdale FL | Clean Collective | From $108"
         pageDescription="House cleaning in Fort Lauderdale, FL from $118. Licensed & insured. Las Olas, Victoria Park, Coral Ridge & all Fort Lauderdale neighborhoods. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-fort-lauderdale"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningFortLauderdale = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Fort Lauderdale Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves every Fort Lauderdale neighborhood, including:
+              Clean Collective serves every Fort Lauderdale neighborhood, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Las Olas", "Victoria Park", "Rio Vista", "Coral Ridge", "Harbor Beach", "Lauderdale Beach", "Riviera Isles", "Tarpon River", "Sailboat Bend", "Flagler Village", "Colee Hammock", "Sunrise Key", "Lauderdale Isles", "Lake Ridge", "Croissant Park"].map(n => (
@@ -117,7 +117,7 @@ const HouseCleaningFortLauderdale = () => {
               South Florida's humidity and heat accelerate dust, mold growth, and allergen buildup faster than in drier climates. Fort Lauderdale homes near the water also deal with salt air — which can leave residue on surfaces and accelerate wear.
             </p>
             <p className="text-muted-foreground mb-4">
-              Professional cleaning every 2–4 weeks removes allergens, prevents mold on grout and tile, and keeps your home in the condition South Florida's real estate market demands. Many Fort Lauderdale Airbnb and vacation rental hosts book CLEAN COLLECTIVE for same-day turnovers.
+              Professional cleaning every 2–4 weeks removes allergens, prevents mold on grout and tile, and keeps your home in the condition South Florida's real estate market demands. Many Fort Lauderdale Airbnb and vacation rental hosts book Clean Collective for same-day turnovers.
             </p>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Fort Lauderdale Cleaning Service</h2>
@@ -127,7 +127,7 @@ const HouseCleaningFortLauderdale = () => {
                 { t: "Background-checked cleaners", b: "You're inviting people into your home. Reputable services run criminal background checks on every cleaner before their first job." },
                 { t: "Transparent published pricing", b: "Avoid services that won't quote online. Legitimate local cleaners publish rates — if they can't quote without an in-home visit, expect a higher price." },
                 { t: "Eco-friendly product options", b: "In Fort Lauderdale's warm, humid climate, strong chemical cleaners are common but harsh on surfaces and indoor air quality. Ask if non-toxic products are standard or extra." },
-                { t: "Satisfaction guarantee", b: "Look for a free re-clean policy — not just 'we'll talk about it.' CLEAN COLLECTIVE re-cleans for free if you're not satisfied." },
+                { t: "Satisfaction guarantee", b: "Look for a free re-clean policy — not just 'we'll talk about it.' Clean Collective re-cleans for free if you're not satisfied." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

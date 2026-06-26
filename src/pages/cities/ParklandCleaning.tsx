@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Parkland?",
-    a: "House cleaning in Parkland costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Parkland's larger luxury homes may be priced based on square footage. CLEAN COLLECTIVE provides instant online quotes."
+    a: "House cleaning in Parkland costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Parkland's larger luxury homes may be priced based on square footage. Clean Collective provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Parkland, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Parkland communities including Parkland Golf & Country Club, Heron Bay, Watercrest, Parkland Reserve, and Meadow Run. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Parkland communities including Parkland Golf & Country Club, Heron Bay, Watercrest, Parkland Reserve, and Meadow Run. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Parkland Golf & Country Club and gated communities?",
-    a: "Yes. CLEAN COLLECTIVE is experienced with Parkland's gated and country club communities. Our background-checked teams handle gate access, visitor parking, and HOA protocols — delivering high-end results consistent with Parkland's luxury standards."
+    a: "Yes. Clean Collective is experienced with Parkland's gated and country club communities. Our background-checked teams handle gate access, visitor parking, and HOA protocols — delivering high-end results consistent with Parkland's luxury standards."
   },
   {
     q: "How often should Parkland homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const ParklandCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Parkland House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
+        pageTitle="Parkland House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Parkland FL premium estate cleaning. Heron Bay, Parkland Golf & The Estates. Trusted by Parkland's finest homes. Get your custom quote!"
         canonicalUrl="https://www.tidywisecleaning.com/parkland-cleaning"
         pageType="county"

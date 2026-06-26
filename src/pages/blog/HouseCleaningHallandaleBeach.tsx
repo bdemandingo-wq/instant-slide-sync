@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Hallandale Beach?",
-    a: "House cleaning in Hallandale Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Condos and high-rises are priced by square footage. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Hallandale Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Condos and high-rises are priced by square footage. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Hallandale Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Hallandale Beach communities including Golden Isles, Village at Gulfstream Park, Hallandale Beach oceanfront, and Avant-Garde. Licensed, insured, and background-checked."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Hallandale Beach communities including Golden Isles, Village at Gulfstream Park, Hallandale Beach oceanfront, and Avant-Garde. Licensed, insured, and background-checked."
   },
   {
     q: "Do you offer snowbird and seasonal cleaning in Hallandale Beach?",
-    a: "Yes. Hallandale Beach has a significant seasonal population. CLEAN COLLECTIVE accommodates snowbird schedules with arrival deep cleans, recurring winter service, and departure cleans — all with no long-term contracts. Book on your schedule, pause when you leave."
+    a: "Yes. Hallandale Beach has a significant seasonal population. Clean Collective accommodates snowbird schedules with arrival deep cleans, recurring winter service, and departure cleans — all with no long-term contracts. Book on your schedule, pause when you leave."
   },
   {
     q: "Do you clean Hallandale Beach condos and high-rises?",
-    a: "Yes. CLEAN COLLECTIVE is experienced with Hallandale Beach condo and high-rise cleaning. Our teams handle building access protocols, service elevator scheduling, and visitor badge requirements so your appointment starts on time."
+    a: "Yes. Clean Collective is experienced with Hallandale Beach condo and high-rise cleaning. Our teams handle building access protocols, service elevator scheduling, and visitor badge requirements so your appointment starts on time."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningHallandaleBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Hallandale Beach FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Hallandale Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Hallandale Beach, FL from $108. Licensed & insured. Golden Isles, oceanfront condos & all areas. Flexible snowbird schedules."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-hallandale-beach"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningHallandaleBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Hallandale Beach Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Hallandale Beach neighborhoods:
+              Clean Collective serves all Hallandale Beach neighborhoods:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Golden Isles", "Avant-Garde", "Village at Gulfstream Park", "Hallandale Beach oceanfront",
@@ -120,7 +120,7 @@ const HouseCleaningHallandaleBeach = () => {
                 { t: "Coastal salt air on every surface", b: "Hallandale Beach's oceanfront and Intracoastal location means salt film accumulates on windows, screens, balcony railings, and stainless steel faster than inland homes. Our teams remove salt buildup without scratching surfaces." },
                 { t: "Condo and high-rise logistics", b: "Most Hallandale Beach residences are in mid-rise or high-rise buildings with service elevator requirements, visitor sign-in, and building-specific access protocols. We navigate these on every visit." },
                 { t: "Snowbird seasonal scheduling", b: "A significant portion of Hallandale Beach residents are seasonal. We offer arrival deep cleans in fall, regular winter service, and departure cleans in spring — with no long-term contracts and easy pause/resume." },
-                { t: "Short-term rental preparation", b: "Hallandale Beach condos are popular short-term rental properties. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen preparation, and guest-ready cleaning for STR hosts throughout the city." },
+                { t: "Short-term rental preparation", b: "Hallandale Beach condos are popular short-term rental properties. Clean Collective provides same-day Airbnb turnovers, linen preparation, and guest-ready cleaning for STR hosts throughout the city." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

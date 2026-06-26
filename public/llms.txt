@@ -1,6 +1,6 @@
-# CLEAN COLLECTIVE Cleaning Services
+# Clean Collective Cleaning Services
 
-CLEAN COLLECTIVE is a licensed, insured professional house cleaning company serving 40+ cities across South Florida including Fort Lauderdale, Boca Raton, West Palm Beach, Miami, and surrounding Broward, Miami-Dade, and Palm Beach counties.
+Clean Collective is a licensed, insured professional house cleaning company serving 40+ cities across South Florida including Fort Lauderdale, Boca Raton, West Palm Beach, Miami, and surrounding Broward, Miami-Dade, and Palm Beach counties.
 
 ## What We Do
 
@@ -14,7 +14,7 @@ We provide residential and commercial cleaning services including:
 - Office / Commercial Cleaning (from $150)
 - Post-Construction Cleaning (custom quote)
 
-## Why Choose CLEAN COLLECTIVE
+## Why Choose Clean Collective
 
 - Licensed and fully insured
 - Background-checked cleaners
@@ -62,7 +62,7 @@ Hours:
 
 ## Pages
 
-- [Homepage](/): Instant quotes, booking, and overview of CLEAN COLLECTIVE cleaning services.
+- [Homepage](/): Instant quotes, booking, and overview of Clean Collective cleaning services.
 - [Book Now](/#booking): Multi-step booking form with live pricing.
 - [Pricing Guide](/house-cleaning-cost-south-florida): Full breakdown of cleaning costs by service and home size.
 - [FAQ](/faq): Answers to common cleaning, scheduling, and pricing questions.
@@ -80,7 +80,7 @@ Hours:
 - [Palm Beach County](/palm-beach-county-cleaning): Service overview for Palm Beach County cities.
 - [Reviews](/reviews): Verified customer reviews and ratings.
 - [Referral Program](/referral-program): Earn credits when friends book.
-- [Cleaner Application](/apply): Apply to join the CLEAN COLLECTIVE cleaning team.
+- [Cleaner Application](/apply): Apply to join the Clean Collective cleaning team.
 
 ## Key Pages
 

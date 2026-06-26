@@ -11,7 +11,7 @@ const AllergyFreeHomeCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Allergy-Free Home Cleaning Tips | CLEAN COLLECTIVE"
+        pageTitle="Allergy-Free Home Cleaning Tips | Clean Collective"
         pageDescription="Combat Florida's year-round allergens with proper cleaning techniques. Expert tips for allergy sufferers."
         canonicalUrl="https://www.tidywisecleaning.com/blog/allergy-free-home-cleaning"
         pageType="blog"
@@ -107,7 +107,7 @@ const AllergyFreeHomeCleaning = () => {
                   Allergy-Friendly Cleaning Services
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  CLEAN COLLECTIVE offers allergy-conscious cleaning with HEPA vacuums and hypoallergenic products. 
+                  Clean Collective offers allergy-conscious cleaning with HEPA vacuums and hypoallergenic products. 
                   Breathe easier in your South Florida home.
                 </p>
                 <Link 

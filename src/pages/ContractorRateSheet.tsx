@@ -12,8 +12,8 @@ const ContractorRateSheet = () => {
   return (
     <>
       <SEOHead
-        title="Contractor Rate Sheet | CLEAN COLLECTIVE"
-        description="CLEAN COLLECTIVE contractor rate sheet with service pricing for cleaning professionals. Print or save as PDF."
+        title="Contractor Rate Sheet | Clean Collective"
+        description="Clean Collective contractor rate sheet with service pricing for cleaning professionals. Print or save as PDF."
         canonical="https://www.tidywisecleaning.com/contractor-rate-sheet"
       />
     <div className="min-h-screen bg-background">
@@ -34,7 +34,7 @@ const ContractorRateSheet = () => {
         <div className="max-w-3xl mx-auto bg-card border border-border rounded-lg p-8 print:border-0 print:shadow-none print:p-0">
           {/* Header */}
           <div className="text-center border-b border-border pb-6 mb-8">
-            <h1 className="font-display text-4xl font-bold text-primary mb-2">CLEAN COLLECTIVE</h1>
+            <h1 className="font-display text-4xl font-bold text-primary mb-2">Clean Collective</h1>
             <p className="text-lg text-muted-foreground">Professional Cleaning Services</p>
             <div className="flex justify-center gap-6 mt-4 text-sm">
               <a href="tel:5615718725" className="flex items-center gap-1 text-foreground hover:text-primary">

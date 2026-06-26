@@ -1,6 +1,6 @@
-# Pricing — CLEAN COLLECTIVE Cleaning (South Florida)
+# Pricing — Clean Collective Cleaning (South Florida)
 
-CLEAN COLLECTIVE is a licensed and insured professional cleaning service serving South Florida — Broward, Miami-Dade, and Palm Beach County.
+Clean Collective is a licensed and insured professional cleaning service serving South Florida — Broward, Miami-Dade, and Palm Beach County.
 
 Website: https://www.tidywisecleaning.com
 Phone: (561) 571-8725

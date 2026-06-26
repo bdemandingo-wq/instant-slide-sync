@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Boca Raton?",
-    a: "House cleaning in Boca Raton costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Larger estates in Boca West, Broken Sound, or Royal Palm Yacht & Country Club are priced by square footage. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Boca Raton costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Larger estates in Boca West, Broken Sound, or Royal Palm Yacht & Country Club are priced by square footage. Clean Collective provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Boca Raton, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Boca Raton neighborhoods including Boca West Country Club, Broken Sound, Woodfield Country Club, The Sanctuary, Mizner Park, and East Boca. Licensed, insured, and background-checked. Based nearby in Deerfield Beach."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Boca Raton neighborhoods including Boca West Country Club, Broken Sound, Woodfield Country Club, The Sanctuary, Mizner Park, and East Boca. Licensed, insured, and background-checked. Based nearby in Deerfield Beach."
   },
   {
     q: "Do you offer seasonal and snowbird cleaning in Boca Raton?",
-    a: "Yes. Boca Raton has one of Florida's largest seasonal populations. CLEAN COLLECTIVE accommodates snowbird schedules with no long-term contracts — including deep arrival cleans in October/November, recurring service through winter, and departure cleans in April/May. Call or book online for seasonal scheduling."
+    a: "Yes. Boca Raton has one of Florida's largest seasonal populations. Clean Collective accommodates snowbird schedules with no long-term contracts — including deep arrival cleans in October/November, recurring service through winter, and departure cleans in April/May. Call or book online for seasonal scheduling."
   },
   {
-    q: "Can CLEAN COLLECTIVE clean Boca Raton country club and gated communities?",
-    a: "Yes. CLEAN COLLECTIVE is familiar with Boca Raton's gated communities including Boca West, Broken Sound, Woodfield, St. Andrews, and Polo Club. Our teams handle visitor gate check-in, HOA parking, and community access protocols so your appointment starts on time."
+    q: "Can Clean Collective clean Boca Raton country club and gated communities?",
+    a: "Yes. Clean Collective is familiar with Boca Raton's gated communities including Boca West, Broken Sound, Woodfield, St. Andrews, and Polo Club. Our teams handle visitor gate check-in, HOA parking, and community access protocols so your appointment starts on time."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningBocaRaton = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Boca Raton FL | From $108 | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Boca Raton FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Boca Raton, FL from $108. Licensed & insured. Boca West, Broken Sound, Woodfield & all neighborhoods. Snowbird seasonal scheduling available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-boca-raton"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningBocaRaton = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Boca Raton Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE serves all Boca Raton neighborhoods, from East Boca condos to West Boca estates:
+              Clean Collective serves all Boca Raton neighborhoods, from East Boca condos to West Boca estates:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Boca West Country Club", "Broken Sound", "Woodfield Country Club", "The Sanctuary",
@@ -124,7 +124,7 @@ const HouseCleaningBocaRaton = () => {
                 { t: "Arrival deep cleans", b: "A thorough top-to-bottom clean when you return for the season — removing dust accumulation, refreshing bathrooms and kitchen, and getting your home guest-ready quickly." },
                 { t: "Recurring winter service", b: "Weekly or bi-weekly cleaning through the season keeps your home in shape while you're in residence. Same team each time means you don't re-explain preferences every visit." },
                 { t: "Departure cleans", b: "A comprehensive clean before you leave for the summer — so your home is in clean condition while unoccupied and ready for your return the following season." },
-                { t: "No long-term contracts", b: "CLEAN COLLECTIVE doesn't require annual commitments. Book seasonal service on your schedule, pause when you leave, resume when you return." },
+                { t: "No long-term contracts", b: "Clean Collective doesn't require annual commitments. Book seasonal service on your schedule, pause when you leave, resume when you return." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>
@@ -139,8 +139,8 @@ const HouseCleaningBocaRaton = () => {
                 { t: "Experience with luxury homes and estates", b: "Boca Raton's country club homes have custom finishes, natural stone, and premium appliances. Ask specifically what products are used on stone surfaces — standard cleaners can permanently etch marble and travertine." },
                 { t: "Gated community access experience", b: "Boca West, Broken Sound, and Woodfield all require advance visitor registration and security compliance. A service unfamiliar with these procedures can cost you a wasted afternoon." },
                 { t: "Licensed and insured in Palm Beach County", b: "Always request the certificate of insurance before letting any service into a Boca Raton home. A legitimate company provides it within minutes." },
-                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment — especially important when providing access codes or guest passes to gated communities." },
-                { t: "Satisfaction guarantee", b: "CLEAN COLLECTIVE re-cleans for free if you're not satisfied. No fine print." },
+                { t: "Background-checked cleaners", b: "Every Clean Collective cleaner passes a criminal background check before their first assignment — especially important when providing access codes or guest passes to gated communities." },
+                { t: "Satisfaction guarantee", b: "Clean Collective re-cleans for free if you're not satisfied. No fine print." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

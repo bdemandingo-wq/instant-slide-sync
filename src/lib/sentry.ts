@@ -2,7 +2,7 @@
  * Sentry initialization for the marketing/booking site.
  *
  * Web-only (no Capacitor shell here — the iOS app lives in the other
- * repo). Shares a Sentry project with CLEAN COLLECTIVE for now; events are
+ * repo). Shares a Sentry project with Clean Collective for now; events are
  * tagged `app: "clean collective-marketing"` so they're filterable from the
  * SaaS app's errors in the same dashboard.
  */

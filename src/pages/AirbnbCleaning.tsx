@@ -27,7 +27,7 @@ const AirbnbCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Airbnb & Vacation Rental Cleaning | South Florida | CLEAN COLLECTIVE"
+        pageTitle="Airbnb & Vacation Rental Cleaning | South Florida | Clean Collective"
         pageDescription="Airbnb & vacation rental turnover cleaning in South Florida. Same-day turnovers, linen service & checklist-based cleaning for 5-star reviews."
         canonicalUrl="https://www.tidywisecleaning.com/airbnb-cleaning"
       />
@@ -58,7 +58,7 @@ const AirbnbCleaning = () => {
         {/* Benefits */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-center mb-10">Why Hosts Choose CLEAN COLLECTIVE</h2>
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-center mb-10">Why Hosts Choose Clean Collective</h2>
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
               {benefits.map((benefit) => (
                 <div key={benefit} className="flex items-start gap-3 p-4 rounded-lg bg-muted/50">

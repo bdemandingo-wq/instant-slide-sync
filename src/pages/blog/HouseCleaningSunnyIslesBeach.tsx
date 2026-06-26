@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Sunny Isles Beach?",
-    a: "House cleaning in Sunny Isles Beach costs $150–$500 for standard cleaning, $250–$700 for deep cleaning, and $350–$800 for move in/out cleaning. Ultra-luxury towers like Porsche Design Tower, Regalia, and Mansions at Acqualina are priced by unit size and complexity. CLEAN COLLECTIVE provides instant quotes."
+    a: "House cleaning in Sunny Isles Beach costs $150–$500 for standard cleaning, $250–$700 for deep cleaning, and $350–$800 for move in/out cleaning. Ultra-luxury towers like Porsche Design Tower, Regalia, and Mansions at Acqualina are priced by unit size and complexity. Clean Collective provides instant quotes."
   },
   {
     q: "What is the best cleaning service in Sunny Isles Beach, FL?",
-    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves Sunny Isles Beach's premier towers including Porsche Design Tower, Regalia, Jade Ocean, Acqualina, Armani Casa, and Trump Royale. We are licensed, insured, and background-check every cleaner — essential for ultra-luxury buildings."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves Sunny Isles Beach's premier towers including Porsche Design Tower, Regalia, Jade Ocean, Acqualina, Armani Casa, and Trump Royale. We are licensed, insured, and background-check every cleaner — essential for ultra-luxury buildings."
   },
   {
     q: "Do you offer discreet cleaning service in Sunny Isles Beach?",
-    a: "Yes. CLEAN COLLECTIVE understands that Sunny Isles Beach's international clientele values discretion. Our teams operate professionally and quietly in luxury tower settings, respect client privacy, and are trained to work in high-security buildings with minimal disruption."
+    a: "Yes. Clean Collective understands that Sunny Isles Beach's international clientele values discretion. Our teams operate professionally and quietly in luxury tower settings, respect client privacy, and are trained to work in high-security buildings with minimal disruption."
   },
   {
     q: "Can you handle Sunny Isles Beach luxury condo cleaning with white-glove standards?",
-    a: "Yes. CLEAN COLLECTIVE provides the white-glove standards Sunny Isles Beach residents expect. We use professional-grade, surface-appropriate products for marble, exotic stone, custom cabinetry, and designer fixtures. Satisfaction is guaranteed — we re-clean for free if anything falls short."
+    a: "Yes. Clean Collective provides the white-glove standards Sunny Isles Beach residents expect. We use professional-grade, surface-appropriate products for marble, exotic stone, custom cabinetry, and designer fixtures. Satisfaction is guaranteed — we re-clean for free if anything falls short."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningSunnyIslesBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Sunny Isles Beach FL | CLEAN COLLECTIVE"
+        pageTitle="House Cleaning Sunny Isles Beach FL | Clean Collective"
         pageDescription="Luxury house cleaning in Sunny Isles Beach, FL. Ultra-luxury tower specialists. Porsche Design Tower, Regalia & all buildings. White-glove service."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-sunny-isles-beach"
         pageType="blog"
@@ -70,7 +70,7 @@ const HouseCleaningSunnyIslesBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Sunny Isles Beach Towers We Service</h2>
             <p className="text-muted-foreground mb-4">
-              CLEAN COLLECTIVE cleans throughout Sunny Isles Beach's premier luxury towers:
+              Clean Collective cleans throughout Sunny Isles Beach's premier luxury towers:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Porsche Design Tower", "Regalia", "Jade Ocean", "Jade Signature",
@@ -88,7 +88,7 @@ const HouseCleaningSunnyIslesBeach = () => {
               {[
                 { t: "Exotic stone and rare materials", b: "Residences in Porsche Design Tower, Regalia, and similar buildings use imported marble, onyx, rare woods, and designer tile throughout. These require pH-neutral, stone-safe products applied by someone who knows what they're working with. The wrong cleaner on the wrong surface causes permanent damage that no guarantee covers." },
                 { t: "Building security and access protocols", b: "Sunny Isles Beach's ultra-luxury towers have rigorous security — advance scheduling, concierge notification, security escort, and vehicle validation. Our teams navigate these requirements professionally on every visit." },
-                { t: "Discretion and privacy", b: "Sunny Isles Beach's international clientele expects complete discretion. CLEAN COLLECTIVE operates quietly and professionally in high-security settings. Our teams don't discuss clients, buildings, or what they observe inside units." },
+                { t: "Discretion and privacy", b: "Sunny Isles Beach's international clientele expects complete discretion. Clean Collective operates quietly and professionally in high-security settings. Our teams don't discuss clients, buildings, or what they observe inside units." },
                 { t: "Full-floor and penthouse scale", b: "Many Sunny Isles Beach units are 3,000–8,000+ square feet across a single floor. Cleaning at this scale requires a full team working systematically, not a single cleaner cutting corners to finish within budget." },
                 { t: "Ocean exposure and salt residue", b: "Direct Atlantic Ocean exposure means salt film accumulates on every surface that faces the water — floor-to-ceiling glass, outdoor terraces, stainless fixtures. We remove it safely without scratching or streaking." },
               ].map(item => (

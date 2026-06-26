@@ -12,10 +12,10 @@ const TaskRabbitAlternative = () => {
     mainEntity: [
       {
         "@type": "Question",
-        name: "Is CLEAN COLLECTIVE better than TaskRabbit for house cleaning in South Florida?",
+        name: "Is Clean Collective better than TaskRabbit for house cleaning in South Florida?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "For house cleaning specifically in South Florida, CLEAN COLLECTIVE is typically a better choice than TaskRabbit. CLEAN COLLECTIVE offers dedicated cleaning teams (not gig workers), transparent flat-rate pricing, eco-friendly products, liability insurance, and a free re-clean guarantee. TaskRabbit uses individual taskers whose pricing, quality, and insurance coverage vary significantly.",
+          text: "For house cleaning specifically in South Florida, Clean Collective is typically a better choice than TaskRabbit. Clean Collective offers dedicated cleaning teams (not gig workers), transparent flat-rate pricing, eco-friendly products, liability insurance, and a free re-clean guarantee. TaskRabbit uses individual taskers whose pricing, quality, and insurance coverage vary significantly.",
         },
       },
       {
@@ -28,10 +28,10 @@ const TaskRabbitAlternative = () => {
       },
       {
         "@type": "Question",
-        name: "How does CLEAN COLLECTIVE pricing compare to TaskRabbit cleaning?",
+        name: "How does Clean Collective pricing compare to TaskRabbit cleaning?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "CLEAN COLLECTIVE offers flat-rate pricing starting at $118 for a standard clean, with exact prices based on home size. TaskRabbit pricing varies by individual tasker (typically $50-80/hour), making it harder to predict the final cost and easier for costs to escalate. CLEAN COLLECTIVE prices are transparent and fixed — what you see is what you pay.",
+          text: "Clean Collective offers flat-rate pricing starting at $118 for a standard clean, with exact prices based on home size. TaskRabbit pricing varies by individual tasker (typically $50-80/hour), making it harder to predict the final cost and easier for costs to escalate. Clean Collective prices are transparent and fixed — what you see is what you pay.",
         },
       },
     ],
@@ -52,8 +52,8 @@ const TaskRabbitAlternative = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="TaskRabbit Alternative | CLEAN COLLECTIVE House Cleaning"
-        pageDescription="Better than TaskRabbit for house cleaning in South Florida. CLEAN COLLECTIVE: flat-rate pricing, insured dedicated teams & satisfaction guarantee. Compare and book now."
+        pageTitle="TaskRabbit Alternative | Clean Collective House Cleaning"
+        pageDescription="Better than TaskRabbit for house cleaning in South Florida. Clean Collective: flat-rate pricing, insured dedicated teams & satisfaction guarantee. Compare and book now."
         canonicalUrl="https://www.tidywisecleaning.com/taskrabbit-alternative"
         pageType="service"
         additionalSchema={faqSchema}
@@ -89,7 +89,7 @@ const TaskRabbitAlternative = () => {
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">TL;DR — Key Differences</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-primary/5 border border-primary/20 rounded-lg p-5">
-                <h3 className="font-semibold text-foreground mb-3">CLEAN COLLECTIVE</h3>
+                <h3 className="font-semibold text-foreground mb-3">Clean Collective</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Dedicated cleaning-only company</li>
                   <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Flat-rate pricing — no hourly surprises</li>
@@ -124,19 +124,19 @@ const TaskRabbitAlternative = () => {
             <ul className="space-y-4 text-muted-foreground">
               <li className="flex gap-3">
                 <span className="text-primary font-bold mt-0.5">→</span>
-                <div><strong className="text-foreground">Unpredictable pricing.</strong> TaskRabbit charges by the hour. A 2-hour job can become 4 hours if the tasker is slow or thorough — and your final bill doubles. CLEAN COLLECTIVE charges flat rates based on home size, so you know exactly what you'll pay before anyone shows up.</div>
+                <div><strong className="text-foreground">Unpredictable pricing.</strong> TaskRabbit charges by the hour. A 2-hour job can become 4 hours if the tasker is slow or thorough — and your final bill doubles. Clean Collective charges flat rates based on home size, so you know exactly what you'll pay before anyone shows up.</div>
               </li>
               <li className="flex gap-3">
                 <span className="text-primary font-bold mt-0.5">→</span>
-                <div><strong className="text-foreground">Quality varies widely.</strong> Each tasker on TaskRabbit sets their own standards. One might be a professional cleaner; the next might be someone trying to earn side income. CLEAN COLLECTIVE teams are trained cleaning specialists, not generalists.</div>
+                <div><strong className="text-foreground">Quality varies widely.</strong> Each tasker on TaskRabbit sets their own standards. One might be a professional cleaner; the next might be someone trying to earn side income. Clean Collective teams are trained cleaning specialists, not generalists.</div>
               </li>
               <li className="flex gap-3">
                 <span className="text-primary font-bold mt-0.5">→</span>
-                <div><strong className="text-foreground">No guarantee of the same cleaner.</strong> Recurring cleaning works best when the same team learns your home. TaskRabbit can't guarantee consistency. CLEAN COLLECTIVE builds long-term cleaning relationships.</div>
+                <div><strong className="text-foreground">No guarantee of the same cleaner.</strong> Recurring cleaning works best when the same team learns your home. TaskRabbit can't guarantee consistency. Clean Collective builds long-term cleaning relationships.</div>
               </li>
               <li className="flex gap-3">
                 <span className="text-primary font-bold mt-0.5">→</span>
-                <div><strong className="text-foreground">Supply your own products.</strong> Most TaskRabbit cleaners expect you to provide all cleaning supplies. CLEAN COLLECTIVE brings professional eco-friendly products.</div>
+                <div><strong className="text-foreground">Supply your own products.</strong> Most TaskRabbit cleaners expect you to provide all cleaning supplies. Clean Collective brings professional eco-friendly products.</div>
               </li>
             </ul>
           </div>
@@ -153,7 +153,7 @@ const TaskRabbitAlternative = () => {
                 <thead className="bg-card">
                   <tr>
                     <th className="text-left p-4 font-semibold">Feature</th>
-                    <th className="text-center p-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
+                    <th className="text-center p-4 font-semibold text-primary">Clean Collective</th>
                     <th className="text-center p-4 font-semibold text-muted-foreground">TaskRabbit</th>
                   </tr>
                 </thead>
@@ -182,17 +182,17 @@ const TaskRabbitAlternative = () => {
         <section className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-              CLEAN COLLECTIVE Pricing vs TaskRabbit — No Surprises
+              Clean Collective Pricing vs TaskRabbit — No Surprises
             </h2>
             <p className="text-muted-foreground mb-4">
-              TaskRabbit taskers typically charge $50–$80/hour for cleaning. A 3-bedroom home that takes 4 hours = $200–$320, and that estimate can easily increase. CLEAN COLLECTIVE charges flat rates:
+              TaskRabbit taskers typically charge $50–$80/hour for cleaning. A 3-bedroom home that takes 4 hours = $200–$320, and that estimate can easily increase. Clean Collective charges flat rates:
             </p>
             <div className="overflow-x-auto rounded-lg border border-border">
               <table className="w-full text-sm">
                 <thead className="bg-muted">
                   <tr>
                     <th className="text-left p-3 font-semibold">Home Size</th>
-                    <th className="text-left p-3 font-semibold">CLEAN COLLECTIVE Standard</th>
+                    <th className="text-left p-3 font-semibold">Clean Collective Standard</th>
                     <th className="text-left p-3 font-semibold">Typical TaskRabbit*</th>
                   </tr>
                 </thead>
@@ -222,7 +222,7 @@ const TaskRabbitAlternative = () => {
               <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Odd jobs where you want flexibility</li>
             </ul>
             <p className="text-muted-foreground mt-4">
-              For professional <strong>house cleaning</strong> in South Florida — especially recurring cleaning, deep cleans, or move-out cleans — a dedicated cleaning company like CLEAN COLLECTIVE is the better call.
+              For professional <strong>house cleaning</strong> in South Florida — especially recurring cleaning, deep cleans, or move-out cleans — a dedicated cleaning company like Clean Collective is the better call.
             </p>
           </div>
         </section>
