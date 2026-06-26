@@ -11,8 +11,8 @@ const Sitemap = () => {
   const sitemapSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Sitemap | TIDYWISE Cleaning Services",
-    "description": "Complete sitemap for TIDYWISE Cleaning Services. Find all our service pages, city locations, and helpful blog articles.",
+    "name": "Sitemap | CLEAN COLLECTIVE Cleaning Services",
+    "description": "Complete sitemap for CLEAN COLLECTIVE Cleaning Services. Find all our service pages, city locations, and helpful blog articles.",
     "url": `${baseUrl}/sitemap`,
     "mainEntity": {
       "@type": "ItemList",
@@ -174,8 +174,8 @@ const Sitemap = () => {
   return (
     <>
       <SEOHead
-        title="Sitemap | TIDYWISE Cleaning Services"
-        description="Complete sitemap for TIDYWISE Cleaning Services. Find all our service pages, city locations, and helpful blog articles."
+        title="Sitemap | CLEAN COLLECTIVE Cleaning Services"
+        description="Complete sitemap for CLEAN COLLECTIVE Cleaning Services. Find all our service pages, city locations, and helpful blog articles."
         canonical={`${baseUrl}/sitemap`}
         schemaJson={[sitemapSchema, breadcrumbSchema]}
       />
@@ -188,7 +188,7 @@ const Sitemap = () => {
               Sitemap
             </h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Navigate all pages and services offered by TIDYWISE Cleaning Services across South Florida.
+              Navigate all pages and services offered by CLEAN COLLECTIVE Cleaning Services across South Florida.
             </p>
           </div>
         </section>

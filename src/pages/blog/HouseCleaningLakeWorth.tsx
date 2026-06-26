@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Lake Worth?",
-    a: "House cleaning in Lake Worth costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. Lake Worth's mix of historic bungalows, newer builds, and waterfront properties are priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Lake Worth costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. Lake Worth's mix of historic bungalows, newer builds, and waterfront properties are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Lake Worth, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Lake Worth neighborhoods including Lake Worth Beach, Tropical Ridge, College Park, Pinewood, and downtown Lake Worth. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Lake Worth neighborhoods including Lake Worth Beach, Tropical Ridge, College Park, Pinewood, and downtown Lake Worth. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean older and historic homes in Lake Worth?",
-    a: "Yes. Lake Worth has a significant stock of older bungalows and historic homes from the 1920s–1950s. TIDYWISE cleans all home types and ages — we're careful with older finishes, plaster walls, and vintage fixtures that require a gentler approach than newer construction."
+    a: "Yes. Lake Worth has a significant stock of older bungalows and historic homes from the 1920s–1950s. CLEAN COLLECTIVE cleans all home types and ages — we're careful with older finishes, plaster walls, and vintage fixtures that require a gentler approach than newer construction."
   },
   {
     q: "Do you offer move-in and move-out cleaning in Lake Worth?",
-    a: "Yes. Lake Worth's active rental market means frequent turnover. TIDYWISE provides thorough move-in and move-out cleaning — appliances, inside cabinets, windows, baseboards, and bathrooms — to get properties inspection-ready. Book online for prompt availability."
+    a: "Yes. Lake Worth's active rental market means frequent turnover. CLEAN COLLECTIVE provides thorough move-in and move-out cleaning — appliances, inside cabinets, windows, baseboards, and bathrooms — to get properties inspection-ready. Book online for prompt availability."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningLakeWorth = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Lake Worth FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Lake Worth FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Lake Worth, FL from $108. Licensed & insured. Lake Worth Beach, Tropical Ridge, College Park & all neighborhoods. Historic home specialists."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-lake-worth"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningLakeWorth = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Lake Worth Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Lake Worth neighborhoods:
+              CLEAN COLLECTIVE serves all Lake Worth neighborhoods:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Lake Worth Beach", "Tropical Ridge", "College Park", "Pinewood",
@@ -123,8 +123,8 @@ const HouseCleaningLakeWorth = () => {
               {[
                 { t: "Historic bungalows and older construction", b: "Lake Worth has a significant number of homes built in the 1920s through 1950s — plaster walls, hardwood floors, vintage tile, and older fixtures. We clean with appropriate products and techniques that don't damage older materials." },
                 { t: "Waterfront and lagoon properties", b: "Properties along Lake Worth Lagoon and the Intracoastal face salt air and coastal humidity. Windows, screens, and outdoor surfaces require more frequent professional cleaning than inland homes." },
-                { t: "Active rental and arts community", b: "Lake Worth's diverse, creative community includes a high proportion of renters and frequent movers. TIDYWISE's move-in/move-out cleaning service is especially popular here — getting units inspection-ready quickly for both tenants and landlords." },
-                { t: "Eco-friendly products as standard", b: "Lake Worth's community values environmental responsibility. TIDYWISE uses eco-certified, non-toxic products on every service — not an add-on, but standard practice." },
+                { t: "Active rental and arts community", b: "Lake Worth's diverse, creative community includes a high proportion of renters and frequent movers. CLEAN COLLECTIVE's move-in/move-out cleaning service is especially popular here — getting units inspection-ready quickly for both tenants and landlords." },
+                { t: "Eco-friendly products as standard", b: "Lake Worth's community values environmental responsibility. CLEAN COLLECTIVE uses eco-certified, non-toxic products on every service — not an add-on, but standard practice." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

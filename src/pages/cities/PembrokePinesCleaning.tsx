@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Pembroke Pines?",
-    a: "House cleaning in Pembroke Pines costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Pembroke Pines costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Pembroke Pines, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, Pasadena, and Grand Palms. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, Pasadena, and Grand Palms. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Pembroke Pines gated communities and HOA neighborhoods?",
-    a: "Yes. TIDYWISE is experienced with Pembroke Pines' large planned communities. Our teams handle visitor gate protocols, parking coordination, and HOA access requirements — making your appointment hassle-free in any gated community."
+    a: "Yes. CLEAN COLLECTIVE is experienced with Pembroke Pines' large planned communities. Our teams handle visitor gate protocols, parking coordination, and HOA access requirements — making your appointment hassle-free in any gated community."
   },
   {
     q: "Do you clean pool patios and screen enclosures in Pembroke Pines?",
-    a: "Yes. While we do not clean pool water, TIDYWISE does clean pool patios, screen enclosures, and outdoor areas around the pool. Many Pembroke Pines homeowners add outdoor cleaning to their standard or deep cleaning appointment."
+    a: "Yes. While we do not clean pool water, CLEAN COLLECTIVE does clean pool patios, screen enclosures, and outdoor areas around the pool. Many Pembroke Pines homeowners add outdoor cleaning to their standard or deep cleaning appointment."
   }
 ];
 
@@ -29,7 +29,7 @@ const PembrokePinesCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Pembroke Pines House Cleaning | Licensed, Insured | TIDYWISE"
+        pageTitle="Pembroke Pines House Cleaning | Licensed, Insured | CLEAN COLLECTIVE"
         pageDescription="Pembroke Pines cleaning for busy families. Chapel Trail, Silver Lakes & Century Village specialists. Weekly, bi-weekly & deep cleaning. Book your free quote!"
         canonicalUrl="https://www.tidywisecleaning.com/pembroke-pines-cleaning"
         pageType="county"

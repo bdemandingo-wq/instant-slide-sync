@@ -66,7 +66,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-white/90 max-w-xl leading-relaxed">
-              TIDYWISE delivers professional home cleaning across Fort Lauderdale, Boca Raton, West Palm Beach, Miami & 40+ South Florida cities — with transparent pricing, vetted cleaners, and a satisfaction guarantee.
+              CLEAN COLLECTIVE delivers professional home cleaning across Fort Lauderdale, Boca Raton, West Palm Beach, Miami & 40+ South Florida cities — with transparent pricing, vetted cleaners, and a satisfaction guarantee.
             </p>
 
             {/* Trust pills */}

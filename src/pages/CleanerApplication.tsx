@@ -209,7 +209,7 @@ const CleanerApplication = () => {
   return (
     <>
       <SEOHead
-        title="Cleaning Jobs South Florida | Apply Now | TIDYWISE Careers"
+        title="Cleaning Jobs South Florida | Apply Now | CLEAN COLLECTIVE Careers"
         description="Now hiring experienced cleaners in Broward, Miami-Dade & Palm Beach County. Flexible hours, competitive pay, steady recurring clients. Apply today."
         canonical="https://www.tidywisecleaning.com/apply"
       />
@@ -219,8 +219,8 @@ const CleanerApplication = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
-              <img src={logo} alt="TIDYWISE — South Florida house cleaning company logo" className="h-10 w-auto" />
-              <span className="font-display text-xl font-bold text-foreground">TIDYWISE</span>
+              <img src={logo} alt="CLEAN COLLECTIVE — South Florida house cleaning company logo" className="h-10 w-auto" />
+              <span className="font-display text-xl font-bold text-foreground">CLEAN COLLECTIVE</span>
             </Link>
           </div>
         </div>
@@ -237,10 +237,10 @@ const CleanerApplication = () => {
 
         <header className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Apply to Become a TidyWise Cleaner in South Florida
+            Apply to Become a Clean Collective Cleaner in South Florida
           </h1>
           <p className="text-muted-foreground mb-4">
-            TIDYWISE is hiring experienced, reliable cleaning professionals across{" "}
+            CLEAN COLLECTIVE is hiring experienced, reliable cleaning professionals across{" "}
             <Link to="/broward-county-cleaning" className="text-primary hover:underline">Broward County</Link>,{" "}
             <Link to="/miami-dade-cleaning" className="text-primary hover:underline">Miami-Dade County</Link>, and{" "}
             <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline">Palm Beach County</Link>.
@@ -270,7 +270,7 @@ const CleanerApplication = () => {
             <li>References from prior clients or employers</li>
             <li>Strong attention to detail and consistent reliability</li>
           </ul>
-          <h2 className="font-display text-xl font-bold text-foreground mt-6 mb-3">Why Cleaners Choose TIDYWISE</h2>
+          <h2 className="font-display text-xl font-bold text-foreground mt-6 mb-3">Why Cleaners Choose CLEAN COLLECTIVE</h2>
           <p className="text-muted-foreground mb-4">
             Competitive pay, flexible scheduling, and a steady stream of bookings. Our cleaners average more recurring clients than gig platforms because customers love working with the same trusted team. Read about our quality standards on our{" "}
             <Link to="/faq" className="text-primary hover:underline">FAQ page</Link> or see how we compare to{" "}
@@ -282,11 +282,11 @@ const CleanerApplication = () => {
         </header>
 
         <section className="max-w-3xl mx-auto px-4 py-8">
-          <h2 className="text-2xl font-semibold mb-4">Join the TidyWise Cleaning Team</h2>
+          <h2 className="text-2xl font-semibold mb-4">Join the Clean Collective Cleaning Team</h2>
           <p className="mb-4">
-            TidyWise is hiring professional cleaners across South Florida — including Deerfield Beach, Boca Raton, Fort Lauderdale, Pompano Beach, Coral Springs, and surrounding Broward and Palm Beach County areas. We're looking for reliable, detail-oriented cleaners who take pride in their work and want to grow with a fast-growing cleaning company.
+            Clean Collective is hiring professional cleaners across South Florida — including Deerfield Beach, Boca Raton, Fort Lauderdale, Pompano Beach, Coral Springs, and surrounding Broward and Palm Beach County areas. We're looking for reliable, detail-oriented cleaners who take pride in their work and want to grow with a fast-growing cleaning company.
           </p>
-          <h3 className="text-xl font-semibold mt-6 mb-3">Why Cleaners Choose TidyWise</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Why Cleaners Choose Clean Collective</h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li><strong>Competitive pay</strong> — Earn weekly with transparent payment terms</li>
             <li><strong>Flexible scheduling</strong> — Work when you want, where you want</li>
@@ -308,7 +308,7 @@ const CleanerApplication = () => {
           <CardHeader className="text-center">
             <CardTitle className="text-2xl font-display">Application Form</CardTitle>
             <CardDescription>
-              Apply to become a TIDYWISE cleaning professional
+              Apply to become a CLEAN COLLECTIVE cleaning professional
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -516,9 +516,9 @@ const CleanerApplication = () => {
         </Card>
 
         <section className="max-w-3xl mx-auto px-4 py-8 border-t mt-8">
-          <h3 className="text-xl font-semibold mb-4">Learn More About TidyWise</h3>
+          <h3 className="text-xl font-semibold mb-4">Learn More About Clean Collective</h3>
           <ul className="list-disc pl-6 space-y-2">
-            <li><Link to="/" className="text-primary hover:underline">About TidyWise Cleaning Services</Link></li>
+            <li><Link to="/" className="text-primary hover:underline">About Clean Collective Cleaning Services</Link></li>
             <li><Link to="/reviews" className="text-primary hover:underline">See Our 4.9★ Customer Reviews</Link></li>
             <li><Link to="/deerfield-beach-cleaning" className="text-primary hover:underline">Cleaning Services in Deerfield Beach</Link></li>
             <li><Link to="/fort-lauderdale-cleaning" className="text-primary hover:underline">Cleaning Services in Fort Lauderdale</Link></li>

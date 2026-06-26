@@ -100,7 +100,7 @@ const Footer = () => {
               {/* Brand — always visible, no accordion */}
               <div className="lg:col-span-1 mb-6 md:mb-0">
                 <div className="flex items-center gap-2 mb-4">
-                  <span className="font-display text-xl font-bold">TIDYWISE</span>
+                  <span className="font-display text-xl font-bold">CLEAN COLLECTIVE</span>
                 </div>
                 <p className="text-background/70 text-sm mb-2">
                   A Clean Home. A Clear Mind.
@@ -261,7 +261,7 @@ const Footer = () => {
           {/* ── 6. Disclaimer — always visible ───────────────────────── */}
           <section className="border-t border-background/20 pt-6">
             <p className="text-background/50 text-xs text-center max-w-3xl mx-auto">
-              TIDYWISE is a licensed and insured cleaning service operating in
+              CLEAN COLLECTIVE is a licensed and insured cleaning service operating in
               Broward, Miami-Dade, and Palm Beach County, Florida. All cleaners
               are background-checked and professionally trained.
             </p>
@@ -270,7 +270,7 @@ const Footer = () => {
           {/* ── 7. Bottom bar — always visible ───────────────────────── */}
           <div className="border-t border-background/20 pt-6 pb-20 md:pb-16 flex flex-col md:flex-row justify-center md:justify-between items-center gap-4 relative z-50">
             <p className="text-background/70 text-sm">
-              © {new Date().getFullYear()} TIDYWISE Cleaning Services. All rights reserved.
+              © {new Date().getFullYear()} CLEAN COLLECTIVE Cleaning Services. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <Link to="/sitemap" className="text-background/70 hover:text-background transition-colors">

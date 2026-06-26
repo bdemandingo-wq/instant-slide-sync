@@ -79,7 +79,7 @@ const staticBlogPosts: BlogPost[] = [
   {
     slug: "house-cleaning-doral",
     title: "House Cleaning in Doral, FL — Servicio en Español · From $108",
-    excerpt: "TIDYWISE serves Doral's Latin American community in English and Spanish. Newer luxury planned communities, corporate apartments, and STR cleaning near Miami International Airport.",
+    excerpt: "CLEAN COLLECTIVE serves Doral's Latin American community in English and Spanish. Newer luxury planned communities, corporate apartments, and STR cleaning near Miami International Airport.",
     date: "April 2026",
     readTime: "5 min read",
     category: "Local"
@@ -199,7 +199,7 @@ const staticBlogPosts: BlogPost[] = [
   {
     slug: "house-cleaning-hialeah",
     title: "House Cleaning in Hialeah, FL — Servicio en Español · From $108",
-    excerpt: "TIDYWISE serves Hialeah in English and Spanish. Transparent pricing, background-checked cleaners, and eco-friendly products for Miami-Dade's second-largest city.",
+    excerpt: "CLEAN COLLECTIVE serves Hialeah in English and Spanish. Transparent pricing, background-checked cleaners, and eco-friendly products for Miami-Dade's second-largest city.",
     date: "April 2026",
     readTime: "5 min read",
     category: "Local"
@@ -207,7 +207,7 @@ const staticBlogPosts: BlogPost[] = [
   {
     slug: "house-cleaning-deerfield-beach",
     title: "House Cleaning in Deerfield Beach, FL — Your Local Service, From $108",
-    excerpt: "TIDYWISE is headquartered in Deerfield Beach — not a franchise from another city. Faster response times, genuine local knowledge, and a commitment to getting it right in our own community.",
+    excerpt: "CLEAN COLLECTIVE is headquartered in Deerfield Beach — not a franchise from another city. Faster response times, genuine local knowledge, and a commitment to getting it right in our own community.",
     date: "April 2026",
     readTime: "5 min read",
     category: "Local"
@@ -591,8 +591,8 @@ const Blog = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Cleaning Tips & Guides Blog | TIDYWISE South Florida"
-        pageDescription="Expert cleaning tips, guides, and advice for South Florida homeowners. Learn about deep cleaning, pet-friendly cleaning, hurricane prep, and more from TIDYWISE."
+        pageTitle="Cleaning Tips & Guides Blog | CLEAN COLLECTIVE South Florida"
+        pageDescription="Expert cleaning tips, guides, and advice for South Florida homeowners. Learn about deep cleaning, pet-friendly cleaning, hurricane prep, and more from CLEAN COLLECTIVE."
         canonicalUrl="https://www.tidywisecleaning.com/blog"
         pageType="blog"
         county="South Florida"
@@ -775,7 +775,7 @@ const Blog = () => {
               Ready for a Sparkling Clean Home?
             </h2>
             <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-              Let TIDYWISE handle the cleaning while you enjoy your free time. 
+              Let CLEAN COLLECTIVE handle the cleaning while you enjoy your free time. 
               Serving Broward, Palm Beach, and Miami-Dade counties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

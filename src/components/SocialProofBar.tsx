@@ -2,9 +2,9 @@ import { Star, Shield, UserCheck } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const microTestimonials = [
-  '"TIDYWISE has been cleaning my home for 6 months now. Always on time, thorough, and friendly." — Maria G., Fort Lauderdale',
+  '"CLEAN COLLECTIVE has been cleaning my home for 6 months now. Always on time, thorough, and friendly." — Maria G., Fort Lauderdale',
   '"Used their move-out cleaning service and got my full deposit back. Highly recommend!" — Robert T., Boca Raton',
-  '"As a busy mom of 3, TIDYWISE is a lifesaver. The bi-weekly service keeps our home spotless." — Sandra L., Miami Beach',
+  '"As a busy mom of 3, CLEAN COLLECTIVE is a lifesaver. The bi-weekly service keeps our home spotless." — Sandra L., Miami Beach',
   '"Their move-in cleaning was so thorough, my landlord actually complimented it." — David R., Pompano Beach',
   '"Background-checked team made me feel completely at ease. 5 stars." — Jennifer M., Coral Springs',
 ];

@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Lake Worth?",
-    a: "House cleaning in Lake Worth costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Lake Worth costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Lake Worth, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Lake Worth neighborhoods including College Park, Parrot Cove, the Historic Lake Worth Beach area, and South Palm Beach. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Lake Worth neighborhoods including College Park, Parrot Cove, the Historic Lake Worth Beach area, and South Palm Beach. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Lake Worth historic district homes?",
-    a: "Yes. TIDYWISE cleans all Lake Worth property types including vintage bungalows, historic homes in the downtown district, and newer construction. Our teams understand how to clean delicate surfaces and older fixtures without causing damage."
+    a: "Yes. CLEAN COLLECTIVE cleans all Lake Worth property types including vintage bungalows, historic homes in the downtown district, and newer construction. Our teams understand how to clean delicate surfaces and older fixtures without causing damage."
   },
   {
     q: "How often should Lake Worth homeowners book professional cleaning?",
-    a: "Most Lake Worth homeowners book bi-weekly cleaning. The Palm Beach County humidity means dust and allergens build up faster than in drier climates. TIDYWISE offers 5–15% off recurring weekly, bi-weekly, and monthly cleaning."
+    a: "Most Lake Worth homeowners book bi-weekly cleaning. The Palm Beach County humidity means dust and allergens build up faster than in drier climates. CLEAN COLLECTIVE offers 5–15% off recurring weekly, bi-weekly, and monthly cleaning."
   }
 ];
 
@@ -29,7 +29,7 @@ const LakeWorthCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Lake Worth House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Lake Worth House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Lake Worth Beach FL thorough home cleaning. Downtown, Palm Beach Farms & Atlantis area. Affordable rates, background-checked cleaners. Schedule now!"
         canonicalUrl="https://www.tidywisecleaning.com/lake-worth-cleaning"
         pageType="county"

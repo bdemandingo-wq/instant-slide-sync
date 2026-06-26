@@ -10,19 +10,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in West Palm Beach?",
-    a: "House cleaning in West Palm Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in West Palm Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in West Palm Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all West Palm Beach neighborhoods including Clematis, Northwood, El Cid, Flamingo Park, and CityPlace. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all West Palm Beach neighborhoods including Clematis, Northwood, El Cid, Flamingo Park, and CityPlace. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean West Palm Beach condos and historic homes?",
-    a: "Yes. TIDYWISE cleans all West Palm Beach property types including downtown condos, historic properties in El Cid and Old Northwood, and waterfront homes along the Intracoastal. Our teams understand how to clean vintage details and delicate surfaces without causing damage."
+    a: "Yes. CLEAN COLLECTIVE cleans all West Palm Beach property types including downtown condos, historic properties in El Cid and Old Northwood, and waterfront homes along the Intracoastal. Our teams understand how to clean vintage details and delicate surfaces without causing damage."
   },
   {
     q: "Do you offer move-out cleaning in West Palm Beach?",
-    a: "Yes. TIDYWISE provides move-out cleaning throughout West Palm Beach. Our move-out service covers everything from inside the oven and refrigerator to windows and baseboards — everything needed to pass a landlord inspection and protect your security deposit."
+    a: "Yes. CLEAN COLLECTIVE provides move-out cleaning throughout West Palm Beach. Our move-out service covers everything from inside the oven and refrigerator to windows and baseboards — everything needed to pass a landlord inspection and protect your security deposit."
   }
 ];
 
@@ -30,7 +30,7 @@ const WestPalmBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="West Palm Beach House Cleaning | Insured | TIDYWISE"
+        pageTitle="West Palm Beach House Cleaning | Insured | CLEAN COLLECTIVE"
         pageDescription="Professional cleaning West Palm Beach. House & condo cleaning in Clematis, Northwood, El Cid. Licensed & insured. Call (561) 571-8725 for free quote!"
         canonicalUrl="https://www.tidywisecleaning.com/west-palm-beach-cleaning"
         pageType="county"
@@ -102,7 +102,7 @@ const WestPalmBeachCleaning = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-12">
-              Why West Palm Beach Residents Choose TIDYWISE
+              Why West Palm Beach Residents Choose CLEAN COLLECTIVE
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">
@@ -137,7 +137,7 @@ const WestPalmBeachCleaning = () => {
             </h2>
             <div className="max-w-4xl mx-auto prose prose-lg text-muted-foreground">
               <p>
-                TIDYWISE provides comprehensive cleaning services throughout West Palm Beach, from the vibrant 
+                CLEAN COLLECTIVE provides comprehensive cleaning services throughout West Palm Beach, from the vibrant 
                 downtown Clematis Street district to the charming historic neighborhoods of El Cid and Old 
                 Northwood. Our professional team understands the diverse housing stock in WPB, from modern 
                 high-rise condos to beautifully preserved Mediterranean Revival homes.

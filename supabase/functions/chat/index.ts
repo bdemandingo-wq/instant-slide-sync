@@ -77,9 +77,9 @@ serve(async (req) => {
         messages: [
           { 
             role: "system", 
-            content: `You are a helpful AI assistant for TIDYWISE, a professional cleaning service in South Florida. Be friendly, concise, and helpful. Answer questions about cleaning services, booking, and general inquiries.
+            content: `You are a helpful AI assistant for CLEAN COLLECTIVE, a professional cleaning service in South Florida. Be friendly, concise, and helpful. Answer questions about cleaning services, booking, and general inquiries.
 
-TIDYWISE FAQ Knowledge Base:
+CLEAN COLLECTIVE FAQ Knowledge Base:
 
 SERVICES:
 - We offer residential, commercial, deep cleaning, move-in/move-out, and post-construction cleaning.
@@ -122,7 +122,7 @@ SATISFACTION & SUPPORT:
 - You can reach us by phone at (561) 571-8725, email, or through our website.
 - You can view reviews online or request references.
 
-Always be helpful, professional, and encourage users to book a cleaning or contact TIDYWISE for more details.` 
+Always be helpful, professional, and encourage users to book a cleaning or contact CLEAN COLLECTIVE for more details.` 
           },
           ...messages,
         ],

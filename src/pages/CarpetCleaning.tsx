@@ -27,7 +27,7 @@ const CarpetCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Carpet Cleaning Services Near Me | South Florida | TIDYWISE"
+        pageTitle="Carpet Cleaning Services Near Me | South Florida | CLEAN COLLECTIVE"
         pageDescription="Professional carpet cleaning in Broward, Miami-Dade & Palm Beach County. Deep extraction, stain removal & eco-friendly options. Get a custom quote today!"
         canonicalUrl="https://www.tidywisecleaning.com/carpet-cleaning"
         pageType="service"

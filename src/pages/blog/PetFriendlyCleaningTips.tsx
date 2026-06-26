@@ -11,7 +11,7 @@ const PetFriendlyCleaningTips = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Pet-Friendly Cleaning Tips for Florida Homes | TIDYWISE"
+        pageTitle="Pet-Friendly Cleaning Tips for Florida Homes | CLEAN COLLECTIVE"
         pageDescription="Keep your Florida home fresh with pets. Tips for pet hair, odors & stains. Pet-safe products & pro cleaning."
         canonicalUrl="https://www.tidywisecleaning.com/blog/pet-friendly-cleaning-tips"
         pageType="blog"
@@ -103,7 +103,7 @@ const PetFriendlyCleaningTips = () => {
               </ul>
               <p className="text-muted-foreground mb-8">
                 <strong>Safe alternatives:</strong> Vinegar and water solutions, hydrogen peroxide (diluted), 
-                and certified pet-safe cleaning products. At TIDYWISE, we use eco-friendly, pet-safe products 
+                and certified pet-safe cleaning products. At CLEAN COLLECTIVE, we use eco-friendly, pet-safe products 
                 upon request.
               </p>
 
@@ -140,7 +140,7 @@ const PetFriendlyCleaningTips = () => {
                   Pet-Friendly Cleaning Services
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  TIDYWISE loves pets! We serve pet owners across 
+                  CLEAN COLLECTIVE loves pets! We serve pet owners across 
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.

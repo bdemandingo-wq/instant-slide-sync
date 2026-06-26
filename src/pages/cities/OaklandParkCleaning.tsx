@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Oakland Park?",
-    a: "House cleaning in Oakland Park costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Oakland Park costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Oakland Park, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Oakland Park neighborhoods including Jenada Isles, Oakland Park Lakes, Liberty Heights, and North Andrews Gardens. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Oakland Park neighborhoods including Jenada Isles, Oakland Park Lakes, Liberty Heights, and North Andrews Gardens. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer move-in/out cleaning in Oakland Park?",
-    a: "Yes. TIDYWISE provides move-in and move-out cleaning throughout Oakland Park. Our service includes everything from inside appliances and window tracks to baseboards and bathroom grout — everything needed to protect your security deposit."
+    a: "Yes. CLEAN COLLECTIVE provides move-in and move-out cleaning throughout Oakland Park. Our service includes everything from inside appliances and window tracks to baseboards and bathroom grout — everything needed to protect your security deposit."
   },
   {
     q: "How often should Oakland Park homeowners book professional cleaning?",
-    a: "Most Oakland Park homeowners book bi-weekly cleaning for regular upkeep. Monthly deep cleaning helps prevent the buildup that South Florida's humidity and heat accelerate. TIDYWISE offers 5–15% discounts on recurring bookings."
+    a: "Most Oakland Park homeowners book bi-weekly cleaning for regular upkeep. Monthly deep cleaning helps prevent the buildup that South Florida's humidity and heat accelerate. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings."
   }
 ];
 
@@ -29,7 +29,7 @@ const OaklandParkCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Oakland Park House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Oakland Park House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Oakland Park FL trusted residential cleaning. Coral Heights, Lake Ridge & Royal Palm Isles. Move-in, move-out & deep cleaning available. Book now!"
         canonicalUrl="https://www.tidywisecleaning.com/oakland-park-cleaning"
         pageType="county"

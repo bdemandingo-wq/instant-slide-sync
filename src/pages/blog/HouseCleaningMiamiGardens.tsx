@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami Gardens?",
-    a: "House cleaning in Miami Gardens costs $108–$300 for standard cleaning, $208–$450 for deep cleaning, and $283–$550 for move in/out cleaning. Miami Gardens' single-family homes and townhomes are priced by square footage. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Miami Gardens costs $108–$300 for standard cleaning, $208–$450 for deep cleaning, and $283–$550 for move in/out cleaning. Miami Gardens' single-family homes and townhomes are priced by square footage. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Miami Gardens, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Miami Gardens neighborhoods including Norland, Scott Lake, Lake Lucerne, Rolling Oaks, and the Hard Rock Stadium area. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miami Gardens neighborhoods including Norland, Scott Lake, Lake Lucerne, Rolling Oaks, and the Hard Rock Stadium area. We are licensed, insured, and background-check every cleaner."
   },
   {
-    q: "Does TIDYWISE serve Spanish-speaking customers in Miami Gardens?",
-    a: "Yes. TIDYWISE's bilingual team serves Miami Gardens in both English and Spanish. From booking to service to follow-up, you can communicate with us in the language you prefer. Hablamos español."
+    q: "Does CLEAN COLLECTIVE serve Spanish-speaking customers in Miami Gardens?",
+    a: "Yes. CLEAN COLLECTIVE's bilingual team serves Miami Gardens in both English and Spanish. From booking to service to follow-up, you can communicate with us in the language you prefer. Hablamos español."
   },
   {
     q: "Do you offer move-in and move-out cleaning in Miami Gardens?",
-    a: "Yes. Miami Gardens has an active residential market. TIDYWISE provides thorough move-in and move-out cleaning — appliances, inside cabinets, windows, and baseboards — to get properties inspection-ready quickly. Book online for prompt scheduling."
+    a: "Yes. Miami Gardens has an active residential market. CLEAN COLLECTIVE provides thorough move-in and move-out cleaning — appliances, inside cabinets, windows, and baseboards — to get properties inspection-ready quickly. Book online for prompt scheduling."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningMiamiGardens = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Miami Gardens FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Miami Gardens FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Miami Gardens, FL from $108. Bilingual team. Licensed & insured. Norland, Scott Lake, Rolling Oaks & all neighborhoods. Same-day available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-miami-gardens"
         pageType="blog"
@@ -111,8 +111,8 @@ const HouseCleaningMiamiGardens = () => {
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Miami Gardens Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Licensed and insured in Miami-Dade County", b: "Always request the certificate of insurance before any cleaner enters your home. TIDYWISE emails it within minutes of request. If a service hesitates, that's your answer." },
-                { t: "Background-checked cleaners", b: "Every TIDYWISE cleaner passes a criminal background check before their first assignment — no exceptions. Your home and family's safety comes first." },
+                { t: "Licensed and insured in Miami-Dade County", b: "Always request the certificate of insurance before any cleaner enters your home. CLEAN COLLECTIVE emails it within minutes of request. If a service hesitates, that's your answer." },
+                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment — no exceptions. Your home and family's safety comes first." },
                 { t: "Transparent pricing with no surprise fees", b: "You see the exact price before you book. No in-home estimate visits required. No extra charges after the job. What's quoted is what you pay." },
                 { t: "Eco-friendly products safe for families", b: "Non-toxic, eco-certified products protect household members — especially important for families with young children, elderly residents, or anyone with respiratory health concerns." },
                 { t: "Reliable scheduling", b: "Miami Gardens homeowners tell us that reliability — showing up as scheduled, every time — is more important than any other factor when choosing a cleaning service." },

@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in North Miami?",
-    a: "House cleaning in North Miami costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. North Miami's mix of single-family homes, condos, and waterfront properties are priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in North Miami costs $108–$320 for standard cleaning, $208–$480 for deep cleaning, and $283–$580 for move in/out cleaning. North Miami's mix of single-family homes, condos, and waterfront properties are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in North Miami, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all North Miami neighborhoods including Keystone Islands, Biscayne Park, Arch Creek, Sans Souci Estates, and the Biscayne corridor. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all North Miami neighborhoods including Keystone Islands, Biscayne Park, Arch Creek, Sans Souci Estates, and the Biscayne corridor. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Biscayne waterfront homes in North Miami?",
-    a: "Yes. TIDYWISE serves North Miami's Biscayne waterfront and canal-front properties. Salt air and bay exposure create specific cleaning challenges — salt film on windows, screens, and metal surfaces requires regular professional cleaning. Our teams handle it without scratching or damaging surfaces."
+    a: "Yes. CLEAN COLLECTIVE serves North Miami's Biscayne waterfront and canal-front properties. Salt air and bay exposure create specific cleaning challenges — salt film on windows, screens, and metal surfaces requires regular professional cleaning. Our teams handle it without scratching or damaging surfaces."
   },
   {
     q: "Do you offer move-in and move-out cleaning in North Miami?",
-    a: "Yes. North Miami has an active rental market with frequent tenant turnover. TIDYWISE provides thorough move-in and move-out cleaning — appliances, inside cabinets, windows, and baseboards — to get units inspection-ready. Book online for same-week availability."
+    a: "Yes. North Miami has an active rental market with frequent tenant turnover. CLEAN COLLECTIVE provides thorough move-in and move-out cleaning — appliances, inside cabinets, windows, and baseboards — to get units inspection-ready. Book online for same-week availability."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningNorthMiami = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning North Miami FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning North Miami FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in North Miami, FL from $108. Licensed & insured. Keystone Islands, Biscayne Park, Sans Souci & all neighborhoods. Move-in/out specialists."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-north-miami"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningNorthMiami = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">North Miami Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all North Miami neighborhoods:
+              CLEAN COLLECTIVE serves all North Miami neighborhoods:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Keystone Islands", "Biscayne Park", "Sans Souci Estates", "Arch Creek",
@@ -118,8 +118,8 @@ const HouseCleaningNorthMiami = () => {
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Licensed and insured in Miami-Dade County", b: "Always request the certificate of insurance before letting any cleaning service into your home. A legitimate company provides it immediately. Never skip this step regardless of how the service was recommended." },
-                { t: "Background-checked cleaners", b: "Every TIDYWISE cleaner passes a criminal background check before their first assignment. In a city with an active rental market and frequent move cycles, trust in who you're letting in matters." },
-                { t: "Transparent online pricing", b: "If a cleaning company won't give you a price without coming to your home first, the price is almost always higher than what transparent services publish. TIDYWISE shows exact pricing online — no in-home visits required." },
+                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment. In a city with an active rental market and frequent move cycles, trust in who you're letting in matters." },
+                { t: "Transparent online pricing", b: "If a cleaning company won't give you a price without coming to your home first, the price is almost always higher than what transparent services publish. CLEAN COLLECTIVE shows exact pricing online — no in-home visits required." },
                 { t: "Waterfront and coastal experience", b: "North Miami's Biscayne and canal-front properties face salt air challenges that inland homes don't. Ask specifically whether a service has experience with coastal cleaning before booking." },
                 { t: "Eco-friendly products", b: "Non-toxic, eco-certified products protect the health of your household — especially important for families with children, elderly residents, or respiratory sensitivities." },
               ].map(item => (

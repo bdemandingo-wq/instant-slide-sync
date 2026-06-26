@@ -9,7 +9,7 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does deep cleaning cost in Miami?",
-    a: "Deep cleaning in Miami costs $208–$500 depending on home size. A 1-bedroom home or condo starts at $208. A 3-bedroom home runs $350–$430. A 4+ bedroom home or larger condo can reach $500. TIDYWISE provides instant online quotes with transparent pricing."
+    a: "Deep cleaning in Miami costs $208–$500 depending on home size. A 1-bedroom home or condo starts at $208. A 3-bedroom home runs $350–$430. A 4+ bedroom home or larger condo can reach $500. CLEAN COLLECTIVE provides instant online quotes with transparent pricing."
   },
   {
     q: "What does a deep cleaning include in Miami?",
@@ -20,8 +20,8 @@ const faqItems = [
     a: "Miami's humidity and heat accelerate dust, allergen, and mold buildup. Most Miami homeowners benefit from a deep cleaning every 3–6 months in addition to regular standard cleanings. First-time customers often start with a deep clean before switching to bi-weekly standard cleanings."
   },
   {
-    q: "Does TIDYWISE serve all Miami neighborhoods for deep cleaning?",
-    a: "Yes. TIDYWISE serves all Miami neighborhoods including Brickell, Coconut Grove, Coral Gables, Wynwood, South Beach, Little Havana, Edgewater, and surrounding Miami-Dade County cities. Call (561) 571-8725 to confirm your area."
+    q: "Does CLEAN COLLECTIVE serve all Miami neighborhoods for deep cleaning?",
+    a: "Yes. CLEAN COLLECTIVE serves all Miami neighborhoods including Brickell, Coconut Grove, Coral Gables, Wynwood, South Beach, Little Havana, Edgewater, and surrounding Miami-Dade County cities. Call (561) 571-8725 to confirm your area."
   }
 ];
 
@@ -29,7 +29,7 @@ const DeepCleaningServiceMiami = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Deep Cleaning Service Miami FL | TIDYWISE | From $208"
+        pageTitle="Deep Cleaning Service Miami FL | CLEAN COLLECTIVE | From $208"
         pageDescription="Deep cleaning in Miami, FL from $208. Licensed & insured. Brickell, Coral Gables, Coconut Grove & all Miami neighborhoods. Instant quote. 4.9 stars."
         canonicalUrl="https://www.tidywisecleaning.com/blog/deep-cleaning-service-miami"
         pageType="blog"

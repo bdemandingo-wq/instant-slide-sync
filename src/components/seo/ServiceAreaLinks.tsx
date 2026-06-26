@@ -28,7 +28,7 @@ const ServiceAreaLinks = () => {
             Professional Cleaning Services Near You
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            TIDYWISE provides <Link to="/broward-county-cleaning" className="text-primary hover:underline">Broward County cleaning services</Link>, 
+            CLEAN COLLECTIVE provides <Link to="/broward-county-cleaning" className="text-primary hover:underline">Broward County cleaning services</Link>, 
             <Link to="/miami-dade-cleaning" className="text-primary hover:underline ml-1">Miami-Dade cleaning services</Link>, and 
             <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline ml-1">Palm Beach County cleaning services</Link>. 
             Licensed, insured, and ready to transform your space.

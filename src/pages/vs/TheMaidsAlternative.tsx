@@ -7,41 +7,41 @@ import SEOSchema from "@/components/seo/SEOSchema";
 
 const faqItems = [
   {
-    q: "How does TIDYWISE compare to The Maids in South Florida?",
-    a: "TIDYWISE is a locally owned South Florida cleaning company based in Deerfield Beach, FL. Unlike The Maids, which is a national franchise using a 22-step cleaning system with team rotations, TIDYWISE offers transparent online pricing, same-day booking, and dedicated cleaners who get to know your home. Standard cleaning starts at $150 with no franchise fees added to your price."
+    q: "How does CLEAN COLLECTIVE compare to The Maids in South Florida?",
+    a: "CLEAN COLLECTIVE is a locally owned South Florida cleaning company based in Deerfield Beach, FL. Unlike The Maids, which is a national franchise using a 22-step cleaning system with team rotations, CLEAN COLLECTIVE offers transparent online pricing, same-day booking, and dedicated cleaners who get to know your home. Standard cleaning starts at $150 with no franchise fees added to your price."
   },
   {
-    q: "Is TIDYWISE more affordable than The Maids?",
-    a: "TIDYWISE publishes pricing online — standard cleaning from $150, deep cleaning from $250, and move in/out from $300. The Maids does not publish pricing and requires an in-home estimate. TIDYWISE customers avoid franchise royalty fees that national chains pass on in their pricing."
+    q: "Is CLEAN COLLECTIVE more affordable than The Maids?",
+    a: "CLEAN COLLECTIVE publishes pricing online — standard cleaning from $150, deep cleaning from $250, and move in/out from $300. The Maids does not publish pricing and requires an in-home estimate. CLEAN COLLECTIVE customers avoid franchise royalty fees that national chains pass on in their pricing."
   },
   {
-    q: "Does TIDYWISE use a team or a single cleaner?",
-    a: "TIDYWISE sends a dedicated team to your home for thorough, efficient cleaning. Unlike The Maids' rotating team system where you may get a different crew each visit, TIDYWISE aims to send consistent cleaners who know your preferences and your home."
+    q: "Does CLEAN COLLECTIVE use a team or a single cleaner?",
+    a: "CLEAN COLLECTIVE sends a dedicated team to your home for thorough, efficient cleaning. Unlike The Maids' rotating team system where you may get a different crew each visit, CLEAN COLLECTIVE aims to send consistent cleaners who know your preferences and your home."
   },
   {
-    q: "What South Florida areas does TIDYWISE cover as a The Maids alternative?",
-    a: "TIDYWISE serves 40+ cities across Broward County (Fort Lauderdale, Hollywood, Coral Springs), Miami-Dade County (Miami, Hialeah, Coral Gables, Aventura), and Palm Beach County (Boca Raton, West Palm Beach, Delray Beach, Jupiter). Call (561) 571-8725 to confirm your area."
+    q: "What South Florida areas does CLEAN COLLECTIVE cover as a The Maids alternative?",
+    a: "CLEAN COLLECTIVE serves 40+ cities across Broward County (Fort Lauderdale, Hollywood, Coral Springs), Miami-Dade County (Miami, Hialeah, Coral Gables, Aventura), and Palm Beach County (Boca Raton, West Palm Beach, Delray Beach, Jupiter). Call (561) 571-8725 to confirm your area."
   }
 ];
 
 const comparisonRows = [
-  { feature: "Published pricing online", tidywise: true, competitor: false },
-  { feature: "Instant online booking", tidywise: true, competitor: false },
-  { feature: "Same-day availability", tidywise: true, competitor: false },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Satisfaction guarantee", tidywise: true, competitor: true },
-  { feature: "Locally owned (South Florida)", tidywise: true, competitor: false },
-  { feature: "No franchise fees in pricing", tidywise: true, competitor: false },
-  { feature: "Consistent team per home", tidywise: true, competitor: false },
-  { feature: "Recurring discounts up to 15%", tidywise: true, competitor: false },
+  { feature: "Published pricing online", clean collective: true, competitor: false },
+  { feature: "Instant online booking", clean collective: true, competitor: false },
+  { feature: "Same-day availability", clean collective: true, competitor: false },
+  { feature: "Eco-friendly products included", clean collective: true, competitor: false },
+  { feature: "Background-checked cleaners", clean collective: true, competitor: true },
+  { feature: "Satisfaction guarantee", clean collective: true, competitor: true },
+  { feature: "Locally owned (South Florida)", clean collective: true, competitor: false },
+  { feature: "No franchise fees in pricing", clean collective: true, competitor: false },
+  { feature: "Consistent team per home", clean collective: true, competitor: false },
+  { feature: "Recurring discounts up to 15%", clean collective: true, competitor: false },
 ];
 
 const TheMaidsAlternative = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="The Maids Alternative South Florida | TIDYWISE Cleaning"
+        pageTitle="The Maids Alternative South Florida | CLEAN COLLECTIVE Cleaning"
         pageDescription="Best The Maids alternative in South Florida. Transparent pricing from $118, instant booking, same team every visit. Fort Lauderdale, Miami, Boca Raton."
         canonicalUrl="https://www.tidywisecleaning.com/the-maids-alternative"
         pageType="service"
@@ -63,7 +63,7 @@ const TheMaidsAlternative = () => {
               The Better The Maids Alternative in South Florida
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto mb-8">
-              TIDYWISE delivers consistent, professional cleaning without the franchise markups or rotating crews.
+              CLEAN COLLECTIVE delivers consistent, professional cleaning without the franchise markups or rotating crews.
               Transparent pricing. Instant booking. Dedicated cleaners who know your home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -83,7 +83,7 @@ const TheMaidsAlternative = () => {
 
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="font-display text-3xl font-bold text-center mb-4">TIDYWISE vs The Maids</h2>
+            <h2 className="font-display text-3xl font-bold text-center mb-4">CLEAN COLLECTIVE vs The Maids</h2>
             <p className="text-center text-muted-foreground mb-10">
               A direct comparison of what you get with each service.
             </p>
@@ -92,7 +92,7 @@ const TheMaidsAlternative = () => {
                 <thead className="bg-muted">
                   <tr>
                     <th className="text-left px-6 py-4 font-semibold">Feature</th>
-                    <th className="text-center px-6 py-4 font-semibold text-primary">TIDYWISE</th>
+                    <th className="text-center px-6 py-4 font-semibold text-primary">CLEAN COLLECTIVE</th>
                     <th className="text-center px-6 py-4 font-semibold text-muted-foreground">The Maids</th>
                   </tr>
                 </thead>
@@ -101,7 +101,7 @@ const TheMaidsAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise
+                        {row.clean collective
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
@@ -123,13 +123,13 @@ const TheMaidsAlternative = () => {
             <h2 className="font-display text-3xl font-bold mb-6">Why South Florida Homeowners Are Switching</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                The Maids operates through a franchise system, which means the local franchise owner pays royalties to the national brand — costs that ultimately get passed to you as the customer. TIDYWISE is independently owned and operated in Deerfield Beach, FL, keeping prices lean and accountability local.
+                The Maids operates through a franchise system, which means the local franchise owner pays royalties to the national brand — costs that ultimately get passed to you as the customer. CLEAN COLLECTIVE is independently owned and operated in Deerfield Beach, FL, keeping prices lean and accountability local.
               </p>
               <p>
-                The Maids is known for their "22-step cleaning system" with rotating teams. While systematic, this means a different crew each visit — nobody who knows where your breakables are, your pet's name, or that you prefer unscented products. TIDYWISE prioritizes consistency: the same cleaners, learning your preferences over time.
+                The Maids is known for their "22-step cleaning system" with rotating teams. While systematic, this means a different crew each visit — nobody who knows where your breakables are, your pet's name, or that you prefer unscented products. CLEAN COLLECTIVE prioritizes consistency: the same cleaners, learning your preferences over time.
               </p>
               <p>
-                Most importantly: TIDYWISE shows you pricing upfront. Standard cleaning from $150, deep cleaning from $250, move in/out from $300. Book online in minutes — no waiting for an in-home estimate.
+                Most importantly: CLEAN COLLECTIVE shows you pricing upfront. Standard cleaning from $150, deep cleaning from $250, move in/out from $300. Book online in minutes — no waiting for an in-home estimate.
               </p>
             </div>
           </div>

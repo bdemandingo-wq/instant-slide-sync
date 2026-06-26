@@ -11,7 +11,7 @@ const PalmBeachSeasonalDiscounts = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Seasonal Cleaning Discounts Palm Beach 2025 | TIDYWISE"
+        pageTitle="Seasonal Cleaning Discounts Palm Beach 2025 | CLEAN COLLECTIVE"
         pageDescription="Palm Beach County seasonal cleaning discounts 2025. Save 10-20% on cleaning in West Palm Beach, Boca Raton, Jupiter. Limited time offers. Book now!"
         canonicalUrl="https://www.tidywisecleaning.com/blog/palm-beach-seasonal-discounts"
         pageType="blog"
@@ -84,7 +84,7 @@ const PalmBeachSeasonalDiscounts = () => {
                 Snowbird Season Specials (October-April)
               </h2>
               <p className="text-muted-foreground mb-6">
-                Returning to your Palm Beach property for the season? TIDYWISE offers special rates for 
+                Returning to your Palm Beach property for the season? CLEAN COLLECTIVE offers special rates for 
                 seasonal residents in Boca Raton, Jupiter, and West Palm Beach. This includes:
               </p>
               <ul className="space-y-2 text-muted-foreground mb-8">

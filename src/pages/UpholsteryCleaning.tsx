@@ -36,7 +36,7 @@ const UpholsteryCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Upholstery Cleaning Near Me | South Florida | TIDYWISE"
+        pageTitle="Upholstery Cleaning Near Me | South Florida | CLEAN COLLECTIVE"
         pageDescription="Professional upholstery and furniture cleaning in Broward, Miami-Dade & Palm Beach County. Sofa, chair & fabric cleaning. Get a custom quote today!"
         canonicalUrl="https://www.tidywisecleaning.com/upholstery-cleaning"
         pageType="service"

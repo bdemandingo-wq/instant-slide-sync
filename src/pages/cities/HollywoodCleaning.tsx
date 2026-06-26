@@ -10,15 +10,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Hollywood, FL?",
-    a: "House cleaning in Hollywood, FL costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Hollywood, FL costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Hollywood, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Hollywood neighborhoods including Hollywood Beach, Emerald Hills, Oakwood, Hollywood Hills, and Hollywood Lakes. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Hollywood neighborhoods including Hollywood Beach, Emerald Hills, Oakwood, Hollywood Hills, and Hollywood Lakes. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Hollywood Beach condos and waterfront properties?",
-    a: "Yes. TIDYWISE specializes in Hollywood Beach condo and waterfront property cleaning. Our teams handle beach-area challenges including sand removal, salt air residue on windows and stainless steel, and humidity-related buildup in ground-floor units."
+    a: "Yes. CLEAN COLLECTIVE specializes in Hollywood Beach condo and waterfront property cleaning. Our teams handle beach-area challenges including sand removal, salt air residue on windows and stainless steel, and humidity-related buildup in ground-floor units."
   },
   {
     q: "How often should Hollywood FL homeowners book professional cleaning?",
@@ -30,7 +30,7 @@ const HollywoodCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Hollywood House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Hollywood House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Trusted house cleaning Hollywood FL. Serving Hollywood Beach, Emerald Hills, Oakwood. Licensed & insured. Same-day quotes. Call (561) 571-8725!"
         canonicalUrl="https://www.tidywisecleaning.com/hollywood-cleaning"
         pageType="county"
@@ -102,7 +102,7 @@ const HollywoodCleaning = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-12">
-              Why Hollywood Residents Choose TIDYWISE
+              Why Hollywood Residents Choose CLEAN COLLECTIVE
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">
@@ -137,7 +137,7 @@ const HollywoodCleaning = () => {
             </h2>
             <div className="max-w-4xl mx-auto prose prose-lg text-muted-foreground">
               <p>
-                TIDYWISE delivers professional cleaning services across Hollywood, Florida—from the famous Hollywood Beach 
+                CLEAN COLLECTIVE delivers professional cleaning services across Hollywood, Florida—from the famous Hollywood Beach 
                 Broadwalk to the upscale neighborhoods of Emerald Hills and Hollywood Hills. Our experienced team 
                 understands the diverse housing in Hollywood, from waterfront condos to family homes in established 
                 neighborhoods.

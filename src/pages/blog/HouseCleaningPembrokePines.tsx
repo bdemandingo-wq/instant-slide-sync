@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Pembroke Pines?",
-    a: "House cleaning in Pembroke Pines costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Pembroke Pines costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Pembroke Pines, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, and Pasadena. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, and Pasadena. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Pembroke Pines?",
-    a: "Yes. TIDYWISE offers weekly, bi-weekly, and monthly recurring cleaning throughout Pembroke Pines. Recurring clients save 5–15% on every visit and get priority scheduling. Most families in Pembroke Pines book bi-weekly service."
+    a: "Yes. CLEAN COLLECTIVE offers weekly, bi-weekly, and monthly recurring cleaning throughout Pembroke Pines. Recurring clients save 5–15% on every visit and get priority scheduling. Most families in Pembroke Pines book bi-weekly service."
   },
   {
     q: "Do you clean Pembroke Pines homes with pools?",
@@ -29,7 +29,7 @@ const HouseCleaningPembrokePines = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Pembroke Pines FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Pembroke Pines FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Pembroke Pines, FL from $108. Licensed & insured. Chapel Trail, Silver Lakes, Pembroke Falls & all Pembroke Pines communities. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-pembroke-pines"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningPembrokePines = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Pembroke Pines Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Pembroke Pines neighborhoods and planned communities, including:
+              CLEAN COLLECTIVE serves all Pembroke Pines neighborhoods and planned communities, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Chapel Trail", "Silver Lakes", "Pembroke Falls", "Pasadena", "Grand Palms",
@@ -126,10 +126,10 @@ const HouseCleaningPembrokePines = () => {
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Licensed and insured in Florida", b: "Always ask for the certificate of insurance. A legitimate cleaning company can email it to you within minutes." },
-                { t: "Background-checked cleaners", b: "Pembroke Pines's large pool homes and gated communities mean you're trusting cleaners with significant property. Every TIDYWISE cleaner is background-checked before their first job." },
+                { t: "Background-checked cleaners", b: "Pembroke Pines's large pool homes and gated communities mean you're trusting cleaners with significant property. Every CLEAN COLLECTIVE cleaner is background-checked before their first job." },
                 { t: "Transparent pricing online", b: "Published rates signal a legitimate operation. If they won't quote without an in-home visit, the price is likely negotiated upward." },
-                { t: "Community and HOA experience", b: "Many Pembroke Pines communities have parking and access requirements. TIDYWISE teams know how to navigate gate access, visitor parking, and building rules." },
-                { t: "Satisfaction guarantee", b: "TIDYWISE re-cleans for free if you're not satisfied — no hassle, no fine print." },
+                { t: "Community and HOA experience", b: "Many Pembroke Pines communities have parking and access requirements. CLEAN COLLECTIVE teams know how to navigate gate access, visitor parking, and building rules." },
+                { t: "Satisfaction guarantee", b: "CLEAN COLLECTIVE re-cleans for free if you're not satisfied — no hassle, no fine print." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

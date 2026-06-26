@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami Beach?",
-    a: "House cleaning in Miami Beach typically costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Condo and high-rise cleaning may be priced based on square footage. TIDYWISE provides instant quotes online for any Miami Beach property."
+    a: "House cleaning in Miami Beach typically costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Condo and high-rise cleaning may be priced based on square footage. CLEAN COLLECTIVE provides instant quotes online for any Miami Beach property."
   },
   {
     q: "Do you clean Miami Beach condos and high-rise apartments?",
-    a: "Yes. TIDYWISE specializes in Miami Beach condo and high-rise cleaning. Our teams are familiar with building access requirements, HOA rules, elevator etiquette, and the unique challenges of oceanfront properties. We service all buildings in South Beach, Mid-Beach, and North Beach."
+    a: "Yes. CLEAN COLLECTIVE specializes in Miami Beach condo and high-rise cleaning. Our teams are familiar with building access requirements, HOA rules, elevator etiquette, and the unique challenges of oceanfront properties. We service all buildings in South Beach, Mid-Beach, and North Beach."
   },
   {
     q: "Do you offer Airbnb and vacation rental cleaning in Miami Beach?",
-    a: "Yes. Miami Beach is one of South Florida's largest short-term rental markets. TIDYWISE provides same-day Airbnb turnovers, linen changes, restocking, and guest-ready preparation throughout Miami Beach. Contact us for STR cleaning rates."
+    a: "Yes. Miami Beach is one of South Florida's largest short-term rental markets. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen changes, restocking, and guest-ready preparation throughout Miami Beach. Contact us for STR cleaning rates."
   },
   {
     q: "How do I book a cleaner in Miami Beach?",
@@ -29,7 +29,7 @@ const HouseCleaningMiamiBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Miami Beach FL | Condos & Homes | TIDYWISE"
+        pageTitle="House Cleaning Miami Beach FL | Condos & Homes | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Miami Beach, FL from $108. Licensed & insured. South Beach, Mid-Beach, North Beach condos & homes. Same-day Airbnb turnover available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-miami-beach"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningMiamiBeach = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Miami Beach Neighborhoods & Buildings We Service</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE cleans throughout Miami Beach, including:
+              CLEAN COLLECTIVE cleans throughout Miami Beach, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["South Beach", "Mid-Beach", "North Beach", "Sunset Harbour", "Venetian Islands",

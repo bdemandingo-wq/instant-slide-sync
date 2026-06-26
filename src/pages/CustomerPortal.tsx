@@ -107,8 +107,8 @@ const CustomerPortal = () => {
   return (
     <>
       <SEOHead
-        title="My Bookings | TIDYWISE"
-        description="View and manage your TIDYWISE cleaning service bookings. Track upcoming and past appointments."
+        title="My Bookings | CLEAN COLLECTIVE"
+        description="View and manage your CLEAN COLLECTIVE cleaning service bookings. Track upcoming and past appointments."
         canonical="https://www.tidywisecleaning.com/my-bookings"
         noIndex={true}
       />
@@ -118,8 +118,8 @@ const CustomerPortal = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
-              <img src={logo} alt="TIDYWISE — South Florida house cleaning company logo" className="h-10 w-auto" />
-              <span className="font-display text-xl font-bold text-foreground">TIDYWISE</span>
+              <img src={logo} alt="CLEAN COLLECTIVE — South Florida house cleaning company logo" className="h-10 w-auto" />
+              <span className="font-display text-xl font-bold text-foreground">CLEAN COLLECTIVE</span>
             </Link>
             <div className="flex items-center gap-4">
               <span className="text-sm text-muted-foreground hidden sm:block">

@@ -78,8 +78,8 @@ const ServiceAreas = () => {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "TIDYWISE Service Areas in South Florida",
-    "description": "Complete list of cities served by TIDYWISE cleaning services",
+    "name": "CLEAN COLLECTIVE Service Areas in South Florida",
+    "description": "Complete list of cities served by CLEAN COLLECTIVE cleaning services",
     "numberOfItems": allCities.length,
     "itemListElement": allCities.map((city, i) => ({
       "@type": "ListItem",
@@ -92,8 +92,8 @@ const ServiceAreas = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Near Me South Florida | 40+ Cities | TIDYWISE"
-        pageDescription="House cleaning near me? TIDYWISE serves 40+ cities across Broward, Palm Beach & Miami-Dade counties. Find your city for local pricing."
+        pageTitle="House Cleaning Near Me South Florida | 40+ Cities | CLEAN COLLECTIVE"
+        pageDescription="House cleaning near me? CLEAN COLLECTIVE serves 40+ cities across Broward, Palm Beach & Miami-Dade counties. Find your city for local pricing."
         canonicalUrl="https://www.tidywisecleaning.com/service-areas"
         pageType="service"
         breadcrumbs={[
@@ -115,7 +115,7 @@ const ServiceAreas = () => {
               Our Service Areas
             </h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-4">
-              Looking for house cleaning near me in South Florida? TIDYWISE serves homeowners and businesses 
+              Looking for house cleaning near me in South Florida? CLEAN COLLECTIVE serves homeowners and businesses 
               across 40+ cities in Broward, Miami-Dade, and Palm Beach County. 
               Find your city below to see local pricing and availability.
             </p>
@@ -166,17 +166,17 @@ const ServiceAreas = () => {
           </div>
         </section>
 
-        {/* Why TIDYWISE for South Florida */}
+        {/* Why CLEAN COLLECTIVE for South Florida */}
         <section className="py-16">
           <div className="container mx-auto px-4 max-w-4xl space-y-6">
             <h2 className="font-display text-3xl font-bold text-foreground">
               South Florida house cleaning, done by people who actually live here
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              TIDYWISE was founded by a Deerfield Beach family who got tired of dealing
+              CLEAN COLLECTIVE was founded by a Deerfield Beach family who got tired of dealing
               with no-show cleaners, surprise upcharges, and out-of-state booking
               services. We started with a single team, a 50-point quality checklist, and
-              a promise: every TIDYWISE clean is performed by background-checked,
+              a promise: every CLEAN COLLECTIVE clean is performed by background-checked,
               W-2 employees — never gig workers — and we re-clean for free if you're
               ever unhappy. That standard now covers more than 40 cities across Broward,
               Palm Beach, and Miami-Dade counties, and every one of those cities is
@@ -211,7 +211,7 @@ const ServiceAreas = () => {
               <li>Full liability insurance and bonding on every team</li>
               <li>Free re-clean within 24 hours if you spot anything we missed</li>
               <li>Flat-rate transparent pricing — what you book is what you pay</li>
-              <li>Online booking, rescheduling, and tipping through your TIDYWISE account</li>
+              <li>Online booking, rescheduling, and tipping through your CLEAN COLLECTIVE account</li>
             </ul>
 
             <h3 className="font-display text-xl font-semibold text-foreground pt-4">
@@ -250,7 +250,7 @@ const ServiceAreas = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="TIDYWISE Service Area Map"
+                title="CLEAN COLLECTIVE Service Area Map"
               />
             </div>
             <p className="text-center mt-6 text-muted-foreground">

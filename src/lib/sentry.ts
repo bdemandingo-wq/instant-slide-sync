@@ -2,8 +2,8 @@
  * Sentry initialization for the marketing/booking site.
  *
  * Web-only (no Capacitor shell here — the iOS app lives in the other
- * repo). Shares a Sentry project with TIDYWISE for now; events are
- * tagged `app: "tidywise-marketing"` so they're filterable from the
+ * repo). Shares a Sentry project with CLEAN COLLECTIVE for now; events are
+ * tagged `app: "clean collective-marketing"` so they're filterable from the
  * SaaS app's errors in the same dashboard.
  */
 
@@ -69,9 +69,9 @@ export function initSentry(): void {
     initialScope: {
       tags: {
         // Distinguishes marketing-site errors from SaaS-app errors in
-        // the shared Sentry project. Filter on `app:tidywise-marketing`
+        // the shared Sentry project. Filter on `app:clean collective-marketing`
         // in Issues to see only what came from here.
-        app: "tidywise-marketing",
+        app: "clean collective-marketing",
         platform: "web",
       },
     },

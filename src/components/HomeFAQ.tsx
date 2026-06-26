@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "Are your cleaners background-checked?",
-    a: "Yes! Every TIDYWISE cleaner undergoes a thorough background check, is fully insured, and goes through our professional training program before their first assignment.",
+    a: "Yes! Every CLEAN COLLECTIVE cleaner undergoes a thorough background check, is fully insured, and goes through our professional training program before their first assignment.",
   },
   {
     q: "Do I need to be home during the cleaning?",

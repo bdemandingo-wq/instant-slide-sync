@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami?",
-    a: "House cleaning in Miami costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Miami's diverse housing stock — from Brickell condos to Coconut Grove estates — means pricing varies by size, access, and service type. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Miami costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Miami's diverse housing stock — from Brickell condos to Coconut Grove estates — means pricing varies by size, access, and service type. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Miami, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Miami neighborhoods including Brickell, Coconut Grove, Wynwood, Little Havana, Edgewater, Midtown, and the Upper East Side. Licensed, insured, and background-checked. Bilingual Spanish-speaking team."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miami neighborhoods including Brickell, Coconut Grove, Wynwood, Little Havana, Edgewater, Midtown, and the Upper East Side. Licensed, insured, and background-checked. Bilingual Spanish-speaking team."
   },
   {
     q: "Do you offer cleaning in Miami in Spanish?",
-    a: "Yes. TIDYWISE serves Miami's large Spanish-speaking community in both English and Spanish. From booking to service to follow-up, you can communicate with our team in the language you prefer. Hablamos español."
+    a: "Yes. CLEAN COLLECTIVE serves Miami's large Spanish-speaking community in both English and Spanish. From booking to service to follow-up, you can communicate with our team in the language you prefer. Hablamos español."
   },
   {
     q: "Do you clean Miami condos, high-rises, and Brickell apartments?",
-    a: "Yes. TIDYWISE is experienced with Miami's high-rise and condo market. Our teams navigate building security check-in, service elevator scheduling, and concierge coordination at properties throughout Brickell, Edgewater, Midtown, and Downtown Miami."
+    a: "Yes. CLEAN COLLECTIVE is experienced with Miami's high-rise and condo market. Our teams navigate building security check-in, service elevator scheduling, and concierge coordination at properties throughout Brickell, Edgewater, Midtown, and Downtown Miami."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningMiami = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Miami FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Miami FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Miami, FL from $108. Bilingual Spanish-speaking team. Licensed & insured. Brickell, Coconut Grove, Wynwood, Edgewater & all neighborhoods."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-miami"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningMiami = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Miami Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Miami neighborhoods:
+              CLEAN COLLECTIVE serves all Miami neighborhoods:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Brickell", "Coconut Grove", "Wynwood", "Edgewater", "Midtown Miami",
@@ -118,8 +118,8 @@ const HouseCleaningMiami = () => {
             <ul className="space-y-3 mb-8">
               {[
                 { t: "High-rise and condo logistics", b: "Miami's urban core is vertical — Brickell, Edgewater, and Downtown are defined by high-rises with service elevator requirements, concierge check-in, and security protocols. Our teams handle all of it, so your appointment starts on time regardless of building complexity." },
-                { t: "Bilingual service", b: "Miami is one of the most Spanish-dominant cities in the US. TIDYWISE's bilingual team communicates in Spanish and English throughout the entire process — booking, service, and follow-up. No lost details, no misunderstood preferences." },
-                { t: "Short-term rental volume", b: "Miami's STR market is among the highest-density in the country. TIDYWISE handles same-day Airbnb turnovers, linen management, and guest-ready preparation for hosts throughout the city." },
+                { t: "Bilingual service", b: "Miami is one of the most Spanish-dominant cities in the US. CLEAN COLLECTIVE's bilingual team communicates in Spanish and English throughout the entire process — booking, service, and follow-up. No lost details, no misunderstood preferences." },
+                { t: "Short-term rental volume", b: "Miami's STR market is among the highest-density in the country. CLEAN COLLECTIVE handles same-day Airbnb turnovers, linen management, and guest-ready preparation for hosts throughout the city." },
                 { t: "Tropical humidity and air quality", b: "Miami's year-round heat and humidity means mold, mildew, and allergens accumulate faster than in temperate climates. Regular professional cleaning is one of the most effective tools for maintaining healthy indoor air quality in South Florida." },
                 { t: "Diverse surfaces and home ages", b: "Miami's housing stock ranges from 1930s bungalows in Little Havana to new construction glass towers in Brickell. Each requires different products and approaches. We use surface-appropriate cleaners for every material." },
               ].map(item => (

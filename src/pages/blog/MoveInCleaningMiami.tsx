@@ -9,11 +9,11 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does move-in cleaning cost in Miami?",
-    a: "Move-in cleaning in Miami costs $208–$500 depending on home size. A 1-bedroom condo starts at $208. A 2-bedroom runs $250–$350. A 3-bedroom home is $350–$430. A 4+ bedroom or large Miami home can reach $500. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "Move-in cleaning in Miami costs $208–$500 depending on home size. A 1-bedroom condo starts at $208. A 2-bedroom runs $250–$350. A 3-bedroom home is $350–$430. A 4+ bedroom or large Miami home can reach $500. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What does a move-in cleaning include in Miami?",
-    a: "A TIDYWISE move-in cleaning in Miami includes: all rooms vacuumed and mopped, kitchen deep cleaned including inside cabinets and appliances, bathrooms scrubbed top to bottom, baseboards and moldings wiped, window sills and blinds cleaned, light fixtures dusted, and walls spot-cleaned. We leave your new home move-in ready."
+    a: "A CLEAN COLLECTIVE move-in cleaning in Miami includes: all rooms vacuumed and mopped, kitchen deep cleaned including inside cabinets and appliances, bathrooms scrubbed top to bottom, baseboards and moldings wiped, window sills and blinds cleaned, light fixtures dusted, and walls spot-cleaned. We leave your new home move-in ready."
   },
   {
     q: "How far in advance should I book a move-in cleaning in Miami?",
@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     q: "Do you clean inside appliances during Miami move-in cleaning?",
-    a: "Yes. TIDYWISE move-in cleaning in Miami includes inside the refrigerator, oven, microwave, and dishwasher at no extra charge. This is standard for our move-in service — we want your kitchen completely clean before your groceries arrive."
+    a: "Yes. CLEAN COLLECTIVE move-in cleaning in Miami includes inside the refrigerator, oven, microwave, and dishwasher at no extra charge. This is standard for our move-in service — we want your kitchen completely clean before your groceries arrive."
   }
 ];
 
@@ -48,7 +48,7 @@ const MoveInCleaningMiami = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Move-In Cleaning Miami FL | TIDYWISE | From $208"
+        pageTitle="Move-In Cleaning Miami FL | CLEAN COLLECTIVE | From $208"
         pageDescription="Move-in cleaning in Miami, FL from $208. Start fresh in your new home. Brickell, Coral Gables, Coconut Grove & all Miami neighborhoods. Licensed & insured."
         canonicalUrl="https://www.tidywisecleaning.com/blog/move-in-cleaning-miami"
         pageType="blog"
@@ -108,7 +108,7 @@ const MoveInCleaningMiami = () => {
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Complete Move-In Cleaning Checklist</h2>
-            <p className="text-muted-foreground mb-4">Every TIDYWISE Miami move-in clean covers:</p>
+            <p className="text-muted-foreground mb-4">Every CLEAN COLLECTIVE Miami move-in clean covers:</p>
             <div className="grid sm:grid-cols-2 gap-2 mb-8">
               {checklist.map(item => (
                 <div key={item} className="flex gap-2 items-start text-sm">

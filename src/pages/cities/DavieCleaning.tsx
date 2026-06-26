@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Davie?",
-    a: "House cleaning in Davie costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Larger equestrian properties and estates may be priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Davie costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Larger equestrian properties and estates may be priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Davie, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Davie neighborhoods including Rolling Oaks, Pine Island Ridge, Ivanhoe Estates, and Flamingo Gardens adjacent areas. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Davie neighborhoods including Rolling Oaks, Pine Island Ridge, Ivanhoe Estates, and Flamingo Gardens adjacent areas. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean large Davie properties and equestrian estates?",
-    a: "Yes. TIDYWISE serves all Davie property types including larger homes on acreage, equestrian estates, and ranch-style properties. Our teams are experienced with the unique cleaning challenges of Davie's rural and semi-rural residential areas."
+    a: "Yes. CLEAN COLLECTIVE serves all Davie property types including larger homes on acreage, equestrian estates, and ranch-style properties. Our teams are experienced with the unique cleaning challenges of Davie's rural and semi-rural residential areas."
   },
   {
     q: "How often should Davie homeowners book professional cleaning?",
-    a: "Most Davie homeowners book bi-weekly cleaning for standard homes. For larger equestrian properties or homes with more outdoor exposure, monthly deep cleaning is recommended. TIDYWISE accommodates all sizes with no long-term contracts."
+    a: "Most Davie homeowners book bi-weekly cleaning for standard homes. For larger equestrian properties or homes with more outdoor exposure, monthly deep cleaning is recommended. CLEAN COLLECTIVE accommodates all sizes with no long-term contracts."
   }
 ];
 
@@ -29,7 +29,7 @@ const DavieCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Davie House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Davie House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Davie FL home cleaning near Nova Southeastern. Pine Island Ridge & Rolling Hills residents love our attention to detail. Insured cleaners. Book now!"
         canonicalUrl="https://www.tidywisecleaning.com/davie-cleaning"
         pageType="county"

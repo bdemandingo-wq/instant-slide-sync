@@ -1,8 +1,8 @@
 # Sentry observability
 
 Sentry is wired into the marketing/booking site and reports errors to
-the same Sentry project as the TIDYWISE SaaS app. Events from this
-repo are tagged `app: "tidywise-marketing"` so they're filterable.
+the same Sentry project as the CLEAN COLLECTIVE SaaS app. Events from this
+repo are tagged `app: "clean collective-marketing"` so they're filterable.
 
 ## What's captured
 
@@ -34,7 +34,7 @@ window.Sentry?.captureException(new Error("marketing site test"));
 ```
 
 You should see an event ID returned and the event in the Sentry
-Issues tab filtered by `app:tidywise-marketing` within ~30 seconds.
+Issues tab filtered by `app:clean collective-marketing` within ~30 seconds.
 
 ## Configuration
 

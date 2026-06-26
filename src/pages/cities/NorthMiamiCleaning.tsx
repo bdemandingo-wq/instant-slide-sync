@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in North Miami?",
-    a: "House cleaning in North Miami costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in North Miami costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in North Miami, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all North Miami neighborhoods including Biscayne Gardens, Arch Creek, Sans Souci Estates, and Keystone Islands. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all North Miami neighborhoods including Biscayne Gardens, Arch Creek, Sans Souci Estates, and Keystone Islands. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your North Miami cleaning teams speak Spanish?",
-    a: "Yes. TIDYWISE cleaning teams are bilingual (English/Spanish), ensuring clear communication and thorough service throughout North Miami's diverse community."
+    a: "Yes. CLEAN COLLECTIVE cleaning teams are bilingual (English/Spanish), ensuring clear communication and thorough service throughout North Miami's diverse community."
   },
   {
     q: "How often should North Miami homeowners book professional cleaning?",
-    a: "Most North Miami homeowners book bi-weekly cleaning for regular maintenance. South Florida's humidity means dust and allergen buildup happens faster than in drier climates. TIDYWISE offers 5–15% discounts on recurring bookings."
+    a: "Most North Miami homeowners book bi-weekly cleaning for regular maintenance. South Florida's humidity means dust and allergen buildup happens faster than in drier climates. CLEAN COLLECTIVE offers 5–15% discounts on recurring bookings."
   }
 ];
 
@@ -29,7 +29,7 @@ const NorthMiamiCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="North Miami House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="North Miami House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="North Miami FL dependable house cleaning. Sans Souci, Keystone Point & Biscayne Gardens. Pet-friendly & eco-conscious. Book your estimate online!"
         canonicalUrl="https://www.tidywisecleaning.com/north-miami-cleaning"
         pageType="county"

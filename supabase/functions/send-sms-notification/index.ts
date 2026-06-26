@@ -37,7 +37,7 @@ Log in to your dashboard to view details.`;
 }
 
 function formatCustomerBookingSms(data: Record<string, unknown>): string {
-  return `TIDYWISE: Thanks ${data.customerName ?? ""}! Your ${data.serviceType ?? "cleaning"} booking for ${data.preferredDate ?? ""} is received. Total: $${data.totalPrice ?? ""}. We'll confirm shortly. Reply STOP to opt out.`;
+  return `CLEAN COLLECTIVE: Thanks ${data.customerName ?? ""}! Your ${data.serviceType ?? "cleaning"} booking for ${data.preferredDate ?? ""} is received. Total: $${data.totalPrice ?? ""}. We'll confirm shortly. Reply STOP to opt out.`;
 }
 
 function formatApplicationSms(data: Record<string, unknown>): string {
@@ -158,7 +158,7 @@ const handler = async (req: Request): Promise<Response> => {
         // read customerPhone + smsConsent FROM THE ROW — never from the
         // request body. Previously the function trusted the body, so
         // any anonymous caller could POST {type:'booking', smsConsent:
-        // true, customerPhone:'+1...'} and TidyWise would SMS that
+        // true, customerPhone:'+1...'} and Clean Collective would SMS that
         // number from your OpenPhone account.
         if (!bookingId) {
           throw new Error("booking notifications require a bookingId");

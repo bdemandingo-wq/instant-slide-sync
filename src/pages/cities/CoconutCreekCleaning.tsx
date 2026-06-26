@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Coconut Creek?",
-    a: "House cleaning in Coconut Creek costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and bathrooms. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Coconut Creek costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and bathrooms. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Coconut Creek, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Coconut Creek neighborhoods including Wynmoor Village, The Hammocks, Lyons West, and Winston Park. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Coconut Creek neighborhoods including Wynmoor Village, The Hammocks, Lyons West, and Winston Park. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you use eco-friendly products in Coconut Creek?",
-    a: "Yes. TIDYWISE uses eco-friendly, non-toxic cleaning products as standard — important for families with young children, pets, and anyone who prioritizes environmental responsibility. Ask about our green cleaning options."
+    a: "Yes. CLEAN COLLECTIVE uses eco-friendly, non-toxic cleaning products as standard — important for families with young children, pets, and anyone who prioritizes environmental responsibility. Ask about our green cleaning options."
   },
   {
     q: "Do you clean Wynmoor Village and active adult communities in Coconut Creek?",
-    a: "Yes. TIDYWISE serves Wynmoor Village and all Coconut Creek active adult communities. Our teams are professional, discreet, and familiar with the community access requirements and building rules."
+    a: "Yes. CLEAN COLLECTIVE serves Wynmoor Village and all Coconut Creek active adult communities. Our teams are professional, discreet, and familiar with the community access requirements and building rules."
   }
 ];
 
@@ -29,7 +29,7 @@ const CoconutCreekCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Coconut Creek House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Coconut Creek House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Coconut Creek FL professional home cleaning. Wynmoor community specialists. Palm Beach Farms & Cypress Bend. Licensed & insured. Schedule today!"
         canonicalUrl="https://www.tidywisecleaning.com/coconut-creek-cleaning"
         pageType="county"

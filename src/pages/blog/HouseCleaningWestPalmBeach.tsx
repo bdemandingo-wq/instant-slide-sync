@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in West Palm Beach?",
-    a: "House cleaning in West Palm Beach costs $118–$500 depending on service type and home size. A standard cleaning for a 1-bedroom starts at $118. A 3-bedroom deep clean runs $350–$430. Move-out cleaning starts at $283. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in West Palm Beach costs $118–$500 depending on service type and home size. A standard cleaning for a 1-bedroom starts at $118. A 3-bedroom deep clean runs $350–$430. Move-out cleaning starts at $283. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
-    q: "What areas of West Palm Beach does TIDYWISE serve?",
-    a: "TIDYWISE serves all West Palm Beach neighborhoods including Downtown, Northwood, SoSo, El Cid, Flamingo Park, Grandview Heights, Ibis, PGA National, Ibis Golf & Country Club, and surrounding Palm Beach County areas including Greenacres, Royal Palm Beach, and Lake Worth."
+    q: "What areas of West Palm Beach does CLEAN COLLECTIVE serve?",
+    a: "CLEAN COLLECTIVE serves all West Palm Beach neighborhoods including Downtown, Northwood, SoSo, El Cid, Flamingo Park, Grandview Heights, Ibis, PGA National, Ibis Golf & Country Club, and surrounding Palm Beach County areas including Greenacres, Royal Palm Beach, and Lake Worth."
   },
   {
     q: "Do you offer recurring house cleaning in West Palm Beach?",
-    a: "Yes. TIDYWISE offers weekly, bi-weekly, and monthly recurring cleaning plans in West Palm Beach. Recurring customers save 10–15% per visit compared to one-time rates. Most West Palm Beach clients choose bi-weekly service."
+    a: "Yes. CLEAN COLLECTIVE offers weekly, bi-weekly, and monthly recurring cleaning plans in West Palm Beach. Recurring customers save 10–15% per visit compared to one-time rates. Most West Palm Beach clients choose bi-weekly service."
   },
   {
     q: "Are your West Palm Beach cleaners background-checked?",
-    a: "Yes. All TIDYWISE cleaning professionals are background-checked, insured, and licensed. We carry full general liability insurance and workers' compensation coverage on every job in West Palm Beach."
+    a: "Yes. All CLEAN COLLECTIVE cleaning professionals are background-checked, insured, and licensed. We carry full general liability insurance and workers' compensation coverage on every job in West Palm Beach."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningWestPalmBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning West Palm Beach FL | TIDYWISE | From $118"
+        pageTitle="House Cleaning West Palm Beach FL | CLEAN COLLECTIVE | From $118"
         pageDescription="House cleaning in West Palm Beach, FL. Background-checked & insured. Downtown WPB, Northwood, El Cid, PGA National & all neighborhoods. Instant quote."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-west-palm-beach"
         pageType="blog"
@@ -53,7 +53,7 @@ const HouseCleaningWestPalmBeach = () => {
               House Cleaning in West Palm Beach, FL — Pricing, Services & How to Book
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              West Palm Beach homeowners expect a high standard — and TIDYWISE delivers it. Whether you live in a Downtown loft, a Northwood bungalow, or an Ibis estate, our licensed and insured cleaning professionals bring the same five-star standard to every home.
+              West Palm Beach homeowners expect a high standard — and CLEAN COLLECTIVE delivers it. Whether you live in a Downtown loft, a Northwood bungalow, or an Ibis estate, our licensed and insured cleaning professionals bring the same five-star standard to every home.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
@@ -93,7 +93,7 @@ const HouseCleaningWestPalmBeach = () => {
             </div>
             <p className="text-sm text-muted-foreground mb-8">Recurring weekly or bi-weekly clients save 10–15% on every visit.</p>
 
-            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why West Palm Beach Homeowners Choose TIDYWISE</h2>
+            <h2 className="font-display text-2xl font-bold mt-10 mb-4">Why West Palm Beach Homeowners Choose CLEAN COLLECTIVE</h2>
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {[
                 { t: "Same team every visit", b: "You get the same cleaner each time — no strangers in your home, no retraining." },

@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Jupiter, FL?",
-    a: "House cleaning in Jupiter costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Waterfront and estate homes in Jonathan's Landing, Admirals Cove, or Jupiter Island are priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Jupiter costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Waterfront and estate homes in Jonathan's Landing, Admirals Cove, or Jupiter Island are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Jupiter, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Jupiter communities including Abacoa, Jonathan's Landing, Admirals Cove, Jupiter Island, Rialto, Botanica, and Pennock Point. Licensed, insured, and background-checked."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Jupiter communities including Abacoa, Jonathan's Landing, Admirals Cove, Jupiter Island, Rialto, Botanica, and Pennock Point. Licensed, insured, and background-checked."
   },
   {
     q: "Do you clean waterfront and Intracoastal homes in Jupiter?",
-    a: "Yes. TIDYWISE has extensive experience cleaning Jupiter's waterfront and Intracoastal homes. Salt air, dock exposure, and marine environments accelerate corrosion and buildup on windows, screens, and metal surfaces. Our teams remove salt film and residue without scratching glass or damaging fixtures."
+    a: "Yes. CLEAN COLLECTIVE has extensive experience cleaning Jupiter's waterfront and Intracoastal homes. Salt air, dock exposure, and marine environments accelerate corrosion and buildup on windows, screens, and metal surfaces. Our teams remove salt film and residue without scratching glass or damaging fixtures."
   },
   {
     q: "Do you service Jupiter's golf and gated communities?",
-    a: "Yes. TIDYWISE is familiar with Jupiter's gated communities and golf club access protocols. We handle visitor gate registration, HOA parking compliance, and security sign-in at Jonathan's Landing, Admirals Cove, and other communities so your appointment runs without complications."
+    a: "Yes. CLEAN COLLECTIVE is familiar with Jupiter's gated communities and golf club access protocols. We handle visitor gate registration, HOA parking compliance, and security sign-in at Jonathan's Landing, Admirals Cove, and other communities so your appointment runs without complications."
   }
 ];
 
@@ -29,7 +29,7 @@ const HouseCleaningJupiter = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Jupiter FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Jupiter FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="Premium house cleaning in Jupiter, FL from $108. Licensed & insured. Abacoa, Jonathan's Landing, Admirals Cove & all areas. Waterfront home experts."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-jupiter"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningJupiter = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Jupiter Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Jupiter communities and surrounding areas:
+              CLEAN COLLECTIVE serves all Jupiter communities and surrounding areas:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Abacoa", "Jonathan's Landing", "Admirals Cove", "Jupiter Island",

@@ -23,19 +23,19 @@ const services = [
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami-Dade County?",
-    a: "House cleaning in Miami-Dade County costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Luxury condos and high-rises may be priced by square footage. TIDYWISE provides instant online quotes for all Miami-Dade cities."
+    a: "House cleaning in Miami-Dade County costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Luxury condos and high-rises may be priced by square footage. CLEAN COLLECTIVE provides instant online quotes for all Miami-Dade cities."
   },
   {
-    q: "What cities in Miami-Dade County does TIDYWISE serve?",
-    a: "TIDYWISE serves all major Miami-Dade municipalities including Miami, Miami Beach, Hialeah, Coral Gables, Aventura, Doral, North Miami, North Miami Beach, Sunny Isles Beach, Homestead, Miami Gardens, and surrounding areas. We cover all of Miami-Dade County."
+    q: "What cities in Miami-Dade County does CLEAN COLLECTIVE serve?",
+    a: "CLEAN COLLECTIVE serves all major Miami-Dade municipalities including Miami, Miami Beach, Hialeah, Coral Gables, Aventura, Doral, North Miami, North Miami Beach, Sunny Isles Beach, Homestead, Miami Gardens, and surrounding areas. We cover all of Miami-Dade County."
   },
   {
-    q: "Is TIDYWISE licensed and insured in Miami-Dade County?",
-    a: "Yes. TIDYWISE is fully licensed and insured in Miami-Dade County, Florida. We carry general liability insurance and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment."
+    q: "Is CLEAN COLLECTIVE licensed and insured in Miami-Dade County?",
+    a: "Yes. CLEAN COLLECTIVE is fully licensed and insured in Miami-Dade County, Florida. We carry general liability insurance and can provide a certificate of insurance on request. Every cleaner is background-checked before their first assignment."
   },
   {
     q: "Do you clean Miami-Dade condos and high-rise apartments?",
-    a: "Yes. TIDYWISE specializes in Miami-Dade condo and high-rise cleaning. Our teams are familiar with building access requirements, HOA rules, service elevators, and the unique challenges of the county's dense urban and coastal building stock."
+    a: "Yes. CLEAN COLLECTIVE specializes in Miami-Dade condo and high-rise cleaning. Our teams are familiar with building access requirements, HOA rules, service elevators, and the unique challenges of the county's dense urban and coastal building stock."
   }
 ];
 
@@ -43,7 +43,7 @@ const MiamiDadeCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Miami-Dade Cleaning Services | TIDYWISE"
+        pageTitle="Miami-Dade Cleaning Services | CLEAN COLLECTIVE"
         pageDescription="Affordable cleaning Miami services. Licensed & insured. Serving Miami, Miami Beach, Coral Gables. Same-day quotes. Call now for 10% off first clean!"
         canonicalUrl="https://www.tidywisecleaning.com/miami-dade-cleaning"
         pageType="county"

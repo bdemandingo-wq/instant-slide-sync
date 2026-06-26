@@ -60,7 +60,7 @@ const AIChatbot = () => {
                 <div className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full bg-success border-2 border-background" />
               </div>
               <div>
-                <span className="font-semibold text-foreground">TIDYWISE Assistant</span>
+                <span className="font-semibold text-foreground">CLEAN COLLECTIVE Assistant</span>
                 <p className="text-xs text-muted-foreground">Typically replies instantly</p>
               </div>
             </div>
@@ -83,7 +83,7 @@ const AIChatbot = () => {
                 <div className="flex justify-start">
                   <div className="max-w-[85%] rounded-lg px-4 py-3 bg-muted text-foreground">
                     <p className="text-sm">
-                      👋 Hi there! I'm your TIDYWISE assistant. I can help you with:
+                      👋 Hi there! I'm your CLEAN COLLECTIVE assistant. I can help you with:
                     </p>
                     <ul className="text-sm mt-2 space-y-1 text-muted-foreground">
                       <li>• Pricing & service info</li>

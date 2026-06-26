@@ -73,7 +73,7 @@ const faqItems = [
   },
   {
     q: "How much does move-out cleaning cost in Fort Lauderdale?",
-    a: "TIDYWISE move-in/move-out cleaning starts at $300 and scales with home size and condition. A typical 2–3 bedroom apartment or home in Fort Lauderdale runs $300–$600. You'll get an exact, transparent quote online in minutes — no in-home estimate needed.",
+    a: "CLEAN COLLECTIVE move-in/move-out cleaning starts at $300 and scales with home size and condition. A typical 2–3 bedroom apartment or home in Fort Lauderdale runs $300–$600. You'll get an exact, transparent quote online in minutes — no in-home estimate needed.",
   },
   {
     q: "Will a professional move-out clean help me get my deposit back?",
@@ -81,7 +81,7 @@ const faqItems = [
   },
   {
     q: "When should I schedule my move-out cleaning?",
-    a: "Book your clean for after your furniture and belongings are removed but before your final walk-through — ideally on your last day or the day before keys are due. Please note TIDYWISE does not offer same-day or next-day bookings, so schedule at least two days ahead to lock in your slot.",
+    a: "Book your clean for after your furniture and belongings are removed but before your final walk-through — ideally on your last day or the day before keys are due. Please note CLEAN COLLECTIVE does not offer same-day or next-day bookings, so schedule at least two days ahead to lock in your slot.",
   },
 ];
 
@@ -91,7 +91,7 @@ const FortLauderdaleMoveOutChecklist = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Fort Lauderdale Move-Out Cleaning Checklist (Free & Printable) | TIDYWISE"
+        pageTitle="Fort Lauderdale Move-Out Cleaning Checklist (Free & Printable) | CLEAN COLLECTIVE"
         pageDescription="Free Fort Lauderdale move-out cleaning checklist — room-by-room tasks to get your full deposit back. Print it, or book an inspection-ready move-out clean from $300."
         canonicalUrl="https://www.tidywisecleaning.com/fort-lauderdale-move-out-checklist"
         pageType="service"
@@ -118,7 +118,7 @@ const FortLauderdaleMoveOutChecklist = () => {
               <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8">
                 Moving out of a Fort Lauderdale rental? Use this free, room-by-room checklist to leave the
                 property inspection-ready and recover your full security deposit. Print it for your move,
-                or let TIDYWISE handle the whole thing with a professional move-out clean from $300.
+                or let CLEAN COLLECTIVE handle the whole thing with a professional move-out clean from $300.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-primary text-primary-foreground" asChild>
@@ -148,7 +148,7 @@ const FortLauderdaleMoveOutChecklist = () => {
             <p>
               Work top to bottom in each room (ceilings and fixtures first, floors last) and tackle the
               kitchen and bathrooms most thoroughly, since those areas get scrutinized hardest. If you'd
-              rather skip the labor entirely during an already-stressful move, TIDYWISE offers
+              rather skip the labor entirely during an already-stressful move, CLEAN COLLECTIVE offers
               inspection-ready move-out cleaning across Fort Lauderdale and all of Broward County.
             </p>
           </div>

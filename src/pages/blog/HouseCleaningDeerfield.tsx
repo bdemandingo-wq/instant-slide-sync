@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Deerfield Beach?",
-    a: "House cleaning in Deerfield Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. TIDYWISE — based in Deerfield Beach — provides instant online quotes with no hidden fees."
+    a: "House cleaning in Deerfield Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE — based in Deerfield Beach — provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Deerfield Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and is headquartered in Deerfield Beach at 65 SW 12th Ave. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, The Cove, and Hillsboro Beach. Licensed, insured, and background-checked."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and is headquartered in Deerfield Beach at 65 SW 12th Ave. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, The Cove, and Hillsboro Beach. Licensed, insured, and background-checked."
   },
   {
-    q: "Is TIDYWISE a local Deerfield Beach company?",
-    a: "Yes. TIDYWISE is based in Deerfield Beach — not a national franchise or out-of-area company. Our local roots mean faster response times, same-day availability, and a genuine investment in the community we serve."
+    q: "Is CLEAN COLLECTIVE a local Deerfield Beach company?",
+    a: "Yes. CLEAN COLLECTIVE is based in Deerfield Beach — not a national franchise or out-of-area company. Our local roots mean faster response times, same-day availability, and a genuine investment in the community we serve."
   },
   {
     q: "Do you offer vacation rental and Airbnb cleaning in Deerfield Beach?",
-    a: "Yes. Deerfield Beach's coastal location supports a strong vacation rental market. TIDYWISE provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Deerfield Beach. Contact us for short-term rental cleaning rates."
+    a: "Yes. Deerfield Beach's coastal location supports a strong vacation rental market. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen changes, and guest-ready preparation throughout Deerfield Beach. Contact us for short-term rental cleaning rates."
   }
 ];
 
@@ -29,8 +29,8 @@ const HouseCleaningDeerfield = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Deerfield Beach FL | From $108 | TIDYWISE"
-        pageDescription="Local house cleaning in Deerfield Beach, FL from $108. TIDYWISE is based here. Lighthouse Point, Deer Creek & all areas. Instant online quotes."
+        pageTitle="House Cleaning Deerfield Beach FL | From $108 | CLEAN COLLECTIVE"
+        pageDescription="Local house cleaning in Deerfield Beach, FL from $108. CLEAN COLLECTIVE is based here. Lighthouse Point, Deer Creek & all areas. Instant online quotes."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-deerfield-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
@@ -53,7 +53,7 @@ const HouseCleaningDeerfield = () => {
               House Cleaning in Deerfield Beach, FL — Your Local Service, From $108
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              TIDYWISE is headquartered right here in Deerfield Beach — not a franchise from another city. That means faster response times, genuine local knowledge, and a commitment to getting it right in our own community. Here's what Deerfield Beach homeowners need to know about professional cleaning — pricing, what's included, and how to book.
+              CLEAN COLLECTIVE is headquartered right here in Deerfield Beach — not a franchise from another city. That means faster response times, genuine local knowledge, and a commitment to getting it right in our own community. Here's what Deerfield Beach homeowners need to know about professional cleaning — pricing, what's included, and how to book.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
@@ -104,7 +104,7 @@ const HouseCleaningDeerfield = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Deerfield Beach Neighborhoods We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Deerfield Beach neighborhoods — we know this city well because it's home:
+              CLEAN COLLECTIVE serves all Deerfield Beach neighborhoods — we know this city well because it's home:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Lighthouse Point", "Deer Creek", "Century Village", "The Cove", "Hillsboro Beach",
@@ -119,17 +119,17 @@ const HouseCleaningDeerfield = () => {
               Deerfield Beach's coastal location creates specific cleaning challenges. Salt air from the Atlantic deposits residue on windows, screens, and metal surfaces faster than inland areas. The city's mix of beachfront condos, waterfront canal homes, and established neighborhoods means properties face different challenges depending on location.
             </p>
             <p className="text-muted-foreground mb-4">
-              Century Village and other active adult communities here have steady demand for reliable recurring cleaning — residents want a trustworthy team they can count on, not a different crew every time. TIDYWISE assigns consistent teams to recurring clients.
+              Century Village and other active adult communities here have steady demand for reliable recurring cleaning — residents want a trustworthy team they can count on, not a different crew every time. CLEAN COLLECTIVE assigns consistent teams to recurring clients.
             </p>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Deerfield Beach Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Actually local, not a franchise", b: "Many cleaning brands are national franchises with no real local connection. TIDYWISE is based at 65 SW 12th Ave, Deerfield Beach. We live and work here — that matters." },
+                { t: "Actually local, not a franchise", b: "Many cleaning brands are national franchises with no real local connection. CLEAN COLLECTIVE is based at 65 SW 12th Ave, Deerfield Beach. We live and work here — that matters." },
                 { t: "Licensed and insured in Broward County", b: "Always ask for the certificate of insurance. A legitimate service provides it within minutes. Never let an uninsured cleaner into your home." },
-                { t: "Background-checked cleaners", b: "Every TIDYWISE cleaner passes a criminal background check before their first assignment — essential in a community where residents share access codes and trust is paramount." },
+                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment — essential in a community where residents share access codes and trust is paramount." },
                 { t: "Coastal experience", b: "Salt air, screen enclosures, and tile-heavy interiors require specific knowledge. Our local experience means we understand Deerfield Beach's specific cleaning challenges." },
-                { t: "Satisfaction guarantee", b: "TIDYWISE re-cleans for free if you're not satisfied — no fine print, no hoops." },
+                { t: "Satisfaction guarantee", b: "CLEAN COLLECTIVE re-cleans for free if you're not satisfied — no fine print, no hoops." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

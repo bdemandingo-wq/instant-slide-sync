@@ -10,19 +10,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miami Beach?",
-    a: "House cleaning in Miami Beach costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Condo and high-rise cleaning may vary based on building access logistics. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Miami Beach costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Condo and high-rise cleaning may vary based on building access logistics. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Miami Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Miami Beach neighborhoods including South Beach, Mid-Beach, North Beach, Sunset Harbour, and the Venetian Islands. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miami Beach neighborhoods including South Beach, Mid-Beach, North Beach, Sunset Harbour, and the Venetian Islands. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Miami Beach condos and oceanfront high-rises?",
-    a: "Yes. TIDYWISE specializes in Miami Beach condo and high-rise cleaning. Our teams navigate building access protocols, service elevators, HOA rules, and the unique challenges of oceanfront salt air and humidity."
+    a: "Yes. CLEAN COLLECTIVE specializes in Miami Beach condo and high-rise cleaning. Our teams navigate building access protocols, service elevators, HOA rules, and the unique challenges of oceanfront salt air and humidity."
   },
   {
     q: "Do you offer same-day Airbnb turnover cleaning in Miami Beach?",
-    a: "Yes. Miami Beach is one of South Florida's largest short-term rental markets. TIDYWISE provides same-day Airbnb turnovers, linen changes, restocking, and guest-ready preparation throughout Miami Beach. Contact us for STR cleaning rates."
+    a: "Yes. Miami Beach is one of South Florida's largest short-term rental markets. CLEAN COLLECTIVE provides same-day Airbnb turnovers, linen changes, restocking, and guest-ready preparation throughout Miami Beach. Contact us for STR cleaning rates."
   }
 ];
 
@@ -30,7 +30,7 @@ const MiamiBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Miami Beach House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Miami Beach House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Affordable cleaning Miami Beach. Condo & house cleaning in South Beach, Mid-Beach, North Beach. Licensed & insured. Call (561) 571-8725 for free quote!"
         canonicalUrl="https://www.tidywisecleaning.com/miami-beach-cleaning"
         pageType="county"
@@ -102,7 +102,7 @@ const MiamiBeachCleaning = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold text-foreground text-center mb-12">
-              Why Miami Beach Residents Choose TIDYWISE
+              Why Miami Beach Residents Choose CLEAN COLLECTIVE
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center p-6">
@@ -137,7 +137,7 @@ const MiamiBeachCleaning = () => {
             </h2>
             <div className="max-w-4xl mx-auto prose prose-lg text-muted-foreground">
               <p>
-                TIDYWISE provides comprehensive cleaning services throughout Miami Beach, from the iconic Art Deco District 
+                CLEAN COLLECTIVE provides comprehensive cleaning services throughout Miami Beach, from the iconic Art Deco District 
                 of South Beach to the family-friendly neighborhoods of North Beach. Our professional cleaners understand 
                 the unique needs of Miami Beach homes and condos, including high-rise living, vacation rentals, and 
                 beachfront properties.

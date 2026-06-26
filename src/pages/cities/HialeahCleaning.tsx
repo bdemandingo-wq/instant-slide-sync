@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Hialeah?",
-    a: "House cleaning in Hialeah costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Hialeah costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices are based on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Hialeah, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Hialeah neighborhoods including Hialeah Gardens, Miami Lakes, Westland Lakes, and Palm Springs Mile. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Hialeah neighborhoods including Hialeah Gardens, Miami Lakes, Westland Lakes, and Palm Springs Mile. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your Hialeah cleaning teams speak Spanish?",
-    a: "Yes. TIDYWISE cleaning teams are bilingual (English/Spanish). In Hialeah, clear communication in Spanish ensures your cleaning preferences are fully understood and delivered exactly as requested."
+    a: "Yes. CLEAN COLLECTIVE cleaning teams are bilingual (English/Spanish). In Hialeah, clear communication in Spanish ensures your cleaning preferences are fully understood and delivered exactly as requested."
   },
   {
     q: "How often should Hialeah homeowners book professional cleaning?",
-    a: "Most Hialeah homeowners book bi-weekly cleaning for regular maintenance. South Florida's humidity means dust and mold risk build faster than in drier climates. TIDYWISE offers 5–15% discounts on recurring weekly, bi-weekly, and monthly bookings."
+    a: "Most Hialeah homeowners book bi-weekly cleaning for regular maintenance. South Florida's humidity means dust and mold risk build faster than in drier climates. CLEAN COLLECTIVE offers 5–15% discounts on recurring weekly, bi-weekly, and monthly bookings."
   }
 ];
 
@@ -29,7 +29,7 @@ const HialeahCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Hialeah House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Hialeah House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Hialeah FL bilingual cleaning services. Hialeah Gardens, Palm Springs & Miami Lakes. Affordable weekly or bi-weekly plans. Llámanos hoy!"
         canonicalUrl="https://www.tidywisecleaning.com/hialeah-cleaning"
         pageType="county"

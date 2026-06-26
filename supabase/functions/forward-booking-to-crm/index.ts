@@ -1,4 +1,4 @@
-// Forwards a newly-created TidyWise booking to the external CRM ingest endpoint.
+// Forwards a newly-created Clean Collective booking to the external CRM ingest endpoint.
 // The shared secret (EXTERNAL_BOOKING_INGEST_KEY) stays server-side and is never
 // exposed to the browser. Failures are non-fatal to the booking flow.
 
@@ -7,7 +7,7 @@ import { corsHeaders } from "npm:@supabase/supabase-js@2/cors";
 const CRM_INGEST_URL =
   "https://slwfkaqczvwvvvavkgpr.supabase.co/functions/v1/ingest-external-booking";
 
-// Map TidyWise labels/keys -> CRM's accepted frequency enum
+// Map Clean Collective labels/keys -> CRM's accepted frequency enum
 // (recurring_bookings_frequency_check). Anything unrecognized => one_time.
 function normalizeFrequency(input: unknown): string {
   const v = String(input ?? "").toLowerCase().replace(/[\s_-]/g, "");
@@ -46,7 +46,7 @@ Deno.serve(async (req) => {
     });
   }
 
-  // Map TidyWise booking fields -> CRM ingest payload
+  // Map Clean Collective booking fields -> CRM ingest payload
   const payload = {
     name: body.name,
     email: body.email,

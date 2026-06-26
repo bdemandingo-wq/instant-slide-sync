@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does Airbnb turnover cleaning cost in Fort Lauderdale?",
-    a: "Airbnb turnover cleaning in Fort Lauderdale costs $95–$280 depending on property size. A studio or 1-bedroom unit runs $95–$140. A 2-bedroom property is $140–$190. A 3-bedroom home is $190–$280. TIDYWISE offers flat-rate pricing with no hidden fees so your cost-per-booking stays predictable."
+    a: "Airbnb turnover cleaning in Fort Lauderdale costs $95–$280 depending on property size. A studio or 1-bedroom unit runs $95–$140. A 2-bedroom property is $140–$190. A 3-bedroom home is $190–$280. CLEAN COLLECTIVE offers flat-rate pricing with no hidden fees so your cost-per-booking stays predictable."
   },
   {
-    q: "Can TIDYWISE handle same-day Airbnb turnovers in Fort Lauderdale?",
-    a: "Yes. TIDYWISE offers same-day Airbnb turnover cleaning in Fort Lauderdale for eligible bookings. Call (561) 571-8725 before noon for same-day availability. We recommend scheduling at least 24 hours in advance for guaranteed slots."
+    q: "Can CLEAN COLLECTIVE handle same-day Airbnb turnovers in Fort Lauderdale?",
+    a: "Yes. CLEAN COLLECTIVE offers same-day Airbnb turnover cleaning in Fort Lauderdale for eligible bookings. Call (561) 571-8725 before noon for same-day availability. We recommend scheduling at least 24 hours in advance for guaranteed slots."
   },
   {
-    q: "Does TIDYWISE restock Airbnb supplies during turnover cleaning?",
+    q: "Does CLEAN COLLECTIVE restock Airbnb supplies during turnover cleaning?",
     a: "Yes. On request, we restock toilet paper, paper towels, dish soap, hand soap, and other host-provided supplies during every turnover. Bring your own inventory or let us know your preferences and we can coordinate supply restocking for an additional fee."
   },
   {
     q: "Do you offer co-host cleaning management for Fort Lauderdale Airbnb properties?",
-    a: "Yes. TIDYWISE offers turnover management for Fort Lauderdale Airbnb hosts who want a hands-off cleaning operation. We coordinate with your Airbnb calendar, confirm checkouts, and handle all scheduling automatically. Contact us for co-host pricing."
+    a: "Yes. CLEAN COLLECTIVE offers turnover management for Fort Lauderdale Airbnb hosts who want a hands-off cleaning operation. We coordinate with your Airbnb calendar, confirm checkouts, and handle all scheduling automatically. Contact us for co-host pricing."
   }
 ];
 
@@ -70,7 +70,7 @@ const AirbnbCleaningFortLauderdale = () => {
               Airbnb Cleaning in Fort Lauderdale, FL — Turnover Cleaning for STR Hosts
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Fort Lauderdale is one of Florida's top short-term rental markets. Whether you list a condo on Las Olas, a vacation home in Rio Vista, or a beach property near A1A, your listing's rating lives or dies by the cleanliness between guests. TIDYWISE specializes in fast, reliable Airbnb turnover cleaning that gets 5-star reviews.
+              Fort Lauderdale is one of Florida's top short-term rental markets. Whether you list a condo on Las Olas, a vacation home in Rio Vista, or a beach property near A1A, your listing's rating lives or dies by the cleanliness between guests. CLEAN COLLECTIVE specializes in fast, reliable Airbnb turnover cleaning that gets 5-star reviews.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
@@ -108,7 +108,7 @@ const AirbnbCleaningFortLauderdale = () => {
             <p className="text-sm text-muted-foreground mb-8">Volume discounts available for hosts with 3+ properties. Call for multi-property pricing.</p>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What's Included in Every Fort Lauderdale Airbnb Turnover</h2>
-            <p className="text-muted-foreground mb-4">Every TIDYWISE Airbnb turnover includes:</p>
+            <p className="text-muted-foreground mb-4">Every CLEAN COLLECTIVE Airbnb turnover includes:</p>
             <div className="grid sm:grid-cols-2 gap-2 mb-8">
               {checklist.map(item => (
                 <div key={item} className="flex gap-2 items-start text-sm">
@@ -129,7 +129,7 @@ const AirbnbCleaningFortLauderdale = () => {
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Block 3 hours between checkouts and check-ins", b: "Fort Lauderdale beach properties accumulate sand and humidity quickly. Give your cleaner enough time to do the job right and avoid a bad first impression." },
-                { t: "Set up an Airbnb co-host relationship", b: "Add TIDYWISE as a co-host on your listing so we get checkout notifications automatically. No more missed cleanings or frantic texts." },
+                { t: "Set up an Airbnb co-host relationship", b: "Add CLEAN COLLECTIVE as a co-host on your listing so we get checkout notifications automatically. No more missed cleanings or frantic texts." },
                 { t: "Supply a dedicated cleaning closet", b: "Keep a locked closet stocked with extra linens, towels, and host supplies. We'll access it each visit without needing to wait for delivery." },
                 { t: "Use a post-clean photo report", b: "We send photo documentation after every turnover so you can verify remotely before guests arrive — especially useful for remote hosts." },
               ].map(item => (

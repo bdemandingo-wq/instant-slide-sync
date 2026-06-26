@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Royal Palm Beach?",
-    a: "House cleaning in Royal Palm Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Royal Palm Beach's suburban homes are priced by square footage and number of bathrooms. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Royal Palm Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Royal Palm Beach's suburban homes are priced by square footage and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Royal Palm Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Royal Palm Beach communities including The Acreage, Crestwood, Versailles, and Royal Palm Beach Commons area. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Royal Palm Beach communities including The Acreage, Crestwood, Versailles, and Royal Palm Beach Commons area. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Royal Palm Beach and The Acreage?",
-    a: "Yes. TIDYWISE serves Royal Palm Beach and The Acreage area. The Acreage's larger rural parcels and ranch-style homes have specific cleaning needs — more outdoor tracking and larger square footage. We clean all home types in western Palm Beach County."
+    a: "Yes. CLEAN COLLECTIVE serves Royal Palm Beach and The Acreage area. The Acreage's larger rural parcels and ranch-style homes have specific cleaning needs — more outdoor tracking and larger square footage. We clean all home types in western Palm Beach County."
   },
   {
     q: "How often should Royal Palm Beach homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningRoyalPalmBeach = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Royal Palm Beach FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Royal Palm Beach FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Royal Palm Beach, FL from $108. Licensed & insured. The Acreage, Crestwood, Versailles & all areas. Free instant quotes."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-royal-palm-beach"
         pageType="blog"
@@ -113,7 +113,7 @@ const HouseCleaningRoyalPalmBeach = () => {
               {[
                 { t: "Large family homes with extensive tile", b: "Royal Palm Beach's suburban homes run 2,000–4,000+ square feet with tile throughout. At this size, professional cleaning is genuinely more thorough and time-efficient than what most families can do themselves." },
                 { t: "Outdoor tracking from large lots", b: "Royal Palm Beach lots are larger than typical South Florida suburban properties — more yard, more pets, more outdoor space means more outdoor-to-indoor tracking. Regular professional cleaning manages this effectively." },
-                { t: "Eco-friendly products for family homes", b: "Royal Palm Beach is a family city. TIDYWISE's non-toxic, eco-certified products are safe for children, pets, and anyone with sensitivities — standard on every service, not an add-on." },
+                { t: "Eco-friendly products for family homes", b: "Royal Palm Beach is a family city. CLEAN COLLECTIVE's non-toxic, eco-certified products are safe for children, pets, and anyone with sensitivities — standard on every service, not an add-on." },
                 { t: "Licensed and insured in Palm Beach County", b: "Full general liability insurance, available on request. Background-checked cleaners on every assignment. The basics that any legitimate service provides without hesitation." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">

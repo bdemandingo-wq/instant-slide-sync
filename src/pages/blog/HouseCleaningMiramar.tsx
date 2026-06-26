@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Miramar?",
-    a: "House cleaning in Miramar costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Miramar's large suburban homes with pools and multiple bathrooms are priced by square footage. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Miramar costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Miramar's large suburban homes with pools and multiple bathrooms are priced by square footage. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Miramar, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Miramar communities including Silver Lakes, Monarch Lakes, Chapel Trail, Royal Palm Ranches, and Riviera Isles. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Miramar communities including Silver Lakes, Monarch Lakes, Chapel Trail, Royal Palm Ranches, and Riviera Isles. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Miramar gated communities?",
-    a: "Yes. TIDYWISE serves Miramar's gated and planned communities throughout the city. Our teams handle visitor gate protocols, HOA parking requirements, and community access at Silver Lakes, Monarch Lakes, and other Miramar communities — no complications with your appointment."
+    a: "Yes. CLEAN COLLECTIVE serves Miramar's gated and planned communities throughout the city. Our teams handle visitor gate protocols, HOA parking requirements, and community access at Silver Lakes, Monarch Lakes, and other Miramar communities — no complications with your appointment."
   },
   {
     q: "How often should Miramar homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningMiramar = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Miramar FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Miramar FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Miramar, FL from $108. Licensed & insured. Silver Lakes, Monarch Lakes, Chapel Trail & all Miramar communities. Same-day available."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-miramar"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningMiramar = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Miramar Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Miramar neighborhoods, including:
+              CLEAN COLLECTIVE serves all Miramar neighborhoods, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Silver Lakes", "Monarch Lakes", "Chapel Trail", "Royal Palm Ranches", "Riviera Isles",
@@ -126,7 +126,7 @@ const HouseCleaningMiramar = () => {
             <ul className="space-y-3 mb-8">
               {[
                 { t: "Licensed and insured in Broward County", b: "Always ask for the certificate of insurance before letting any service into your home. A legitimate company provides it within minutes." },
-                { t: "Background-checked cleaners", b: "Every TIDYWISE cleaner passes a criminal background check before their first assignment. In a large family home, trust in the people you're letting in matters." },
+                { t: "Background-checked cleaners", b: "Every CLEAN COLLECTIVE cleaner passes a criminal background check before their first assignment. In a large family home, trust in the people you're letting in matters." },
                 { t: "Consistent teams", b: "Miramar's bi-weekly clients benefit most from the same team every visit. You don't re-explain your preferences, and your cleaners learn what matters most in your specific home." },
                 { t: "Eco-friendly products", b: "With young children and pets common in Miramar's family-oriented neighborhoods, non-toxic, eco-certified cleaning products are a practical requirement — not an optional upgrade." },
                 { t: "Transparent online pricing", b: "Legitimate services publish their rates online. If a company won't quote without an in-home visit, expect the price to be higher than what transparent services charge." },

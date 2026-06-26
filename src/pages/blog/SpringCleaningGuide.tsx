@@ -11,7 +11,7 @@ const SpringCleaningGuide = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Spring Cleaning Guide for South Florida Homes | TIDYWISE"
+        pageTitle="Spring Cleaning Guide for South Florida Homes | CLEAN COLLECTIVE"
         pageDescription="Complete spring cleaning guide for South Florida homes. Tackle pollen, humidity, and seasonal challenges with our expert tips."
         canonicalUrl="https://www.tidywisecleaning.com/blog/spring-cleaning-guide-south-florida"
         pageType="blog"
@@ -108,7 +108,7 @@ const SpringCleaningGuide = () => {
 
               <div className="bg-primary/10 rounded-xl p-6 mt-8">
                 <h3 className="font-display text-xl font-bold text-foreground mb-3">
-                  Let TIDYWISE Handle Your Spring Cleaning
+                  Let CLEAN COLLECTIVE Handle Your Spring Cleaning
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   Our deep cleaning service covers all these tasks and more. We know South Florida homes 

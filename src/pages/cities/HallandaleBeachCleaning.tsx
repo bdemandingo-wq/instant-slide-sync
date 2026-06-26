@@ -9,19 +9,19 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Hallandale Beach?",
-    a: "House cleaning in Hallandale Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and bathrooms. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Hallandale Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and bathrooms. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Hallandale Beach, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Hallandale Beach neighborhoods including Gulfstream Village, Avant-Garde, Hillcrest communities, and Three Islands. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Hallandale Beach neighborhoods including Gulfstream Village, Avant-Garde, Hillcrest communities, and Three Islands. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Hallandale Beach condos and beachfront properties?",
-    a: "Yes. TIDYWISE cleans all Hallandale Beach property types including beachfront condos, ocean towers, and single-family homes. Our teams handle salt air challenges, building access protocols, and HOA requirements throughout the city."
+    a: "Yes. CLEAN COLLECTIVE cleans all Hallandale Beach property types including beachfront condos, ocean towers, and single-family homes. Our teams handle salt air challenges, building access protocols, and HOA requirements throughout the city."
   },
   {
     q: "Do you offer move-in/out cleaning in Hallandale Beach?",
-    a: "Yes. TIDYWISE provides move-in and move-out cleaning throughout Hallandale Beach. Our service covers everything from inside the oven and refrigerator to windows and baseboards — everything needed to pass a landlord inspection and get your deposit back."
+    a: "Yes. CLEAN COLLECTIVE provides move-in and move-out cleaning throughout Hallandale Beach. Our service covers everything from inside the oven and refrigerator to windows and baseboards — everything needed to pass a landlord inspection and get your deposit back."
   }
 ];
 
@@ -29,7 +29,7 @@ const HallandaleBeachCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Hallandale Beach House Cleaning | Insured | TIDYWISE"
+        pageTitle="Hallandale Beach House Cleaning | Insured | CLEAN COLLECTIVE"
         pageDescription="Hallandale Beach FL oceanfront condo & house cleaning. Golden Isles, Gulfstream Park & The Hemispheres. Building-approved cleaners. Book online!"
         canonicalUrl="https://www.tidywisecleaning.com/hallandale-beach-cleaning"
         pageType="county"

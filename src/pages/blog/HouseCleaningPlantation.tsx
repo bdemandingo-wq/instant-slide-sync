@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Plantation, FL?",
-    a: "House cleaning in Plantation costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Plantation's larger established homes and country club properties are priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Plantation costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Plantation's larger established homes and country club properties are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Plantation, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Plantation communities including Plantation Acres, Plantation Golf & Country Club, The Pointe, Jacaranda, and Westport. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Plantation communities including Plantation Acres, Plantation Golf & Country Club, The Pointe, Jacaranda, and Westport. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Plantation Golf & Country Club homes?",
-    a: "Yes. TIDYWISE serves Plantation's country club and gated communities. Our teams handle visitor gate registration, HOA parking requirements, and community access at Plantation Golf & Country Club and other gated Plantation neighborhoods — so your appointment runs without complications."
+    a: "Yes. CLEAN COLLECTIVE serves Plantation's country club and gated communities. Our teams handle visitor gate registration, HOA parking requirements, and community access at Plantation Golf & Country Club and other gated Plantation neighborhoods — so your appointment runs without complications."
   },
   {
     q: "How often should Plantation homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningPlantation = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Plantation FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Plantation FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Plantation, FL from $108. Licensed & insured. Plantation Golf & Country Club, Jacaranda, Westport & all neighborhoods. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-plantation"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningPlantation = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Plantation Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Plantation neighborhoods:
+              CLEAN COLLECTIVE serves all Plantation neighborhoods:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["Plantation Golf & Country Club", "Jacaranda", "Westport", "Plantation Acres",
@@ -123,7 +123,7 @@ const HouseCleaningPlantation = () => {
                 { t: "Larger floor plans with lots of tile", b: "Plantation's single-family homes run 2,000–4,000+ square feet with tile throughout. At this size, professional cleaning is genuinely more thorough and efficient than what most homeowners can do themselves." },
                 { t: "Mature landscaping and pollen", b: "Plantation's beautiful mature tree canopy creates heavy pollen seasons. Outdoor-to-indoor tracking is significant, particularly from screen-enclosed pools and covered patios that connect to living spaces." },
                 { t: "Country club community access", b: "Plantation Golf & Country Club has visitor registration requirements. Our teams handle gate check-in, HOA parking compliance, and community security sign-in on every visit." },
-                { t: "Eco-friendly products for family homes", b: "Plantation is a family-oriented city. TIDYWISE's non-toxic, eco-certified products are safe for children and pets — not an optional add-on, but standard on every service." },
+                { t: "Eco-friendly products for family homes", b: "Plantation is a family-oriented city. CLEAN COLLECTIVE's non-toxic, eco-certified products are safe for children and pets — not an optional add-on, but standard on every service." },
               ].map(item => (
                 <li key={item.t} className="border-l-4 border-primary pl-4">
                   <p className="font-semibold mb-1">{item.t}</p>

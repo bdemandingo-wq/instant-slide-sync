@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Wilton Manors?",
-    a: "House cleaning in Wilton Manors costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. TIDYWISE provides instant online quotes with no hidden fees."
+    a: "House cleaning in Wilton Manors costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. CLEAN COLLECTIVE provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Wilton Manors, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Wilton Manors neighborhoods including Jenada Isles, Wilton Manors Estates, and areas near Wilton Drive. We are licensed, insured, and background-check every cleaner."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Wilton Manors neighborhoods including Jenada Isles, Wilton Manors Estates, and areas near Wilton Drive. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you use eco-friendly cleaning products in Wilton Manors?",
-    a: "Yes. TIDYWISE uses eco-friendly, non-toxic cleaning products as standard — a priority in Wilton Manors' environmentally conscious community. Our products are effective on Florida's humidity-driven buildup and safe for people and pets."
+    a: "Yes. CLEAN COLLECTIVE uses eco-friendly, non-toxic cleaning products as standard — a priority in Wilton Manors' environmentally conscious community. Our products are effective on Florida's humidity-driven buildup and safe for people and pets."
   },
   {
     q: "How often should Wilton Manors homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const WiltonManorsCleaning = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="Wilton Manors House Cleaning | Licensed & Insured | TIDYWISE"
+        pageTitle="Wilton Manors House Cleaning | Licensed & Insured | CLEAN COLLECTIVE"
         pageDescription="Wilton Manors FL LGBTQ-friendly cleaning service. Jenada Isles, Manor Grove & Central Wilton Manors. Inclusive, professional & thorough. Call us!"
         canonicalUrl="https://www.tidywisecleaning.com/wilton-manors-cleaning"
         pageType="county"

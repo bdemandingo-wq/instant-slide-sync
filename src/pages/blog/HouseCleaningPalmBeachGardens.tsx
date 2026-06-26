@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Palm Beach Gardens?",
-    a: "House cleaning in Palm Beach Gardens costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Larger homes in Mirasol, Ballenisles, or Frenchman's Creek are priced by square footage. TIDYWISE provides instant online quotes."
+    a: "House cleaning in Palm Beach Gardens costs $108–$400 for standard cleaning, $208–$550 for deep cleaning, and $283–$650 for move in/out cleaning. Larger homes in Mirasol, Ballenisles, or Frenchman's Creek are priced by square footage. CLEAN COLLECTIVE provides instant online quotes."
   },
   {
     q: "What is the best cleaning service in Palm Beach Gardens, FL?",
-    a: "TIDYWISE is rated 4.9 stars across 127+ verified reviews and serves all Palm Beach Gardens communities including PGA National, Mirasol, Ballenisles, Frenchman's Creek, Frenchman's Reserve, Alton, and Avenir. Licensed, insured, and background-checked."
+    a: "CLEAN COLLECTIVE is rated 4.9 stars across 127+ verified reviews and serves all Palm Beach Gardens communities including PGA National, Mirasol, Ballenisles, Frenchman's Creek, Frenchman's Reserve, Alton, and Avenir. Licensed, insured, and background-checked."
   },
   {
     q: "Do you clean PGA National and Mirasol homes in Palm Beach Gardens?",
-    a: "Yes. TIDYWISE is experienced with Palm Beach Gardens' premier golf and country club communities. Our teams handle visitor gate registration, guest passes, HOA parking, and community security at PGA National, Mirasol, Ballenisles, and other gated neighborhoods."
+    a: "Yes. CLEAN COLLECTIVE is experienced with Palm Beach Gardens' premier golf and country club communities. Our teams handle visitor gate registration, guest passes, HOA parking, and community security at PGA National, Mirasol, Ballenisles, and other gated neighborhoods."
   },
   {
     q: "How often should Palm Beach Gardens homeowners book professional cleaning?",
@@ -29,7 +29,7 @@ const HouseCleaningPalmBeachGardens = () => {
   return (
     <>
       <SEOSchema
-        pageTitle="House Cleaning Palm Beach Gardens FL | From $108 | TIDYWISE"
+        pageTitle="House Cleaning Palm Beach Gardens FL | From $108 | CLEAN COLLECTIVE"
         pageDescription="House cleaning in Palm Beach Gardens, FL from $108. Licensed & insured. PGA National, Mirasol, Ballenisles, Frenchman's Creek & all golf communities. Book now."
         canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-palm-beach-gardens"
         pageType="blog"
@@ -104,7 +104,7 @@ const HouseCleaningPalmBeachGardens = () => {
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Palm Beach Gardens Communities We Clean</h2>
             <p className="text-muted-foreground mb-4">
-              TIDYWISE serves all Palm Beach Gardens communities, including:
+              CLEAN COLLECTIVE serves all Palm Beach Gardens communities, including:
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {["PGA National", "Mirasol", "Ballenisles", "Frenchman's Creek", "Frenchman's Reserve",
