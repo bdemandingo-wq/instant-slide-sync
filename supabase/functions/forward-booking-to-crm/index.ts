@@ -48,6 +48,7 @@ Deno.serve(async (req) => {
 
   // Map Clean Collective booking fields -> CRM ingest payload
   const payload = {
+    organization_id: "0ddb3567-4641-48c8-8ff7-4bf1b87681da",
     name: body.name,
     email: body.email,
     phone: body.phone ?? null,
