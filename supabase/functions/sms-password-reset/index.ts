@@ -1,9 +1,8 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+import { resolveOpenPhoneNumberId } from "../_shared/openphone.ts";
 
 const OPENPHONE_API_KEY = Deno.env.get("OPENPHONE_API_KEY");
-const OPENPHONE_PHONE_NUMBER_ID = "PNr7XukuaV";
-const ADMIN_PHONE_NUMBER = "+15618612752";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
