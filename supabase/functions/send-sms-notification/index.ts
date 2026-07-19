@@ -5,12 +5,13 @@ import {
   OWNER_EMAILS,
   renderAdminBookingEmail,
   renderCustomerBookingEmail,
-  sendResendEmail,
+  sendGmailEmail,
   type BookingSummary,
 } from "../_shared/booking-emails.ts";
 
 const OPENPHONE_API_KEY = Deno.env.get("OPENPHONE_API_KEY");
-const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
+const GMAIL_APP_PASSWORD = Deno.env.get("GMAIL_APP_PASSWORD");
+
 
 // All three owners get every booking alert.
 const OWNER_PHONES = ["+18137356859", "+14076987080", "+18136653189"];
