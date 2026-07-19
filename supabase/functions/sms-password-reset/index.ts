@@ -90,6 +90,9 @@ serve(async (req) => {
       // Send SMS via OpenPhone
       if (!OPENPHONE_API_KEY) throw new Error("OpenPhone API key not configured");
 
+      const fromId = await resolveOpenPhoneNumberId(OPENPHONE_API_KEY);
+      if (!fromId) throw new Error("OpenPhone sender number could not be resolved");
+
       const smsResponse = await fetch("https://api.openphone.com/v1/messages", {
         method: "POST",
         headers: {
@@ -98,7 +101,7 @@ serve(async (req) => {
         },
         body: JSON.stringify({
           content: `Your Clean Collective password reset code is: ${otpCode}\n\nThis code expires in 10 minutes.`,
-          from: OPENPHONE_PHONE_NUMBER_ID,
+          from: fromId,
           to: [normalizedPhone],
         }),
       });
