@@ -10,8 +10,6 @@ const SMTP_PORT = 465;
 const SMTP_USER = "support@cleancollectives.com";
 
 
-const RESEND_URL = "https://api.resend.com/emails";
-
 export const OWNER_EMAILS = [
   "emmanuel@cleancollectives.com",
   "samuel@cleancollectives.com",
