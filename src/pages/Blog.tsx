@@ -569,7 +569,7 @@ const Blog = () => {
 
   // Inject rel="prev" / rel="next" into <head> for paginated pages
   useEffect(() => {
-    const base = "https://www.cleancollective.net/blog";
+    const base = "https://www.cleancollectives.com/blog";
     const ensureLink = (rel: "prev" | "next", href: string | null) => {
       let el = document.head.querySelector<HTMLLinkElement>(`link[rel="${rel}"]`);
       if (!href) { el?.remove(); return; }
@@ -593,7 +593,7 @@ const Blog = () => {
       <SEOSchema
         pageTitle="Cleaning Tips & Guides Blog | Clean Collective South Florida"
         pageDescription="Expert cleaning tips, guides, and advice for South Florida homeowners. Learn about deep cleaning, pet-friendly cleaning, hurricane prep, and more from Clean Collective."
-        canonicalUrl="https://www.cleancollective.net/blog"
+        canonicalUrl="https://www.cleancollectives.com/blog"
         pageType="blog"
         county="South Florida"
       />

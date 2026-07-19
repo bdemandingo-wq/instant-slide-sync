@@ -20,7 +20,7 @@ const faqItems = [
   },
   {
     q: "Can I book Clean Collective online instead of waiting for an estimate?",
-    a: "Yes. Clean Collective offers instant online quotes and same-day booking at cleancollective.net. No waiting for an in-home estimate or sales call required."
+    a: "Yes. Clean Collective offers instant online quotes and same-day booking at cleancollectives.com. No waiting for an in-home estimate or sales call required."
   }
 ];
 
@@ -43,12 +43,12 @@ const MollyMaidAlternative = () => {
       <SEOSchema
         pageTitle="Molly Maid Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Molly Maid alternative in South Florida. Transparent pricing, same-day booking & eco-friendly cleaning. Fort Lauderdale, Boca Raton, Miami & 40+ cities."
-        canonicalUrl="https://www.cleancollective.net/molly-maid-alternative"
+        canonicalUrl="https://www.cleancollectives.com/molly-maid-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Molly Maid Alternative", url: "https://www.cleancollective.net/molly-maid-alternative" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Molly Maid Alternative", url: "https://www.cleancollectives.com/molly-maid-alternative" }
         ]}
       />
       <main className="min-h-screen">

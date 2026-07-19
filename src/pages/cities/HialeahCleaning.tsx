@@ -31,7 +31,7 @@ const HialeahCleaning = () => {
       <SEOSchema
         pageTitle="Hialeah House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Hialeah FL bilingual cleaning services. Hialeah Gardens, Palm Springs & Miami Lakes. Affordable weekly or bi-weekly plans. Llámanos hoy!"
-        canonicalUrl="https://www.cleancollective.net/hialeah-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/hialeah-cleaning"
         pageType="county"
         county="Hialeah"
         faqItems={faqItems}

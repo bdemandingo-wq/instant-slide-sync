@@ -31,14 +31,14 @@ const HouseCleaningDeerfield = () => {
       <SEOSchema
         pageTitle="House Cleaning Deerfield Beach FL | From $108 | Clean Collective"
         pageDescription="Local house cleaning in Deerfield Beach, FL from $108. Clean Collective is based here. Lighthouse Point, Deer Creek & all areas. Instant online quotes."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-deerfield-beach"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-deerfield-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Deerfield Beach", url: "https://www.cleancollective.net/blog/house-cleaning-deerfield-beach" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Deerfield Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-deerfield-beach" }
         ]}
       />
       <main className="min-h-screen">

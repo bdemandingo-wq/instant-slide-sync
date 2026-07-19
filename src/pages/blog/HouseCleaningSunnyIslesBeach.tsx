@@ -31,14 +31,14 @@ const HouseCleaningSunnyIslesBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Sunny Isles Beach FL | Clean Collective"
         pageDescription="Luxury house cleaning in Sunny Isles Beach, FL. Ultra-luxury tower specialists. Porsche Design Tower, Regalia & all buildings. White-glove service."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-sunny-isles-beach"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-sunny-isles-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Sunny Isles Beach", url: "https://www.cleancollective.net/blog/house-cleaning-sunny-isles-beach" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Sunny Isles Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-sunny-isles-beach" }
         ]}
       />
       <main className="min-h-screen">

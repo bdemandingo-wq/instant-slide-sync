@@ -109,7 +109,7 @@ const CustomerPortal = () => {
       <SEOHead
         title="My Bookings | Clean Collective"
         description="View and manage your Clean Collective cleaning service bookings. Track upcoming and past appointments."
-        canonical="https://www.cleancollective.net/my-bookings"
+        canonical="https://www.cleancollectives.com/my-bookings"
         noIndex={true}
       />
     <div className="min-h-screen bg-background">

@@ -31,7 +31,7 @@ const DoralCleaning = () => {
       <SEOSchema
         pageTitle="Doral House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Doral FL professional home & office cleaning. Bilingual staff serving Downtown Doral, Trump National & Isles of Doral. Free estimates. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollective.net/doral-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/doral-cleaning"
         pageType="county"
         county="Doral"
         faqItems={faqItems}

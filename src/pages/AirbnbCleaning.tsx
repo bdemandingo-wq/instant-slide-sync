@@ -29,7 +29,7 @@ const AirbnbCleaning = () => {
       <SEOSchema
         pageTitle="Airbnb & Vacation Rental Cleaning | South Florida | Clean Collective"
         pageDescription="Airbnb & vacation rental turnover cleaning in South Florida. Same-day turnovers, linen service & checklist-based cleaning for 5-star reviews."
-        canonicalUrl="https://www.cleancollective.net/airbnb-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/airbnb-cleaning"
       />
       <Navbar />
       <main id="main-content" className="pt-16">

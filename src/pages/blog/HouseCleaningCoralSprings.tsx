@@ -31,14 +31,14 @@ const HouseCleaningCoralSprings = () => {
       <SEOSchema
         pageTitle="House Cleaning Coral Springs FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Coral Springs, FL from $108. Licensed & insured. Eagle Trace, Heron Bay, Ramblewood & all Coral Springs neighborhoods. Book now."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-coral-springs"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-coral-springs"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Coral Springs", url: "https://www.cleancollective.net/blog/house-cleaning-coral-springs" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Coral Springs", url: "https://www.cleancollectives.com/blog/house-cleaning-coral-springs" }
         ]}
       />
       <main className="min-h-screen">

@@ -31,14 +31,14 @@ const HouseCleaningPembrokePines = () => {
       <SEOSchema
         pageTitle="House Cleaning Pembroke Pines FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Pembroke Pines, FL from $108. Licensed & insured. Chapel Trail, Silver Lakes, Pembroke Falls & all Pembroke Pines communities. Book now."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-pembroke-pines"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-pembroke-pines"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Pembroke Pines", url: "https://www.cleancollective.net/blog/house-cleaning-pembroke-pines" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Pembroke Pines", url: "https://www.cleancollectives.com/blog/house-cleaning-pembroke-pines" }
         ]}
       />
       <main className="min-h-screen">

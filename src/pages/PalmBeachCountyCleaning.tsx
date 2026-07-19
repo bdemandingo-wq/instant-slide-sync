@@ -45,7 +45,7 @@ const PalmBeachCountyCleaning = () => {
       <SEOSchema
         pageTitle="Palm Beach County Cleaning | Clean Collective"
         pageDescription="Top-rated cleaning West Palm Beach & Boca Raton. Licensed & insured. Eco-friendly products. Same-day quotes. Call (561) 861-2752 for 10% off!"
-        canonicalUrl="https://www.cleancollective.net/palm-beach-county-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/palm-beach-county-cleaning"
         pageType="county"
         county="Palm Beach County"
         faqItems={faqItems}

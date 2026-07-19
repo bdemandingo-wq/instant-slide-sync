@@ -13,7 +13,7 @@ const BathroomDeepCleaningGuide = () => {
       <SEOSchema
         pageTitle="Complete Bathroom Deep Cleaning Guide | Clean Collective"
         pageDescription="Step-by-step bathroom deep cleaning guide designed for Florida's humid climate. Tackle mold, soap scum, and grime."
-        canonicalUrl="https://www.cleancollective.net/blog/bathroom-deep-cleaning-guide"
+        canonicalUrl="https://www.cleancollectives.com/blog/bathroom-deep-cleaning-guide"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-03-01", readTime: "7 min", category: "Guides" }}

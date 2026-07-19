@@ -32,7 +32,7 @@ const MiamiBeachCleaning = () => {
       <SEOSchema
         pageTitle="Miami Beach House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Affordable cleaning Miami Beach. Condo & house cleaning in South Beach, Mid-Beach, North Beach. Licensed & insured. Call (561) 861-2752 for free quote!"
-        canonicalUrl="https://www.cleancollective.net/miami-beach-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/miami-beach-cleaning"
         pageType="county"
         county="Miami Beach"
         faqItems={faqItems}

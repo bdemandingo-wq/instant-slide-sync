@@ -76,7 +76,7 @@ const AiBlogPost = () => {
         <SEOSchema
           pageTitle="Article Archived | Clean Collective Blog"
           pageDescription="This Clean Collective article has been archived. Browse our latest South Florida cleaning guides, tips, and city-specific resources for homeowners and renters."
-          canonicalUrl="https://www.cleancollective.net/blog"
+          canonicalUrl="https://www.cleancollectives.com/blog"
           pageType="blog"
         />
         <main className="min-h-screen">
@@ -175,7 +175,7 @@ const AiBlogPost = () => {
       <SEOSchema
         pageTitle={post.title.length > 60 ? post.title.slice(0, 57).trimEnd() + "…" : post.title}
         pageDescription={post.excerpt.length > 160 ? post.excerpt.slice(0, 157).trimEnd() + "…" : post.excerpt}
-        canonicalUrl={`https://www.cleancollective.net${location.pathname}`}
+        canonicalUrl={`https://www.cleancollectives.com${location.pathname}`}
         pageType="blog"
         county="South Florida"
       />

@@ -31,14 +31,14 @@ const HouseCleaningAventura = () => {
       <SEOSchema
         pageTitle="House Cleaning Aventura FL | From $108 | Clean Collective"
         pageDescription="Professional house cleaning in Aventura, FL from $108. Licensed & insured. Williams Island, Turnberry Isle & all luxury condos. Book online now."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-aventura"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-aventura"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Aventura", url: "https://www.cleancollective.net/blog/house-cleaning-aventura" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Aventura", url: "https://www.cleancollectives.com/blog/house-cleaning-aventura" }
         ]}
       />
       <main className="min-h-screen">

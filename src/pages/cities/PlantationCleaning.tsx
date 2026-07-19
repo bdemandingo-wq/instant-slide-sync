@@ -31,7 +31,7 @@ const PlantationCleaning = () => {
       <SEOSchema
         pageTitle="Plantation House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Plantation FL trusted home cleaning since 2020. Jacaranda, Plantation Acres & Central Park. Standard & deep cleaning options. Get 10% off first clean!"
-        canonicalUrl="https://www.cleancollective.net/plantation-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/plantation-cleaning"
         pageType="county"
         county="Plantation"
         faqItems={faqItems}

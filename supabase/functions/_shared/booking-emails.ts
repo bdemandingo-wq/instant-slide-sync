@@ -64,7 +64,7 @@ export function renderAdminBookingEmail(b: BookingSummary): { subject: string; h
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;">
 <tr><td style="background:${BRAND.pink};padding:20px 28px;color:#ffffff;font-size:20px;font-weight:700;">New Website Booking</td></tr>
 <tr><td style="padding:24px 28px;">
-<p style="margin:0 0 16px;color:${BRAND.ink};font-size:15px;">A new booking just came in through cleancollective.net. Details below.</p>
+<p style="margin:0 0 16px;color:${BRAND.ink};font-size:15px;">A new booking just came in through cleancollectives.com. Details below.</p>
 <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;padding:8px 0;">
 ${row("Customer", b.customerName)}
 ${row("Phone", b.customerPhone)}
@@ -118,7 +118,7 @@ Need to change or ask about anything? Call or text <strong>${BRAND.phone}</stron
 </td></tr>
 <tr><td style="padding:16px 28px;color:#64748b;font-size:12px;text-align:center;background:#ffffff;border-top:1px solid #e2e8f0;">
 Clean Collective · Pompano Beach, FL · ${BRAND.phone}<br/>
-You're receiving this because you booked a cleaning on cleancollective.net.
+You're receiving this because you booked a cleaning on cleancollectives.com.
 </td></tr>
 </table></td></tr></table></body></html>`;
   return { subject, html };

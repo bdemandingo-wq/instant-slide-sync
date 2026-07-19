@@ -54,7 +54,7 @@ const AmazonHomeServicesAlternative = () => {
       <SEOSchema
         pageTitle="Amazon Home Services Alternative | Clean Collective Cleaning"
         pageDescription="Amazon Home Services alternative for cleaning in South Florida. Local teams, flat-rate pricing & direct accountability. Fort Lauderdale, Miami, Boca Raton."
-        canonicalUrl="https://www.cleancollective.net/amazon-home-services-alternative"
+        canonicalUrl="https://www.cleancollectives.com/amazon-home-services-alternative"
         pageType="service"
         additionalSchema={faqSchema}
       />

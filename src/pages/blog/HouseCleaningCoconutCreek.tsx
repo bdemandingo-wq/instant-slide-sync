@@ -31,14 +31,14 @@ const HouseCleaningCoconutCreek = () => {
       <SEOSchema
         pageTitle="House Cleaning Coconut Creek FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Coconut Creek, FL from $108. Licensed & insured. Wynmoor Village, Winston Park, Banyan Trails & all communities. Same-day available."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-coconut-creek"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-coconut-creek"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Coconut Creek", url: "https://www.cleancollective.net/blog/house-cleaning-coconut-creek" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Coconut Creek", url: "https://www.cleancollectives.com/blog/house-cleaning-coconut-creek" }
         ]}
       />
       <main className="min-h-screen">

@@ -31,7 +31,7 @@ const WestonCleaning = () => {
       <SEOSchema
         pageTitle="Weston House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Weston FL premium residential cleaning. Weston Hills, Savanna & The Ridges experts. Pet-safe products. Background-checked cleaners. Schedule today!"
-        canonicalUrl="https://www.cleancollective.net/weston-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/weston-cleaning"
         pageType="county"
         county="Weston"
         faqItems={faqItems}

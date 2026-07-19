@@ -31,7 +31,7 @@ const MargateCleaning = () => {
       <SEOSchema
         pageTitle="Margate House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Margate FL value-priced residential cleaning. Oriole Golf, Coral Gate & Palm Lakes. Weekly, bi-weekly or monthly options. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollective.net/margate-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/margate-cleaning"
         pageType="county"
         county="Margate"
         faqItems={faqItems}

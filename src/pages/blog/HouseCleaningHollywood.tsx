@@ -49,7 +49,7 @@ const HouseCleaningHollywood = () => {
       <SEOSchema
         pageTitle="House Cleaning Hollywood FL | Licensed & Insured | Clean Collective"
         pageDescription="House cleaning in Hollywood, FL from $118. Licensed & insured. Hollywood Beach, Emerald Hills, Dania Beach & all Hollywood neighborhoods. Book now."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-hollywood-florida"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-hollywood-florida"
         pageType="article"
         additionalSchema={faqSchema}
       />

@@ -31,14 +31,14 @@ const HouseCleaningFortLauderdale = () => {
       <SEOSchema
         pageTitle="House Cleaning Fort Lauderdale FL | Clean Collective | From $108"
         pageDescription="House cleaning in Fort Lauderdale, FL from $118. Licensed & insured. Las Olas, Victoria Park, Coral Ridge & all Fort Lauderdale neighborhoods. Book now."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-fort-lauderdale"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-fort-lauderdale"
         pageType="blog"
         blogMeta={{ datePublished: "2026-01-15", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Fort Lauderdale", url: "https://www.cleancollective.net/blog/house-cleaning-fort-lauderdale" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Fort Lauderdale", url: "https://www.cleancollectives.com/blog/house-cleaning-fort-lauderdale" }
         ]}
       />
       <main className="min-h-screen">

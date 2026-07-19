@@ -31,8 +31,8 @@ const SUPABASE_URL = Deno.env.get("SUPABASE_URL");
 const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
 
 const ALLOWED_ORIGINS = [
-  'https://cleancollective.net',
-  'https://www.cleancollective.net',
+  'https://cleancollectives.com',
+  'https://www.cleancollectives.com',
   'https://ekseakjxarhjujngoklz.supabase.co',
 ];
 
@@ -152,7 +152,7 @@ const handler = async (req: Request): Promise<Response> => {
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
             <div style="text-align: center; padding: 25px; background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
-              <img src="https://www.cleancollective.net/logo-email.png" alt="Clean Collective" style="height: 60px; width: auto;" />
+              <img src="https://www.cleancollectives.com/logo-email.png" alt="Clean Collective" style="height: 60px; width: auto;" />
               <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 14px;">New Cleaner Application</p>
             </div>
             

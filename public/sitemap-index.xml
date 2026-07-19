@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://www.cleancollective.net/sitemap-main.xml</loc>
+    <loc>https://www.cleancollectives.com/sitemap-main.xml</loc>
     <lastmod>2026-04-13</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.cleancollective.net/sitemap-services.xml</loc>
+    <loc>https://www.cleancollectives.com/sitemap-services.xml</loc>
     <lastmod>2026-04-13</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.cleancollective.net/sitemap-cities.xml</loc>
+    <loc>https://www.cleancollectives.com/sitemap-cities.xml</loc>
     <lastmod>2026-04-13</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.cleancollective.net/sitemap-blog.xml</loc>
+    <loc>https://www.cleancollectives.com/sitemap-blog.xml</loc>
     <lastmod>2026-04-13</lastmod>
   </sitemap>
 </sitemapindex>

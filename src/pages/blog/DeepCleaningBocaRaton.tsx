@@ -64,7 +64,7 @@ const DeepCleaningBocaRaton = () => {
       <SEOSchema
         pageTitle="Deep Cleaning Boca Raton | First Clean Experts"
         pageDescription="Deep cleaning in Boca Raton, FL from $208. Inside appliances, baseboards, grout scrubbing & more. Boca West, Broken Sound, Mizner Park. Book now."
-        canonicalUrl="https://www.cleancollective.net/blog/deep-cleaning-service-boca-raton"
+        canonicalUrl="https://www.cleancollectives.com/blog/deep-cleaning-service-boca-raton"
         pageType="article"
         additionalSchema={faqSchema}
       />

@@ -31,7 +31,7 @@ const DavieCleaning = () => {
       <SEOSchema
         pageTitle="Davie House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Davie FL home cleaning near Nova Southeastern. Pine Island Ridge & Rolling Hills residents love our attention to detail. Insured cleaners. Book now!"
-        canonicalUrl="https://www.cleancollective.net/davie-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/davie-cleaning"
         pageType="county"
         county="Davie"
         faqItems={faqItems}
