@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/seo/StickyCallButton";
 
 const Sitemap = () => {
-  const baseUrl = "https://www.tidywisecleaning.com";
+  const baseUrl = "https://www.cleancollective.net";
   
   // Schema markup for sitemap page (SiteNavigationElement)
   const sitemapSchema = {
@@ -320,10 +320,10 @@ const Sitemap = () => {
                 Get Free Quote
               </Link>
               <a 
-                href="tel:+15615718725"
+                href="tel:+15618612752"
                 className="inline-flex items-center justify-center px-6 py-3 border border-border text-foreground font-medium rounded-lg hover:bg-muted transition-colors"
               >
-                Call (561) 571-8725
+                Call (561) 861-2752
               </a>
             </div>
           </div>

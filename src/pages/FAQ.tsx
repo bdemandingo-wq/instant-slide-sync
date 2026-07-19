@@ -39,11 +39,11 @@ const faqs = [
     questions: [
       {
         q: "How do I book a cleaning?",
-        a: "You can book online through our website (click 'Book Now'), call us at (561) 571-8725, or use our AI chat assistant. We respond within 15 minutes during business hours (9 AM – 6 PM EST)."
+        a: "You can book online through our website (click 'Book Now'), call us at (561) 861-2752, or use our AI chat assistant. We respond within 15 minutes during business hours (9 AM – 6 PM EST)."
       },
       {
         q: "Can I book same-day or next-day cleaning?",
-        a: "For same-day or next-day bookings, please call us directly at (561) 571-8725. Online bookings require at least 2 days advance notice to ensure we can schedule the right team for your home."
+        a: "For same-day or next-day bookings, please call us directly at (561) 861-2752. Online bookings require at least 2 days advance notice to ensure we can schedule the right team for your home."
       },
       {
         q: "What areas do you serve?",
@@ -127,7 +127,7 @@ const faqs = [
       },
       {
         q: "Can I reschedule my cleaning?",
-        a: "Yes! You can reschedule with at least 24 hours notice at no charge. Just call us at (561) 571-8725 or reply to your confirmation email."
+        a: "Yes! You can reschedule with at least 24 hours notice at no charge. Just call us at (561) 861-2752 or reply to your confirmation email."
       },
       {
         q: "What if my cleaner can't make it?",
@@ -158,16 +158,16 @@ const FAQ = () => {
     <>
       <SEOHead
         title="Cleaning Service FAQ South Florida | Clean Collective"
-        description="Find answers about Clean Collective cleaning services, pricing, booking & cancellations. Serving 40+ South Florida cities. Call (561) 571-8725."
-        canonical="https://www.tidywisecleaning.com/faq"
+        description="Find answers about Clean Collective cleaning services, pricing, booking & cancellations. Serving 40+ South Florida cities. Call (561) 861-2752."
+        canonical="https://www.cleancollective.net/faq"
         schemaJson={[
           faqSchema,
           {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tidywisecleaning.com" },
-              { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.tidywisecleaning.com/faq" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.cleancollective.net" },
+              { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.cleancollective.net/faq" }
             ]
           }
         ]}
@@ -228,9 +228,9 @@ const FAQ = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

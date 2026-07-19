@@ -31,7 +31,7 @@ const HialeahCleaning = () => {
       <SEOSchema
         pageTitle="Hialeah House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Hialeah FL bilingual cleaning services. Hialeah Gardens, Palm Springs & Miami Lakes. Affordable weekly or bi-weekly plans. Llámanos hoy!"
-        canonicalUrl="https://www.tidywisecleaning.com/hialeah-cleaning"
+        canonicalUrl="https://www.cleancollective.net/hialeah-cleaning"
         pageType="county"
         county="Hialeah"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const HialeahCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

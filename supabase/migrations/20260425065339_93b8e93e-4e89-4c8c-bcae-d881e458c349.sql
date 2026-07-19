@@ -205,10 +205,10 @@ CREATE POLICY "Admins upload work-photos" ON storage.objects FOR INSERT WITH CHE
 CREATE POLICY "Admins delete work-photos" ON storage.objects FOR DELETE USING (bucket_id = 'work-photos' AND has_role(auth.uid(), 'admin'::app_role));
 
 INSERT INTO public.site_content (key, value) VALUES
-  ('instagram_handle', '@tidywisecleaning'),
-  ('instagram_url', 'https://www.instagram.com/tidywisecleaning/'),
-  ('tiktok_handle', '@tidywisecleaning'),
-  ('tiktok_url', 'https://www.tiktok.com/@tidywisecleaning')
+  ('instagram_handle', '@cleancollective'),
+  ('instagram_url', 'https://www.instagram.com/cleancollective/'),
+  ('tiktok_handle', '@cleancollective'),
+  ('tiktok_url', 'https://www.tiktok.com/@cleancollective')
 ON CONFLICT (key) DO NOTHING;
 
 -- =====================================================

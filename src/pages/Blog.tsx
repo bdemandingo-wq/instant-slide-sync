@@ -569,7 +569,7 @@ const Blog = () => {
 
   // Inject rel="prev" / rel="next" into <head> for paginated pages
   useEffect(() => {
-    const base = "https://www.tidywisecleaning.com/blog";
+    const base = "https://www.cleancollective.net/blog";
     const ensureLink = (rel: "prev" | "next", href: string | null) => {
       let el = document.head.querySelector<HTMLLinkElement>(`link[rel="${rel}"]`);
       if (!href) { el?.remove(); return; }
@@ -593,7 +593,7 @@ const Blog = () => {
       <SEOSchema
         pageTitle="Cleaning Tips & Guides Blog | Clean Collective South Florida"
         pageDescription="Expert cleaning tips, guides, and advice for South Florida homeowners. Learn about deep cleaning, pet-friendly cleaning, hurricane prep, and more from Clean Collective."
-        canonicalUrl="https://www.tidywisecleaning.com/blog"
+        canonicalUrl="https://www.cleancollective.net/blog"
         pageType="blog"
         county="South Florida"
       />
@@ -786,10 +786,10 @@ const Blog = () => {
                 Get Free Quote
               </Link>
               <a 
-                href="tel:+15615718725"
+                href="tel:+15618612752"
                 className="inline-flex items-center justify-center px-6 py-3 border border-border text-foreground font-medium rounded-lg hover:bg-muted transition-colors"
               >
-                Call (561) 571-8725
+                Call (561) 861-2752
               </a>
             </div>
           </div>

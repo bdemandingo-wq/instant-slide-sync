@@ -31,7 +31,7 @@ const CoconutCreekCleaning = () => {
       <SEOSchema
         pageTitle="Coconut Creek House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Coconut Creek FL professional home cleaning. Wynmoor community specialists. Palm Beach Farms & Cypress Bend. Licensed & insured. Schedule today!"
-        canonicalUrl="https://www.tidywisecleaning.com/coconut-creek-cleaning"
+        canonicalUrl="https://www.cleancollective.net/coconut-creek-cleaning"
         pageType="county"
         county="Coconut Creek"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const CoconutCreekCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

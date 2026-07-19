@@ -85,7 +85,7 @@ const ServiceAreas = () => {
       "@type": "ListItem",
       "position": i + 1,
       "name": `${city.name} Cleaning Services`,
-      "url": `https://www.tidywisecleaning.com${city.link}`
+      "url": `https://www.cleancollective.net${city.link}`
     }))
   };
 
@@ -94,11 +94,11 @@ const ServiceAreas = () => {
       <SEOSchema
         pageTitle="House Cleaning Near Me South Florida | 40+ Cities | Clean Collective"
         pageDescription="House cleaning near me? Clean Collective serves 40+ cities across Broward, Palm Beach & Miami-Dade counties. Find your city for local pricing."
-        canonicalUrl="https://www.tidywisecleaning.com/service-areas"
+        canonicalUrl="https://www.cleancollective.net/service-areas"
         pageType="service"
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Service Areas", url: "https://www.tidywisecleaning.com/service-areas" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Service Areas", url: "https://www.cleancollective.net/service-areas" }
         ]}
       />
       <main className="min-h-screen">
@@ -122,9 +122,9 @@ const ServiceAreas = () => {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
             
             <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-              <a href="tel:+15615718725" className="flex items-center gap-2">
+              <a href="tel:+15618612752" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (561) 571-8725
+                Call (561) 861-2752
               </a>
             </Button>
           </div>
@@ -221,7 +221,7 @@ const ServiceAreas = () => {
               The 40+ cities listed above are where we currently have dedicated coverage,
               but we routinely book one-time and recurring cleans in adjacent communities
               across Broward, Palm Beach, and Miami-Dade. If your city isn't listed,
-              <a href="tel:+15615718725" className="text-primary hover:underline"> give us a quick call</a>
+              <a href="tel:+15618612752" className="text-primary hover:underline"> give us a quick call</a>
               {" "}and we'll let you know if we can serve your address. New service areas
               get added every month based on customer demand. You can also browse our
               full <Link to="/blog" className="text-primary hover:underline">South Florida cleaning blog</Link>{" "}
@@ -254,7 +254,7 @@ const ServiceAreas = () => {
               />
             </div>
             <p className="text-center mt-6 text-muted-foreground">
-              Don't see your city? <a href="tel:+15615718725" className="text-primary font-medium hover:underline">Call us</a> – we may still be able to help!
+              Don't see your city? <a href="tel:+15618612752" className="text-primary font-medium hover:underline">Call us</a> – we may still be able to help!
             </p>
           </div>
         </section>
@@ -273,7 +273,7 @@ const ServiceAreas = () => {
                 <Link to="/#booking">Get Free Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">Call (561) 571-8725</a>
+                <a href="tel:+15618612752">Call (561) 861-2752</a>
               </Button>
             </div>
           </div>

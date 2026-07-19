@@ -1,11 +1,11 @@
 import { Check, X, AlertTriangle } from "lucide-react";
 
 const comparisons = [
-  { feature: "Instant online pricing", tidywise: true, others: false },
-  { feature: "Background-checked cleaners", tidywise: true, others: "warn" },
-  { feature: "Satisfaction guarantee", tidywise: true, others: false },
-  { feature: "Eco-friendly products", tidywise: true, others: false },
-  { feature: "Online booking & reminders", tidywise: true, others: false },
+  { feature: "Instant online pricing", cleancollective: true, others: false },
+  { feature: "Background-checked cleaners", cleancollective: true, others: "warn" },
+  { feature: "Satisfaction guarantee", cleancollective: true, others: false },
+  { feature: "Eco-friendly products", cleancollective: true, others: false },
+  { feature: "Online booking & reminders", cleancollective: true, others: false },
 ];
 
 const ComparisonTable = () => {

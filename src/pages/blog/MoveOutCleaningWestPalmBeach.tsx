@@ -30,7 +30,7 @@ const MoveOutCleaningWestPalmBeach = () => {
         name: "How far in advance should I book move-out cleaning in West Palm Beach?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Book at least 3-5 days before your move-out date to ensure availability. For end-of-month moves (when demand spikes in West Palm Beach), book 1-2 weeks ahead. We do keep same-day slots for emergencies — call (561) 571-8725 if you need urgent service.",
+          text: "Book at least 3-5 days before your move-out date to ensure availability. For end-of-month moves (when demand spikes in West Palm Beach), book 1-2 weeks ahead. We do keep same-day slots for emergencies — call (561) 861-2752 if you need urgent service.",
         },
       },
       {
@@ -68,7 +68,7 @@ const MoveOutCleaningWestPalmBeach = () => {
       <SEOSchema
         pageTitle="Move Out Cleaning West Palm Beach | Deposit Ready"
         pageDescription="Professional move-out cleaning in West Palm Beach, FL from $283. Includes appliances, cabinets, and every room landlords inspect. Licensed & insured. Book now!"
-        canonicalUrl="https://www.tidywisecleaning.com/blog/move-out-cleaning-west-palm-beach"
+        canonicalUrl="https://www.cleancollective.net/blog/move-out-cleaning-west-palm-beach"
         pageType="article"
         additionalSchema={faqSchema}
       />
@@ -202,10 +202,10 @@ const MoveOutCleaningWestPalmBeach = () => {
                 Get Instant Quote
               </Link>
               <a
-                href="tel:+15615718725"
+                href="tel:+15618612752"
                 className="border border-border px-6 py-3 rounded-lg font-semibold hover:border-primary/50 transition-colors text-foreground"
               >
-                Call (561) 571-8725
+                Call (561) 861-2752
               </a>
             </div>
           </section>

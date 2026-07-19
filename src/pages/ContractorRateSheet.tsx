@@ -14,7 +14,7 @@ const ContractorRateSheet = () => {
       <SEOHead
         title="Contractor Rate Sheet | Clean Collective"
         description="Clean Collective contractor rate sheet with service pricing for cleaning professionals. Print or save as PDF."
-        canonical="https://www.tidywisecleaning.com/contractor-rate-sheet"
+        canonical="https://www.cleancollective.net/contractor-rate-sheet"
       />
     <div className="min-h-screen bg-background">
       <div className="print:hidden">
@@ -37,13 +37,13 @@ const ContractorRateSheet = () => {
             <h1 className="font-display text-4xl font-bold text-primary mb-2">Clean Collective</h1>
             <p className="text-lg text-muted-foreground">Professional Cleaning Services</p>
             <div className="flex justify-center gap-6 mt-4 text-sm">
-              <a href="tel:5615718725" className="flex items-center gap-1 text-foreground hover:text-primary">
+              <a href="tel:5618612752" className="flex items-center gap-1 text-foreground hover:text-primary">
                 <Phone className="h-4 w-4" />
-                (561) 571-8725
+                (561) 861-2752
               </a>
-              <a href="mailto:support@tidywisecleaning.com" className="flex items-center gap-1 text-foreground hover:text-primary">
+              <a href="mailto:support@cleancollectives.com" className="flex items-center gap-1 text-foreground hover:text-primary">
                 <Mail className="h-4 w-4" />
-                support@tidywisecleaning.com
+                support@cleancollectives.com
               </a>
             </div>
           </div>
@@ -211,13 +211,13 @@ const ContractorRateSheet = () => {
             <p className="text-lg font-semibold mb-2">Ready to get started?</p>
             <p className="text-muted-foreground mb-4">Contact us for a custom quote on your next project</p>
             <div className="flex justify-center gap-4">
-              <a href="tel:5615718725" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium print:bg-transparent print:text-primary print:border print:border-primary">
+              <a href="tel:5618612752" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-2 rounded-lg font-medium print:bg-transparent print:text-primary print:border print:border-primary">
                 <Phone className="h-4 w-4" />
-                (561) 571-8725
+                (561) 861-2752
               </a>
             </div>
             <p className="text-xs text-muted-foreground mt-6">
-              tidywisecleaning.com • Serving South Florida Since 2024
+              cleancollective.net • Serving South Florida Since 2024
             </p>
           </div>
         </div>

@@ -183,7 +183,7 @@ const Auth = () => {
       <SEOHead
         title="Sign In to Your Clean Collective Account | South Florida Cleaning"
         description="Sign in or create your Clean Collective account to book South Florida house cleaning, track upcoming visits, view past invoices, and manage your service preferences."
-        canonical="https://www.tidywisecleaning.com/auth"
+        canonical="https://www.cleancollective.net/auth"
       />
     <div className="min-h-screen bg-muted py-12 px-4">
       <div className="max-w-md mx-auto">

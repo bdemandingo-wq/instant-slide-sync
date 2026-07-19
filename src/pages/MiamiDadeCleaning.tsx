@@ -45,7 +45,7 @@ const MiamiDadeCleaning = () => {
       <SEOSchema
         pageTitle="Miami-Dade Cleaning Services | Clean Collective"
         pageDescription="Affordable cleaning Miami services. Licensed & insured. Serving Miami, Miami Beach, Coral Gables. Same-day quotes. Call now for 10% off first clean!"
-        canonicalUrl="https://www.tidywisecleaning.com/miami-dade-cleaning"
+        canonicalUrl="https://www.cleancollective.net/miami-dade-cleaning"
         pageType="county"
         county="Miami-Dade County"
         faqItems={faqItems}
@@ -72,9 +72,9 @@ const MiamiDadeCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

@@ -13,7 +13,7 @@ const PetFriendlyCleaningTips = () => {
       <SEOSchema
         pageTitle="Pet-Friendly Cleaning Tips for Florida Homes | Clean Collective"
         pageDescription="Keep your Florida home fresh with pets. Tips for pet hair, odors & stains. Pet-safe products & pro cleaning."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/pet-friendly-cleaning-tips"
+        canonicalUrl="https://www.cleancollective.net/blog/pet-friendly-cleaning-tips"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-01-25", readTime: "7 min", category: "Tips" }}
@@ -144,7 +144,7 @@ const PetFriendlyCleaningTips = () => {
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.
-                  Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> or 
+                  Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> or 
                   <Link to="/#booking" className="text-primary hover:underline ml-1">book online</Link>!
                 </p>
               </div>

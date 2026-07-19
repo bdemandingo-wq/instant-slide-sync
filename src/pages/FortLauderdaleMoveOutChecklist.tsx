@@ -93,13 +93,13 @@ const FortLauderdaleMoveOutChecklist = () => {
       <SEOSchema
         pageTitle="Fort Lauderdale Move-Out Cleaning Checklist (Free & Printable) | Clean Collective"
         pageDescription="Free Fort Lauderdale move-out cleaning checklist — room-by-room tasks to get your full deposit back. Print it, or book an inspection-ready move-out clean from $300."
-        canonicalUrl="https://www.tidywisecleaning.com/fort-lauderdale-move-out-checklist"
+        canonicalUrl="https://www.cleancollective.net/fort-lauderdale-move-out-checklist"
         pageType="service"
         county="South Florida"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Fort Lauderdale Move-Out Checklist", url: "https://www.tidywisecleaning.com/fort-lauderdale-move-out-checklist" },
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Fort Lauderdale Move-Out Checklist", url: "https://www.cleancollective.net/fort-lauderdale-move-out-checklist" },
         ]}
       />
       <main className="min-h-screen">

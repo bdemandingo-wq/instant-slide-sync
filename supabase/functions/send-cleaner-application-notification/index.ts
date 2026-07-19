@@ -31,8 +31,8 @@ const SUPABASE_URL = Deno.env.get("SUPABASE_URL");
 const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
 
 const ALLOWED_ORIGINS = [
-  'https://tidywisecleaning.com',
-  'https://www.tidywisecleaning.com',
+  'https://cleancollective.net',
+  'https://www.cleancollective.net',
   'https://ekseakjxarhjujngoklz.supabase.co',
 ];
 
@@ -146,13 +146,13 @@ const handler = async (req: Request): Promise<Response> => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Clean Collective <support@tidywisecleaning.com>",
-        to: ["support@tidywisecleaning.com"],
+        from: "Clean Collective <support@cleancollectives.com>",
+        to: ["support@cleancollectives.com"],
         subject: `New Cleaner Application from ${escapeHtml(application.name)}`,
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
             <div style="text-align: center; padding: 25px; background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
-              <img src="https://www.tidywisecleaning.com/logo-email.png" alt="Clean Collective" style="height: 60px; width: auto;" />
+              <img src="https://www.cleancollective.net/logo-email.png" alt="Clean Collective" style="height: 60px; width: auto;" />
               <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 14px;">New Cleaner Application</p>
             </div>
             

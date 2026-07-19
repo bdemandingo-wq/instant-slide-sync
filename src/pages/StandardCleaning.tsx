@@ -53,12 +53,12 @@ const StandardCleaning = () => {
       <SEOSchema
         pageTitle="Standard House Cleaning South Florida | From $150 | Clean Collective"
         pageDescription="Affordable house cleaning in Fort Lauderdale, Boca Raton & Miami from $150. Vacuuming, mopping, kitchen & bath cleaning. Book online today!"
-        canonicalUrl="https://www.tidywisecleaning.com/standard-cleaning"
+        canonicalUrl="https://www.cleancollective.net/standard-cleaning"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Standard Cleaning", url: "https://www.tidywisecleaning.com/standard-cleaning" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Standard Cleaning", url: "https://www.cleancollective.net/standard-cleaning" }
         ]}
       />
       <main className="min-h-screen">
@@ -83,9 +83,9 @@ const StandardCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -231,7 +231,7 @@ const StandardCleaning = () => {
                 <Link to="/#booking">Book Standard Cleaning</Link>
               </Button>
               <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>
-                <a href="tel:+15615718725">Call (561) 571-8725</a>
+                <a href="tel:+15618612752">Call (561) 861-2752</a>
               </Button>
             </div>
           </div>

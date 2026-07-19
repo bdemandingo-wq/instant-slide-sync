@@ -104,7 +104,7 @@ const Hero = () => {
                 asChild
               >
                 <a
-                  href="tel:+15615718725"
+                  href="tel:+15618612752"
                   className="flex items-center gap-2"
                   onClick={() => {
                     if (typeof window.gtag === "function") {
@@ -116,7 +116,7 @@ const Hero = () => {
                   }}
                 >
                   <Phone className="w-5 h-5" aria-hidden="true" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
             </div>

@@ -31,14 +31,14 @@ const HouseCleaningDoral = () => {
       <SEOSchema
         pageTitle="House Cleaning Doral FL | From $108 | Clean Collective"
         pageDescription="Bilingual house cleaning in Doral, FL from $108. Hablamos español. Licensed & insured. Downtown Doral, Landmark & all communities. Book now."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-doral"
+        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-doral"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Blog", url: "https://www.tidywisecleaning.com/blog" },
-          { name: "House Cleaning Doral", url: "https://www.tidywisecleaning.com/blog/house-cleaning-doral" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Blog", url: "https://www.cleancollective.net/blog" },
+          { name: "House Cleaning Doral", url: "https://www.cleancollective.net/blog/house-cleaning-doral" }
         ]}
       />
       <main className="min-h-screen">
@@ -61,8 +61,8 @@ const HouseCleaningDoral = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
               <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Hablamos español</p>
@@ -146,7 +146,7 @@ const HouseCleaningDoral = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                  <a href="tel:+15615718725">(561) 571-8725</a>
+                  <a href="tel:+15618612752">(561) 861-2752</a>
                 </Button>
               </div>
             </div>

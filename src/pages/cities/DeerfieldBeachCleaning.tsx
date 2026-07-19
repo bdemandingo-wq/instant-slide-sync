@@ -13,11 +13,11 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Deerfield Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is based in Deerfield Beach at 65 SW 12th Ave. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, and Riverwalk. Licensed, insured, and background-checked."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is based in Pompano Beach at 4611 N Federal Hwy. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, and Riverwalk. Licensed, insured, and background-checked."
   },
   {
     q: "Is Clean Collective local to Deerfield Beach?",
-    a: "Yes. Clean Collective is headquartered in Deerfield Beach, FL. Being locally based means faster response times, same-day availability, and a genuine commitment to serving our home community. We know Deerfield Beach better than anyone."
+    a: "Yes. Clean Collective is headquartered in Pompano Beach, FL. Being locally based means faster response times, same-day availability, and a genuine commitment to serving our home community. We know Deerfield Beach better than anyone."
   },
   {
     q: "Do you offer vacation rental and Airbnb cleaning in Deerfield Beach?",
@@ -31,7 +31,7 @@ const DeerfieldBeachCleaning = () => {
       <SEOSchema
         pageTitle="Deerfield Beach House Cleaning | Insured | Clean Collective"
         pageDescription="Deerfield Beach FL beachside home & condo cleaning. The Cove, Hillsboro Beach & Century Village experts. Eco-friendly options available. Book today!"
-        canonicalUrl="https://www.tidywisecleaning.com/deerfield-beach-cleaning"
+        canonicalUrl="https://www.cleancollective.net/deerfield-beach-cleaning"
         pageType="county"
         county="Deerfield Beach"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const DeerfieldBeachCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

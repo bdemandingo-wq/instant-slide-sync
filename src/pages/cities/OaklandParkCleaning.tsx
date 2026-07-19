@@ -31,7 +31,7 @@ const OaklandParkCleaning = () => {
       <SEOSchema
         pageTitle="Oakland Park House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Oakland Park FL trusted residential cleaning. Coral Heights, Lake Ridge & Royal Palm Isles. Move-in, move-out & deep cleaning available. Book now!"
-        canonicalUrl="https://www.tidywisecleaning.com/oakland-park-cleaning"
+        canonicalUrl="https://www.cleancollective.net/oakland-park-cleaning"
         pageType="county"
         county="Oakland Park"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const OaklandParkCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

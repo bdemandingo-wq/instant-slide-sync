@@ -94,12 +94,12 @@ const UpholsteryCarpetPricing = () => {
       <SEOSchema
         pageTitle="Upholstery & Carpet Cleaning Prices | South Florida | Clean Collective"
         pageDescription="See typical upholstery & carpet cleaning prices in South Florida. Sofa, sectional, mattress, area rug & per-room carpet costs, plus a free estimate calculator. Serving Boca Raton, Fort Lauderdale & Broward."
-        canonicalUrl="https://www.tidywisecleaning.com/upholstery-carpet-cleaning-pricing"
+        canonicalUrl="https://www.cleancollective.net/upholstery-carpet-cleaning-pricing"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Upholstery & Carpet Cleaning Prices", url: "https://www.tidywisecleaning.com/upholstery-carpet-cleaning-pricing" },
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Upholstery & Carpet Cleaning Prices", url: "https://www.cleancollective.net/upholstery-carpet-cleaning-pricing" },
         ]}
         faqItems={faqs}
       />
@@ -130,9 +130,9 @@ const UpholsteryCarpetPricing = () => {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+15615718725" className="flex items-center gap-2">
+                  <a href="tel:+15618612752" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
-                    (561) 571-8725
+                    (561) 861-2752
                   </a>
                 </Button>
               </div>
@@ -338,9 +338,9 @@ const UpholsteryCarpetPricing = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>

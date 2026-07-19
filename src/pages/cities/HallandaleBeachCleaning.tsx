@@ -31,7 +31,7 @@ const HallandaleBeachCleaning = () => {
       <SEOSchema
         pageTitle="Hallandale Beach House Cleaning | Insured | Clean Collective"
         pageDescription="Hallandale Beach FL oceanfront condo & house cleaning. Golden Isles, Gulfstream Park & The Hemispheres. Building-approved cleaners. Book online!"
-        canonicalUrl="https://www.tidywisecleaning.com/hallandale-beach-cleaning"
+        canonicalUrl="https://www.cleancollective.net/hallandale-beach-cleaning"
         pageType="county"
         county="Hallandale Beach"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const HallandaleBeachCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

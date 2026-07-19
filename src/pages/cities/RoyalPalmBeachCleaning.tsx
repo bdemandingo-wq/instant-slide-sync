@@ -31,7 +31,7 @@ const RoyalPalmBeachCleaning = () => {
       <SEOSchema
         pageTitle="Royal Palm Beach Cleaning | Insured | Clean Collective"
         pageDescription="Royal Palm Beach FL family-owned cleaning service. Madison Green, Saratoga & Crestwood. Consistent quality at honest prices. Schedule your clean today!"
-        canonicalUrl="https://www.tidywisecleaning.com/royal-palm-beach-cleaning"
+        canonicalUrl="https://www.cleancollective.net/royal-palm-beach-cleaning"
         pageType="county"
         county="Royal Palm Beach"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const RoyalPalmBeachCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

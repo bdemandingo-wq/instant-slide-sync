@@ -13,7 +13,7 @@ const SpringCleaningGuide = () => {
       <SEOSchema
         pageTitle="Spring Cleaning Guide for South Florida Homes | Clean Collective"
         pageDescription="Complete spring cleaning guide for South Florida homes. Tackle pollen, humidity, and seasonal challenges with our expert tips."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/spring-cleaning-guide-south-florida"
+        canonicalUrl="https://www.cleancollective.net/blog/spring-cleaning-guide-south-florida"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-03-01", readTime: "6 min", category: "Guides" }}

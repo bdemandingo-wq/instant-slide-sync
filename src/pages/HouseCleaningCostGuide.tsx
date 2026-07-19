@@ -95,12 +95,12 @@ const HouseCleaningCostGuide = () => {
       <SEOSchema
         pageTitle="House Cleaning Cost South Florida 2026 | Clean Collective"
         pageDescription="South Florida house cleaning prices: standard from $108, deep from $208, move-out from $283. Fort Lauderdale, Miami, Boca Raton & 40+ cities. Instant quote."
-        canonicalUrl="https://www.tidywisecleaning.com/house-cleaning-cost-south-florida"
+        canonicalUrl="https://www.cleancollective.net/house-cleaning-cost-south-florida"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Pricing", url: "https://www.tidywisecleaning.com/house-cleaning-cost-south-florida" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Pricing", url: "https://www.cleancollective.net/house-cleaning-cost-south-florida" }
         ]}
       />
       <main className="min-h-screen">
@@ -123,9 +123,9 @@ const HouseCleaningCostGuide = () => {
                 <Link to="/#booking">Get My Exact Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -321,7 +321,7 @@ const HouseCleaningCostGuide = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

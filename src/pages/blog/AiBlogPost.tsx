@@ -76,7 +76,7 @@ const AiBlogPost = () => {
         <SEOSchema
           pageTitle="Article Archived | Clean Collective Blog"
           pageDescription="This Clean Collective article has been archived. Browse our latest South Florida cleaning guides, tips, and city-specific resources for homeowners and renters."
-          canonicalUrl="https://www.tidywisecleaning.com/blog"
+          canonicalUrl="https://www.cleancollective.net/blog"
           pageType="blog"
         />
         <main className="min-h-screen">
@@ -148,7 +148,7 @@ const AiBlogPost = () => {
                   upcharges. We're a fully insured local team with a free re-clean
                   guarantee.{" "}
                   <Link to="/booking" className="text-primary hover:underline">Book online</Link>{" "}
-                  or call <a href="tel:+15615718725" className="text-primary hover:underline">(561) 571-8725</a>.
+                  or call <a href="tel:+15618612752" className="text-primary hover:underline">(561) 861-2752</a>.
                   Have questions first? Our{" "}
                   <Link to="/faq" className="text-primary hover:underline">FAQ</Link>{" "}
                   covers pricing, what's included, scheduling, and our re-clean policy,
@@ -175,7 +175,7 @@ const AiBlogPost = () => {
       <SEOSchema
         pageTitle={post.title.length > 60 ? post.title.slice(0, 57).trimEnd() + "…" : post.title}
         pageDescription={post.excerpt.length > 160 ? post.excerpt.slice(0, 157).trimEnd() + "…" : post.excerpt}
-        canonicalUrl={`https://www.tidywisecleaning.com${location.pathname}`}
+        canonicalUrl={`https://www.cleancollective.net${location.pathname}`}
         pageType="blog"
         county="South Florida"
       />

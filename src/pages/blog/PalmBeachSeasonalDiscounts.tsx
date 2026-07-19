@@ -13,7 +13,7 @@ const PalmBeachSeasonalDiscounts = () => {
       <SEOSchema
         pageTitle="Seasonal Cleaning Discounts Palm Beach 2025 | Clean Collective"
         pageDescription="Palm Beach County seasonal cleaning discounts 2025. Save 10-20% on cleaning in West Palm Beach, Boca Raton, Jupiter. Limited time offers. Book now!"
-        canonicalUrl="https://www.tidywisecleaning.com/blog/palm-beach-seasonal-discounts"
+        canonicalUrl="https://www.cleancollective.net/blog/palm-beach-seasonal-discounts"
         pageType="blog"
         county="Palm Beach County"
         blogMeta={{ datePublished: "2025-01-10", readTime: "5 min", category: "Local Guides" }}
@@ -58,7 +58,7 @@ const PalmBeachSeasonalDiscounts = () => {
                   <h3 className="font-display text-xl font-semibold text-foreground mb-2">Current Offer: 10% Off First Clean</h3>
                   <p className="text-muted-foreground mb-0">
                     New customers in <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline">Palm Beach County</Link> get 
-                    10% off their first cleaning. Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> to claim.
+                    10% off their first cleaning. Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> to claim.
                   </p>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const PalmBeachSeasonalDiscounts = () => {
                   Ready to Save?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Get your free quote and ask about current promotions. Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> or 
+                  Get your free quote and ask about current promotions. Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> or 
                   <Link to="/#booking" className="text-primary hover:underline ml-1">book online</Link> for 
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline ml-1">Palm Beach County cleaning</Link>.
                 </p>

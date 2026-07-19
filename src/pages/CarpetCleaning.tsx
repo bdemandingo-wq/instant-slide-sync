@@ -29,12 +29,12 @@ const CarpetCleaning = () => {
       <SEOSchema
         pageTitle="Carpet Cleaning Services Near Me | South Florida | Clean Collective"
         pageDescription="Professional carpet cleaning in Broward, Miami-Dade & Palm Beach County. Deep extraction, stain removal & eco-friendly options. Get a custom quote today!"
-        canonicalUrl="https://www.tidywisecleaning.com/carpet-cleaning"
+        canonicalUrl="https://www.cleancollective.net/carpet-cleaning"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Carpet Cleaning", url: "https://www.tidywisecleaning.com/carpet-cleaning" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Carpet Cleaning", url: "https://www.cleancollective.net/carpet-cleaning" }
         ]}
       />
       <main className="min-h-screen">
@@ -57,7 +57,7 @@ const CarpetCleaning = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-primary text-primary-foreground" asChild>
-                  <a href="tel:+15615718725" className="flex items-center gap-2">
+                  <a href="tel:+15618612752" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
                     Get Custom Quote
                   </a>
@@ -169,9 +169,9 @@ const CarpetCleaning = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>

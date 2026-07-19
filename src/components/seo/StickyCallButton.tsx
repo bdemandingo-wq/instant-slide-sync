@@ -8,8 +8,8 @@ const StickyCallButton = () => {
   const [isVisible, setIsVisible] = useState(false);
   const location = useLocation();
 
-  const phoneNumber = "(561) 571-8725";
-  const telLink = "tel:+15615718725";
+  const phoneNumber = "(561) 861-2752";
+  const telLink = "tel:+15618612752";
 
   useEffect(() => {
     const handleScroll = () => {

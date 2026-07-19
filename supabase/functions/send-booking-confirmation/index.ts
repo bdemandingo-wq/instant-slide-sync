@@ -4,7 +4,7 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const OPENPHONE_API_KEY = Deno.env.get("OPENPHONE_API_KEY");
 const OPENPHONE_PHONE_NUMBER_ID = "PNr7XukuaV";
-const ADMIN_PHONE_NUMBER = "+15615718725";
+const ADMIN_PHONE_NUMBER = "+15618612752";
 const PERSONAL_PHONE_NUMBER = "+18137356859";
 
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;

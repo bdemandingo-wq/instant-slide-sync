@@ -13,7 +13,7 @@ const MiamiPermitRules = () => {
       <SEOSchema
         pageTitle="Cleaning Permit Rules Miami-Dade 2025 | Clean Collective"
         pageDescription="Miami-Dade cleaning permit rules for 2025. Condo requirements, HOA policies, and what to know before hiring a cleaning service in Miami. Free consultation!"
-        canonicalUrl="https://www.tidywisecleaning.com/blog/miami-permit-rules"
+        canonicalUrl="https://www.cleancollective.net/blog/miami-permit-rules"
         pageType="blog"
         county="Miami-Dade County"
         blogMeta={{ datePublished: "2025-01-10", readTime: "6 min", category: "Local Guides" }}
@@ -110,7 +110,7 @@ const MiamiPermitRules = () => {
                   Need Help with Your Building's Requirements?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Our team is experienced with Miami condos and HOA communities. Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> or 
+                  Our team is experienced with Miami condos and HOA communities. Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> or 
                   <Link to="/#booking" className="text-primary hover:underline ml-1">book online</Link> for 
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline ml-1">Miami-Dade cleaning services</Link>.
                 </p>

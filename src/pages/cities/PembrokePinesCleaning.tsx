@@ -31,7 +31,7 @@ const PembrokePinesCleaning = () => {
       <SEOSchema
         pageTitle="Pembroke Pines House Cleaning | Licensed, Insured | Clean Collective"
         pageDescription="Pembroke Pines cleaning for busy families. Chapel Trail, Silver Lakes & Century Village specialists. Weekly, bi-weekly & deep cleaning. Book your free quote!"
-        canonicalUrl="https://www.tidywisecleaning.com/pembroke-pines-cleaning"
+        canonicalUrl="https://www.cleancollective.net/pembroke-pines-cleaning"
         pageType="county"
         county="Pembroke Pines"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const PembrokePinesCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

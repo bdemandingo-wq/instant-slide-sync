@@ -35,7 +35,7 @@ const faqItems = [
   },
   {
     q: "How do I book a cleaning service in Broward County?",
-    a: "Get an instant quote online at tidywisecleaning.com or call (561) 571-8725. You can book standard, deep, or move in/out cleaning for any Broward County city for the same day or a future date. Recurring bookings save 5–15%."
+    a: "Get an instant quote online at cleancollective.net or call (561) 861-2752. You can book standard, deep, or move in/out cleaning for any Broward County city for the same day or a future date. Recurring bookings save 5–15%."
   }
 ];
 
@@ -45,7 +45,7 @@ const BrowardCountyCleaning = () => {
       <SEOSchema
         pageTitle="Broward County Cleaning Services | Clean Collective"
         pageDescription="Need Broward County cleaning services? Licensed & insured. Same-day quotes. Serving Fort Lauderdale, Hollywood, Coral Springs. Call now for 10% off!"
-        canonicalUrl="https://www.tidywisecleaning.com/broward-county-cleaning"
+        canonicalUrl="https://www.cleancollective.net/broward-county-cleaning"
         pageType="county"
         county="Broward County"
         faqItems={faqItems}
@@ -73,9 +73,9 @@ const BrowardCountyCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

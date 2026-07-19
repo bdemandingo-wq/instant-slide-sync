@@ -38,15 +38,15 @@ const TaskRabbitAlternative = () => {
   };
 
   const comparison = [
-    { feature: "Dedicated cleaning teams", tidywise: true, taskrabbit: false, note: "TaskRabbit uses individual gig workers" },
-    { feature: "Flat-rate transparent pricing", tidywise: true, taskrabbit: false, note: "TaskRabbit charges hourly (hard to predict)" },
-    { feature: "Liability insurance included", tidywise: true, taskrabbit: false, note: "Individual tasker coverage varies" },
-    { feature: "Background-checked cleaners", tidywise: true, taskrabbit: true, note: "" },
-    { feature: "Eco-friendly products", tidywise: true, taskrabbit: false, note: "Taskers bring their own supplies" },
-    { feature: "Free re-clean guarantee", tidywise: true, taskrabbit: false, note: "" },
-    { feature: "Recurring cleaning discounts", tidywise: true, taskrabbit: false, note: "" },
-    { feature: "Same team every visit", tidywise: true, taskrabbit: false, note: "" },
-    { feature: "South Florida specialized", tidywise: true, taskrabbit: false, note: "TaskRabbit is generalist, not cleaning-focused" },
+    { feature: "Dedicated cleaning teams", cleancollective: true, taskrabbit: false, note: "TaskRabbit uses individual gig workers" },
+    { feature: "Flat-rate transparent pricing", cleancollective: true, taskrabbit: false, note: "TaskRabbit charges hourly (hard to predict)" },
+    { feature: "Liability insurance included", cleancollective: true, taskrabbit: false, note: "Individual tasker coverage varies" },
+    { feature: "Background-checked cleaners", cleancollective: true, taskrabbit: true, note: "" },
+    { feature: "Eco-friendly products", cleancollective: true, taskrabbit: false, note: "Taskers bring their own supplies" },
+    { feature: "Free re-clean guarantee", cleancollective: true, taskrabbit: false, note: "" },
+    { feature: "Recurring cleaning discounts", cleancollective: true, taskrabbit: false, note: "" },
+    { feature: "Same team every visit", cleancollective: true, taskrabbit: false, note: "" },
+    { feature: "South Florida specialized", cleancollective: true, taskrabbit: false, note: "TaskRabbit is generalist, not cleaning-focused" },
   ];
 
   return (
@@ -54,7 +54,7 @@ const TaskRabbitAlternative = () => {
       <SEOSchema
         pageTitle="TaskRabbit Alternative | Clean Collective House Cleaning"
         pageDescription="Better than TaskRabbit for house cleaning in South Florida. Clean Collective: flat-rate pricing, insured dedicated teams & satisfaction guarantee. Compare and book now."
-        canonicalUrl="https://www.tidywisecleaning.com/taskrabbit-alternative"
+        canonicalUrl="https://www.cleancollective.net/taskrabbit-alternative"
         pageType="service"
         additionalSchema={faqSchema}
       />
@@ -75,8 +75,8 @@ const TaskRabbitAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> Call (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> Call (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -165,7 +165,7 @@ const TaskRabbitAlternative = () => {
                         {row.note && <span className="block text-xs text-muted-foreground mt-0.5">{row.note}</span>}
                       </td>
                       <td className="p-4 text-center">
-                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
+                        {row.cleancollective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
                       </td>
                       <td className="p-4 text-center">
                         {row.taskrabbit ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
@@ -270,8 +270,8 @@ const TaskRabbitAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> Call (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> Call (561) 861-2752
                 </a>
               </Button>
             </div>
