@@ -1,10 +1,19 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.0";
+import { resolveOpenPhoneNumberId, sendOpenPhoneSms } from "../_shared/openphone.ts";
+import {
+  OWNER_EMAILS,
+  renderAdminBookingEmail,
+  renderCustomerBookingEmail,
+  sendResendEmail,
+  type BookingSummary,
+} from "../_shared/booking-emails.ts";
 
 const OPENPHONE_API_KEY = Deno.env.get("OPENPHONE_API_KEY");
-const OPENPHONE_PHONE_NUMBER_ID = "PNr7XukuaV";
-const NOTIFY_PHONE_NUMBER = "+15618612752";
-const PERSONAL_PHONE_NUMBER = "+18137356859";
+const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
+
+// All three owners get every booking alert.
+const OWNER_PHONES = ["+18137356859", "+14076987080", "+18136653189"];
 
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
@@ -25,7 +34,7 @@ interface SmsNotificationRequest {
 }
 
 function formatBookingSms(data: Record<string, unknown>): string {
-  return `New website booking!
+  return `New Clean Collective booking!
 
 Customer: ${data.customerName}
 Service: ${data.serviceType} (${data.frequency})
@@ -33,7 +42,7 @@ Date: ${data.preferredDate}
 Address: ${data.address}
 Total: $${data.totalPrice}
 
-Log in to your dashboard to view details.`;
+Log in to your dashboard for details.`;
 }
 
 function formatCustomerBookingSms(data: Record<string, unknown>): string {
@@ -42,95 +51,45 @@ function formatCustomerBookingSms(data: Record<string, unknown>): string {
 
 function formatApplicationSms(data: Record<string, unknown>): string {
   const workAreas = (data.workAreas as string[])?.join(", ") || "N/A";
-  return `🆕 NEW CLEANER APPLICATION!
+  return `NEW CLEANER APPLICATION
 
 Name: ${data.name}
 Phone: ${data.phone}
 Email: ${data.email}
 Experience: ${data.yearsExperience} years
-Areas: ${workAreas}
-
-Log in to your dashboard to review.`;
+Areas: ${workAreas}`;
 }
 
 function formatContactSms(data: Record<string, unknown>): string {
-  return `🆕 NEW COMMERCIAL INQUIRY!
+  return `NEW COMMERCIAL INQUIRY
 
 Name: ${data.name}
 Email: ${data.email}
-Message: ${data.message}
-
-Log in to your dashboard to respond.`;
+Message: ${data.message}`;
 }
 
-async function sendOne(opts: {
+async function logSms(entry: {
   to: string;
-  message: string;
-  recipientType: "admin" | "personal" | "customer";
+  recipientType: "owner" | "customer";
   messageType: string;
+  success: boolean;
+  providerId: string | null;
+  errorMessage: string | null;
   bookingId?: string;
 }) {
-  const { to, message, recipientType, messageType, bookingId } = opts;
-  let success = false;
-  let providerMessageId: string | null = null;
-  let errorMessage: string | null = null;
-
-  try {
-    const res = await fetch("https://api.openphone.com/v1/messages", {
-      method: "POST",
-      headers: {
-        "Authorization": OPENPHONE_API_KEY!,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        content: message,
-        from: OPENPHONE_PHONE_NUMBER_ID,
-        to: [to],
-      }),
-    });
-    // Capture raw text first so we can log it if JSON parsing fails — when
-    // OpenPhone returns an HTML error page the silent catch(() => ({}))
-    // would otherwise hide the root cause of integration failures.
-    const rawBody = await res.text().catch(() => "");
-    let body: any = {};
-    try {
-      body = rawBody ? JSON.parse(rawBody) : {};
-    } catch (parseErr) {
-      console.warn(
-        `SMS response not JSON (${recipientType} → ${to}):`,
-        rawBody.slice(0, 500),
-        parseErr
-      );
-    }
-    if (!res.ok) {
-      errorMessage = `HTTP ${res.status}: ${(rawBody || JSON.stringify(body)).slice(0, 500)}`;
-      console.error(`SMS error (${recipientType} → ${to}):`, errorMessage);
-    } else {
-      success = true;
-      providerMessageId = body?.data?.id ?? body?.id ?? null;
-      console.log(`SMS sent to ${recipientType} (${to})`, providerMessageId);
-    }
-  } catch (err: any) {
-    errorMessage = err?.message ?? String(err);
-    console.error(`SMS exception (${recipientType} → ${to}):`, errorMessage);
-  }
-
-  // Log every attempt — wrapped so logging failure can't crash the send
   try {
     await supabaseAdmin.from("sms_send_log").insert({
-      recipient: to,
-      recipient_type: recipientType,
-      message_type: messageType,
-      success,
-      provider_message_id: providerMessageId,
-      error_message: errorMessage,
-      related_booking_id: bookingId ?? null,
+      recipient: entry.to,
+      recipient_type: entry.recipientType,
+      message_type: entry.messageType,
+      success: entry.success,
+      provider_message_id: entry.providerId,
+      error_message: entry.errorMessage,
+      related_booking_id: entry.bookingId ?? null,
     });
-  } catch (logErr) {
-    console.error("Failed to insert sms_send_log:", logErr);
+  } catch (err) {
+    console.error("sms_send_log insert failed:", err);
   }
-
-  return { success, providerMessageId, errorMessage };
 }
 
 const handler = async (req: Request): Promise<Response> => {
@@ -139,133 +98,185 @@ const handler = async (req: Request): Promise<Response> => {
   }
 
   try {
-    if (!OPENPHONE_API_KEY) {
-      throw new Error("OPENPHONE_API_KEY is not configured");
-    }
+    if (!OPENPHONE_API_KEY) throw new Error("OPENPHONE_API_KEY is not configured");
 
     const payload: SmsNotificationRequest = await req.json();
     const { type, data, bookingId } = payload;
-    console.log("SMS notification:", type, "bookingId:", bookingId ? "yes" : "no");
+    console.log("notification:", type, "bookingId:", bookingId ? "yes" : "no");
 
-    let adminMessage: string;
-    let customerMessage: string | null = null;
+    // Resolve OpenPhone number id dynamically (cached across invocations
+    // in the same isolate). Falls back to null → SMS attempts return an
+    // error we log; email path is unaffected.
+    const fromId = await resolveOpenPhoneNumberId(OPENPHONE_API_KEY);
+    if (!fromId) console.error("OpenPhone number id could not be resolved");
+
+    let adminSmsMessage = "";
+    let customerSmsMessage: string | null = null;
     let trustedCustomerPhone: string | null = null;
     let trustedSmsConsent = false;
+    let bookingRow: Record<string, unknown> | null = null;
 
     switch (type) {
-      case "booking":
-        // Anti-spam: verify that the booking row actually exists, and
-        // read customerPhone + smsConsent FROM THE ROW — never from the
-        // request body. Previously the function trusted the body, so
-        // any anonymous caller could POST {type:'booking', smsConsent:
-        // true, customerPhone:'+1...'} and Clean Collective would SMS that
-        // number from your OpenPhone account.
-        if (!bookingId) {
-          throw new Error("booking notifications require a bookingId");
+      case "booking": {
+        if (!bookingId) throw new Error("booking notifications require a bookingId");
+        for (let i = 0; i < 4 && !bookingRow; i++) {
+          const { data: row } = await supabaseAdmin
+            .from("bookings")
+            .select(
+              "customer_phone, customer_email, customer_name, sms_consent, service_type, frequency, preferred_date, address, beds, baths, sqft, add_ons, total_price, special_instructions, pet_info",
+            )
+            .eq("id", bookingId)
+            .maybeSingle();
+          if (row) bookingRow = row as Record<string, unknown>;
+          else await new Promise((r) => setTimeout(r, 750));
         }
-        {
-          // The booking row is inserted by the (anonymous) client right
-          // before this function is invoked. Occasionally the read here
-          // races the write and returns null. Retry a few times before
-          // giving up so the customer SMS can still use verified values.
-          let row: Record<string, unknown> | null = null;
-          for (let attempt = 0; attempt < 4; attempt++) {
-            const { data: bookingRow } = await supabaseAdmin
-              .from("bookings")
-              .select("customer_phone, sms_consent, customer_name, service_type, frequency, preferred_date, address, total_price")
-              .eq("id", bookingId)
-              .maybeSingle();
-            if (bookingRow) {
-              row = bookingRow as Record<string, unknown>;
-              break;
-            }
-            await new Promise((r) => setTimeout(r, 750));
-          }
-
-          // Admin/personal copy uses the request body — it never depends
-          // on the DB read, so the team is always notified.
-          adminMessage = formatBookingSms(data);
-
-          if (row) {
-            // Verified values for the customer-facing SMS.
-            customerMessage = formatCustomerBookingSms({
-              customerName: row.customer_name,
-              serviceType: row.service_type,
-              preferredDate: row.preferred_date,
-              totalPrice: row.total_price,
-            });
-            trustedCustomerPhone = (row.customer_phone as string | null) ?? null;
-            trustedSmsConsent = row.sms_consent === true;
-          } else {
-            // Could not verify the booking row in time. Still send the
-            // admin/personal alerts (above); just skip the customer SMS
-            // since we cannot confirm consent/phone from the DB.
-            console.warn(
-              "booking row not found after retries; sending admin/personal SMS only:",
-              bookingId,
-            );
-          }
+        adminSmsMessage = formatBookingSms(data);
+        if (bookingRow) {
+          customerSmsMessage = formatCustomerBookingSms({
+            customerName: bookingRow.customer_name,
+            serviceType: bookingRow.service_type,
+            preferredDate: bookingRow.preferred_date,
+            totalPrice: bookingRow.total_price,
+          });
+          trustedCustomerPhone = (bookingRow.customer_phone as string | null) ?? null;
+          trustedSmsConsent = bookingRow.sms_consent === true;
         }
         break;
+      }
       case "cleaner_application":
-        adminMessage = formatApplicationSms(data);
+        adminSmsMessage = formatApplicationSms(data);
         break;
       case "contact":
-        adminMessage = formatContactSms(data);
+        adminSmsMessage = formatContactSms(data);
         break;
       default:
         throw new Error(`Unknown notification type: ${type}`);
     }
 
-    // Always send to admin + personal — each in its own try/catch via sendOne
-    const adminResult = await sendOne({
-      to: NOTIFY_PHONE_NUMBER,
-      message: adminMessage,
-      recipientType: "admin",
-      messageType: type,
-      bookingId,
-    });
-    const personalResult = await sendOne({
-      to: PERSONAL_PHONE_NUMBER,
-      message: adminMessage,
-      recipientType: "personal",
-      messageType: type,
-      bookingId,
-    });
+    // ── SMS to all three owners ─────────────────────────────────────
+    const ownerResults: { to: string; ok: boolean }[] = [];
+    if (fromId) {
+      for (const to of OWNER_PHONES) {
+        const r = await sendOpenPhoneSms({ apiKey: OPENPHONE_API_KEY, fromId, to, content: adminSmsMessage });
+        ownerResults.push({ to, ok: r.ok });
+        await logSms({
+          to,
+          recipientType: "owner",
+          messageType: type,
+          success: r.ok,
+          providerId: r.id,
+          errorMessage: r.error,
+          bookingId,
+        });
+      }
+    }
 
-    let customerResult: { success: boolean } | null = null;
-    if (customerMessage && trustedSmsConsent && trustedCustomerPhone) {
-      customerResult = await sendOne({
-        to: trustedCustomerPhone,
-        message: customerMessage,
-        recipientType: "customer",
-        messageType: `${type}_customer`,
-        bookingId,
+    // ── Customer SMS (only if consent + phone verified from DB) ─────
+    let customerSmsOk: boolean | null = null;
+    if (fromId && customerSmsMessage && trustedSmsConsent && trustedCustomerPhone) {
+      let normalized = trustedCustomerPhone.replace(/\D/g, "");
+      if (normalized.length === 10) normalized = "+1" + normalized;
+      else if (!trustedCustomerPhone.startsWith("+")) normalized = "+" + normalized;
+      else normalized = trustedCustomerPhone;
+      const r = await sendOpenPhoneSms({
+        apiKey: OPENPHONE_API_KEY, fromId, to: normalized, content: customerSmsMessage,
       });
-    } else if (customerMessage) {
-      console.log("Skipping customer SMS — consent or phone missing on booking row.");
+      customerSmsOk = r.ok;
+      await logSms({
+        to: normalized, recipientType: "customer",
+        messageType: `${type}_customer`,
+        success: r.ok, providerId: r.id, errorMessage: r.error, bookingId,
+      });
+    }
+
+    // ── Email notifications (booking only) ──────────────────────────
+    let ownerEmailOk: boolean | null = null;
+    let customerEmailOk: boolean | null = null;
+    if (type === "booking") {
+      if (!RESEND_API_KEY) {
+        console.error("RESEND_API_KEY is not configured — skipping booking emails");
+      } else {
+        const summary: BookingSummary = bookingRow
+          ? {
+              customerName: bookingRow.customer_name as string,
+              customerEmail: bookingRow.customer_email as string,
+              customerPhone: bookingRow.customer_phone as string,
+              serviceType: bookingRow.service_type as string,
+              frequency: bookingRow.frequency as string,
+              preferredDate: (data.preferredDate as string) ?? (bookingRow.preferred_date as string),
+              address: bookingRow.address as string,
+              beds: bookingRow.beds as number | string,
+              baths: bookingRow.baths as number | string,
+              sqft: bookingRow.sqft as number,
+              addOns: (bookingRow.add_ons as string[]) ?? [],
+              totalPrice: bookingRow.total_price as number,
+              specialInstructions: bookingRow.special_instructions as string,
+              petInfo: bookingRow.pet_info as string,
+            }
+          : {
+              customerName: data.customerName as string,
+              customerEmail: data.customerEmail as string,
+              customerPhone: data.customerPhone as string,
+              serviceType: data.serviceType as string,
+              frequency: data.frequency as string,
+              preferredDate: data.preferredDate as string,
+              address: data.address as string,
+              beds: data.beds as string,
+              baths: data.baths as string,
+              sqft: data.sqft as number,
+              totalPrice: data.totalPrice as string,
+            };
+
+        // Owner email — send once addressed to all three owners
+        try {
+          const admin = renderAdminBookingEmail(summary);
+          const r = await sendResendEmail({
+            apiKey: RESEND_API_KEY,
+            to: OWNER_EMAILS,
+            subject: admin.subject,
+            html: admin.html,
+            replyTo: summary.customerEmail,
+          });
+          ownerEmailOk = r.ok;
+          if (!r.ok) console.error("Owner email send failed:", r.error);
+        } catch (err) {
+          console.error("Owner email exception:", err);
+        }
+
+        // Customer confirmation email
+        if (summary.customerEmail) {
+          try {
+            const cust = renderCustomerBookingEmail(summary);
+            const r = await sendResendEmail({
+              apiKey: RESEND_API_KEY,
+              to: [summary.customerEmail],
+              subject: cust.subject,
+              html: cust.html,
+            });
+            customerEmailOk = r.ok;
+            if (!r.ok) console.error("Customer email send failed:", r.error);
+          } catch (err) {
+            console.error("Customer email exception:", err);
+          }
+        }
+      }
     }
 
     return new Response(
       JSON.stringify({
         success: true,
-        admin: adminResult.success,
-        personal: personalResult.success,
-        customer: customerResult?.success ?? null,
+        owners: ownerResults,
+        customerSms: customerSmsOk,
+        ownerEmail: ownerEmailOk,
+        customerEmail: customerEmailOk,
       }),
-      {
-        status: 200,
-        headers: { "Content-Type": "application/json", ...corsHeaders },
-      },
+      { status: 200, headers: { "Content-Type": "application/json", ...corsHeaders } },
     );
   } catch (error: any) {
-    console.error("Error sending SMS notification:", error);
+    console.error("send-sms-notification error:", error);
     return new Response(
       JSON.stringify({ error: error.message }),
-      {
-        status: 500,
-        headers: { "Content-Type": "application/json", ...corsHeaders },
-      },
+      { status: 500, headers: { "Content-Type": "application/json", ...corsHeaders } },
     );
   }
 };
