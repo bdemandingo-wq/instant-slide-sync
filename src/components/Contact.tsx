@@ -12,13 +12,13 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "(561) 571-8725",
+    value: "(561) 861-2752",
     subtitle: "Available 24/7",
   },
   {
     icon: Mail,
     title: "Email",
-    value: "support@tidywisecleaning.com",
+    value: "support@cleancollectives.com",
     subtitle: "Reply within 15 min (9 AM – 6 PM EST)",
   },
   {

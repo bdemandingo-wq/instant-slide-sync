@@ -134,7 +134,7 @@ const BookingForm = () => {
         console.error("[BookingForm] Failed to load pricing tiers:", err);
         toast({
           title: "Couldn't load pricing",
-          description: "Please refresh the page. If this keeps happening, call us at (561) 571-8725.",
+          description: "Please refresh the page. If this keeps happening, call us at (561) 861-2752.",
           variant: "destructive",
         });
       });
@@ -351,7 +351,7 @@ const BookingForm = () => {
           title: "Couldn't save your booking",
           description: dbError.message.includes("Bookings must be") || dbError.message.includes("unavailable")
             ? dbError.message
-            : "Please try again or call us at (561) 571-8725.",
+            : "Please try again or call us at (561) 861-2752.",
           variant: "destructive",
         });
         setIsSubmitting(false);
@@ -444,7 +444,7 @@ const BookingForm = () => {
       });
       toast({
         title: "Something went wrong",
-        description: "Please try again or call us at (561) 571-8725.",
+        description: "Please try again or call us at (561) 861-2752.",
         variant: "destructive",
       });
       setIsSubmitting(false);
@@ -505,7 +505,7 @@ const BookingForm = () => {
                 <div className="mb-4 rounded-lg border border-destructive/40 bg-destructive/10 p-3 text-sm">
                   <p className="font-semibold text-destructive mb-1">Pricing unavailable</p>
                   <p className="text-foreground/80">
-                    Please refresh the page. If this keeps happening, call us at (561) 571-8725 and we'll book you over the phone.
+                    Please refresh the page. If this keeps happening, call us at (561) 861-2752 and we'll book you over the phone.
                   </p>
                 </div>
               )}
@@ -553,7 +553,7 @@ const BookingForm = () => {
                     <p className="text-sm text-muted-foreground flex items-start gap-2">
                       <Phone className="w-4 h-4 mt-0.5 flex-shrink-0 text-primary" />
                       Custom quote — call us at{" "}
-                      <a href="tel:+15615718725" className="text-primary font-medium underline">(561) 571-8725</a> for a personalized estimate.
+                      <a href="tel:+15618612752" className="text-primary font-medium underline">(561) 861-2752</a> for a personalized estimate.
                     </p>
                   ) : (
                     <ul className="space-y-1">
@@ -579,7 +579,7 @@ const BookingForm = () => {
                 <div>
                   <p className="font-display font-bold text-amber-800 dark:text-amber-400 uppercase tracking-wide">Need Same / Next Day?</p>
                   <p className="text-sm text-amber-700 dark:text-amber-500">
-                    Call us directly at <a href="tel:+15615718725" className="font-semibold underline">(561) 571-8725</a> — we'll fit you in.
+                    Call us directly at <a href="tel:+15618612752" className="font-semibold underline">(561) 861-2752</a> — we'll fit you in.
                   </p>
                 </div>
               </div>

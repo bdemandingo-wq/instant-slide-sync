@@ -9,15 +9,15 @@ import RelatedLinks from "@/components/seo/RelatedLinks";
 const faqItems = [
   {
     q: "How much does house cleaning cost in Deerfield Beach?",
-    a: "House cleaning in Deerfield Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective — based in Deerfield Beach — provides instant online quotes with no hidden fees."
+    a: "House cleaning in Deerfield Beach costs $108–$350 for standard cleaning, $208–$500 for deep cleaning, and $283–$600 for move in/out cleaning. Prices depend on home size and number of bathrooms. Clean Collective — based in Pompano Beach — provides instant online quotes with no hidden fees."
   },
   {
     q: "What is the best cleaning service in Deerfield Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is headquartered in Deerfield Beach at 65 SW 12th Ave. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, The Cove, and Hillsboro Beach. Licensed, insured, and background-checked."
+    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is headquartered in Pompano Beach at 4611 N Federal Hwy. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, The Cove, and Hillsboro Beach. Licensed, insured, and background-checked."
   },
   {
     q: "Is Clean Collective a local Deerfield Beach company?",
-    a: "Yes. Clean Collective is based in Deerfield Beach — not a national franchise or out-of-area company. Our local roots mean faster response times, same-day availability, and a genuine investment in the community we serve."
+    a: "Yes. Clean Collective is based in Pompano Beach — not a national franchise or out-of-area company. Our local roots mean faster response times, same-day availability, and a genuine investment in the community we serve."
   },
   {
     q: "Do you offer vacation rental and Airbnb cleaning in Deerfield Beach?",
@@ -31,14 +31,14 @@ const HouseCleaningDeerfield = () => {
       <SEOSchema
         pageTitle="House Cleaning Deerfield Beach FL | From $108 | Clean Collective"
         pageDescription="Local house cleaning in Deerfield Beach, FL from $108. Clean Collective is based here. Lighthouse Point, Deer Creek & all areas. Instant online quotes."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-deerfield-beach"
+        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-deerfield-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Blog", url: "https://www.tidywisecleaning.com/blog" },
-          { name: "House Cleaning Deerfield Beach", url: "https://www.tidywisecleaning.com/blog/house-cleaning-deerfield-beach" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Blog", url: "https://www.cleancollective.net/blog" },
+          { name: "House Cleaning Deerfield Beach", url: "https://www.cleancollective.net/blog/house-cleaning-deerfield-beach" }
         ]}
       />
       <main className="min-h-screen">
@@ -61,8 +61,8 @@ const HouseCleaningDeerfield = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
               <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Based in Deerfield Beach</p>
@@ -125,7 +125,7 @@ const HouseCleaningDeerfield = () => {
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">What to Look for in a Deerfield Beach Cleaning Service</h2>
             <ul className="space-y-3 mb-8">
               {[
-                { t: "Actually local, not a franchise", b: "Many cleaning brands are national franchises with no real local connection. Clean Collective is based at 65 SW 12th Ave, Deerfield Beach. We live and work here — that matters." },
+                { t: "Actually local, not a franchise", b: "Many cleaning brands are national franchises with no real local connection. Clean Collective is based at 4611 N Federal Hwy, Pompano Beach. We live and work here — that matters." },
                 { t: "Licensed and insured in Broward County", b: "Always ask for the certificate of insurance. A legitimate service provides it within minutes. Never let an uninsured cleaner into your home." },
                 { t: "Background-checked cleaners", b: "Every Clean Collective cleaner passes a criminal background check before their first assignment — essential in a community where residents share access codes and trust is paramount." },
                 { t: "Coastal experience", b: "Salt air, screen enclosures, and tile-heavy interiors require specific knowledge. Our local experience means we understand Deerfield Beach's specific cleaning challenges." },
@@ -154,7 +154,7 @@ const HouseCleaningDeerfield = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                  <a href="tel:+15615718725">(561) 571-8725</a>
+                  <a href="tel:+15618612752">(561) 861-2752</a>
                 </Button>
               </div>
             </div>

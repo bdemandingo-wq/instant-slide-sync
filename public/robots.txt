@@ -43,5 +43,5 @@ Disallow: /confirmation
 Disallow: /*?*
 Disallow: /*.json$
 
-Sitemap: https://www.tidywisecleaning.com/sitemap.xml
-Sitemap: https://www.tidywisecleaning.com/sitemap-index.xml
+Sitemap: https://www.cleancollective.net/sitemap.xml
+Sitemap: https://www.cleancollective.net/sitemap-index.xml

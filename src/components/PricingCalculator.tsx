@@ -177,8 +177,8 @@ const PricingCalculator = () => {
                 <p className="text-sm text-muted-foreground flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-0.5 flex-shrink-0 text-primary" />
                   Custom quote — call us at{" "}
-                  <a href="tel:+15615718725" className="text-primary font-medium underline">
-                    (561) 571-8725
+                  <a href="tel:+15618612752" className="text-primary font-medium underline">
+                    (561) 861-2752
                   </a>{" "}
                   for a personalized estimate.
                 </p>

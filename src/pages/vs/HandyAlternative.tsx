@@ -25,16 +25,16 @@ const faqItems = [
 ];
 
 const comparisonRows = [
-  { feature: "Dedicated in-house cleaning team", tidywise: true, competitor: false },
-  { feature: "Company liability insurance", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Consistent same team", tidywise: true, competitor: false },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "No platform service fees", tidywise: true, competitor: false },
-  { feature: "Satisfaction guarantee (free re-clean)", tidywise: true, competitor: false },
-  { feature: "Transparent pricing online", tidywise: true, competitor: true },
-  { feature: "Locally operated in South Florida", tidywise: true, competitor: false },
-  { feature: "Commercial & Airbnb cleaning", tidywise: true, competitor: false },
+  { feature: "Dedicated in-house cleaning team", cleancollective: true, competitor: false },
+  { feature: "Company liability insurance", cleancollective: true, competitor: false },
+  { feature: "Background-checked cleaners", cleancollective: true, competitor: true },
+  { feature: "Consistent same team", cleancollective: true, competitor: false },
+  { feature: "Eco-friendly products included", cleancollective: true, competitor: false },
+  { feature: "No platform service fees", cleancollective: true, competitor: false },
+  { feature: "Satisfaction guarantee (free re-clean)", cleancollective: true, competitor: false },
+  { feature: "Transparent pricing online", cleancollective: true, competitor: true },
+  { feature: "Locally operated in South Florida", cleancollective: true, competitor: false },
+  { feature: "Commercial & Airbnb cleaning", cleancollective: true, competitor: false },
 ];
 
 const HandyAlternative = () => {
@@ -42,13 +42,13 @@ const HandyAlternative = () => {
     <>
       <SEOSchema
         pageTitle="Handy Alternative South Florida | Clean Collective House Cleaning"
-        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 571-8725."
-        canonicalUrl="https://www.tidywisecleaning.com/handy-alternative"
+        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 861-2752."
+        canonicalUrl="https://www.cleancollective.net/handy-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Handy Alternative", url: "https://www.tidywisecleaning.com/handy-alternative" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Handy Alternative", url: "https://www.cleancollective.net/handy-alternative" }
         ]}
       />
       <main className="min-h-screen">
@@ -71,9 +71,9 @@ const HandyAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -117,7 +117,7 @@ const HandyAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise
+                        {row.cleancollective
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
@@ -184,7 +184,7 @@ const HandyAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

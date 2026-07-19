@@ -6,8 +6,8 @@ import SEOSchema from "@/components/seo/SEOSchema";
 import { Button } from "@/components/ui/button";
 import GoogleReviews from "@/components/seo/GoogleReviews";
 
-const PHONE_DISPLAY = "(561) 571-8725";
-const PHONE_TEL = "+15615718725";
+const PHONE_DISPLAY = "(561) 861-2752";
+const PHONE_TEL = "+15618612752";
 
 // Full review set (used for Schema.org markup + on-page testimonials)
 const allReviews = [
@@ -72,18 +72,18 @@ const Reviews = () => {
   const reviewsPageSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://www.tidywisecleaning.com/reviews/#business",
+    "@id": "https://www.cleancollective.net/reviews/#business",
     "name": "Clean Collective Cleaning Services",
-    "url": "https://www.tidywisecleaning.com/reviews",
-    "telephone": "+1-561-571-8725",
-    "image": "https://www.tidywisecleaning.com/og-image.webp",
+    "url": "https://www.cleancollective.net/reviews",
+    "telephone": "+1-561-861-2752",
+    "image": "https://www.cleancollective.net/og-image.webp",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "65 SW 12th Ave",
+      "streetAddress": "4611 N Federal Hwy",
       "addressLocality": "Deerfield Beach",
       "addressRegion": "FL",
-      "postalCode": "33442",
+      "postalCode": "33064",
       "addressCountry": "US",
     },
     "aggregateRating": {
@@ -107,11 +107,11 @@ const Reviews = () => {
       <SEOSchema
         pageTitle="Clean Collective Reviews | Trusted Cleaning Service in South Florida"
         pageDescription="Read genuine reviews from Clean Collective cleaning customers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton. 5-star service guaranteed."
-        canonicalUrl="https://www.tidywisecleaning.com/reviews"
+        canonicalUrl="https://www.cleancollective.net/reviews"
         pageType="article"
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Reviews", url: "https://www.tidywisecleaning.com/reviews" },
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Reviews", url: "https://www.cleancollective.net/reviews" },
         ]}
         additionalSchema={reviewsPageSchema}
       />

@@ -13,7 +13,7 @@ const HowToPrepareForCleaningService = () => {
       <SEOSchema
         pageTitle="How to Prepare for Your Cleaning Service Visit | Clean Collective"
         pageDescription="Get the most from your professional cleaning service. Simple prep tips to maximize results. What to do before cleaners arrive. South Florida cleaning experts."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/how-to-prepare-for-cleaning-service"
+        canonicalUrl="https://www.cleancollective.net/blog/how-to-prepare-for-cleaning-service"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-02-01", readTime: "5 min", category: "Tips" }}
@@ -172,7 +172,7 @@ const HowToPrepareForCleaningService = () => {
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.
-                  Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> or 
+                  Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> or 
                   <Link to="/#booking" className="text-primary hover:underline ml-1">book online</Link>—response in 15 minutes or less!
                 </p>
               </div>

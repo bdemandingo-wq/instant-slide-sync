@@ -13,7 +13,7 @@ const KitchenCleaningHacks = () => {
       <SEOSchema
         pageTitle="10 Kitchen Cleaning Hacks That Save Time | Clean Collective"
         pageDescription="Professional kitchen cleaning tips from South Florida's cleaning experts. Make kitchen cleaning faster and easier."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/kitchen-cleaning-hacks"
+        canonicalUrl="https://www.cleancollective.net/blog/kitchen-cleaning-hacks"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-03-15", readTime: "6 min", category: "Tips" }}

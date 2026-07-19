@@ -13,7 +13,7 @@ const EcoFriendlyCleaningProducts = () => {
       <SEOSchema
         pageTitle="Eco-Friendly Cleaning Products for Homes | Clean Collective"
         pageDescription="Discover sustainable cleaning products perfect for South Florida's climate. Protect your family and the environment."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/eco-friendly-cleaning-products"
+        canonicalUrl="https://www.cleancollective.net/blog/eco-friendly-cleaning-products"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-02-10", readTime: "6 min", category: "Tips" }}

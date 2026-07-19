@@ -64,7 +64,7 @@ const DeepCleaningBocaRaton = () => {
       <SEOSchema
         pageTitle="Deep Cleaning Boca Raton | First Clean Experts"
         pageDescription="Deep cleaning in Boca Raton, FL from $208. Inside appliances, baseboards, grout scrubbing & more. Boca West, Broken Sound, Mizner Park. Book now."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/deep-cleaning-service-boca-raton"
+        canonicalUrl="https://www.cleancollective.net/blog/deep-cleaning-service-boca-raton"
         pageType="article"
         additionalSchema={faqSchema}
       />
@@ -197,10 +197,10 @@ const DeepCleaningBocaRaton = () => {
                 Get Instant Quote
               </Link>
               <a
-                href="tel:+15615718725"
+                href="tel:+15618612752"
                 className="border border-border px-6 py-3 rounded-lg font-semibold hover:border-primary/50 transition-colors text-foreground"
               >
-                Call (561) 571-8725
+                Call (561) 861-2752
               </a>
             </div>
           </section>

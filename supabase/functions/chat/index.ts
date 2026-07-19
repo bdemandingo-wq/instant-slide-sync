@@ -3,8 +3,8 @@ import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 
 // Restrict CORS to specific origins
 const ALLOWED_ORIGINS = [
-  'https://tidywisecleaning.com',
-  'https://www.tidywisecleaning.com',
+  'https://cleancollective.net',
+  'https://www.cleancollective.net',
   'https://ekseakjxarhjujngoklz.supabase.co',
 ];
 
@@ -119,7 +119,7 @@ PRICING & PAYMENT:
 SATISFACTION & SUPPORT:
 - If you're not satisfied, we'll return to re-clean the area at no extra charge.
 - Customer satisfaction is very important to us. If there's ever an issue, contact us right away and we'll make it right.
-- You can reach us by phone at (561) 571-8725, email, or through our website.
+- You can reach us by phone at (561) 861-2752, email, or through our website.
 - You can view reviews online or request references.
 
 Always be helpful, professional, and encourage users to book a cleaning or contact Clean Collective for more details.` 

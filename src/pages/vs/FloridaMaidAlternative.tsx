@@ -21,21 +21,21 @@ const faqItems = [
   },
   {
     q: "Which South Florida areas does Clean Collective serve as a Florida Maid alternative?",
-    a: "Clean Collective serves Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs, Boca Raton, Delray Beach, West Palm Beach, Miami, Miami Beach, Aventura, Coral Gables, and 40+ other cities across Broward, Palm Beach, and Miami-Dade counties. Call (561) 571-8725 to confirm your area.",
+    a: "Clean Collective serves Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs, Boca Raton, Delray Beach, West Palm Beach, Miami, Miami Beach, Aventura, Coral Gables, and 40+ other cities across Broward, Palm Beach, and Miami-Dade counties. Call (561) 861-2752 to confirm your area.",
   },
 ];
 
 const comparisonRows = [
-  { feature: "Transparent pricing published online", tidywise: true, competitor: false },
-  { feature: "Instant online quote & booking", tidywise: true, competitor: false },
-  { feature: "Same-day availability", tidywise: true, competitor: false },
-  { feature: "Satisfaction guarantee (24-hr re-clean)", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "Locally owned in South Florida", tidywise: true, competitor: true },
-  { feature: "Recurring discounts up to 15%", tidywise: true, competitor: false },
-  { feature: "Serves 40+ South Florida cities", tidywise: true, competitor: false },
-  { feature: "No in-home estimate required", tidywise: true, competitor: false },
+  { feature: "Transparent pricing published online", cleancollective: true, competitor: false },
+  { feature: "Instant online quote & booking", cleancollective: true, competitor: false },
+  { feature: "Same-day availability", cleancollective: true, competitor: false },
+  { feature: "Satisfaction guarantee (24-hr re-clean)", cleancollective: true, competitor: false },
+  { feature: "Background-checked cleaners", cleancollective: true, competitor: true },
+  { feature: "Eco-friendly products included", cleancollective: true, competitor: false },
+  { feature: "Locally owned in South Florida", cleancollective: true, competitor: true },
+  { feature: "Recurring discounts up to 15%", cleancollective: true, competitor: false },
+  { feature: "Serves 40+ South Florida cities", cleancollective: true, competitor: false },
+  { feature: "No in-home estimate required", cleancollective: true, competitor: false },
 ];
 
 const FloridaMaidAlternative = () => {
@@ -44,12 +44,12 @@ const FloridaMaidAlternative = () => {
       <SEOSchema
         pageTitle="The Florida Maid Alternative | Transparent Pricing | Clean Collective"
         pageDescription="Looking for a Florida Maid alternative? Clean Collective offers transparent online pricing from $150, instant booking & a satisfaction guarantee across Fort Lauderdale, Boca Raton & Miami."
-        canonicalUrl="https://www.tidywisecleaning.com/the-florida-maid-alternative"
+        canonicalUrl="https://www.cleancollective.net/the-florida-maid-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "The Florida Maid Alternative", url: "https://www.tidywisecleaning.com/the-florida-maid-alternative" },
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "The Florida Maid Alternative", url: "https://www.cleancollective.net/the-florida-maid-alternative" },
         ]}
       />
       <main className="min-h-screen">
@@ -73,9 +73,9 @@ const FloridaMaidAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -103,7 +103,7 @@ const FloridaMaidAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
+                        {row.cleancollective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
                       </td>
                       <td className="px-6 py-4 text-center">
                         {row.competitor ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <XCircle className="w-5 h-5 text-muted-foreground/40 mx-auto" />}
@@ -187,7 +187,7 @@ const FloridaMaidAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

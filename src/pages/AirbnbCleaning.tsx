@@ -29,7 +29,7 @@ const AirbnbCleaning = () => {
       <SEOSchema
         pageTitle="Airbnb & Vacation Rental Cleaning | South Florida | Clean Collective"
         pageDescription="Airbnb & vacation rental turnover cleaning in South Florida. Same-day turnovers, linen service & checklist-based cleaning for 5-star reviews."
-        canonicalUrl="https://www.tidywisecleaning.com/airbnb-cleaning"
+        canonicalUrl="https://www.cleancollective.net/airbnb-cleaning"
       />
       <Navbar />
       <main id="main-content" className="pt-16">
@@ -48,7 +48,7 @@ const AirbnbCleaning = () => {
                   <Link to="/booking">Book a Turnover Clean <ArrowRight className="ml-2 w-5 h-5" /></Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+15615718725"><Phone className="mr-2 w-5 h-5" /> (561) 571-8725</a>
+                  <a href="tel:+15618612752"><Phone className="mr-2 w-5 h-5" /> (561) 861-2752</a>
                 </Button>
               </div>
             </div>

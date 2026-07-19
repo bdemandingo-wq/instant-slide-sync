@@ -22,7 +22,7 @@ const HouseCleaningHollywood = () => {
         name: "Do you offer same-day cleaning in Hollywood, FL?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "For same-day or next-day availability in Hollywood, FL, call us directly at (561) 571-8725. We keep slots open for urgent bookings, especially for vacation rentals and move-outs.",
+          text: "For same-day or next-day availability in Hollywood, FL, call us directly at (561) 861-2752. We keep slots open for urgent bookings, especially for vacation rentals and move-outs.",
         },
       },
       {
@@ -49,7 +49,7 @@ const HouseCleaningHollywood = () => {
       <SEOSchema
         pageTitle="House Cleaning Hollywood FL | Licensed & Insured | Clean Collective"
         pageDescription="House cleaning in Hollywood, FL from $118. Licensed & insured. Hollywood Beach, Emerald Hills, Dania Beach & all Hollywood neighborhoods. Book now."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-hollywood-florida"
+        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-hollywood-florida"
         pageType="article"
         additionalSchema={faqSchema}
       />
@@ -191,10 +191,10 @@ const HouseCleaningHollywood = () => {
                 Get Instant Quote
               </Link>
               <a
-                href="tel:+15615718725"
+                href="tel:+15618612752"
                 className="border border-border px-6 py-3 rounded-lg font-semibold hover:border-primary/50 transition-colors text-foreground"
               >
-                Call (561) 571-8725
+                Call (561) 861-2752
               </a>
             </div>
           </section>

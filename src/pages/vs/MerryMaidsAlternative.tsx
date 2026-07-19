@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     q: "Can I book Clean Collective without a consultation like Merry Maids requires?",
-    a: "Yes. Clean Collective provides instant online quotes without requiring an in-home consultation or sales call. You can book same-day at tidywisecleaning.com."
+    a: "Yes. Clean Collective provides instant online quotes without requiring an in-home consultation or sales call. You can book same-day at cleancollective.net."
   },
   {
     q: "What areas does Clean Collective serve as a Merry Maids alternative?",
@@ -25,16 +25,16 @@ const faqItems = [
 ];
 
 const comparisonRows = [
-  { feature: "Published pricing online", tidywise: true, competitor: false },
-  { feature: "Instant online booking", tidywise: true, competitor: false },
-  { feature: "Same-day availability", tidywise: true, competitor: false },
-  { feature: "Eco-friendly products (included)", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Satisfaction guarantee", tidywise: true, competitor: true },
-  { feature: "Locally owned & operated", tidywise: true, competitor: false },
-  { feature: "No franchise fees in pricing", tidywise: true, competitor: false },
-  { feature: "Airbnb turnover cleaning", tidywise: true, competitor: false },
-  { feature: "Recurring discounts (up to 15%)", tidywise: true, competitor: false },
+  { feature: "Published pricing online", cleancollective: true, competitor: false },
+  { feature: "Instant online booking", cleancollective: true, competitor: false },
+  { feature: "Same-day availability", cleancollective: true, competitor: false },
+  { feature: "Eco-friendly products (included)", cleancollective: true, competitor: false },
+  { feature: "Background-checked cleaners", cleancollective: true, competitor: true },
+  { feature: "Satisfaction guarantee", cleancollective: true, competitor: true },
+  { feature: "Locally owned & operated", cleancollective: true, competitor: false },
+  { feature: "No franchise fees in pricing", cleancollective: true, competitor: false },
+  { feature: "Airbnb turnover cleaning", cleancollective: true, competitor: false },
+  { feature: "Recurring discounts (up to 15%)", cleancollective: true, competitor: false },
 ];
 
 const MerryMaidsAlternative = () => {
@@ -43,12 +43,12 @@ const MerryMaidsAlternative = () => {
       <SEOSchema
         pageTitle="Merry Maids Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Merry Maids alternative in South Florida. Instant booking, transparent pricing from $118, eco-friendly cleaning. Fort Lauderdale, Miami, Boca Raton."
-        canonicalUrl="https://www.tidywisecleaning.com/merry-maids-alternative"
+        canonicalUrl="https://www.cleancollective.net/merry-maids-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Merry Maids Alternative", url: "https://www.tidywisecleaning.com/merry-maids-alternative" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Merry Maids Alternative", url: "https://www.cleancollective.net/merry-maids-alternative" }
         ]}
       />
       <main className="min-h-screen">
@@ -71,9 +71,9 @@ const MerryMaidsAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -102,7 +102,7 @@ const MerryMaidsAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise
+                        {row.cleancollective
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
@@ -193,7 +193,7 @@ const MerryMaidsAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

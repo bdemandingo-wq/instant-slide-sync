@@ -42,12 +42,12 @@ const MoveInOutCleaning = () => {
       <SEOSchema
         pageTitle="Move In Move Out Cleaning South Florida | Clean Collective"
         pageDescription="Move-out cleaning for full deposit back. Move-in cleaning for a fresh start. Fort Lauderdale, Miami & 40+ South Florida cities."
-        canonicalUrl="https://www.tidywisecleaning.com/move-in-out-cleaning"
+        canonicalUrl="https://www.cleancollective.net/move-in-out-cleaning"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Move In/Out Cleaning", url: "https://www.tidywisecleaning.com/move-in-out-cleaning" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Move In/Out Cleaning", url: "https://www.cleancollective.net/move-in-out-cleaning" }
         ]}
       />
       <main className="min-h-screen">
@@ -72,9 +72,9 @@ const MoveInOutCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

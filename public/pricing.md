@@ -2,9 +2,9 @@
 
 Clean Collective is a licensed and insured professional cleaning service serving South Florida — Broward, Miami-Dade, and Palm Beach County.
 
-Website: https://www.tidywisecleaning.com
-Phone: (561) 571-8725
-Booking: https://www.tidywisecleaning.com/#booking
+Website: https://www.cleancollective.net
+Phone: (561) 861-2752
+Booking: https://www.cleancollective.net/#booking
 
 ---
 
@@ -58,7 +58,7 @@ Fast turnovers between guests. Includes linen change (host-provided), restocking
 | Studio / 1BR (up to 750 sq ft) | $95–$140 |
 | 2BR property (750–1,200 sq ft) | $140–$190 |
 | 3BR home (1,200–2,000 sq ft) | $190–$280 |
-| 4BR+ / large property | Custom — call (561) 571-8725 |
+| 4BR+ / large property | Custom — call (561) 861-2752 |
 
 ---
 
@@ -97,8 +97,8 @@ Fast turnovers between guests. Includes linen change (host-provided), restocking
 
 ## Booking
 
-- Instant online quote and booking: https://www.tidywisecleaning.com/#booking
-- Phone / same-day: (561) 571-8725
+- Instant online quote and booking: https://www.cleancollective.net/#booking
+- Phone / same-day: (561) 861-2752
 - No credit card required to get a quote
 - 24-hour cancellation policy
 - Satisfaction guarantee: we re-clean within 24 hours if anything was missed

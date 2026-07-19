@@ -61,11 +61,11 @@ const GoogleMapEmbed = () => {
                 <p className="text-muted-foreground">
                   <strong>Phone:</strong>{" "}
                   <a 
-                    href="tel:+15615718725" 
+                    href="tel:+15618612752" 
                     className="text-primary hover:underline"
-                    aria-label="Call Clean Collective at 561-571-8725"
+                    aria-label="Call Clean Collective at 561-861-2752"
                   >
-                    (561) 571-8725
+                    (561) 861-2752
                   </a>
                 </p>
               </div>
@@ -74,10 +74,10 @@ const GoogleMapEmbed = () => {
                 <p className="text-muted-foreground">
                   <strong>Email:</strong>{" "}
                   <a 
-                    href="mailto:support@tidywisecleaning.com" 
+                    href="mailto:support@cleancollectives.com" 
                     className="text-primary hover:underline"
                   >
-                    support@tidywisecleaning.com
+                    support@cleancollectives.com
                   </a>
                 </p>
               </div>
@@ -90,7 +90,7 @@ const GoogleMapEmbed = () => {
 
               <div>
                 <p className="text-muted-foreground">
-                  <strong>Address:</strong> 65 SW 12th Ave, Deerfield Beach, FL 33442
+                  <strong>Address:</strong> 4611 N Federal Hwy, Deerfield Beach, FL 33064
                 </p>
               </div>
             </div>

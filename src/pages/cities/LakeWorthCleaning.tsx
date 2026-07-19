@@ -31,7 +31,7 @@ const LakeWorthCleaning = () => {
       <SEOSchema
         pageTitle="Lake Worth House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Lake Worth Beach FL thorough home cleaning. Downtown, Palm Beach Farms & Atlantis area. Affordable rates, background-checked cleaners. Schedule now!"
-        canonicalUrl="https://www.tidywisecleaning.com/lake-worth-cleaning"
+        canonicalUrl="https://www.cleancollective.net/lake-worth-cleaning"
         pageType="county"
         county="Lake Worth"
         faqItems={faqItems}
@@ -58,9 +58,9 @@ const LakeWorthCleaning = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 571-8725
+                  Call (561) 861-2752
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

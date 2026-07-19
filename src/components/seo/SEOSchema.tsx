@@ -19,9 +19,9 @@ interface SEOSchemaProps {
   additionalSchema?: object;
 }
 
-const WEBSITE = "https://www.tidywisecleaning.com";
+const WEBSITE = "https://www.cleancollective.net";
 const BUSINESS_NAME = "Clean Collective Cleaning Services";
-const PHONE = "+1-561-571-8725";
+const PHONE = "+1-561-861-2752";
 
 /**
  * Force every canonical URL to the www apex. Prevents non-www duplicates
@@ -30,7 +30,7 @@ const PHONE = "+1-561-571-8725";
 const normalizeCanonical = (input: string): string => {
   if (!input) return WEBSITE;
   const path = input
-    .replace(/^https?:\/\/(www\.)?tidywisecleaning\.com/i, "")
+    .replace(/^https?:\/\/(www\.)?cleancollective\.com/i, "")
     .replace(/^https?:\/\/[^/]+/i, "");
   const cleanPath = path.startsWith("/") || path === "" ? path : `/${path}`;
   return `${WEBSITE}${cleanPath}`;
@@ -52,7 +52,7 @@ const cleaningServiceSchema = {
   "description": "Clean Collective is a professional residential and commercial cleaning company serving 40+ cities across Broward, Miami-Dade, and Palm Beach County, Florida. We offer standard cleaning, deep cleaning, move-in/out cleaning, carpet cleaning, and upholstery cleaning.",
   "url": WEBSITE,
   "telephone": PHONE,
-  "email": "support@tidywisecleaning.com",
+  "email": "support@cleancollectives.com",
   "foundingDate": "2023",
   "priceRange": "$$",
   "currenciesAccepted": "USD",
@@ -61,13 +61,13 @@ const cleaningServiceSchema = {
   "logo": `${WEBSITE}/logo.webp`,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "65 SW 12th Ave",
+    "streetAddress": "4611 N Federal Hwy",
     "addressLocality": "Deerfield Beach",
     "addressRegion": "FL",
-    "postalCode": "33442",
+    "postalCode": "33064",
     "addressCountry": "US"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": 26.3182, "longitude": -80.0944 },
+  "geo": { "@type": "GeoCoordinates", "latitude": 26.2890, "longitude": -80.0940 },
   "hasMap": "https://maps.google.com/?q=Clean Collective+Cleaning+Deerfield+Beach+FL",
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "19:00" },
@@ -126,8 +126,8 @@ const cleaningServiceSchema = {
     }
   ],
   "sameAs": [
-    "https://www.facebook.com/tidywisecleaning",
-    "https://www.instagram.com/tidywisecleaning",
+    "https://www.facebook.com/cleancollective",
+    "https://www.instagram.com/cleancollective",
     "https://g.page/clean collective-cleaning",
     "https://www.yelp.com/biz/clean collective-cleaning-deerfield-beach"
   ]
@@ -299,16 +299,16 @@ const SEOSchema = ({
     "description": pageDescription,
     "url": canonicalUrl,
     "telephone": PHONE,
-    "email": "support@tidywisecleaning.com",
+    "email": "support@cleancollectives.com",
     "priceRange": "$$",
     "image": `${WEBSITE}/og-image.webp`,
     "logo": `${WEBSITE}/logo.webp`,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "65 SW 12th Ave",
+      "streetAddress": "4611 N Federal Hwy",
       "addressLocality": "Deerfield Beach",
       "addressRegion": "FL",
-      "postalCode": "33442",
+      "postalCode": "33064",
       "addressCountry": "US"
     },
     "areaServed": {
@@ -351,8 +351,8 @@ const SEOSchema = ({
       {/* Geo Tags — same on every page, fine to inject via Helmet. */}
       <meta name="geo.region" content="US-FL" />
       <meta name="geo.placename" content="Deerfield Beach" />
-      <meta name="geo.position" content="26.3182;-80.0944" />
-      <meta name="ICBM" content="26.3182, -80.0944" />
+      <meta name="geo.position" content="26.2890;-80.0940" />
+      <meta name="ICBM" content="26.2890, -80.0940" />
 
       {/* description, canonical, OG title/description/url/image, Twitter, and
           hreflang tags are managed via useEffect above on the static tags

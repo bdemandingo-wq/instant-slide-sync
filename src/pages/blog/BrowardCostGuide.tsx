@@ -13,7 +13,7 @@ const BrowardCostGuide = () => {
       <SEOSchema
         pageTitle="2026 Cleaning Cost Guide Broward County | Clean Collective"
         pageDescription="Broward County cleaning cost guide 2026. Average prices for standard, deep, and move-out cleaning in Fort Lauderdale, Hollywood, Coral Springs. Get free quote!"
-        canonicalUrl="https://www.tidywisecleaning.com/blog/broward-cost-guide"
+        canonicalUrl="https://www.cleancollective.net/blog/broward-cost-guide"
         pageType="blog"
         county="Broward County"
         blogMeta={{ datePublished: "2025-01-05", readTime: "6 min", category: "Local Guides" }}
@@ -103,7 +103,7 @@ const BrowardCostGuide = () => {
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   Ready to get an exact price for your <Link to="/broward-county-cleaning" className="text-primary hover:underline">Broward County cleaning</Link>? 
-                  Clean Collective offers free, no-obligation quotes. Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> or 
+                  Clean Collective offers free, no-obligation quotes. Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> or 
                   <Link to="/#booking" className="text-primary hover:underline ml-1">book online</Link>.
                 </p>
                 <p className="text-sm text-muted-foreground">

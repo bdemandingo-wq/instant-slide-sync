@@ -110,19 +110,19 @@ const Footer = () => {
                 </p>
                 <div className="space-y-2 text-sm">
                   <a
-                    href="tel:+15615718725"
+                    href="tel:+15618612752"
                     onClick={() => trackPhoneCall("footer")}
                     className="flex items-center gap-2 text-background/70 hover:text-background transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    (561) 571-8725
+                    (561) 861-2752
                   </a>
                   <a
-                    href="mailto:support@tidywisecleaning.com"
+                    href="mailto:support@cleancollectives.com"
                     className="flex items-center gap-2 text-background/70 hover:text-background transition-colors"
                   >
                     <Mail className="w-4 h-4" />
-                    support@tidywisecleaning.com
+                    support@cleancollectives.com
                   </a>
                   <p className="flex items-center gap-2 text-background/70">
                     <MapPin className="w-4 h-4" />

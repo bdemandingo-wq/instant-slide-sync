@@ -10,11 +10,11 @@ interface SEOHeadProps {
   schemaJson?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
-const WEBSITE = "https://www.tidywisecleaning.com";
+const WEBSITE = "https://www.cleancollective.net";
 const DEFAULT_OG_IMAGE = `${WEBSITE}/og-image.webp`;
 
 /**
- * Force every canonical URL to the www apex (https://www.tidywisecleaning.com).
+ * Force every canonical URL to the www apex (https://www.cleancollective.net).
  * Accepts absolute URLs (www or non-www, http or https) and relative paths.
  * This guarantees Google never sees a non-www canonical, even if a caller
  * passes a stale value or a relative path.
@@ -23,7 +23,7 @@ const normalizeCanonical = (input: string): string => {
   if (!input) return WEBSITE;
   // Strip protocol + any host variant (www / non-www, http / https) to get the path
   const path = input
-    .replace(/^https?:\/\/(www\.)?tidywisecleaning\.com/i, "")
+    .replace(/^https?:\/\/(www\.)?cleancollective\.com/i, "")
     .replace(/^https?:\/\/[^/]+/i, ""); // any other accidental host
   const cleanPath = path.startsWith("/") || path === "" ? path : `/${path}`;
   return `${WEBSITE}${cleanPath}`;

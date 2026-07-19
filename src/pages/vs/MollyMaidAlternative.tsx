@@ -20,21 +20,21 @@ const faqItems = [
   },
   {
     q: "Can I book Clean Collective online instead of waiting for an estimate?",
-    a: "Yes. Clean Collective offers instant online quotes and same-day booking at tidywisecleaning.com. No waiting for an in-home estimate or sales call required."
+    a: "Yes. Clean Collective offers instant online quotes and same-day booking at cleancollective.net. No waiting for an in-home estimate or sales call required."
   }
 ];
 
 const comparisonRows = [
-  { feature: "Transparent online pricing", tidywise: true, competitor: false },
-  { feature: "Same-day booking", tidywise: true, competitor: false },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Satisfaction guarantee", tidywise: true, competitor: true },
-  { feature: "Locally owned (South Florida)", tidywise: true, competitor: false },
-  { feature: "No franchise fees added to price", tidywise: true, competitor: false },
-  { feature: "Instant online quote", tidywise: true, competitor: false },
-  { feature: "Flexible 7-day scheduling", tidywise: true, competitor: false },
-  { feature: "Recurring discount (up to 15% off)", tidywise: true, competitor: false },
+  { feature: "Transparent online pricing", cleancollective: true, competitor: false },
+  { feature: "Same-day booking", cleancollective: true, competitor: false },
+  { feature: "Eco-friendly products included", cleancollective: true, competitor: false },
+  { feature: "Background-checked cleaners", cleancollective: true, competitor: true },
+  { feature: "Satisfaction guarantee", cleancollective: true, competitor: true },
+  { feature: "Locally owned (South Florida)", cleancollective: true, competitor: false },
+  { feature: "No franchise fees added to price", cleancollective: true, competitor: false },
+  { feature: "Instant online quote", cleancollective: true, competitor: false },
+  { feature: "Flexible 7-day scheduling", cleancollective: true, competitor: false },
+  { feature: "Recurring discount (up to 15% off)", cleancollective: true, competitor: false },
 ];
 
 const MollyMaidAlternative = () => {
@@ -43,12 +43,12 @@ const MollyMaidAlternative = () => {
       <SEOSchema
         pageTitle="Molly Maid Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Molly Maid alternative in South Florida. Transparent pricing, same-day booking & eco-friendly cleaning. Fort Lauderdale, Boca Raton, Miami & 40+ cities."
-        canonicalUrl="https://www.tidywisecleaning.com/molly-maid-alternative"
+        canonicalUrl="https://www.cleancollective.net/molly-maid-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Molly Maid Alternative", url: "https://www.tidywisecleaning.com/molly-maid-alternative" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Molly Maid Alternative", url: "https://www.cleancollective.net/molly-maid-alternative" }
         ]}
       />
       <main className="min-h-screen">
@@ -71,9 +71,9 @@ const MollyMaidAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -102,7 +102,7 @@ const MollyMaidAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise
+                        {row.cleancollective
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
@@ -217,7 +217,7 @@ const MollyMaidAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

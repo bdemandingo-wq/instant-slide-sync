@@ -1,5 +1,5 @@
 /**
- * Build-time per-route static HTML generator for tidywisecleaning.com.
+ * Build-time per-route static HTML generator for cleancollective.net.
  *
  * Reads dist/index.html, walks src/App.tsx to discover every static Route +
  * its page component, opens each component file, regex-extracts the title /
@@ -20,7 +20,7 @@ import _traverse from "@babel/traverse";
 
 const traverse = (typeof _traverse === "function" ? _traverse : (_traverse as any).default) as typeof _traverse;
 
-const BASE_URL = "https://www.tidywisecleaning.com";
+const BASE_URL = "https://www.cleancollective.net";
 
 const IGNORE_ROUTES = new Set<string>([
   "/auth",

@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     q: "How do I book a cleaner in Miami Beach?",
-    a: "Get an instant quote online at tidywisecleaning.com, or call (561) 571-8725. You can book standard, deep, or move in/out cleaning for the same day or a future date. We serve all Miami Beach neighborhoods including South Beach, Sunset Harbour, Venetian Islands, Surfside, and Bal Harbour."
+    a: "Get an instant quote online at cleancollective.net, or call (561) 861-2752. You can book standard, deep, or move in/out cleaning for the same day or a future date. We serve all Miami Beach neighborhoods including South Beach, Sunset Harbour, Venetian Islands, Surfside, and Bal Harbour."
   }
 ];
 
@@ -31,14 +31,14 @@ const HouseCleaningMiamiBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Miami Beach FL | Condos & Homes | Clean Collective"
         pageDescription="House cleaning in Miami Beach, FL from $108. Licensed & insured. South Beach, Mid-Beach, North Beach condos & homes. Same-day Airbnb turnover available."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/house-cleaning-miami-beach"
+        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-miami-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Blog", url: "https://www.tidywisecleaning.com/blog" },
-          { name: "House Cleaning Miami Beach", url: "https://www.tidywisecleaning.com/blog/house-cleaning-miami-beach" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Blog", url: "https://www.cleancollective.net/blog" },
+          { name: "House Cleaning Miami Beach", url: "https://www.cleancollective.net/blog/house-cleaning-miami-beach" }
         ]}
       />
       <main className="min-h-screen">
@@ -61,8 +61,8 @@ const HouseCleaningMiamiBeach = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
               <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
@@ -148,7 +148,7 @@ const HouseCleaningMiamiBeach = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                  <a href="tel:+15615718725">(561) 571-8725</a>
+                  <a href="tel:+15618612752">(561) 861-2752</a>
                 </Button>
               </div>
             </div>

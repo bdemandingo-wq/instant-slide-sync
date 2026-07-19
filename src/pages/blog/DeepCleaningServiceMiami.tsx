@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     q: "Does Clean Collective serve all Miami neighborhoods for deep cleaning?",
-    a: "Yes. Clean Collective serves all Miami neighborhoods including Brickell, Coconut Grove, Coral Gables, Wynwood, South Beach, Little Havana, Edgewater, and surrounding Miami-Dade County cities. Call (561) 571-8725 to confirm your area."
+    a: "Yes. Clean Collective serves all Miami neighborhoods including Brickell, Coconut Grove, Coral Gables, Wynwood, South Beach, Little Havana, Edgewater, and surrounding Miami-Dade County cities. Call (561) 861-2752 to confirm your area."
   }
 ];
 
@@ -31,14 +31,14 @@ const DeepCleaningServiceMiami = () => {
       <SEOSchema
         pageTitle="Deep Cleaning Service Miami FL | Clean Collective | From $208"
         pageDescription="Deep cleaning in Miami, FL from $208. Licensed & insured. Brickell, Coral Gables, Coconut Grove & all Miami neighborhoods. Instant quote. 4.9 stars."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/deep-cleaning-service-miami"
+        canonicalUrl="https://www.cleancollective.net/blog/deep-cleaning-service-miami"
         pageType="blog"
         blogMeta={{ datePublished: "2026-02-01", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Blog", url: "https://www.tidywisecleaning.com/blog" },
-          { name: "Deep Cleaning Miami", url: "https://www.tidywisecleaning.com/blog/deep-cleaning-service-miami" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Blog", url: "https://www.cleancollective.net/blog" },
+          { name: "Deep Cleaning Miami", url: "https://www.cleancollective.net/blog/deep-cleaning-service-miami" }
         ]}
       />
       <main className="min-h-screen">
@@ -59,7 +59,7 @@ const DeepCleaningServiceMiami = () => {
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
               <Button asChild><Link to="/#booking">Get Deep Cleaning Quote</Link></Button>
               <Button variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2"><Phone className="w-4 h-4" /> (561) 571-8725</a>
+                <a href="tel:+15618612752" className="flex items-center gap-2"><Phone className="w-4 h-4" /> (561) 861-2752</a>
               </Button>
             </div>
 
@@ -147,7 +147,7 @@ const DeepCleaningServiceMiami = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                  <a href="tel:+15615718725">(561) 571-8725</a>
+                  <a href="tel:+15618612752">(561) 861-2752</a>
                 </Button>
               </div>
             </div>

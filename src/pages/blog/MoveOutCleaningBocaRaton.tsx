@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     q: "Does Clean Collective offer same-day move-out cleaning in Boca Raton?",
-    a: "Yes, same-day booking is available subject to availability. Call (561) 571-8725 for same-day move-out cleaning in Boca Raton and surrounding Palm Beach County areas."
+    a: "Yes, same-day booking is available subject to availability. Call (561) 861-2752 for same-day move-out cleaning in Boca Raton and surrounding Palm Beach County areas."
   }
 ];
 
@@ -49,14 +49,14 @@ const MoveOutCleaningBocaRaton = () => {
       <SEOSchema
         pageTitle="Move-Out Cleaning Boca Raton, FL | Clean Collective"
         pageDescription="Move-out cleaning in Boca Raton, FL from $283. Get your deposit back. Licensed & insured. Mizner Park, Boca West, Royal Palm & all Boca neighborhoods."
-        canonicalUrl="https://www.tidywisecleaning.com/blog/move-out-cleaning-boca-raton"
+        canonicalUrl="https://www.cleancollective.net/blog/move-out-cleaning-boca-raton"
         pageType="blog"
         blogMeta={{ datePublished: "2026-02-15", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "Blog", url: "https://www.tidywisecleaning.com/blog" },
-          { name: "Move-Out Cleaning Boca Raton", url: "https://www.tidywisecleaning.com/blog/move-out-cleaning-boca-raton" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "Blog", url: "https://www.cleancollective.net/blog" },
+          { name: "Move-Out Cleaning Boca Raton", url: "https://www.cleancollective.net/blog/move-out-cleaning-boca-raton" }
         ]}
       />
       <main className="min-h-screen">
@@ -77,7 +77,7 @@ const MoveOutCleaningBocaRaton = () => {
             <div className="flex flex-col sm:flex-row gap-3 mb-10 p-5 bg-muted/40 rounded-xl border">
               <Button asChild><Link to="/#booking">Book Move-Out Cleaning</Link></Button>
               <Button variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2"><Phone className="w-4 h-4" /> (561) 571-8725</a>
+                <a href="tel:+15618612752" className="flex items-center gap-2"><Phone className="w-4 h-4" /> (561) 861-2752</a>
               </Button>
               <p className="text-sm text-muted-foreground self-center">Same-day available</p>
             </div>
@@ -156,7 +156,7 @@ const MoveOutCleaningBocaRaton = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                  <a href="tel:+15615718725">(561) 571-8725</a>
+                  <a href="tel:+15618612752">(561) 861-2752</a>
                 </Button>
               </div>
             </div>

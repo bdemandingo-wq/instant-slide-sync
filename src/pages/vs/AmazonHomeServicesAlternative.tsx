@@ -38,15 +38,15 @@ const AmazonHomeServicesAlternative = () => {
   };
 
   const comparison = [
-    { feature: "Direct, accountable cleaning teams", tidywise: true, amazon: false, note: "Amazon uses third-party contractors" },
-    { feature: "Flat-rate transparent pricing", tidywise: true, amazon: false, note: "Amazon adds service fees on top" },
-    { feature: "Eco-friendly products included", tidywise: true, amazon: false, note: "Varies by provider" },
-    { feature: "Free re-clean guarantee", tidywise: true, amazon: true, note: "Amazon has happiness guarantee" },
-    { feature: "Same team every visit", tidywise: true, amazon: false, note: "Provider availability varies" },
-    { feature: "South Florida specialized", tidywise: true, amazon: false, note: "Amazon is a national marketplace" },
-    { feature: "Local phone support", tidywise: true, amazon: false, note: "Amazon routes through their platform" },
-    { feature: "No platform middleman", tidywise: true, amazon: false, note: "" },
-    { feature: "Recurring discounts", tidywise: true, amazon: false, note: "" },
+    { feature: "Direct, accountable cleaning teams", cleancollective: true, amazon: false, note: "Amazon uses third-party contractors" },
+    { feature: "Flat-rate transparent pricing", cleancollective: true, amazon: false, note: "Amazon adds service fees on top" },
+    { feature: "Eco-friendly products included", cleancollective: true, amazon: false, note: "Varies by provider" },
+    { feature: "Free re-clean guarantee", cleancollective: true, amazon: true, note: "Amazon has happiness guarantee" },
+    { feature: "Same team every visit", cleancollective: true, amazon: false, note: "Provider availability varies" },
+    { feature: "South Florida specialized", cleancollective: true, amazon: false, note: "Amazon is a national marketplace" },
+    { feature: "Local phone support", cleancollective: true, amazon: false, note: "Amazon routes through their platform" },
+    { feature: "No platform middleman", cleancollective: true, amazon: false, note: "" },
+    { feature: "Recurring discounts", cleancollective: true, amazon: false, note: "" },
   ];
 
   return (
@@ -54,7 +54,7 @@ const AmazonHomeServicesAlternative = () => {
       <SEOSchema
         pageTitle="Amazon Home Services Alternative | Clean Collective Cleaning"
         pageDescription="Amazon Home Services alternative for cleaning in South Florida. Local teams, flat-rate pricing & direct accountability. Fort Lauderdale, Miami, Boca Raton."
-        canonicalUrl="https://www.tidywisecleaning.com/amazon-home-services-alternative"
+        canonicalUrl="https://www.cleancollective.net/amazon-home-services-alternative"
         pageType="service"
         additionalSchema={faqSchema}
       />
@@ -75,8 +75,8 @@ const AmazonHomeServicesAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> Call (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> Call (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -151,7 +151,7 @@ const AmazonHomeServicesAlternative = () => {
                         {row.note && <span className="block text-xs text-muted-foreground mt-0.5">{row.note}</span>}
                       </td>
                       <td className="p-4 text-center">
-                        {row.tidywise ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
+                        {row.cleancollective ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
                       </td>
                       <td className="p-4 text-center">
                         {row.amazon ? <CheckCircle className="w-5 h-5 text-primary mx-auto" /> : <X className="w-5 h-5 text-muted-foreground mx-auto" />}
@@ -239,8 +239,8 @@ const AmazonHomeServicesAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> Call (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> Call (561) 861-2752
                 </a>
               </Button>
             </div>

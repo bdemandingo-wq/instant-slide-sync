@@ -20,21 +20,21 @@ const faqItems = [
   },
   {
     q: "What South Florida areas does Clean Collective cover as a The Maids alternative?",
-    a: "Clean Collective serves 40+ cities across Broward County (Fort Lauderdale, Hollywood, Coral Springs), Miami-Dade County (Miami, Hialeah, Coral Gables, Aventura), and Palm Beach County (Boca Raton, West Palm Beach, Delray Beach, Jupiter). Call (561) 571-8725 to confirm your area."
+    a: "Clean Collective serves 40+ cities across Broward County (Fort Lauderdale, Hollywood, Coral Springs), Miami-Dade County (Miami, Hialeah, Coral Gables, Aventura), and Palm Beach County (Boca Raton, West Palm Beach, Delray Beach, Jupiter). Call (561) 861-2752 to confirm your area."
   }
 ];
 
 const comparisonRows = [
-  { feature: "Published pricing online", tidywise: true, competitor: false },
-  { feature: "Instant online booking", tidywise: true, competitor: false },
-  { feature: "Same-day availability", tidywise: true, competitor: false },
-  { feature: "Eco-friendly products included", tidywise: true, competitor: false },
-  { feature: "Background-checked cleaners", tidywise: true, competitor: true },
-  { feature: "Satisfaction guarantee", tidywise: true, competitor: true },
-  { feature: "Locally owned (South Florida)", tidywise: true, competitor: false },
-  { feature: "No franchise fees in pricing", tidywise: true, competitor: false },
-  { feature: "Consistent team per home", tidywise: true, competitor: false },
-  { feature: "Recurring discounts up to 15%", tidywise: true, competitor: false },
+  { feature: "Published pricing online", cleancollective: true, competitor: false },
+  { feature: "Instant online booking", cleancollective: true, competitor: false },
+  { feature: "Same-day availability", cleancollective: true, competitor: false },
+  { feature: "Eco-friendly products included", cleancollective: true, competitor: false },
+  { feature: "Background-checked cleaners", cleancollective: true, competitor: true },
+  { feature: "Satisfaction guarantee", cleancollective: true, competitor: true },
+  { feature: "Locally owned (South Florida)", cleancollective: true, competitor: false },
+  { feature: "No franchise fees in pricing", cleancollective: true, competitor: false },
+  { feature: "Consistent team per home", cleancollective: true, competitor: false },
+  { feature: "Recurring discounts up to 15%", cleancollective: true, competitor: false },
 ];
 
 const TheMaidsAlternative = () => {
@@ -43,12 +43,12 @@ const TheMaidsAlternative = () => {
       <SEOSchema
         pageTitle="The Maids Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best The Maids alternative in South Florida. Transparent pricing from $118, instant booking, same team every visit. Fort Lauderdale, Miami, Boca Raton."
-        canonicalUrl="https://www.tidywisecleaning.com/the-maids-alternative"
+        canonicalUrl="https://www.cleancollective.net/the-maids-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.tidywisecleaning.com" },
-          { name: "The Maids Alternative", url: "https://www.tidywisecleaning.com/the-maids-alternative" }
+          { name: "Home", url: "https://www.cleancollective.net" },
+          { name: "The Maids Alternative", url: "https://www.cleancollective.net/the-maids-alternative" }
         ]}
       />
       <main className="min-h-screen">
@@ -71,9 +71,9 @@ const TheMaidsAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -101,7 +101,7 @@ const TheMaidsAlternative = () => {
                     <tr key={i} className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}>
                       <td className="px-6 py-4">{row.feature}</td>
                       <td className="px-6 py-4 text-center">
-                        {row.tidywise
+                        {row.cleancollective
                           ? <CheckCircle className="w-5 h-5 text-green-500 mx-auto" />
                           : <XCircle className="w-5 h-5 text-red-400 mx-auto" />}
                       </td>
@@ -177,7 +177,7 @@ const TheMaidsAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

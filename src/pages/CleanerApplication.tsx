@@ -211,7 +211,7 @@ const CleanerApplication = () => {
       <SEOHead
         title="Cleaning Jobs South Florida | Apply Now | Clean Collective Careers"
         description="Now hiring experienced cleaners in Broward, Miami-Dade & Palm Beach County. Flexible hours, competitive pay, steady recurring clients. Apply today."
-        canonical="https://www.tidywisecleaning.com/apply"
+        canonical="https://www.cleancollective.net/apply"
       />
     <div className="min-h-screen bg-background">
       {/* Header */}

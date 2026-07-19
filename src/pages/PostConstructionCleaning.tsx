@@ -29,7 +29,7 @@ const PostConstructionCleaning = () => {
       <SEOSchema
         pageTitle="Post-Construction Cleaning | South Florida | Clean Collective"
         pageDescription="Post-construction & renovation cleanup in South Florida. Dust removal, window cleaning, paint splatter cleanup & move-in ready detail."
-        canonicalUrl="https://www.tidywisecleaning.com/post-construction-cleaning"
+        canonicalUrl="https://www.cleancollective.net/post-construction-cleaning"
       />
       <Navbar />
       <main id="main-content" className="pt-16">
@@ -47,7 +47,7 @@ const PostConstructionCleaning = () => {
                   <Link to="/booking">Get a Free Quote <ArrowRight className="ml-2 w-5 h-5" /></Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+15615718725"><Phone className="mr-2 w-5 h-5" /> (561) 571-8725</a>
+                  <a href="tel:+15618612752"><Phone className="mr-2 w-5 h-5" /> (561) 861-2752</a>
                 </Button>
               </div>
             </div>

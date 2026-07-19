@@ -13,7 +13,7 @@ const HurricaneSeasonCleaningPrep = () => {
       <SEOSchema
         pageTitle="Hurricane Season Cleaning & Prep Guide | Clean Collective"
         pageDescription="Prepare your South Florida home for hurricane season. Pre-storm cleaning checklist, post-storm cleanup tips, and professional cleaning services. Be ready!"
-        canonicalUrl="https://www.tidywisecleaning.com/blog/hurricane-season-cleaning-prep"
+        canonicalUrl="https://www.cleancollective.net/blog/hurricane-season-cleaning-prep"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-05-01", readTime: "8 min", category: "Guides" }}
@@ -160,7 +160,7 @@ const HurricaneSeasonCleaningPrep = () => {
                   <Link to="/broward-county-cleaning" className="text-primary hover:underline mx-1">Broward</Link>,
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline mx-1">Miami-Dade</Link>, and
                   <Link to="/palm-beach-county-cleaning" className="text-primary hover:underline mx-1">Palm Beach County</Link>.
-                  Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> for emergency cleaning services.
+                  Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> for emergency cleaning services.
                 </p>
               </div>
             </div>
