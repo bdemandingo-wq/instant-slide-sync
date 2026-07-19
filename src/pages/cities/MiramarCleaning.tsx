@@ -31,7 +31,7 @@ const MiramarCleaning = () => {
       <SEOSchema
         pageTitle="Miramar House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Miramar FL affordable house cleaning you can trust. Sunset Lakes, Silver Shores & Riviera Isles. Flexible scheduling. Satisfaction guaranteed!"
-        canonicalUrl="https://www.cleancollectives.com/miramar-cleaning"
+        canonicalUrl="https://cleancollectives.com/miramar-cleaning"
         pageType="county"
         county="Miramar"
         faqItems={faqItems}

@@ -31,7 +31,7 @@ const CoconutCreekCleaning = () => {
       <SEOSchema
         pageTitle="Coconut Creek House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Coconut Creek FL professional home cleaning. Wynmoor community specialists. Palm Beach Farms & Cypress Bend. Licensed & insured. Schedule today!"
-        canonicalUrl="https://www.cleancollectives.com/coconut-creek-cleaning"
+        canonicalUrl="https://cleancollectives.com/coconut-creek-cleaning"
         pageType="county"
         county="Coconut Creek"
         faqItems={faqItems}

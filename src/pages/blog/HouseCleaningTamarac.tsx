@@ -31,14 +31,14 @@ const HouseCleaningTamarac = () => {
       <SEOSchema
         pageTitle="House Cleaning Tamarac FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Tamarac, FL from $108. Licensed & insured. Kings Point, Heathgate, Mainlands & all Tamarac communities. Active adult community specialists."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-tamarac"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-tamarac"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Tamarac", url: "https://www.cleancollectives.com/blog/house-cleaning-tamarac" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Tamarac", url: "https://cleancollectives.com/blog/house-cleaning-tamarac" }
         ]}
       />
       <main className="min-h-screen">

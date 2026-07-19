@@ -31,14 +31,14 @@ const HouseCleaningWestPalmBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning West Palm Beach FL | Clean Collective | From $118"
         pageDescription="House cleaning in West Palm Beach, FL. Background-checked & insured. Downtown WPB, Northwood, El Cid, PGA National & all neighborhoods. Instant quote."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-west-palm-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-west-palm-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning West Palm Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-west-palm-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning West Palm Beach", url: "https://cleancollectives.com/blog/house-cleaning-west-palm-beach" }
         ]}
       />
       <main className="min-h-screen">

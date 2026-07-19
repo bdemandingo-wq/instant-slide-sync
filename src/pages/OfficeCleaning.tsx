@@ -29,7 +29,7 @@ const OfficeCleaning = () => {
       <SEOSchema
         pageTitle="Office Cleaning Services | South Florida | Clean Collective"
         pageDescription="Professional office and commercial cleaning in South Florida. OSHA compliant, flexible scheduling, and customized plans for a spotless workspace."
-        canonicalUrl="https://www.cleancollectives.com/office-cleaning"
+        canonicalUrl="https://cleancollectives.com/office-cleaning"
       />
       <Navbar />
       <main id="main-content" className="pt-16">

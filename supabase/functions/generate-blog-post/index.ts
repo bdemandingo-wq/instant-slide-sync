@@ -4,7 +4,7 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 // Restricted CORS - only allow specific origins
 const ALLOWED_ORIGINS = [
   'https://cleancollectives.com',
-  'https://www.cleancollectives.com',
+  'https://cleancollectives.com',
   'https://ekseakjxarhjujngoklz.supabase.co',
 ];
 

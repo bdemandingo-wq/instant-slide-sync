@@ -19,7 +19,7 @@ interface SEOSchemaProps {
   additionalSchema?: object;
 }
 
-const WEBSITE = "https://www.cleancollectives.com";
+const WEBSITE = "https://cleancollectives.com";
 const BUSINESS_NAME = "Clean Collective Cleaning Services";
 const PHONE = "+1-561-861-2752";
 

@@ -31,7 +31,7 @@ const ParklandCleaning = () => {
       <SEOSchema
         pageTitle="Parkland House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Parkland FL premium estate cleaning. Heron Bay, Parkland Golf & The Estates. Trusted by Parkland's finest homes. Get your custom quote!"
-        canonicalUrl="https://www.cleancollectives.com/parkland-cleaning"
+        canonicalUrl="https://cleancollectives.com/parkland-cleaning"
         pageType="county"
         county="Parkland"
         faqItems={faqItems}

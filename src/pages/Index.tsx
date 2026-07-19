@@ -77,7 +77,7 @@ const Index = () => {
       <SEOSchema
         pageTitle="House Cleaning Pompano Beach & South Florida | Clean Collective"
         pageDescription="House cleaning in Pompano Beach & South Florida. Licensed & insured, flat-rate quotes, eco-friendly products, free re-clean guarantee. Book in 60 seconds."
-        canonicalUrl="https://www.cleancollectives.com/"
+        canonicalUrl="https://cleancollectives.com/"
         pageType="home"
         faqItems={homepageFaqs}
       />

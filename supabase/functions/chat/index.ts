@@ -4,7 +4,7 @@ import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 // Restrict CORS to specific origins
 const ALLOWED_ORIGINS = [
   'https://cleancollectives.com',
-  'https://www.cleancollectives.com',
+  'https://cleancollectives.com',
   'https://ekseakjxarhjujngoklz.supabase.co',
 ];
 

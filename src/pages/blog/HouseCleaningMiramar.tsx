@@ -31,14 +31,14 @@ const HouseCleaningMiramar = () => {
       <SEOSchema
         pageTitle="House Cleaning Miramar FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Miramar, FL from $108. Licensed & insured. Silver Lakes, Monarch Lakes, Chapel Trail & all Miramar communities. Same-day available."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-miramar"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-miramar"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Miramar", url: "https://www.cleancollectives.com/blog/house-cleaning-miramar" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Miramar", url: "https://cleancollectives.com/blog/house-cleaning-miramar" }
         ]}
       />
       <main className="min-h-screen">

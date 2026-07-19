@@ -31,14 +31,14 @@ const HouseCleaningWeston = () => {
       <SEOSchema
         pageTitle="House Cleaning Weston FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Weston, FL from $108. Licensed & insured. Windmill Ranch Estates, The Ridges, Savanna & all Weston gated communities. Book now."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-weston"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-weston"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Weston", url: "https://www.cleancollectives.com/blog/house-cleaning-weston" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Weston", url: "https://cleancollectives.com/blog/house-cleaning-weston" }
         ]}
       />
       <main className="min-h-screen">

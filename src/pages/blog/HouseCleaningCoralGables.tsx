@@ -31,14 +31,14 @@ const HouseCleaningCoralGables = () => {
       <SEOSchema
         pageTitle="House Cleaning Coral Gables FL | From $108 | Clean Collective"
         pageDescription="Expert house cleaning in Coral Gables, FL from $108. Licensed & insured. Gables Estates, Biltmore & all neighborhoods. Historic home specialists."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-coral-gables"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-coral-gables"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Coral Gables", url: "https://www.cleancollectives.com/blog/house-cleaning-coral-gables" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Coral Gables", url: "https://cleancollectives.com/blog/house-cleaning-coral-gables" }
         ]}
       />
       <main className="min-h-screen">

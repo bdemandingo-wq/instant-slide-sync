@@ -13,7 +13,7 @@ const PetFriendlyCleaningTips = () => {
       <SEOSchema
         pageTitle="Pet-Friendly Cleaning Tips for Florida Homes | Clean Collective"
         pageDescription="Keep your Florida home fresh with pets. Tips for pet hair, odors & stains. Pet-safe products & pro cleaning."
-        canonicalUrl="https://www.cleancollectives.com/blog/pet-friendly-cleaning-tips"
+        canonicalUrl="https://cleancollectives.com/blog/pet-friendly-cleaning-tips"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-01-25", readTime: "7 min", category: "Tips" }}

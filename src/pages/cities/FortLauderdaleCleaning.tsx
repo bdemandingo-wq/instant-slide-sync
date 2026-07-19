@@ -32,7 +32,7 @@ const FortLauderdaleCleaning = () => {
       <SEOSchema
         pageTitle="Fort Lauderdale House Cleaning | Insured | Clean Collective"
         pageDescription="Best cleaning in Fort Lauderdale. Licensed & insured house cleaning. Same-day quotes. Serving Las Olas, Victoria Park, Rio Vista. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollectives.com/fort-lauderdale-cleaning"
+        canonicalUrl="https://cleancollectives.com/fort-lauderdale-cleaning"
         pageType="county"
         county="Fort Lauderdale"
         faqItems={faqItems}

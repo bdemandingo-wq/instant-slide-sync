@@ -31,7 +31,7 @@ const NorthMiamiBeachCleaning = () => {
       <SEOSchema
         pageTitle="North Miami Beach Cleaning | Insured | Clean Collective"
         pageDescription="North Miami Beach FL home & apartment cleaning. Eastern Shores, Skylake & Ojus specialists. Flexible scheduling. Get 10% off your first clean!"
-        canonicalUrl="https://www.cleancollectives.com/north-miami-beach-cleaning"
+        canonicalUrl="https://cleancollectives.com/north-miami-beach-cleaning"
         pageType="county"
         county="North Miami Beach"
         faqItems={faqItems}

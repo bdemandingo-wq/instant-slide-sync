@@ -31,14 +31,14 @@ const HouseCleaningNorthMiamiBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning North Miami Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in North Miami Beach, FL from $108. Licensed & insured. Point East, Ojus, Ives Dairy Road corridor & all neighborhoods. Same-day available."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-north-miami-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-north-miami-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning North Miami Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-north-miami-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning North Miami Beach", url: "https://cleancollectives.com/blog/house-cleaning-north-miami-beach" }
         ]}
       />
       <main className="min-h-screen">

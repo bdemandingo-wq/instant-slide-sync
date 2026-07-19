@@ -50,14 +50,14 @@ const MoveInCleaningMiami = () => {
       <SEOSchema
         pageTitle="Move-In Cleaning Miami FL | Clean Collective | From $208"
         pageDescription="Move-in cleaning in Miami, FL from $208. Start fresh in your new home. Brickell, Coral Gables, Coconut Grove & all Miami neighborhoods. Licensed & insured."
-        canonicalUrl="https://www.cleancollectives.com/blog/move-in-cleaning-miami"
+        canonicalUrl="https://cleancollectives.com/blog/move-in-cleaning-miami"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "Move-In Cleaning Miami", url: "https://www.cleancollectives.com/blog/move-in-cleaning-miami" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "Move-In Cleaning Miami", url: "https://cleancollectives.com/blog/move-in-cleaning-miami" }
         ]}
       />
       <main className="min-h-screen">

@@ -31,14 +31,14 @@ const HouseCleaningNorthMiami = () => {
       <SEOSchema
         pageTitle="House Cleaning North Miami FL | From $108 | Clean Collective"
         pageDescription="House cleaning in North Miami, FL from $108. Licensed & insured. Keystone Islands, Biscayne Park, Sans Souci & all neighborhoods. Move-in/out specialists."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-north-miami"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-north-miami"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning North Miami", url: "https://www.cleancollectives.com/blog/house-cleaning-north-miami" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning North Miami", url: "https://cleancollectives.com/blog/house-cleaning-north-miami" }
         ]}
       />
       <main className="min-h-screen">

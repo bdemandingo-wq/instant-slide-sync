@@ -31,7 +31,7 @@ const PompanoBeachCleaning = () => {
       <SEOSchema
         pageTitle="Pompano Beach House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Pompano Beach FL coastal home cleaning. Lighthouse Point, Palm Aire & Cypress Creek. Salt-air safe cleaning methods. Free estimates available!"
-        canonicalUrl="https://www.cleancollectives.com/pompano-beach-cleaning"
+        canonicalUrl="https://cleancollectives.com/pompano-beach-cleaning"
         pageType="county"
         county="Pompano Beach"
         faqItems={faqItems}

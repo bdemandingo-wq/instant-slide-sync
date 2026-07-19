@@ -32,7 +32,7 @@ const CoralSpringsCleaning = () => {
       <SEOSchema
         pageTitle="Coral Springs House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Professional cleaning Coral Springs FL. House cleaning for Heron Bay, Wyndham, Eagle Trace. Licensed & insured. Same-day quotes. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollectives.com/coral-springs-cleaning"
+        canonicalUrl="https://cleancollectives.com/coral-springs-cleaning"
         pageType="county"
         county="Coral Springs"
         faqItems={faqItems}

@@ -248,7 +248,7 @@ const Admin = () => {
       <SEOHead
         title="Admin Dashboard | Clean Collective"
         description="Clean Collective admin dashboard for managing bookings, applications, and business operations."
-        canonical="https://www.cleancollectives.com/admin"
+        canonical="https://cleancollectives.com/admin"
         noIndex={true}
       />
     <div className="min-h-screen bg-muted">

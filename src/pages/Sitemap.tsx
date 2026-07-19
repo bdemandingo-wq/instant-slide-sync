@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/seo/StickyCallButton";
 
 const Sitemap = () => {
-  const baseUrl = "https://www.cleancollectives.com";
+  const baseUrl = "https://cleancollectives.com";
   
   // Schema markup for sitemap page (SiteNavigationElement)
   const sitemapSchema = {

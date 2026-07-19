@@ -38,12 +38,12 @@ const DeepCleaning = () => {
       <SEOSchema
         pageTitle="Deep Cleaning South Florida | From $250 | Clean Collective"
         pageDescription="Professional deep cleaning in South Florida from $250. Baseboards, cabinets, appliances & more. Eco-friendly cleaners. Instant quote online."
-        canonicalUrl="https://www.cleancollectives.com/deep-cleaning"
+        canonicalUrl="https://cleancollectives.com/deep-cleaning"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Deep Cleaning", url: "https://www.cleancollectives.com/deep-cleaning" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Deep Cleaning", url: "https://cleancollectives.com/deep-cleaning" }
         ]}
       />
       <main className="min-h-screen">

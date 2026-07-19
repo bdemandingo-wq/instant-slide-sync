@@ -31,14 +31,14 @@ const HouseCleaningBoyntonBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Boynton Beach FL | From $108 | Clean Collective"
         pageDescription="Top-rated house cleaning in Boynton Beach, FL from $108. Licensed & insured. Aberdeen, Valencia Reserve, Leisureville & all areas. Book today."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-boynton-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-boynton-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Boynton Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-boynton-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Boynton Beach", url: "https://cleancollectives.com/blog/house-cleaning-boynton-beach" }
         ]}
       />
       <main className="min-h-screen">

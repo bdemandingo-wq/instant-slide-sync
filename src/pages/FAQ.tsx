@@ -159,15 +159,15 @@ const FAQ = () => {
       <SEOHead
         title="Cleaning Service FAQ South Florida | Clean Collective"
         description="Find answers about Clean Collective cleaning services, pricing, booking & cancellations. Serving 40+ South Florida cities. Call (561) 861-2752."
-        canonical="https://www.cleancollectives.com/faq"
+        canonical="https://cleancollectives.com/faq"
         schemaJson={[
           faqSchema,
           {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.cleancollectives.com" },
-              { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.cleancollectives.com/faq" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cleancollectives.com" },
+              { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://cleancollectives.com/faq" }
             ]
           }
         ]}

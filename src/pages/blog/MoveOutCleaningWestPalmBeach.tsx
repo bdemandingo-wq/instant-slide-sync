@@ -68,7 +68,7 @@ const MoveOutCleaningWestPalmBeach = () => {
       <SEOSchema
         pageTitle="Move Out Cleaning West Palm Beach | Deposit Ready"
         pageDescription="Professional move-out cleaning in West Palm Beach, FL from $283. Includes appliances, cabinets, and every room landlords inspect. Licensed & insured. Book now!"
-        canonicalUrl="https://www.cleancollectives.com/blog/move-out-cleaning-west-palm-beach"
+        canonicalUrl="https://cleancollectives.com/blog/move-out-cleaning-west-palm-beach"
         pageType="article"
         additionalSchema={faqSchema}
       />

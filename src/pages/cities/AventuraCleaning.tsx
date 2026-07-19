@@ -31,7 +31,7 @@ const AventuraCleaning = () => {
       <SEOSchema
         pageTitle="Aventura House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Aventura FL luxury condo & high-rise cleaning specialists. Serving Turnberry, Williams Island & Aventura Mall area. Eco-friendly products. Book online now!"
-        canonicalUrl="https://www.cleancollectives.com/aventura-cleaning"
+        canonicalUrl="https://cleancollectives.com/aventura-cleaning"
         pageType="county"
         county="Aventura"
         faqItems={faqItems}

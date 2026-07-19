@@ -43,12 +43,12 @@ const MollyMaidAlternative = () => {
       <SEOSchema
         pageTitle="Molly Maid Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Molly Maid alternative in South Florida. Transparent pricing, same-day booking & eco-friendly cleaning. Fort Lauderdale, Boca Raton, Miami & 40+ cities."
-        canonicalUrl="https://www.cleancollectives.com/molly-maid-alternative"
+        canonicalUrl="https://cleancollectives.com/molly-maid-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Molly Maid Alternative", url: "https://www.cleancollectives.com/molly-maid-alternative" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Molly Maid Alternative", url: "https://cleancollectives.com/molly-maid-alternative" }
         ]}
       />
       <main className="min-h-screen">

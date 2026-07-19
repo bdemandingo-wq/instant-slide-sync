@@ -31,14 +31,14 @@ const HouseCleaningPlantation = () => {
       <SEOSchema
         pageTitle="House Cleaning Plantation FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Plantation, FL from $108. Licensed & insured. Plantation Golf & Country Club, Jacaranda, Westport & all neighborhoods. Book now."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-plantation"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-plantation"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Plantation", url: "https://www.cleancollectives.com/blog/house-cleaning-plantation" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Plantation", url: "https://cleancollectives.com/blog/house-cleaning-plantation" }
         ]}
       />
       <main className="min-h-screen">

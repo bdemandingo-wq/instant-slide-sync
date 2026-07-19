@@ -2,9 +2,9 @@
 
 Clean Collective is a licensed and insured professional cleaning service serving South Florida — Broward, Miami-Dade, and Palm Beach County.
 
-Website: https://www.cleancollectives.com
+Website: https://cleancollectives.com
 Phone: (561) 861-2752
-Booking: https://www.cleancollectives.com/#booking
+Booking: https://cleancollectives.com/#booking
 
 ---
 
@@ -97,7 +97,7 @@ Fast turnovers between guests. Includes linen change (host-provided), restocking
 
 ## Booking
 
-- Instant online quote and booking: https://www.cleancollectives.com/#booking
+- Instant online quote and booking: https://cleancollectives.com/#booking
 - Phone / same-day: (561) 861-2752
 - No credit card required to get a quote
 - 24-hour cancellation policy

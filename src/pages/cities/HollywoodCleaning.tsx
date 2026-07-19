@@ -32,7 +32,7 @@ const HollywoodCleaning = () => {
       <SEOSchema
         pageTitle="Hollywood House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Trusted house cleaning Hollywood FL. Serving Hollywood Beach, Emerald Hills, Oakwood. Licensed & insured. Same-day quotes. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollectives.com/hollywood-cleaning"
+        canonicalUrl="https://cleancollectives.com/hollywood-cleaning"
         pageType="county"
         county="Hollywood"
         faqItems={faqItems}

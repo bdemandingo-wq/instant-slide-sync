@@ -13,7 +13,7 @@ const CondoCleaningRules = () => {
       <SEOSchema
         pageTitle="Condo Cleaning Rules & Tips for South Florida | Clean Collective"
         pageDescription="Navigate HOA rules and building regulations while keeping your South Florida condo spotless."
-        canonicalUrl="https://www.cleancollectives.com/blog/condo-cleaning-rules-south-florida"
+        canonicalUrl="https://cleancollectives.com/blog/condo-cleaning-rules-south-florida"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-04-10", readTime: "6 min", category: "Local Guides" }}

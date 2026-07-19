@@ -72,11 +72,11 @@ const Reviews = () => {
   const reviewsPageSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://www.cleancollectives.com/reviews/#business",
+    "@id": "https://cleancollectives.com/reviews/#business",
     "name": "Clean Collective Cleaning Services",
-    "url": "https://www.cleancollectives.com/reviews",
+    "url": "https://cleancollectives.com/reviews",
     "telephone": "+1-561-861-2752",
-    "image": "https://www.cleancollectives.com/og-image.webp",
+    "image": "https://cleancollectives.com/og-image.webp",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -107,11 +107,11 @@ const Reviews = () => {
       <SEOSchema
         pageTitle="Clean Collective Reviews | Trusted Cleaning Service in South Florida"
         pageDescription="Read genuine reviews from Clean Collective cleaning customers across Fort Lauderdale, Pompano Beach, Deerfield Beach, and Boca Raton. 5-star service guaranteed."
-        canonicalUrl="https://www.cleancollectives.com/reviews"
+        canonicalUrl="https://cleancollectives.com/reviews"
         pageType="article"
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Reviews", url: "https://www.cleancollectives.com/reviews" },
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Reviews", url: "https://cleancollectives.com/reviews" },
         ]}
         additionalSchema={reviewsPageSchema}
       />

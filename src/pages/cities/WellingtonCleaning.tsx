@@ -31,7 +31,7 @@ const WellingtonCleaning = () => {
       <SEOSchema
         pageTitle="Wellington House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Wellington FL equestrian community cleaning experts. Olympia, Polo West & The Isles. Trusted by Wellington families since 2020. Get 10% off first clean!"
-        canonicalUrl="https://www.cleancollectives.com/wellington-cleaning"
+        canonicalUrl="https://cleancollectives.com/wellington-cleaning"
         pageType="county"
         county="Wellington"
         faqItems={faqItems}

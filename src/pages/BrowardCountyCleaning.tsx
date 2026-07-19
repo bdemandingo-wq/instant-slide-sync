@@ -45,7 +45,7 @@ const BrowardCountyCleaning = () => {
       <SEOSchema
         pageTitle="Broward County Cleaning Services | Clean Collective"
         pageDescription="Need Broward County cleaning services? Licensed & insured. Same-day quotes. Serving Fort Lauderdale, Hollywood, Coral Springs. Call now for 10% off!"
-        canonicalUrl="https://www.cleancollectives.com/broward-county-cleaning"
+        canonicalUrl="https://cleancollectives.com/broward-county-cleaning"
         pageType="county"
         county="Broward County"
         faqItems={faqItems}
