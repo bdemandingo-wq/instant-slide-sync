@@ -62,13 +62,13 @@ const cleaningServiceSchema = {
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "4611 N Federal Hwy",
-    "addressLocality": "Deerfield Beach",
+    "addressLocality": "Pompano Beach",
     "addressRegion": "FL",
     "postalCode": "33064",
     "addressCountry": "US"
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 26.2890, "longitude": -80.0940 },
-  "hasMap": "https://maps.google.com/?q=Clean Collective+Cleaning+Deerfield+Beach+FL",
+  "hasMap": "https://maps.google.com/?q=Clean Collective+Cleaning+Pompano+Beach+FL",
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "19:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "17:00" },
@@ -306,7 +306,7 @@ const SEOSchema = ({
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "4611 N Federal Hwy",
-      "addressLocality": "Deerfield Beach",
+      "addressLocality": "Pompano Beach",
       "addressRegion": "FL",
       "postalCode": "33064",
       "addressCountry": "US"
@@ -350,7 +350,7 @@ const SEOSchema = ({
 
       {/* Geo Tags — same on every page, fine to inject via Helmet. */}
       <meta name="geo.region" content="US-FL" />
-      <meta name="geo.placename" content="Deerfield Beach" />
+      <meta name="geo.placename" content="Pompano Beach" />
       <meta name="geo.position" content="26.2890;-80.0940" />
       <meta name="ICBM" content="26.2890, -80.0940" />
 

@@ -23,7 +23,7 @@ const normalizeCanonical = (input: string): string => {
   if (!input) return WEBSITE;
   // Strip protocol + any host variant (www / non-www, http / https) to get the path
   const path = input
-    .replace(/^https?:\/\/(www\.)?cleancollective\.com/i, "")
+    .replace(/^https?:\/\/(www\.)?cleancollective\.net/i, "")
     .replace(/^https?:\/\/[^/]+/i, ""); // any other accidental host
   const cleanPath = path.startsWith("/") || path === "" ? path : `/${path}`;
   return `${WEBSITE}${cleanPath}`;
