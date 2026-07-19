@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, Shield, Star, Leaf, Lock } from "lucide-react";
 import HeroEstimator from "./HeroEstimator";
+import heroImage from "@/assets/hero-clean-living-room.webp";
+import heroImageSmall from "@/assets/hero-clean-living-room-960.webp";
 
 const trustPills = [
   { icon: Shield, label: "Licensed & Insured" },
@@ -19,8 +21,8 @@ const trustPills = [
 // hurts Core Web Vitals (CDN latency + third-party origin) and exposes
 // us to their TOS / availability. Download the photo and place it in
 // /src/assets, then update the imports below.
-const HERO_IMAGE = "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=75";
-const HERO_IMAGE_SMALL = "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=960&q=70";
+const HERO_IMAGE = heroImage;
+const HERO_IMAGE_SMALL = heroImageSmall;
 
 const Hero = () => {
   return (
