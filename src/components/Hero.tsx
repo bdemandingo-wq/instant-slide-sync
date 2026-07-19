@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, Shield, Star, Leaf, Lock } from "lucide-react";
 import HeroEstimator from "./HeroEstimator";
+import heroImage from "@/assets/hero-clean-living-room.webp";
+import heroImageSmall from "@/assets/hero-clean-living-room-960.webp";
 
 const trustPills = [
   { icon: Shield, label: "Licensed & Insured" },
