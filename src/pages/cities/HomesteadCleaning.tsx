@@ -31,7 +31,7 @@ const HomesteadCleaning = () => {
       <SEOSchema
         pageTitle="Homestead House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Homestead FL affordable residential cleaning. Redland, Florida City & Leisure City coverage. Honest pricing, no hidden fees. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollectives.com/homestead-cleaning"
+        canonicalUrl="https://cleancollectives.com/homestead-cleaning"
         pageType="county"
         county="Homestead"
         faqItems={faqItems}

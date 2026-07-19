@@ -31,14 +31,14 @@ const HouseCleaningHialeah = () => {
       <SEOSchema
         pageTitle="House Cleaning Hialeah FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Hialeah, FL from $108. Spanish-speaking team. Licensed & insured. Hialeah Gardens, Palm Springs North & all neighborhoods. Same-day available."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-hialeah"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-hialeah"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Hialeah", url: "https://www.cleancollectives.com/blog/house-cleaning-hialeah" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Hialeah", url: "https://cleancollectives.com/blog/house-cleaning-hialeah" }
         ]}
       />
       <main className="min-h-screen">

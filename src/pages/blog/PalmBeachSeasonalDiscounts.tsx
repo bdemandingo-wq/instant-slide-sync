@@ -13,7 +13,7 @@ const PalmBeachSeasonalDiscounts = () => {
       <SEOSchema
         pageTitle="Seasonal Cleaning Discounts Palm Beach 2025 | Clean Collective"
         pageDescription="Palm Beach County seasonal cleaning discounts 2025. Save 10-20% on cleaning in West Palm Beach, Boca Raton, Jupiter. Limited time offers. Book now!"
-        canonicalUrl="https://www.cleancollectives.com/blog/palm-beach-seasonal-discounts"
+        canonicalUrl="https://cleancollectives.com/blog/palm-beach-seasonal-discounts"
         pageType="blog"
         county="Palm Beach County"
         blogMeta={{ datePublished: "2025-01-10", readTime: "5 min", category: "Local Guides" }}

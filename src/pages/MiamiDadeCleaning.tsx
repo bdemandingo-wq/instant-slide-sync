@@ -45,7 +45,7 @@ const MiamiDadeCleaning = () => {
       <SEOSchema
         pageTitle="Miami-Dade Cleaning Services | Clean Collective"
         pageDescription="Affordable cleaning Miami services. Licensed & insured. Serving Miami, Miami Beach, Coral Gables. Same-day quotes. Call now for 10% off first clean!"
-        canonicalUrl="https://www.cleancollectives.com/miami-dade-cleaning"
+        canonicalUrl="https://cleancollectives.com/miami-dade-cleaning"
         pageType="county"
         county="Miami-Dade County"
         faqItems={faqItems}

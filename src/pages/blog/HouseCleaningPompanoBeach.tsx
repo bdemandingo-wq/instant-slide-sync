@@ -31,14 +31,14 @@ const HouseCleaningPompanoBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Pompano Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Pompano Beach, FL from $108. Licensed & insured. Lighthouse Point, Cresthaven, Pompano Beach Highlands & all neighborhoods. Book now."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-pompano-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-pompano-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Pompano Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-pompano-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Pompano Beach", url: "https://cleancollectives.com/blog/house-cleaning-pompano-beach" }
         ]}
       />
       <main className="min-h-screen">

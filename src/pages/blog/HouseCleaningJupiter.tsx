@@ -31,14 +31,14 @@ const HouseCleaningJupiter = () => {
       <SEOSchema
         pageTitle="House Cleaning Jupiter FL | From $108 | Clean Collective"
         pageDescription="Premium house cleaning in Jupiter, FL from $108. Licensed & insured. Abacoa, Jonathan's Landing, Admirals Cove & all areas. Waterfront home experts."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-jupiter"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-jupiter"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Jupiter", url: "https://www.cleancollectives.com/blog/house-cleaning-jupiter" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Jupiter", url: "https://cleancollectives.com/blog/house-cleaning-jupiter" }
         ]}
       />
       <main className="min-h-screen">

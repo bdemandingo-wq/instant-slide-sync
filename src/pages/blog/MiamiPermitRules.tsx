@@ -13,7 +13,7 @@ const MiamiPermitRules = () => {
       <SEOSchema
         pageTitle="Cleaning Permit Rules Miami-Dade 2025 | Clean Collective"
         pageDescription="Miami-Dade cleaning permit rules for 2025. Condo requirements, HOA policies, and what to know before hiring a cleaning service in Miami. Free consultation!"
-        canonicalUrl="https://www.cleancollectives.com/blog/miami-permit-rules"
+        canonicalUrl="https://cleancollectives.com/blog/miami-permit-rules"
         pageType="blog"
         county="Miami-Dade County"
         blogMeta={{ datePublished: "2025-01-10", readTime: "6 min", category: "Local Guides" }}

@@ -31,14 +31,14 @@ const HouseCleaningWellington = () => {
       <SEOSchema
         pageTitle="House Cleaning Wellington FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Wellington, FL from $108. Licensed & insured. Equestrian estates, Palm Beach Polo & all communities. Polo season scheduling."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-wellington"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-wellington"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Wellington", url: "https://www.cleancollectives.com/blog/house-cleaning-wellington" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Wellington", url: "https://cleancollectives.com/blog/house-cleaning-wellington" }
         ]}
       />
       <main className="min-h-screen">

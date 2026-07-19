@@ -31,14 +31,14 @@ const HouseCleaningDelrayBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Delray Beach FL | From $108 | Clean Collective"
         pageDescription="Top-rated house cleaning in Delray Beach, FL from $108. Licensed & insured. Mizner Country Club, Lake Ida & all areas. Seasonal cleaning available."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-delray-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-delray-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Delray Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-delray-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Delray Beach", url: "https://cleancollectives.com/blog/house-cleaning-delray-beach" }
         ]}
       />
       <main className="min-h-screen">

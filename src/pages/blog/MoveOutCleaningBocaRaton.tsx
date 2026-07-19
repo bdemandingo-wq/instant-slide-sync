@@ -49,14 +49,14 @@ const MoveOutCleaningBocaRaton = () => {
       <SEOSchema
         pageTitle="Move-Out Cleaning Boca Raton, FL | Clean Collective"
         pageDescription="Move-out cleaning in Boca Raton, FL from $283. Get your deposit back. Licensed & insured. Mizner Park, Boca West, Royal Palm & all Boca neighborhoods."
-        canonicalUrl="https://www.cleancollectives.com/blog/move-out-cleaning-boca-raton"
+        canonicalUrl="https://cleancollectives.com/blog/move-out-cleaning-boca-raton"
         pageType="blog"
         blogMeta={{ datePublished: "2026-02-15", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "Move-Out Cleaning Boca Raton", url: "https://www.cleancollectives.com/blog/move-out-cleaning-boca-raton" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "Move-Out Cleaning Boca Raton", url: "https://cleancollectives.com/blog/move-out-cleaning-boca-raton" }
         ]}
       />
       <main className="min-h-screen">

@@ -66,12 +66,12 @@ const BrowardAirbnbTurnover = () => {
       <SEOSchema
         pageTitle="Broward Airbnb Turnover Cleaning | Short-Term Rental | Clean Collective"
         pageDescription="Reliable Airbnb & short-term rental turnover cleaning in Broward County. Same-day between-guest turnovers, linen change, laundry, restocking & photo checklists. Serving Fort Lauderdale, Hollywood, Pompano & Deerfield."
-        canonicalUrl="https://www.cleancollectives.com/broward-airbnb-turnover-cleaning"
+        canonicalUrl="https://cleancollectives.com/broward-airbnb-turnover-cleaning"
         pageType="service"
         county="Broward County"
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Broward Airbnb Turnover Cleaning", url: "https://www.cleancollectives.com/broward-airbnb-turnover-cleaning" },
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Broward Airbnb Turnover Cleaning", url: "https://cleancollectives.com/broward-airbnb-turnover-cleaning" },
         ]}
         faqItems={faqs}
       />

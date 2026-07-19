@@ -13,7 +13,7 @@ const HurricaneSeasonCleaningPrep = () => {
       <SEOSchema
         pageTitle="Hurricane Season Cleaning & Prep Guide | Clean Collective"
         pageDescription="Prepare your South Florida home for hurricane season. Pre-storm cleaning checklist, post-storm cleanup tips, and professional cleaning services. Be ready!"
-        canonicalUrl="https://www.cleancollectives.com/blog/hurricane-season-cleaning-prep"
+        canonicalUrl="https://cleancollectives.com/blog/hurricane-season-cleaning-prep"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-05-01", readTime: "8 min", category: "Guides" }}

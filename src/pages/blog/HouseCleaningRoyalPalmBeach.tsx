@@ -31,14 +31,14 @@ const HouseCleaningRoyalPalmBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Royal Palm Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Royal Palm Beach, FL from $108. Licensed & insured. The Acreage, Crestwood, Versailles & all areas. Free instant quotes."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-royal-palm-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-royal-palm-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Royal Palm Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-royal-palm-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Royal Palm Beach", url: "https://cleancollectives.com/blog/house-cleaning-royal-palm-beach" }
         ]}
       />
       <main className="min-h-screen">

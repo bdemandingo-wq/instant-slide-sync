@@ -31,7 +31,7 @@ const HallandaleBeachCleaning = () => {
       <SEOSchema
         pageTitle="Hallandale Beach House Cleaning | Insured | Clean Collective"
         pageDescription="Hallandale Beach FL oceanfront condo & house cleaning. Golden Isles, Gulfstream Park & The Hemispheres. Building-approved cleaners. Book online!"
-        canonicalUrl="https://www.cleancollectives.com/hallandale-beach-cleaning"
+        canonicalUrl="https://cleancollectives.com/hallandale-beach-cleaning"
         pageType="county"
         county="Hallandale Beach"
         faqItems={faqItems}

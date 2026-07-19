@@ -95,12 +95,12 @@ const HouseCleaningCostGuide = () => {
       <SEOSchema
         pageTitle="House Cleaning Cost South Florida 2026 | Clean Collective"
         pageDescription="South Florida house cleaning prices: standard from $108, deep from $208, move-out from $283. Fort Lauderdale, Miami, Boca Raton & 40+ cities. Instant quote."
-        canonicalUrl="https://www.cleancollectives.com/house-cleaning-cost-south-florida"
+        canonicalUrl="https://cleancollectives.com/house-cleaning-cost-south-florida"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Pricing", url: "https://www.cleancollectives.com/house-cleaning-cost-south-florida" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Pricing", url: "https://cleancollectives.com/house-cleaning-cost-south-florida" }
         ]}
       />
       <main className="min-h-screen">

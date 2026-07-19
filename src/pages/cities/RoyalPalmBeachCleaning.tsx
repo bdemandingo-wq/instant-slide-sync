@@ -31,7 +31,7 @@ const RoyalPalmBeachCleaning = () => {
       <SEOSchema
         pageTitle="Royal Palm Beach Cleaning | Insured | Clean Collective"
         pageDescription="Royal Palm Beach FL family-owned cleaning service. Madison Green, Saratoga & Crestwood. Consistent quality at honest prices. Schedule your clean today!"
-        canonicalUrl="https://www.cleancollectives.com/royal-palm-beach-cleaning"
+        canonicalUrl="https://cleancollectives.com/royal-palm-beach-cleaning"
         pageType="county"
         county="Royal Palm Beach"
         faqItems={faqItems}

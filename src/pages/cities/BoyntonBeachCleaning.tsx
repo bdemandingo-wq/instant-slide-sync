@@ -31,7 +31,7 @@ const BoyntonBeachCleaning = () => {
       <SEOSchema
         pageTitle="Boynton Beach House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Boynton Beach FL residential cleaning experts. Leisureville, Aberdeen & Canyon Lakes. Standard, deep & move-out cleaning. Free instant quote online!"
-        canonicalUrl="https://www.cleancollectives.com/boynton-beach-cleaning"
+        canonicalUrl="https://cleancollectives.com/boynton-beach-cleaning"
         pageType="county"
         county="Boynton Beach"
         faqItems={faqItems}

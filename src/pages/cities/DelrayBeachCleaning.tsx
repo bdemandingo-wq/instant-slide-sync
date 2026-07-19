@@ -31,7 +31,7 @@ const DelrayBeachCleaning = () => {
       <SEOSchema
         pageTitle="Delray Beach House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Delray Beach FL professional house cleaning. Atlantic Avenue, Tropic Isle & Lake Ida residents trust Clean Collective. Recurring or one-time cleans. Get a quote!"
-        canonicalUrl="https://www.cleancollectives.com/delray-beach-cleaning"
+        canonicalUrl="https://cleancollectives.com/delray-beach-cleaning"
         pageType="county"
         county="Delray Beach"
         faqItems={faqItems}

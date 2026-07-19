@@ -44,12 +44,12 @@ const FloridaMaidAlternative = () => {
       <SEOSchema
         pageTitle="The Florida Maid Alternative | Transparent Pricing | Clean Collective"
         pageDescription="Looking for a Florida Maid alternative? Clean Collective offers transparent online pricing from $150, instant booking & a satisfaction guarantee across Fort Lauderdale, Boca Raton & Miami."
-        canonicalUrl="https://www.cleancollectives.com/the-florida-maid-alternative"
+        canonicalUrl="https://cleancollectives.com/the-florida-maid-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "The Florida Maid Alternative", url: "https://www.cleancollectives.com/the-florida-maid-alternative" },
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "The Florida Maid Alternative", url: "https://cleancollectives.com/the-florida-maid-alternative" },
         ]}
       />
       <main className="min-h-screen">

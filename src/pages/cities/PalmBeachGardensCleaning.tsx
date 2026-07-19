@@ -31,7 +31,7 @@ const PalmBeachGardensCleaning = () => {
       <SEOSchema
         pageTitle="Palm Beach Gardens Cleaning | Insured | Clean Collective"
         pageDescription="Palm Beach Gardens FL luxury home cleaning. PGA National, The Gardens & Frenchman's Creek. White-glove service with meticulous attention. Book today!"
-        canonicalUrl="https://www.cleancollectives.com/palm-beach-gardens-cleaning"
+        canonicalUrl="https://cleancollectives.com/palm-beach-gardens-cleaning"
         pageType="county"
         county="Palm Beach Gardens"
         faqItems={faqItems}

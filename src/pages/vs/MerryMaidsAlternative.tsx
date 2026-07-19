@@ -43,12 +43,12 @@ const MerryMaidsAlternative = () => {
       <SEOSchema
         pageTitle="Merry Maids Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Merry Maids alternative in South Florida. Instant booking, transparent pricing from $118, eco-friendly cleaning. Fort Lauderdale, Miami, Boca Raton."
-        canonicalUrl="https://www.cleancollectives.com/merry-maids-alternative"
+        canonicalUrl="https://cleancollectives.com/merry-maids-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Merry Maids Alternative", url: "https://www.cleancollectives.com/merry-maids-alternative" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Merry Maids Alternative", url: "https://cleancollectives.com/merry-maids-alternative" }
         ]}
       />
       <main className="min-h-screen">

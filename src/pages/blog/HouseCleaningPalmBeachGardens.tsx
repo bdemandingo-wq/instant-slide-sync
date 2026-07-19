@@ -31,14 +31,14 @@ const HouseCleaningPalmBeachGardens = () => {
       <SEOSchema
         pageTitle="House Cleaning Palm Beach Gardens FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Palm Beach Gardens, FL from $108. Licensed & insured. PGA National, Mirasol, Ballenisles, Frenchman's Creek & all golf communities. Book now."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-palm-beach-gardens"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-palm-beach-gardens"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Palm Beach Gardens", url: "https://www.cleancollectives.com/blog/house-cleaning-palm-beach-gardens" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Palm Beach Gardens", url: "https://cleancollectives.com/blog/house-cleaning-palm-beach-gardens" }
         ]}
       />
       <main className="min-h-screen">

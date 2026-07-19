@@ -13,7 +13,7 @@ const MoveInOutCleaningChecklist = () => {
       <SEOSchema
         pageTitle="Move In/Out Cleaning Checklist 2025 | Clean Collective"
         pageDescription="Complete move in/out cleaning checklist for South Florida rentals & homes. Get your security deposit back with our professional cleaning guide. Free quote!"
-        canonicalUrl="https://www.cleancollectives.com/blog/move-in-out-cleaning-checklist"
+        canonicalUrl="https://cleancollectives.com/blog/move-in-out-cleaning-checklist"
         pageType="blog"
         county="South Florida"
         blogMeta={{

@@ -31,14 +31,14 @@ const HouseCleaningMiamiBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Miami Beach FL | Condos & Homes | Clean Collective"
         pageDescription="House cleaning in Miami Beach, FL from $108. Licensed & insured. South Beach, Mid-Beach, North Beach condos & homes. Same-day Airbnb turnover available."
-        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-miami-beach"
+        canonicalUrl="https://cleancollectives.com/blog/house-cleaning-miami-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
-          { name: "House Cleaning Miami Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-miami-beach" }
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Blog", url: "https://cleancollectives.com/blog" },
+          { name: "House Cleaning Miami Beach", url: "https://cleancollectives.com/blog/house-cleaning-miami-beach" }
         ]}
       />
       <main className="min-h-screen">

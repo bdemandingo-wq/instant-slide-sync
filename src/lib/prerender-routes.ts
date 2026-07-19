@@ -20,7 +20,7 @@ import _traverse from "@babel/traverse";
 
 const traverse = (typeof _traverse === "function" ? _traverse : (_traverse as any).default) as typeof _traverse;
 
-const BASE_URL = "https://www.cleancollectives.com";
+const BASE_URL = "https://cleancollectives.com";
 
 const IGNORE_ROUTES = new Set<string>([
   "/auth",

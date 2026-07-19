@@ -94,12 +94,12 @@ const UpholsteryCarpetPricing = () => {
       <SEOSchema
         pageTitle="Upholstery & Carpet Cleaning Prices | South Florida | Clean Collective"
         pageDescription="See typical upholstery & carpet cleaning prices in South Florida. Sofa, sectional, mattress, area rug & per-room carpet costs, plus a free estimate calculator. Serving Boca Raton, Fort Lauderdale & Broward."
-        canonicalUrl="https://www.cleancollectives.com/upholstery-carpet-cleaning-pricing"
+        canonicalUrl="https://cleancollectives.com/upholstery-carpet-cleaning-pricing"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollectives.com" },
-          { name: "Upholstery & Carpet Cleaning Prices", url: "https://www.cleancollectives.com/upholstery-carpet-cleaning-pricing" },
+          { name: "Home", url: "https://cleancollectives.com" },
+          { name: "Upholstery & Carpet Cleaning Prices", url: "https://cleancollectives.com/upholstery-carpet-cleaning-pricing" },
         ]}
         faqItems={faqs}
       />

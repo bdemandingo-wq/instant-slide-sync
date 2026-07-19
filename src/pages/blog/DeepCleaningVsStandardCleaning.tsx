@@ -13,7 +13,7 @@ const DeepCleaningVsStandardCleaning = () => {
       <SEOSchema
         pageTitle="Deep vs Standard Cleaning Differences | Clean Collective"
         pageDescription="Learn the difference between deep cleaning and standard cleaning. Find which type is right for your South Florida home. Free quotes available!"
-        canonicalUrl="https://www.cleancollectives.com/blog/deep-cleaning-vs-standard-cleaning"
+        canonicalUrl="https://cleancollectives.com/blog/deep-cleaning-vs-standard-cleaning"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-01-20", readTime: "8 min", category: "Guides" }}

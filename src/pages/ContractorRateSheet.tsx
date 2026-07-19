@@ -14,7 +14,7 @@ const ContractorRateSheet = () => {
       <SEOHead
         title="Contractor Rate Sheet | Clean Collective"
         description="Clean Collective contractor rate sheet with service pricing for cleaning professionals. Print or save as PDF."
-        canonical="https://www.cleancollectives.com/contractor-rate-sheet"
+        canonical="https://cleancollectives.com/contractor-rate-sheet"
       />
     <div className="min-h-screen bg-background">
       <div className="print:hidden">
