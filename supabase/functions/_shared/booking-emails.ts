@@ -124,37 +124,36 @@ You're receiving this because you booked a cleaning on cleancollective.net.
   return { subject, html };
 }
 
-export async function sendResendEmail(opts: {
-  apiKey: string;
+export async function sendGmailEmail(opts: {
+  appPassword: string;
   from?: string;
   to: string[];
   subject: string;
   html: string;
   replyTo?: string;
 }): Promise<{ ok: boolean; id: string | null; error: string | null }> {
+  const client = new SMTPClient({
+    connection: {
+      hostname: SMTP_HOST,
+      port: SMTP_PORT,
+      tls: true,
+      auth: { username: SMTP_USER, password: opts.appPassword },
+    },
+  });
   try {
-    const res = await fetch(RESEND_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${opts.apiKey}`,
-      },
-      body: JSON.stringify({
-        from: opts.from ?? BRAND.from,
-        to: opts.to,
-        subject: opts.subject,
-        html: opts.html,
-        reply_to: opts.replyTo,
-      }),
+    await client.send({
+      from: opts.from ?? BRAND.from,
+      to: opts.to,
+      subject: opts.subject,
+      content: "This email requires an HTML-capable client.",
+      html: opts.html,
+      replyTo: opts.replyTo,
     });
-    const raw = await res.text().catch(() => "");
-    let body: any = {};
-    try { body = raw ? JSON.parse(raw) : {}; } catch { /* ignore */ }
-    if (!res.ok) {
-      return { ok: false, id: null, error: `HTTP ${res.status}: ${raw.slice(0, 400)}` };
-    }
-    return { ok: true, id: body?.id ?? null, error: null };
+    return { ok: true, id: null, error: null };
   } catch (err: any) {
     return { ok: false, id: null, error: err?.message ?? String(err) };
+  } finally {
+    try { await client.close(); } catch { /* ignore */ }
   }
 }
+
