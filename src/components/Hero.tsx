@@ -64,8 +64,12 @@ const Hero = () => {
             </div>
 
             <h1 id="hero-heading" className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Your Home Deserves Better Than Average.
+              South Florida House Cleaning You Can Actually Trust
             </h1>
+
+            <p className="text-xl md:text-2xl text-white/90 max-w-xl leading-relaxed font-display">
+              Your Home Deserves Better Than Average.
+            </p>
 
             <p className="text-lg md:text-xl text-white/90 max-w-xl leading-relaxed">
               Clean Collective delivers professional home cleaning across Fort Lauderdale, Boca Raton, West Palm Beach, Miami & 40+ South Florida cities — with transparent pricing, vetted cleaners, and a satisfaction guarantee.
