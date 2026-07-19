@@ -126,7 +126,7 @@ const Footer = () => {
                   </a>
                   <p className="flex items-center gap-2 text-background/70">
                     <MapPin className="w-4 h-4" />
-                    Deerfield Beach, FL
+                    Pompano Beach, FL
                   </p>
                 </div>
               </div>

@@ -90,7 +90,7 @@ const GoogleMapEmbed = () => {
 
               <div>
                 <p className="text-muted-foreground">
-                  <strong>Address:</strong> 4611 N Federal Hwy, Deerfield Beach, FL 33064
+                  <strong>Address:</strong> 4611 N Federal Hwy, Pompano Beach, FL 33064
                 </p>
               </div>
             </div>

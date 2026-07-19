@@ -13,39 +13,41 @@
     --popover: 0 0% 100%;
     --popover-foreground: 20 14% 10%;
 
-    --primary: 224 76% 48%;
-    --primary-foreground: 0 0% 100%;
+    /* Clean Collective brand: soft pink primary + mint accent (from logo) */
+    --primary: 340 60% 71%;              /* #E08AA7 mid-dark pink */
+    --primary-foreground: 20 14% 10%;    /* dark text on pink for AA contrast */
+    --primary-glow: 340 62% 81%;         /* #EAB3C6 lighter pink for gradients */
 
-    --secondary: 142 71% 45%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 146 55% 72%;            /* #93E1B9 mint */
+    --secondary-foreground: 20 14% 10%;
 
-    --muted: 40 20% 95%;
+    --muted: 340 40% 96%;
     --muted-foreground: 20 12% 32%;
 
-    --accent: 224 76% 48%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 146 55% 72%;               /* mint accent */
+    --accent-foreground: 20 14% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 40 10% 90%;
-    --input: 40 10% 90%;
-    --ring: 224 76% 48%;
+    --border: 340 20% 90%;
+    --input: 340 20% 90%;
+    --ring: 340 60% 65%;
 
     --radius: 0.75rem;
 
-    /* Custom tokens */
+    /* Custom tokens (aliased to brand palette so legacy refs stay on-brand) */
     --hero-overlay: 20 14% 10%;
-    --gold: 224 76% 48%;
-    --gold-hover: 224 76% 40%;
-    --teal: 224 76% 48%;
-    --teal-light: 224 60% 58%;
-    --cream: 40 33% 98%;
-    --success: 142 71% 45%;
+    --gold: 340 60% 71%;                 /* legacy alias → pink */
+    --gold-hover: 340 55% 60%;
+    --teal: 146 55% 72%;                 /* legacy alias → mint */
+    --teal-light: 146 55% 82%;
+    --cream: 340 60% 98%;
+    --success: 146 45% 55%;              /* #7FCCA2 darker mint for status */
     --success-foreground: 0 0% 100%;
-    --info: 224 76% 48%;
+    --info: 340 60% 65%;
     --info-foreground: 0 0% 100%;
-    --amber: 142 71% 45%;
+    --amber: 146 55% 72%;
     
     /* Typography */
     --font-display: 'Playfair Display', serif;
@@ -68,24 +70,24 @@
     --popover: 20 14% 11%;
     --popover-foreground: 40 20% 95%;
 
-    --primary: 224 70% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 340 55% 68%;
+    --primary-foreground: 20 14% 10%;
 
-    --secondary: 142 71% 45%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 146 45% 60%;
+    --secondary-foreground: 20 14% 10%;
 
     --muted: 20 10% 18%;
-    --muted-foreground: 20 8% 55%;
+    --muted-foreground: 20 8% 65%;
 
-    --accent: 224 70% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 146 45% 60%;
+    --accent-foreground: 20 14% 10%;
 
     --destructive: 0 62.8% 45%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 20 10% 22%;
     --input: 20 10% 22%;
-    --ring: 224 70% 55%;
+    --ring: 340 55% 68%;
   }
 }
 
