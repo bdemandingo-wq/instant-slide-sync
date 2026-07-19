@@ -81,13 +81,13 @@ const DeepVsStandardCleaning = () => {
       <SEOSchema
         pageTitle="Deep Cleaning vs Standard Cleaning | Task-by-Task Comparison | Clean Collective"
         pageDescription="See exactly what's included in a deep clean vs a standard clean. Side-by-side task checklist by room, South Florida pricing & a free quote. Compare before you book."
-        canonicalUrl="https://www.cleancollective.net/deep-cleaning-vs-standard-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/deep-cleaning-vs-standard-cleaning"
         pageType="service"
         county="South Florida"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Deep Cleaning vs Standard Cleaning", url: "https://www.cleancollective.net/deep-cleaning-vs-standard-cleaning" },
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Deep Cleaning vs Standard Cleaning", url: "https://www.cleancollectives.com/deep-cleaning-vs-standard-cleaning" },
         ]}
       />
       <main className="min-h-screen">

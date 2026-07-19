@@ -32,7 +32,7 @@ const MiamiCleaning = () => {
       <SEOSchema
         pageTitle="Miami House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Miami FL house & condo cleaning you can count on. Brickell, Wynwood, Coconut Grove & Little Havana. Same-day availability. Book now!"
-        canonicalUrl="https://www.cleancollective.net/miami-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/miami-cleaning"
         pageType="county"
         county="Miami"
         faqItems={faqItems}

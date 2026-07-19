@@ -31,14 +31,14 @@ const HouseCleaningMiamiGardens = () => {
       <SEOSchema
         pageTitle="House Cleaning Miami Gardens FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Miami Gardens, FL from $108. Bilingual team. Licensed & insured. Norland, Scott Lake, Rolling Oaks & all neighborhoods. Same-day available."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-miami-gardens"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-miami-gardens"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Miami Gardens", url: "https://www.cleancollective.net/blog/house-cleaning-miami-gardens" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Miami Gardens", url: "https://www.cleancollectives.com/blog/house-cleaning-miami-gardens" }
         ]}
       />
       <main className="min-h-screen">

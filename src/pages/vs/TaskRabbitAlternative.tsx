@@ -54,7 +54,7 @@ const TaskRabbitAlternative = () => {
       <SEOSchema
         pageTitle="TaskRabbit Alternative | Clean Collective House Cleaning"
         pageDescription="Better than TaskRabbit for house cleaning in South Florida. Clean Collective: flat-rate pricing, insured dedicated teams & satisfaction guarantee. Compare and book now."
-        canonicalUrl="https://www.cleancollective.net/taskrabbit-alternative"
+        canonicalUrl="https://www.cleancollectives.com/taskrabbit-alternative"
         pageType="service"
         additionalSchema={faqSchema}
       />

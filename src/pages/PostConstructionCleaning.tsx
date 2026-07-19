@@ -29,7 +29,7 @@ const PostConstructionCleaning = () => {
       <SEOSchema
         pageTitle="Post-Construction Cleaning | South Florida | Clean Collective"
         pageDescription="Post-construction & renovation cleanup in South Florida. Dust removal, window cleaning, paint splatter cleanup & move-in ready detail."
-        canonicalUrl="https://www.cleancollective.net/post-construction-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/post-construction-cleaning"
       />
       <Navbar />
       <main id="main-content" className="pt-16">

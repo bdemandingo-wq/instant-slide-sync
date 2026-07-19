@@ -38,12 +38,12 @@ const UpholsteryCleaning = () => {
       <SEOSchema
         pageTitle="Upholstery Cleaning Near Me | South Florida | Clean Collective"
         pageDescription="Professional upholstery and furniture cleaning in Broward, Miami-Dade & Palm Beach County. Sofa, chair & fabric cleaning. Get a custom quote today!"
-        canonicalUrl="https://www.cleancollective.net/upholstery-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/upholstery-cleaning"
         pageType="service"
         county="South Florida"
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Upholstery Cleaning", url: "https://www.cleancollective.net/upholstery-cleaning" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Upholstery Cleaning", url: "https://www.cleancollectives.com/upholstery-cleaning" }
         ]}
       />
       <main className="min-h-screen">

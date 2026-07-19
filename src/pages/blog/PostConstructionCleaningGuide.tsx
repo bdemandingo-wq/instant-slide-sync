@@ -13,7 +13,7 @@ const PostConstructionCleaningGuide = () => {
       <SEOSchema
         pageTitle="Post-Construction Cleaning: What to Expect | Clean Collective"
         pageDescription="Just finished a renovation? Here's everything you need to know about post-construction cleaning in South Florida."
-        canonicalUrl="https://www.cleancollective.net/blog/post-construction-cleaning-guide"
+        canonicalUrl="https://www.cleancollectives.com/blog/post-construction-cleaning-guide"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-04-01", readTime: "7 min", category: "Guides" }}

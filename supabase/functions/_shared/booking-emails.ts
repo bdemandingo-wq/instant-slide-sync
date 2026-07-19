@@ -52,19 +52,22 @@ function esc(v: unknown): string {
 
 function row(label: string, value: unknown): string {
   const v = value === undefined || value === null || value === "" ? "—" : value;
-  return `<tr><td style="padding:6px 12px 6px 0;color:#64748b;font-size:14px;vertical-align:top;">${esc(label)}</td><td style="padding:6px 0;color:${BRAND.ink};font-size:14px;">${esc(v)}</td></tr>`;
+  return `<tr><td style="padding:6px 12px 6px 0;color:#64748b;font-size:14px;vertical-align:top;"><span style="color:#64748b;">${esc(label)}</span></td><td style="padding:6px 0;color:${BRAND.ink};font-size:14px;"><span style="color:${BRAND.ink};">${esc(v)}</span></td></tr>`;
 }
+
+const HEAD_META = `<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light">`;
+const LINK_STYLE = `color:${BRAND.ink};text-decoration:underline;`;
 
 export function renderAdminBookingEmail(b: BookingSummary): { subject: string; html: string } {
   const addOns = Array.isArray(b.addOns) ? b.addOns.join(", ") : (b.addOns || "None");
   const subject = `New booking: ${b.customerName ?? "Customer"} — ${b.serviceType ?? "Cleaning"} on ${b.preferredDate ?? "TBD"}`;
-  const html = `<!doctype html><html><body style="margin:0;background:${BRAND.soft};font-family:Arial,Helvetica,sans-serif;">
+  const html = `<!doctype html><html><head>${HEAD_META}</head><body style="margin:0;background:${BRAND.soft};color:${BRAND.ink};font-family:Arial,Helvetica,sans-serif;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${BRAND.soft};padding:24px 0;">
 <tr><td align="center">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;">
-<tr><td style="background:${BRAND.pink};padding:20px 28px;color:#ffffff;font-size:20px;font-weight:700;">New Website Booking</td></tr>
-<tr><td style="padding:24px 28px;">
-<p style="margin:0 0 16px;color:${BRAND.ink};font-size:15px;">A new booking just came in through cleancollective.net. Details below.</p>
+<tr><td style="background:${BRAND.pink};padding:20px 28px;color:#1f2937;font-size:20px;font-weight:700;"><span style="color:#1f2937;">New Website Booking</span></td></tr>
+<tr><td style="padding:24px 28px;background:#ffffff;">
+<p style="margin:0 0 16px;color:${BRAND.ink};font-size:15px;"><span style="color:${BRAND.ink};">A new booking just came in through cleancollectives.com. Details below.</span></p>
 <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;padding:8px 0;">
 ${row("Customer", b.customerName)}
 ${row("Phone", b.customerPhone)}
@@ -80,9 +83,9 @@ ${row("Total", typeof b.totalPrice === "number" ? `$${b.totalPrice}` : b.totalPr
 ${row("Notes", b.specialInstructions)}
 ${row("Pets", b.petInfo)}
 </table>
-<p style="margin:20px 0 0;color:#64748b;font-size:13px;">Log in to the admin dashboard to confirm and schedule.</p>
+<p style="margin:20px 0 0;color:#64748b;font-size:13px;"><span style="color:#64748b;">Log in to the admin dashboard to confirm and schedule.</span></p>
 </td></tr>
-<tr><td style="background:${BRAND.mint};padding:14px 28px;color:${BRAND.ink};font-size:12px;">Clean Collective · ${BRAND.phone} · ${BRAND.supportEmail}</td></tr>
+<tr><td style="background:${BRAND.mint};padding:14px 28px;color:${BRAND.ink};font-size:12px;"><span style="color:${BRAND.ink};">Clean Collective · <a href="tel:+15618612752" style="${LINK_STYLE}"><span style="color:${BRAND.ink};">${BRAND.phone}</span></a> · <a href="mailto:${BRAND.supportEmail}" style="${LINK_STYLE}"><span style="color:${BRAND.ink};">${BRAND.supportEmail}</span></a></span></td></tr>
 </table></td></tr></table></body></html>`;
   return { subject, html };
 }
@@ -90,39 +93,40 @@ ${row("Pets", b.petInfo)}
 export function renderCustomerBookingEmail(b: BookingSummary): { subject: string; html: string } {
   const subject = `Your Clean Collective booking is confirmed`;
   const total = typeof b.totalPrice === "number" ? `$${b.totalPrice}` : b.totalPrice;
-  const html = `<!doctype html><html><body style="margin:0;background:${BRAND.soft};font-family:Arial,Helvetica,sans-serif;">
+  const html = `<!doctype html><html><head>${HEAD_META}</head><body style="margin:0;background:${BRAND.soft};color:${BRAND.ink};font-family:Arial,Helvetica,sans-serif;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${BRAND.soft};padding:24px 0;">
 <tr><td align="center">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;">
-<tr><td style="background:${BRAND.pink};padding:28px;color:#ffffff;text-align:center;">
-<div style="font-size:24px;font-weight:700;">Thank you${b.customerName ? `, ${esc(b.customerName)}` : ""}!</div>
-<div style="margin-top:6px;font-size:15px;opacity:0.95;">Your cleaning is booked with Clean Collective.</div>
+<tr><td style="background:${BRAND.pink};padding:28px;color:#1f2937;text-align:center;">
+<div style="font-size:24px;font-weight:700;color:#1f2937;"><span style="color:#1f2937;">Thank you${b.customerName ? `, ${esc(b.customerName)}` : ""}!</span></div>
+<div style="margin-top:6px;font-size:15px;color:#1f2937;"><span style="color:#1f2937;">Your cleaning is booked with Clean Collective.</span></div>
 </td></tr>
-<tr><td style="padding:24px 28px;color:${BRAND.ink};font-size:15px;line-height:1.55;">
-<p style="margin:0 0 16px;">We're excited to make your home sparkle. Here's a quick summary of your booking:</p>
+<tr><td style="padding:24px 28px;color:${BRAND.ink};font-size:15px;line-height:1.55;background:#ffffff;">
+<p style="margin:0 0 16px;color:${BRAND.ink};"><span style="color:${BRAND.ink};">We're excited to make your home sparkle. Here's a quick summary of your booking:</span></p>
 <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background:${BRAND.soft};border-radius:8px;padding:12px;">
 ${row("Service", b.serviceType)}
 ${row("Date / Time", b.preferredDate)}
 ${row("Address", b.address)}
 ${row("Total", total)}
 </table>
-<h3 style="margin:22px 0 8px;font-size:16px;color:${BRAND.ink};">What happens next</h3>
+<h3 style="margin:22px 0 8px;font-size:16px;color:${BRAND.ink};"><span style="color:${BRAND.ink};">What happens next</span></h3>
 <ol style="margin:0 0 16px 20px;padding:0;color:${BRAND.ink};font-size:14px;line-height:1.6;">
-<li>Our team will review your booking and text you a confirmation shortly.</li>
-<li>On the day of service, your cleaner will arrive during your selected arrival window.</li>
-<li>After service, we'll do a quick walkthrough to make sure everything is perfect.</li>
+<li style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">Our team will review your booking and text you a confirmation shortly.</span></li>
+<li style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">On the day of service, your cleaner will arrive during your selected arrival window.</span></li>
+<li style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">After service, we'll do a quick walkthrough to make sure everything is perfect.</span></li>
 </ol>
 <div style="margin-top:18px;padding:14px;background:${BRAND.mint};border-radius:8px;color:${BRAND.ink};font-size:14px;">
-Need to change or ask about anything? Call or text <strong>${BRAND.phone}</strong> or email <strong>${BRAND.supportEmail}</strong>.
+<span style="color:${BRAND.ink};">Need to change or ask about anything? Call or text <a href="tel:+15618612752" style="${LINK_STYLE}"><strong style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">${BRAND.phone}</span></strong></a> or email <a href="mailto:${BRAND.supportEmail}" style="${LINK_STYLE}"><strong style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">${BRAND.supportEmail}</span></strong></a>.</span>
 </div>
 </td></tr>
 <tr><td style="padding:16px 28px;color:#64748b;font-size:12px;text-align:center;background:#ffffff;border-top:1px solid #e2e8f0;">
-Clean Collective · Pompano Beach, FL · ${BRAND.phone}<br/>
-You're receiving this because you booked a cleaning on cleancollective.net.
+<span style="color:#64748b;">Clean Collective · Pompano Beach, FL · ${BRAND.phone}<br/>
+You're receiving this because you booked a cleaning on cleancollectives.com.</span>
 </td></tr>
 </table></td></tr></table></body></html>`;
   return { subject, html };
 }
+
 
 export async function sendGmailEmail(opts: {
   appPassword: string;

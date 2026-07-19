@@ -31,14 +31,14 @@ const HouseCleaningDavie = () => {
       <SEOSchema
         pageTitle="House Cleaning Davie FL | From $108 | Clean Collective"
         pageDescription="Reliable house cleaning in Davie, FL from $108. Licensed & insured. Ranch homes, equestrian properties & all neighborhoods. Same-day booking."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-davie"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-davie"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Davie", url: "https://www.cleancollective.net/blog/house-cleaning-davie" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Davie", url: "https://www.cleancollectives.com/blog/house-cleaning-davie" }
         ]}
       />
       <main className="min-h-screen">

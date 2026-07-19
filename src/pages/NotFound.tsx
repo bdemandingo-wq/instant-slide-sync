@@ -16,7 +16,7 @@ const NotFound = () => {
       <SEOHead
         title="Page Not Found | Clean Collective Cleaning Services"
         description="The page you're looking for doesn't exist. Clean Collective offers professional house cleaning in Fort Lauderdale, Boca Raton & West Palm Beach."
-        canonical="https://www.cleancollective.net/404"
+        canonical="https://www.cleancollectives.com/404"
         noIndex={true}
       />
       

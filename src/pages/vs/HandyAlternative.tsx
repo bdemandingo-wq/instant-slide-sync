@@ -43,12 +43,12 @@ const HandyAlternative = () => {
       <SEOSchema
         pageTitle="Handy Alternative South Florida | Clean Collective House Cleaning"
         pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 861-2752."
-        canonicalUrl="https://www.cleancollective.net/handy-alternative"
+        canonicalUrl="https://www.cleancollectives.com/handy-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Handy Alternative", url: "https://www.cleancollective.net/handy-alternative" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Handy Alternative", url: "https://www.cleancollectives.com/handy-alternative" }
         ]}
       />
       <main className="min-h-screen">

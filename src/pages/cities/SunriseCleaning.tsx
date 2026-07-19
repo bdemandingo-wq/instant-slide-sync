@@ -31,7 +31,7 @@ const SunriseCleaning = () => {
       <SEOSchema
         pageTitle="Sunrise House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Sunrise FL reliable cleaning near Sawgrass Mills. Sunrise Lakes & Welleby specialists. Weekly maintenance or one-time deep cleans. Get your quote today!"
-        canonicalUrl="https://www.cleancollective.net/sunrise-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/sunrise-cleaning"
         pageType="county"
         county="Sunrise"
         faqItems={faqItems}

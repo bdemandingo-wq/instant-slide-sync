@@ -32,7 +32,7 @@ const BocaRatonCleaning = () => {
       <SEOSchema
         pageTitle="Boca Raton House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Top-rated cleaning Boca Raton. Professional house & condo cleaning. Serving Mizner Park, Royal Palm, Boca West. Licensed & insured. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollective.net/boca-raton-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/boca-raton-cleaning"
         pageType="county"
         county="Boca Raton"
         faqItems={faqItems}

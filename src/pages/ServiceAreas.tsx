@@ -85,7 +85,7 @@ const ServiceAreas = () => {
       "@type": "ListItem",
       "position": i + 1,
       "name": `${city.name} Cleaning Services`,
-      "url": `https://www.cleancollective.net${city.link}`
+      "url": `https://www.cleancollectives.com${city.link}`
     }))
   };
 
@@ -94,11 +94,11 @@ const ServiceAreas = () => {
       <SEOSchema
         pageTitle="House Cleaning Near Me South Florida | 40+ Cities | Clean Collective"
         pageDescription="House cleaning near me? Clean Collective serves 40+ cities across Broward, Palm Beach & Miami-Dade counties. Find your city for local pricing."
-        canonicalUrl="https://www.cleancollective.net/service-areas"
+        canonicalUrl="https://www.cleancollectives.com/service-areas"
         pageType="service"
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Service Areas", url: "https://www.cleancollective.net/service-areas" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Service Areas", url: "https://www.cleancollectives.com/service-areas" }
         ]}
       />
       <main className="min-h-screen">

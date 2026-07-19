@@ -13,7 +13,7 @@ const HowToPrepareForCleaningService = () => {
       <SEOSchema
         pageTitle="How to Prepare for Your Cleaning Service Visit | Clean Collective"
         pageDescription="Get the most from your professional cleaning service. Simple prep tips to maximize results. What to do before cleaners arrive. South Florida cleaning experts."
-        canonicalUrl="https://www.cleancollective.net/blog/how-to-prepare-for-cleaning-service"
+        canonicalUrl="https://www.cleancollectives.com/blog/how-to-prepare-for-cleaning-service"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-02-01", readTime: "5 min", category: "Tips" }}

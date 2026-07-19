@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     q: "Can I book Clean Collective without a consultation like Merry Maids requires?",
-    a: "Yes. Clean Collective provides instant online quotes without requiring an in-home consultation or sales call. You can book same-day at cleancollective.net."
+    a: "Yes. Clean Collective provides instant online quotes without requiring an in-home consultation or sales call. You can book same-day at cleancollectives.com."
   },
   {
     q: "What areas does Clean Collective serve as a Merry Maids alternative?",
@@ -43,12 +43,12 @@ const MerryMaidsAlternative = () => {
       <SEOSchema
         pageTitle="Merry Maids Alternative South Florida | Clean Collective Cleaning"
         pageDescription="Best Merry Maids alternative in South Florida. Instant booking, transparent pricing from $118, eco-friendly cleaning. Fort Lauderdale, Miami, Boca Raton."
-        canonicalUrl="https://www.cleancollective.net/merry-maids-alternative"
+        canonicalUrl="https://www.cleancollectives.com/merry-maids-alternative"
         pageType="service"
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Merry Maids Alternative", url: "https://www.cleancollective.net/merry-maids-alternative" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Merry Maids Alternative", url: "https://www.cleancollectives.com/merry-maids-alternative" }
         ]}
       />
       <main className="min-h-screen">

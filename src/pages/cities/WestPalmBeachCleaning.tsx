@@ -32,7 +32,7 @@ const WestPalmBeachCleaning = () => {
       <SEOSchema
         pageTitle="West Palm Beach House Cleaning | Insured | Clean Collective"
         pageDescription="Professional cleaning West Palm Beach. House & condo cleaning in Clematis, Northwood, El Cid. Licensed & insured. Call (561) 861-2752 for free quote!"
-        canonicalUrl="https://www.cleancollective.net/west-palm-beach-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/west-palm-beach-cleaning"
         pageType="county"
         county="West Palm Beach"
         faqItems={faqItems}

@@ -31,7 +31,7 @@ const TamaracCleaning = () => {
       <SEOSchema
         pageTitle="Tamarac House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Tamarac FL senior-friendly cleaning services. Woodmont, Colony West & Mainlands. Thorough, dependable & affordable. Schedule your cleaning online!"
-        canonicalUrl="https://www.cleancollective.net/tamarac-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/tamarac-cleaning"
         pageType="county"
         county="Tamarac"
         faqItems={faqItems}

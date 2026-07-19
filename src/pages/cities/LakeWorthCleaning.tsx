@@ -31,7 +31,7 @@ const LakeWorthCleaning = () => {
       <SEOSchema
         pageTitle="Lake Worth House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Lake Worth Beach FL thorough home cleaning. Downtown, Palm Beach Farms & Atlantis area. Affordable rates, background-checked cleaners. Schedule now!"
-        canonicalUrl="https://www.cleancollective.net/lake-worth-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/lake-worth-cleaning"
         pageType="county"
         county="Lake Worth"
         faqItems={faqItems}

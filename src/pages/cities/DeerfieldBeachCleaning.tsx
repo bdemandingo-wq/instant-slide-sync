@@ -31,7 +31,7 @@ const DeerfieldBeachCleaning = () => {
       <SEOSchema
         pageTitle="Deerfield Beach House Cleaning | Insured | Clean Collective"
         pageDescription="Deerfield Beach FL beachside home & condo cleaning. The Cove, Hillsboro Beach & Century Village experts. Eco-friendly options available. Book today!"
-        canonicalUrl="https://www.cleancollective.net/deerfield-beach-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/deerfield-beach-cleaning"
         pageType="county"
         county="Deerfield Beach"
         faqItems={faqItems}

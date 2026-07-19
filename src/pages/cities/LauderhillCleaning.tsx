@@ -31,7 +31,7 @@ const LauderhillCleaning = () => {
       <SEOSchema
         pageTitle="Lauderhill House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Lauderhill FL budget-friendly cleaning services. Inverrary, Sunrise Golf & Lauderhill Isles. Move in/out cleaning available. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollective.net/lauderhill-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/lauderhill-cleaning"
         pageType="county"
         county="Lauderhill"
         faqItems={faqItems}

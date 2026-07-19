@@ -13,7 +13,7 @@ const AirbnbTurnoverCleaningTips = () => {
       <SEOSchema
         pageTitle="Airbnb & Vacation Rental Turnover Cleaning Tips | Clean Collective"
         pageDescription="Maximize your rental reviews with quick and thorough turnover cleaning. Essential tips for South Florida property hosts."
-        canonicalUrl="https://www.cleancollective.net/blog/airbnb-turnover-cleaning-tips"
+        canonicalUrl="https://www.cleancollectives.com/blog/airbnb-turnover-cleaning-tips"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-03-20", readTime: "7 min", category: "Tips" }}

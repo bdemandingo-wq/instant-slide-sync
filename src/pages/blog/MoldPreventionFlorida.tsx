@@ -13,7 +13,7 @@ const MoldPreventionFlorida = () => {
       <SEOSchema
         pageTitle="Mold Prevention Guide for Florida Homes | Clean Collective"
         pageDescription="Florida's humidity creates perfect conditions for mold. Learn how to prevent and address mold issues in your home."
-        canonicalUrl="https://www.cleancollective.net/blog/mold-prevention-florida-homes"
+        canonicalUrl="https://www.cleancollectives.com/blog/mold-prevention-florida-homes"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-04-15", readTime: "7 min", category: "Tips" }}

@@ -24,7 +24,7 @@ repo are tagged `app: "clean collective-marketing"` so they're filterable.
 
 ## Verifying it's working
 
-After a deploy, open https://cleancollective.net (or your preview
+After a deploy, open https://cleancollectives.com (or your preview
 URL) in a Chrome **Incognito window with extensions disabled** (most
 ad blockers, NordVPN's Threat Protection, Brave Shields, etc. will
 block Sentry's ingest endpoint), open dev tools → Console, and run:

@@ -31,14 +31,14 @@ const HouseCleaningHallandaleBeach = () => {
       <SEOSchema
         pageTitle="House Cleaning Hallandale Beach FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Hallandale Beach, FL from $108. Licensed & insured. Golden Isles, oceanfront condos & all areas. Flexible snowbird schedules."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-hallandale-beach"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-hallandale-beach"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Hallandale Beach", url: "https://www.cleancollective.net/blog/house-cleaning-hallandale-beach" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Hallandale Beach", url: "https://www.cleancollectives.com/blog/house-cleaning-hallandale-beach" }
         ]}
       />
       <main className="min-h-screen">

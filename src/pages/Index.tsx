@@ -77,7 +77,7 @@ const Index = () => {
       <SEOSchema
         pageTitle="Clean Collective — South Florida's Top-Rated House Cleaners"
         pageDescription="South Florida's most-loved house cleaners. Same-cleaner guarantee, eco-friendly products, instant online booking. 4.9★ from 127+ neighbors. Book today."
-        canonicalUrl="https://www.cleancollective.net/"
+        canonicalUrl="https://www.cleancollectives.com/"
         pageType="home"
         faqItems={homepageFaqs}
       />

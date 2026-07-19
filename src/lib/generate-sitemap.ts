@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 const PROJECT_ROOT = resolve(__dirname, "../..");
 
 // ======== CONFIGURATION ========
-const BASE_URL = "https://www.cleancollective.net";
+const BASE_URL = "https://www.cleancollectives.com";
 const ROUTER_FILE_PATH = resolve(__dirname, "../App.tsx");
 const OUTPUT_PATH = resolve(__dirname, "../../public/sitemap.xml");
 

@@ -31,14 +31,14 @@ const HouseCleaningBocaRaton = () => {
       <SEOSchema
         pageTitle="House Cleaning Boca Raton FL | From $108 | Clean Collective"
         pageDescription="House cleaning in Boca Raton, FL from $108. Licensed & insured. Boca West, Broken Sound, Woodfield & all neighborhoods. Snowbird seasonal scheduling available."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-boca-raton"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-boca-raton"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Boca Raton", url: "https://www.cleancollective.net/blog/house-cleaning-boca-raton" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Boca Raton", url: "https://www.cleancollectives.com/blog/house-cleaning-boca-raton" }
         ]}
       />
       <main className="min-h-screen">

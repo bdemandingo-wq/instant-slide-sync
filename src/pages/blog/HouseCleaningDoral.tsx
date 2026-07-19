@@ -31,14 +31,14 @@ const HouseCleaningDoral = () => {
       <SEOSchema
         pageTitle="House Cleaning Doral FL | From $108 | Clean Collective"
         pageDescription="Bilingual house cleaning in Doral, FL from $108. Hablamos español. Licensed & insured. Downtown Doral, Landmark & all communities. Book now."
-        canonicalUrl="https://www.cleancollective.net/blog/house-cleaning-doral"
+        canonicalUrl="https://www.cleancollectives.com/blog/house-cleaning-doral"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "House Cleaning Doral", url: "https://www.cleancollective.net/blog/house-cleaning-doral" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "House Cleaning Doral", url: "https://www.cleancollectives.com/blog/house-cleaning-doral" }
         ]}
       />
       <main className="min-h-screen">

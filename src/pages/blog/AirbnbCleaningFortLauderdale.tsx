@@ -48,14 +48,14 @@ const AirbnbCleaningFortLauderdale = () => {
       <SEOSchema
         pageTitle="Airbnb Cleaning Fort Lauderdale | Turnover Service"
         pageDescription="Airbnb turnover cleaning in Fort Lauderdale, FL. Same-day available. Las Olas, Victoria Park, Rio Vista & all Fort Lauderdale short-term rentals. From $95."
-        canonicalUrl="https://www.cleancollective.net/blog/airbnb-cleaning-fort-lauderdale"
+        canonicalUrl="https://www.cleancollectives.com/blog/airbnb-cleaning-fort-lauderdale"
         pageType="blog"
         blogMeta={{ datePublished: "2026-04-13", dateModified: "2026-04-13", category: "Local Guides" }}
         faqItems={faqItems}
         breadcrumbs={[
-          { name: "Home", url: "https://www.cleancollective.net" },
-          { name: "Blog", url: "https://www.cleancollective.net/blog" },
-          { name: "Airbnb Cleaning Fort Lauderdale", url: "https://www.cleancollective.net/blog/airbnb-cleaning-fort-lauderdale" }
+          { name: "Home", url: "https://www.cleancollectives.com" },
+          { name: "Blog", url: "https://www.cleancollectives.com/blog" },
+          { name: "Airbnb Cleaning Fort Lauderdale", url: "https://www.cleancollectives.com/blog/airbnb-cleaning-fort-lauderdale" }
         ]}
       />
       <main className="min-h-screen">

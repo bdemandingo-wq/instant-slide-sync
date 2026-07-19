@@ -13,7 +13,7 @@ const BrowardCostGuide = () => {
       <SEOSchema
         pageTitle="2026 Cleaning Cost Guide Broward County | Clean Collective"
         pageDescription="Broward County cleaning cost guide 2026. Average prices for standard, deep, and move-out cleaning in Fort Lauderdale, Hollywood, Coral Springs. Get free quote!"
-        canonicalUrl="https://www.cleancollective.net/blog/broward-cost-guide"
+        canonicalUrl="https://www.cleancollectives.com/blog/broward-cost-guide"
         pageType="blog"
         county="Broward County"
         blogMeta={{ datePublished: "2025-01-05", readTime: "6 min", category: "Local Guides" }}

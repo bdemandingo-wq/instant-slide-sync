@@ -31,7 +31,7 @@ const JupiterCleaning = () => {
       <SEOSchema
         pageTitle="Jupiter House Cleaning | Licensed & Insured | Clean Collective"
         pageDescription="Jupiter FL coastal home cleaning specialists. Abacoa, Jupiter Inlet & The Bluffs. Eco-friendly products safe for pets & kids. Call (561) 861-2752!"
-        canonicalUrl="https://www.cleancollective.net/jupiter-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/jupiter-cleaning"
         pageType="county"
         county="Jupiter"
         faqItems={faqItems}

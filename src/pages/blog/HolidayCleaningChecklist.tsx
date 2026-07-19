@@ -13,7 +13,7 @@ const HolidayCleaningChecklist = () => {
       <SEOSchema
         pageTitle="Holiday Cleaning Checklist for Guests | Clean Collective"
         pageDescription="Get your South Florida home guest-ready for the holidays with our complete cleaning checklist."
-        canonicalUrl="https://www.cleancollective.net/blog/holiday-cleaning-checklist"
+        canonicalUrl="https://www.cleancollectives.com/blog/holiday-cleaning-checklist"
         pageType="blog"
         county="South Florida"
         blogMeta={{ datePublished: "2025-11-15", readTime: "5 min", category: "Guides" }}

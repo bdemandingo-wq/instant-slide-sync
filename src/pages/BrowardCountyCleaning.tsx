@@ -35,7 +35,7 @@ const faqItems = [
   },
   {
     q: "How do I book a cleaning service in Broward County?",
-    a: "Get an instant quote online at cleancollective.net or call (561) 861-2752. You can book standard, deep, or move in/out cleaning for any Broward County city for the same day or a future date. Recurring bookings save 5–15%."
+    a: "Get an instant quote online at cleancollectives.com or call (561) 861-2752. You can book standard, deep, or move in/out cleaning for any Broward County city for the same day or a future date. Recurring bookings save 5–15%."
   }
 ];
 
@@ -45,7 +45,7 @@ const BrowardCountyCleaning = () => {
       <SEOSchema
         pageTitle="Broward County Cleaning Services | Clean Collective"
         pageDescription="Need Broward County cleaning services? Licensed & insured. Same-day quotes. Serving Fort Lauderdale, Hollywood, Coral Springs. Call now for 10% off!"
-        canonicalUrl="https://www.cleancollective.net/broward-county-cleaning"
+        canonicalUrl="https://www.cleancollectives.com/broward-county-cleaning"
         pageType="county"
         county="Broward County"
         faqItems={faqItems}
