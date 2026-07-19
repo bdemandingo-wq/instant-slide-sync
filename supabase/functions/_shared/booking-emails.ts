@@ -1,6 +1,14 @@
-// Booking email helpers powered by Resend (RESEND_API_KEY).
-// One outbound email = one fetch. Callers wrap in try/catch so a failing
-// email never blocks SMS or the booking itself.
+// Booking email helpers powered by Gmail SMTP (denomailer).
+// Auth via a Google Workspace app password stored in the
+// GMAIL_APP_PASSWORD secret. Callers wrap sends in try/catch so a
+// failing email never blocks SMS or the booking itself.
+
+import { SMTPClient } from "https://deno.land/x/denomailer@1.6.0/mod.ts";
+
+const SMTP_HOST = "smtp.gmail.com";
+const SMTP_PORT = 465;
+const SMTP_USER = "support@cleancollectives.com";
+
 
 const RESEND_URL = "https://api.resend.com/emails";
 
