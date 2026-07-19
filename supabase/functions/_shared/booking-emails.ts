@@ -14,6 +14,7 @@ export const OWNER_EMAILS = [
   "emmanuel@cleancollectives.com",
   "samuel@cleancollectives.com",
   "howell@cleancollectives.com",
+  "support@cleancollectives.com",
 ];
 
 export const BRAND = {
