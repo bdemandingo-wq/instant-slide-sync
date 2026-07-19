@@ -6,12 +6,13 @@ import {
   OWNER_EMAILS,
   renderAdminBookingEmail,
   renderCustomerBookingEmail,
-  sendResendEmail,
+  sendGmailEmail,
   type BookingSummary,
 } from "../_shared/booking-emails.ts";
 
 const OPENPHONE_API_KEY = Deno.env.get("OPENPHONE_API_KEY");
-const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
+const GMAIL_APP_PASSWORD = Deno.env.get("GMAIL_APP_PASSWORD");
+
 
 const OWNER_PHONES = ["+18137356859", "+14076987080", "+18136653189"];
 
@@ -83,7 +84,7 @@ serve(async (req) => {
     }
 
     // Emails
-    if (RESEND_API_KEY) {
+    if (GMAIL_APP_PASSWORD) {
       const summary: BookingSummary = {
         customerName: booking.customer_name as string,
         customerEmail: booking.customer_email as string,
@@ -103,8 +104,8 @@ serve(async (req) => {
 
       try {
         const admin = renderAdminBookingEmail(summary);
-        const r = await sendResendEmail({
-          apiKey: RESEND_API_KEY, to: OWNER_EMAILS,
+        const r = await sendGmailEmail({
+          appPassword: GMAIL_APP_PASSWORD, to: OWNER_EMAILS,
           subject: admin.subject, html: admin.html,
           replyTo: summary.customerEmail,
         });
@@ -114,16 +115,17 @@ serve(async (req) => {
       if (summary.customerEmail) {
         try {
           const cust = renderCustomerBookingEmail(summary);
-          const r = await sendResendEmail({
-            apiKey: RESEND_API_KEY, to: [summary.customerEmail],
+          const r = await sendGmailEmail({
+            appPassword: GMAIL_APP_PASSWORD, to: [summary.customerEmail],
             subject: cust.subject, html: cust.html,
           });
           if (!r.ok) console.error("Customer email failed:", r.error);
         } catch (e) { console.error("Customer email exception:", e); }
       }
     } else {
-      console.error("RESEND_API_KEY not configured — skipping booking emails");
+      console.error("GMAIL_APP_PASSWORD not configured — skipping booking emails");
     }
+
 
     return new Response(JSON.stringify({ success: true }),
       { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });

@@ -5,12 +5,13 @@ import {
   OWNER_EMAILS,
   renderAdminBookingEmail,
   renderCustomerBookingEmail,
-  sendResendEmail,
+  sendGmailEmail,
   type BookingSummary,
 } from "../_shared/booking-emails.ts";
 
 const OPENPHONE_API_KEY = Deno.env.get("OPENPHONE_API_KEY");
-const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
+const GMAIL_APP_PASSWORD = Deno.env.get("GMAIL_APP_PASSWORD");
+
 
 // All three owners get every booking alert.
 const OWNER_PHONES = ["+18137356859", "+14076987080", "+18136653189"];
@@ -193,8 +194,8 @@ const handler = async (req: Request): Promise<Response> => {
     let ownerEmailOk: boolean | null = null;
     let customerEmailOk: boolean | null = null;
     if (type === "booking") {
-      if (!RESEND_API_KEY) {
-        console.error("RESEND_API_KEY is not configured — skipping booking emails");
+      if (!GMAIL_APP_PASSWORD) {
+        console.error("GMAIL_APP_PASSWORD is not configured — skipping booking emails");
       } else {
         const summary: BookingSummary = bookingRow
           ? {
@@ -227,11 +228,10 @@ const handler = async (req: Request): Promise<Response> => {
               totalPrice: data.totalPrice as string,
             };
 
-        // Owner email — send once addressed to all three owners
         try {
           const admin = renderAdminBookingEmail(summary);
-          const r = await sendResendEmail({
-            apiKey: RESEND_API_KEY,
+          const r = await sendGmailEmail({
+            appPassword: GMAIL_APP_PASSWORD,
             to: OWNER_EMAILS,
             subject: admin.subject,
             html: admin.html,
@@ -243,12 +243,11 @@ const handler = async (req: Request): Promise<Response> => {
           console.error("Owner email exception:", err);
         }
 
-        // Customer confirmation email
         if (summary.customerEmail) {
           try {
             const cust = renderCustomerBookingEmail(summary);
-            const r = await sendResendEmail({
-              apiKey: RESEND_API_KEY,
+            const r = await sendGmailEmail({
+              appPassword: GMAIL_APP_PASSWORD,
               to: [summary.customerEmail],
               subject: cust.subject,
               html: cust.html,
@@ -261,6 +260,8 @@ const handler = async (req: Request): Promise<Response> => {
         }
       }
     }
+
+
 
     return new Response(
       JSON.stringify({
