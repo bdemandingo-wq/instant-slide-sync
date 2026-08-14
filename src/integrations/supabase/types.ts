@@ -147,6 +147,7 @@ export type Database = {
           customer_name: string
           customer_phone: string
           frequency: string
+          geocode_status: string | null
           id: string
           idempotency_key: string | null
           pet_info: string | null
@@ -180,6 +181,7 @@ export type Database = {
           customer_name: string
           customer_phone: string
           frequency: string
+          geocode_status?: string | null
           id?: string
           idempotency_key?: string | null
           pet_info?: string | null
@@ -213,6 +215,7 @@ export type Database = {
           customer_name?: string
           customer_phone?: string
           frequency?: string
+          geocode_status?: string | null
           id?: string
           idempotency_key?: string | null
           pet_info?: string | null
@@ -822,6 +825,7 @@ export type Database = {
           customer_name: string
           customer_phone: string
           frequency: string
+          geocode_status: string | null
           id: string
           idempotency_key: string | null
           pet_info: string | null
