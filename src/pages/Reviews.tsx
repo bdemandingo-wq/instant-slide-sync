@@ -1,4 +1,4 @@
-import { Star, Phone, Calendar, Shield, MapPin, Quote } from "lucide-react";
+import { Phone, Calendar, Shield, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
