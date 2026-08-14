@@ -42,6 +42,12 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { Badge } from "@/components/ui/badge";
 import { Check, Clock, Minus, Plus } from "lucide-react";
+declare global {
+  interface Window {
+    fbq?: (...args: unknown[]) => void;
+  }
+}
+
 
 interface IncomingState {
   service?: ServiceKey;
@@ -388,6 +394,12 @@ const BookingForm = () => {
           currency: "USD",
         });
       }
+
+      // Meta Pixel Lead event — only after the booking row was successfully inserted
+      if (typeof window.fbq === "function") {
+        window.fbq("track", "Lead");
+      }
+
 
       // Forward booking to external CRM calendar (non-fatal).
       // Only the id: the function loads the row server-side with the service role
