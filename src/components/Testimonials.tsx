@@ -98,7 +98,7 @@ const Testimonials = () => {
             Trusted by homeowners across South Florida ⭐ 4.9 on Google
           </p>
           <a
-            href="https://search.google.com/local/reviews?placeid=ChIJ49KSUfgd2YgRH2RMjA6X9jM"
+            href="https://g.page/r/CffF6_KIHT4JEBM/review"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-md border border-input bg-background text-foreground font-semibold hover:bg-accent hover:text-accent-foreground transition-colors"

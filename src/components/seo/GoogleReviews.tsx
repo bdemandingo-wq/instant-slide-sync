@@ -30,7 +30,7 @@ const GoogleReviews = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <a
-            href="https://search.google.com/local/reviews?placeid=ChIJ49KSUfgd2YgRH2RMjA6X9jM"
+            href="https://g.page/r/CffF6_KIHT4JEBM/review"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 mb-4 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-md px-2 py-1"
