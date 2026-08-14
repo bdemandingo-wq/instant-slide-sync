@@ -7,7 +7,7 @@ globalThis.localStorage = {
   length: 0,
 } as unknown as Storage;
 
-import { computePrice, SERVICE_PRICE_FLOOR, PRICE_CAP } from "./src/lib/pricing.ts";
+const { computePrice, SERVICE_PRICE_FLOOR, PRICE_CAP } = await import("./src/lib/pricing.ts");
 
 const standardTiers = [
   { service_type: "standard", tier_index: 0, label: "up to 750 sf", max_sqft: 750, base_price: 150 },
