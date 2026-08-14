@@ -369,25 +369,24 @@ const BookingForm = () => {
       }
 
       // Forward booking to external CRM calendar (non-fatal).
+      // Only the id: the function loads the row server-side with the service role
+      // and forwards THOSE values, so nothing reaches the CRM that did not first
+      // pass this form's validation and land in public.bookings. It also builds
+      // scheduled_at with a DST-correct Eastern offset — the naive
+      // `new Date(...).toISOString()` here was silently shifting the appointment.
       try {
-        await supabase.functions.invoke("forward-booking-to-crm", {
-          body: {
-            name: parsed.data.name,
-            email: parsed.data.email,
-            phone: parsed.data.phone,
-            address: parsed.data.address,
-            scheduled_at: new Date(`${format(preferredDate, "yyyy-MM-dd")}T${preferredTime}:00`).toISOString(),
-            service: serviceLabel,
-            total_amount: isCustomQuote ? 0 : breakdown.total,
-            frequency: freqLabel,
-            bathrooms: parsed.data.baths,
-            square_footage: sqft.toString(),
-            extras: addOnLabels,
-            notes: parsed.data.specialInstructions || null,
-          },
+        const { error: crmErr } = await supabase.functions.invoke("forward-booking-to-crm", {
+          body: { bookingId },
         });
+        // invoke() RESOLVES with an error for a non-2xx; it does not throw. The
+        // old try/catch alone could never see a failure. The function now always
+        // returns 200 and records the real outcome on bookings.crm_sync_status,
+        // so this log is a second signal, not the only one.
+        if (crmErr) {
+          console.error("[BookingForm] forward-booking-to-crm returned error:", crmErr);
+        }
       } catch (crmErr) {
-        console.error("[BookingForm] forward-booking-to-crm failed:", crmErr);
+        console.error("[BookingForm] forward-booking-to-crm threw:", crmErr);
       }
 
 

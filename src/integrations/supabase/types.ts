@@ -137,6 +137,9 @@ export type Database = {
           baths: string
           beds: string
           created_at: string
+          crm_error: string | null
+          crm_sync_status: string | null
+          crm_synced_at: string | null
           customer_email: string
           customer_id: string | null
           customer_name: string
@@ -162,6 +165,9 @@ export type Database = {
           baths: string
           beds: string
           created_at?: string
+          crm_error?: string | null
+          crm_sync_status?: string | null
+          crm_synced_at?: string | null
           customer_email: string
           customer_id?: string | null
           customer_name: string
@@ -187,6 +193,9 @@ export type Database = {
           baths?: string
           beds?: string
           created_at?: string
+          crm_error?: string | null
+          crm_sync_status?: string | null
+          crm_synced_at?: string | null
           customer_email?: string
           customer_id?: string | null
           customer_name?: string
@@ -788,6 +797,9 @@ export type Database = {
           baths: string
           beds: string
           created_at: string
+          crm_error: string | null
+          crm_sync_status: string | null
+          crm_synced_at: string | null
           customer_email: string
           customer_id: string | null
           customer_name: string
