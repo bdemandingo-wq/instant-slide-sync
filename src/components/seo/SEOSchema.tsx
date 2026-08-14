@@ -296,10 +296,7 @@ const SEOSchema = ({
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "17:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "09:00", "closes": "15:00" }
     ],
-    // Per-city LocalBusiness intentionally has no aggregateRating or review.
-    // The 4.9/127 figures are global, not city-scoped, so attaching them per
-    // page would constitute self-serving reviews and trip Search Console.
-    // Ratings/reviews are carried by the canonical homepage schema only.
+    // No aggregateRating or review nodes are published anywhere on the site.
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": `Cleaning Services in ${resolvedCity}`,
