@@ -21,6 +21,21 @@ Deno.serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
   }
+  if (req.method === "GET") {
+    const k = Deno.env.get("EXTERNAL_BOOKING_INGEST_KEY") ?? "";
+    let prefix: string | null = null;
+    if (k) {
+      const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(k));
+      prefix = Array.from(new Uint8Array(buf))
+        .map((b) => b.toString(16).padStart(2, "0"))
+        .join("")
+        .slice(0, 10);
+    }
+    return new Response(
+      JSON.stringify({ configured: k.length > 0, length: k.length, sha256_prefix: prefix }),
+      { headers: { ...corsHeaders, "Content-Type": "application/json" } },
+    );
+  }
   if (req.method !== "POST") {
     return new Response(JSON.stringify({ error: "Method not allowed" }), {
       status: 405,
