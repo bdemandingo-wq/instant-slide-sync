@@ -28,7 +28,7 @@ const examples = [
 for (const ex of examples) {
   const result = computePrice(ex.tiers, ex);
   console.log(
-    `${ex.sqft}sf ${ex.standard} ${ex.frequency}${ex.addOnIds.length ? " + oven" : ""}:`
+    `${ex.sqft}sf ${ex.service} ${ex.frequency}${ex.addOnIds.length ? " + oven" : ""}:`
   );
   console.log(`  basePrice: $${result.basePrice}`);
   console.log(`  baseAfterDiscount (floored): $${result.baseAfterDiscount.toFixed(2)}`);
