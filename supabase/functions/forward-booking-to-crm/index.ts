@@ -87,30 +87,59 @@ function parseAddress(raw: unknown): { street: string | null; city: string | nul
   return { street, city, state, zip };
 }
 
-// Google Maps geocoding via the Lovable connector gateway. Handles addresses
-// typed without commas ("65 sw 12th ave deerfield beach"), which the string
-// parser cannot. Returns null on any failure so the caller falls back.
-const MAPS_GATEWAY_URL = "https://connector-gateway.lovable.dev/google_maps";
+// Google Maps geocoding, called directly. Handles addresses typed without commas
+// ("65 sw 12th ave deerfield beach"), which the string parser cannot.
+//
+// Still returns null on any failure so the caller falls back to parseAddress —
+// but every failure path now LOGS which branch fired. A silent null here was
+// indistinguishable from "this address genuinely has no city", and that is what
+// made a missing key impossible to tell apart from a refused request.
+const GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json";
 
 async function geocodeAddress(
   raw: unknown,
 ): Promise<{ street: string | null; city: string | null; state: string | null; zip: string | null } | null> {
   const full = String(raw ?? "").trim();
-  if (!full) return null;
+  if (!full) {
+    console.error("[geocode] skipped: booking.address is empty");
+    return null;
+  }
 
-  const lovableKey = Deno.env.get("LOVABLE_API_KEY");
   const mapsKey = Deno.env.get("GOOGLE_MAPS_API_KEY");
-  if (!lovableKey || !mapsKey) return null;
+  if (!mapsKey) {
+    console.error("[geocode] failed: GOOGLE_MAPS_API_KEY is not set on this function");
+    return null;
+  }
 
   try {
-    const res = await fetch(
-      `${MAPS_GATEWAY_URL}/maps/api/geocode/json?address=${encodeURIComponent(full)}&region=us`,
-      { headers: { Authorization: `Bearer ${lovableKey}`, "X-Connection-Api-Key": mapsKey } },
-    );
-    if (!res.ok) return null;
+    // NOTE: the key travels in the query string — that is how Google's Geocoding
+    // API authenticates server-side calls. Never log this URL.
+    const url = `${GEOCODE_URL}?address=${encodeURIComponent(full)}&region=us&key=${mapsKey}`;
+    const res = await fetch(url);
+    if (!res.ok) {
+      console.error(`[geocode] failed: HTTP ${res.status} from maps.googleapis.com`);
+      return null;
+    }
+
     const data = await res.json();
+
+    // Google answers HTTP 200 even when it refuses the request. The `status`
+    // field is the real result: REQUEST_DENIED (bad or restricted key, or the
+    // Geocoding API not enabled on the project), ZERO_RESULTS, OVER_QUERY_LIMIT,
+    // INVALID_REQUEST. `error_message` names the cause outright.
+    if (data?.status !== "OK") {
+      console.error(
+        `[geocode] failed: Google status=${data?.status ?? "missing"}` +
+          (data?.error_message ? ` error_message=${data.error_message}` : ""),
+      );
+      return null;
+    }
+
     const result = data?.results?.[0];
-    if (!result) return null;
+    if (!result) {
+      console.error("[geocode] failed: status was OK but results[] was empty");
+      return null;
+    }
 
     const comps: Array<{ long_name: string; short_name: string; types: string[] }> =
       result.address_components ?? [];
@@ -126,9 +155,17 @@ async function geocodeAddress(
     const state = get("administrative_area_level_1", true);
     const zip = get("postal_code");
 
-    if (!city && !state && !zip) return null;
+    if (!city && !state && !zip) {
+      console.error(
+        `[geocode] failed: matched "${result.formatted_address ?? "?"}" but it yielded no city/state/zip`,
+      );
+      return null;
+    }
+
+    console.log(`[geocode] ok: city=${city} state=${state} zip=${zip}`);
     return { street, city, state, zip };
-  } catch (_e) {
+  } catch (e) {
+    console.error(`[geocode] failed: fetch threw: ${e}`);
     return null;
   }
 }
