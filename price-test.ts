@@ -4,8 +4,9 @@
   removeItem: () => {},
 };
 
-const { computePrice } = await import("./src/lib/pricing");
-const { ServiceKey } = await import("./src/lib/pricing");
+const { computePrice } = await import("./src/lib/pricing.ts");
+
+type ServiceKey = import("./src/lib/pricing.ts").ServiceKey;
 
 const tiers = [
   { service_type: "standard", tier_index: 0, label: "up to 750 sf", max_sqft: 750, base_price: 150 },
@@ -16,10 +17,10 @@ const tiers = [
 ];
 
 const scenarios = [
-  { service: "standard" as import("./src/lib/pricing").ServiceKey, sqft: 750, frequency: "weekly", addOnIds: [], label: "750sf standard, weekly, no add-ons" },
-  { service: "standard" as import("./src/lib/pricing").ServiceKey, sqft: 750, frequency: "weekly", addOnIds: ["inside_oven"], label: "750sf standard, weekly, with $50 oven" },
-  { service: "standard" as import("./src/lib/pricing").ServiceKey, sqft: 3000, frequency: "weekly", addOnIds: [], label: "3000sf standard, weekly" },
-  { service: "deep" as import("./src/lib/pricing").ServiceKey, sqft: 750, frequency: "onetime", addOnIds: [], label: "750sf deep clean, one-time" },
+  { service: "standard" as ServiceKey, sqft: 750, frequency: "weekly", addOnIds: [], label: "750sf standard, weekly, no add-ons" },
+  { service: "standard" as ServiceKey, sqft: 750, frequency: "weekly", addOnIds: ["inside_oven"], label: "750sf standard, weekly, with $50 oven" },
+  { service: "standard" as ServiceKey, sqft: 3000, frequency: "weekly", addOnIds: [], label: "3000sf standard, weekly" },
+  { service: "deep" as ServiceKey, sqft: 750, frequency: "onetime", addOnIds: [], label: "750sf deep clean, one-time" },
 ];
 
 for (const s of scenarios) {
