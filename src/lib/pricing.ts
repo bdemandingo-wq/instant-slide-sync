@@ -89,6 +89,14 @@ export const isUnitAddOn = (a: AddOnDef): boolean => a.unit !== "flat";
 export const PRICE_FLOOR = 99;
 export const PRICE_CAP = 5000;
 
+/** Per-service minimums for the discounted base price, before add-ons. */
+export const SERVICE_PRICE_FLOOR: Partial<Record<ServiceKey, number>> = {
+  standard: 150,
+  deep: 200,
+  moveinout: 250,
+  postconstruction: 400,
+};
+
 /** Raw sqft slider config — used by Hero & Calculator. */
 export const SQFT_MIN = 500;
 export const SQFT_MAX = 10000;
@@ -328,7 +336,8 @@ export function computePrice(
   const allowFreqDiscount = supportsFrequency(opts.service);
   const freq = FREQUENCIES.find((f) => f.key === opts.frequency) ?? FREQUENCIES[0];
   const discount = allowFreqDiscount ? freq.baseDiscount : 0;
-  const baseAfterDiscount = basePrice * (1 - discount);
+  const serviceFloor = SERVICE_PRICE_FLOOR[opts.service] ?? PRICE_FLOOR;
+  const baseAfterDiscount = Math.max(serviceFloor, basePrice * (1 - discount));
 
   // Auto-included add-ons are baked into the base price → skip them in the sum.
   const autoIncluded = new Set(AUTO_INCLUDED_ADDONS[opts.service] ?? []);
@@ -343,7 +352,7 @@ export function computePrice(
   }, 0);
 
   let total = baseAfterDiscount + addOnsTotal;
-  total = Math.max(PRICE_FLOOR, Math.min(PRICE_CAP, total));
+  total = Math.min(PRICE_CAP, total);
   total = Math.round(total);
 
   // Display range: ±10% around total
