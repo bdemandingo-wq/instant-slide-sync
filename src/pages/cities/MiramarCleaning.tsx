@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Miramar, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miramar communities including Monarch Lakes, Sunset Lakes, Riviera Isles, Miramar Country Club, and Nautica. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Miramar communities including Monarch Lakes, Sunset Lakes, Riviera Isles, Miramar Country Club, and Nautica. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Miramar gated communities and HOA neighborhoods?",

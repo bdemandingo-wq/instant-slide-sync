@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Deerfield Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is headquartered in Pompano Beach at 4611 N Federal Hwy. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, The Cove, and Hillsboro Beach. Licensed, insured, and background-checked."
+    a: "Clean Collective is headquartered in Pompano Beach at 4611 N Federal Hwy. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, The Cove, and Hillsboro Beach. Licensed, insured, and background-checked."
   },
   {
     q: "Is Clean Collective a local Deerfield Beach company?",
@@ -65,7 +65,7 @@ const HouseCleaningDeerfield = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Based in Deerfield Beach</p>
+              <p className="text-sm text-muted-foreground self-center">Based in Deerfield Beach</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Deerfield Beach?</h2>

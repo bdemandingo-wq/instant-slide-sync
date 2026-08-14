@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Pembroke Pines, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, and Pasadena. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, and Pasadena. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Pembroke Pines?",
@@ -65,7 +65,7 @@ const HouseCleaningPembrokePines = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
+              <p className="text-sm text-muted-foreground self-center">Licensed & insured</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Pembroke Pines?</h2>

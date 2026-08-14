@@ -470,7 +470,7 @@ const BookingForm = () => {
             <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent" /> Easy online booking</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent" /> Transparent pricing</div>
-              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent" /> 4.9★ rated by 127+ customers</div>
+              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent" /> Licensed &amp; insured</div>
             </div>
           </div>
         </section>

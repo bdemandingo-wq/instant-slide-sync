@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Miami Gardens, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miami Gardens neighborhoods including Carol City, Lake Lucerne, Andover, and Scott Lake. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Miami Gardens neighborhoods including Carol City, Lake Lucerne, Andover, and Scott Lake. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your Miami Gardens cleaning teams speak Spanish?",

@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Pembroke Pines, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, Pasadena, and Grand Palms. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Pembroke Pines communities including Chapel Trail, Silver Lakes, Pembroke Falls, Pasadena, and Grand Palms. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Pembroke Pines gated communities and HOA neighborhoods?",

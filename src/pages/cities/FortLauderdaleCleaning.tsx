@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Fort Lauderdale, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, and Coral Ridge. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, and Coral Ridge. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Fort Lauderdale condos and waterfront homes?",

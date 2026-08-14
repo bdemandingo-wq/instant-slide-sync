@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Aventura, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Aventura communities including Williams Island, Turnberry Isle, Harbor Centre, and Aventura Circle. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Aventura communities including Williams Island, Turnberry Isle, Harbor Centre, and Aventura Circle. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Aventura condos and luxury high-rises?",

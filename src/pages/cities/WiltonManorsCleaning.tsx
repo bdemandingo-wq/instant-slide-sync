@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Wilton Manors, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Wilton Manors neighborhoods including Jenada Isles, Wilton Manors Estates, and areas near Wilton Drive. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Wilton Manors neighborhoods including Jenada Isles, Wilton Manors Estates, and areas near Wilton Drive. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you use eco-friendly cleaning products in Wilton Manors?",

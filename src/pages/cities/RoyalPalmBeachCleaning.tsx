@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Royal Palm Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Royal Palm Beach communities including The Acreage, Countryside, Frontier, Binks Estates, and Saratoga Pines. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Royal Palm Beach communities including The Acreage, Countryside, Frontier, Binks Estates, and Saratoga Pines. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Royal Palm Beach?",

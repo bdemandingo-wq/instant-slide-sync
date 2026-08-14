@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Coral Springs, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Coral Springs neighborhoods including Eagle Trace, Heron Bay, Ramblewood, and North Springs. We are licensed, insured, and background-check all cleaners."
+    a: "Clean Collective serves all Coral Springs neighborhoods including Eagle Trace, Heron Bay, Ramblewood, and North Springs. We are licensed, insured, and background-check all cleaners."
   },
   {
     q: "Do you use eco-friendly products for Coral Springs families with kids?",

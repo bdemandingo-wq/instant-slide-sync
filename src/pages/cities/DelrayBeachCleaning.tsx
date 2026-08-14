@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Delray Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Delray Beach communities including Mizner Country Club, Polo Club, Lake Ida, and downtown Atlantic Avenue. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Delray Beach communities including Mizner Country Club, Polo Club, Lake Ida, and downtown Atlantic Avenue. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer seasonal cleaning in Delray Beach for snowbirds?",

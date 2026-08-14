@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Palm Beach Gardens, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Palm Beach Gardens communities including Frenchman's Creek, The Club at Admirals Cove, BallenIsles, and Evergrene. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Palm Beach Gardens communities including Frenchman's Creek, The Club at Admirals Cove, BallenIsles, and Evergrene. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Palm Beach Gardens country clubs and gated communities?",

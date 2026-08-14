@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Plantation, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Plantation neighborhoods including Jacaranda Country Club, Plantation Isles, Lauderdale West, Midtown Plantation, and Plantation Acres. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Plantation neighborhoods including Jacaranda Country Club, Plantation Isles, Lauderdale West, Midtown Plantation, and Plantation Acres. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Jacaranda Country Club and Plantation gated communities?",

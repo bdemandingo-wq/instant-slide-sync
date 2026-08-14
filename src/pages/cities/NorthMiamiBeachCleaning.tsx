@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in North Miami Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all North Miami Beach neighborhoods including Keystone Point, Ojus, Sans Souci, and Ives Dairy. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all North Miami Beach neighborhoods including Keystone Point, Ojus, Sans Souci, and Ives Dairy. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean North Miami Beach condos and coastal properties?",

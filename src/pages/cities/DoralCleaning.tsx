@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Doral, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Doral communities including Doral Isles, Doral Meadows, The Trails, and Landmark at Doral. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Doral communities including Doral Isles, Doral Meadows, The Trails, and Landmark at Doral. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your Doral cleaning teams speak Spanish?",

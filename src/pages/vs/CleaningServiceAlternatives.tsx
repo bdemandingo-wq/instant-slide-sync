@@ -99,7 +99,7 @@ const CleaningServiceAlternatives = () => {
     <>
       <SEOSchema
         pageTitle="Best Cleaning Service Alternatives 2026 | Clean Collective"
-        pageDescription="Comparing cleaning services in South Florida? See why Clean Collective beats Handy, Molly Maid & local competitors. 4.9★ rated, transparent pricing, vetted cleaners."
+        pageDescription="Comparing cleaning services in South Florida? See why Clean Collective beats Handy, Molly Maid & local competitors. Transparent pricing and vetted cleaners."
         canonicalUrl="https://cleancollectives.com/cleaning-service-alternatives"
         pageType="service"
         faqItems={faqItems}
@@ -291,7 +291,7 @@ const CleaningServiceAlternatives = () => {
           <div className="container mx-auto px-4">
             <h2 className="font-display text-3xl font-bold mb-4">Ready to Book South Florida's Top-Rated Local Cleaner?</h2>
             <p className="text-primary-foreground/90 mb-8 max-w-xl mx-auto">
-              4.9 stars · 127+ verified reviews · Instant online quotes · No consultation needed.
+              Instant online quotes · No consultation needed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>

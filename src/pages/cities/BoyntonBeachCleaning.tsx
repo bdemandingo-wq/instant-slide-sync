@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Boynton Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Boynton Beach communities including Tuscany Bay, Nautica, Valencia, and Venetian Isles. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Boynton Beach communities including Tuscany Bay, Nautica, Valencia, and Venetian Isles. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you serve 55+ and active adult communities in Boynton Beach?",

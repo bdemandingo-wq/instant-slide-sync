@@ -124,7 +124,7 @@ const CarpetCleaning = () => {
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <Star className="w-6 h-6 text-primary" />
-                <span className="font-medium">4.9 Star Rating</span>
+                <span className="font-medium">Licensed &amp; Insured</span>
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <Clock className="w-6 h-6 text-primary" />

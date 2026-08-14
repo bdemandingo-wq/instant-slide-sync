@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Coconut Creek, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Coconut Creek neighborhoods including Wynmoor Village, The Hammocks, Lyons West, and Winston Park. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Coconut Creek neighborhoods including Wynmoor Village, The Hammocks, Lyons West, and Winston Park. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you use eco-friendly products in Coconut Creek?",

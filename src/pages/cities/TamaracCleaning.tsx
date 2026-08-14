@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Tamarac, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Tamarac neighborhoods including Kings Point, Woodlands, Mainlands, Tamarac Lakes, and Colony West. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Tamarac neighborhoods including Kings Point, Woodlands, Mainlands, Tamarac Lakes, and Colony West. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you serve Kings Point and senior communities in Tamarac?",

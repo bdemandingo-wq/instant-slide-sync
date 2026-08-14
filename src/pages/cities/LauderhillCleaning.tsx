@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Lauderhill, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Lauderhill neighborhoods including Inverrary, Lawn Acres, Broadview Park, and City Center. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Lauderhill neighborhoods including Inverrary, Lawn Acres, Broadview Park, and City Center. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer move-in/out cleaning in Lauderhill?",

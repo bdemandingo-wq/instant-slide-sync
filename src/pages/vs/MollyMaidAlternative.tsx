@@ -77,7 +77,7 @@ const MollyMaidAlternative = () => {
                 </a>
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground">4.9 ★ · 127+ verified reviews · Licensed & insured</p>
+            <p className="text-sm text-muted-foreground">Licensed & insured</p>
           </div>
         </section>
 
@@ -161,7 +161,7 @@ const MollyMaidAlternative = () => {
                 <Link to="/west-palm-beach-cleaning" className="text-primary hover:underline">West Palm Beach</Link>.
               </p>
               <p>
-                Our 4.9-star rating across 127+ verified reviews reflects what happens when a local team treats every home like it's their own.
+                Our approach reflects what happens when a local team treats every home like it's their own.
               </p>
             </div>
           </div>

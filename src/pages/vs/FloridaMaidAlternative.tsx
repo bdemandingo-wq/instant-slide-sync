@@ -17,7 +17,7 @@ const faqItems = [
   },
   {
     q: "What is the Clean Collective satisfaction guarantee?",
-    a: "If anything isn't cleaned to your standard, let us know within 24 hours and we'll return to make it right at no extra cost. We stand behind every visit with background-checked, professionally trained cleaners and a 4.9-star average across 127+ verified reviews.",
+    a: "If anything isn't cleaned to your standard, let us know within 24 hours and we'll return to make it right at no extra cost. We stand behind every visit with background-checked, professionally trained cleaners.",
   },
   {
     q: "Which South Florida areas does Clean Collective serve as a Florida Maid alternative?",
@@ -79,7 +79,7 @@ const FloridaMaidAlternative = () => {
                 </a>
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground">4.9 ★ · 127+ verified reviews · Licensed &amp; insured</p>
+            <p className="text-sm text-muted-foreground">Licensed &amp; insured</p>
           </div>
         </section>
 
@@ -132,8 +132,7 @@ const FloridaMaidAlternative = () => {
               <p>
                 Just as important is accountability. Every Clean Collective clean is backed by a satisfaction
                 guarantee — if something isn't right, we return within 24 hours and fix it at no charge.
-                Our cleaners are background-checked, professionally trained, and rated 4.9 stars across
-                127+ verified reviews.
+                Our cleaners are background-checked, professionally trained, and professionally trained.
               </p>
               <p>
                 We're locally owned in Deerfield Beach and serve 40+ cities across Broward, Palm Beach,

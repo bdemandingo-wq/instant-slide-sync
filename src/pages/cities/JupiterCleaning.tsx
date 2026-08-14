@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Jupiter, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Jupiter communities including Admirals Cove, Abacoa, Jonathan's Landing, Rialto, and Frenchman's Creek. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Jupiter communities including Admirals Cove, Abacoa, Jonathan's Landing, Rialto, and Frenchman's Creek. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Jupiter waterfront and boating community homes?",

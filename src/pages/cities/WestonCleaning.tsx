@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Weston, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Weston communities including Windmill Ranch Estates, The Ridges, Savanna, Sector 7, and Bonaventure. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Weston communities including Windmill Ranch Estates, The Ridges, Savanna, Sector 7, and Bonaventure. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Weston gated communities and HOA neighborhoods?",

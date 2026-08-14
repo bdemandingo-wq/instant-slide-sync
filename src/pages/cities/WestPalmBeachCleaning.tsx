@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in West Palm Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all West Palm Beach neighborhoods including Clematis, Northwood, El Cid, Flamingo Park, and CityPlace. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all West Palm Beach neighborhoods including Clematis, Northwood, El Cid, Flamingo Park, and CityPlace. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean West Palm Beach condos and historic homes?",

@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best house cleaning service in Fort Lauderdale?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, Coral Ridge, and Harbor Beach. We are licensed, insured, and background-check all cleaners."
+    a: "Clean Collective serves all Fort Lauderdale neighborhoods including Las Olas, Victoria Park, Rio Vista, Coral Ridge, and Harbor Beach. We are licensed, insured, and background-check all cleaners."
   },
   {
     q: "Do house cleaners in Fort Lauderdale need to be licensed?",
@@ -65,7 +65,7 @@ const HouseCleaningFortLauderdale = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
+              <p className="text-sm text-muted-foreground self-center">Licensed & insured</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Fort Lauderdale?</h2>
