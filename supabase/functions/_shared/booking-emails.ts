@@ -22,7 +22,7 @@ export const BRAND = {
   ink: "#1f2937",
   soft: "#f8fafc",
   from: "Clean Collective <support@cleancollectives.com>",
-  phone: "(561) 571-8725",
+  phone: "(561) 861-2752",
   supportEmail: "support@cleancollectives.com",
 };
 
@@ -85,7 +85,7 @@ ${row("Pets", b.petInfo)}
 </table>
 <p style="margin:20px 0 0;color:#64748b;font-size:13px;"><span style="color:#64748b;">Log in to the admin dashboard to confirm and schedule.</span></p>
 </td></tr>
-<tr><td style="background:${BRAND.mint};padding:14px 28px;color:${BRAND.ink};font-size:12px;"><span style="color:${BRAND.ink};">Clean Collective · <a href="tel:+15615718725" style="${LINK_STYLE}"><span style="color:${BRAND.ink};">${BRAND.phone}</span></a> · <a href="mailto:${BRAND.supportEmail}" style="${LINK_STYLE}"><span style="color:${BRAND.ink};">${BRAND.supportEmail}</span></a></span></td></tr>
+<tr><td style="background:${BRAND.mint};padding:14px 28px;color:${BRAND.ink};font-size:12px;"><span style="color:${BRAND.ink};">Clean Collective · <a href="tel:+15618612752" style="${LINK_STYLE}"><span style="color:${BRAND.ink};">${BRAND.phone}</span></a> · <a href="mailto:${BRAND.supportEmail}" style="${LINK_STYLE}"><span style="color:${BRAND.ink};">${BRAND.supportEmail}</span></a></span></td></tr>
 </table></td></tr></table></body></html>`;
   return { subject, html };
 }
@@ -116,7 +116,7 @@ ${row("Total", total)}
 <li style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">After service, we'll do a quick walkthrough to make sure everything is perfect.</span></li>
 </ol>
 <div style="margin-top:18px;padding:14px;background:${BRAND.mint};border-radius:8px;color:${BRAND.ink};font-size:14px;">
-<span style="color:${BRAND.ink};">Need to change or ask about anything? Call or text <a href="tel:+15615718725" style="${LINK_STYLE}"><strong style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">${BRAND.phone}</span></strong></a> or email <a href="mailto:${BRAND.supportEmail}" style="${LINK_STYLE}"><strong style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">${BRAND.supportEmail}</span></strong></a>.</span>
+<span style="color:${BRAND.ink};">Need to change or ask about anything? Call or text <a href="tel:+15618612752" style="${LINK_STYLE}"><strong style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">${BRAND.phone}</span></strong></a> or email <a href="mailto:${BRAND.supportEmail}" style="${LINK_STYLE}"><strong style="color:${BRAND.ink};"><span style="color:${BRAND.ink};">${BRAND.supportEmail}</span></strong></a>.</span>
 </div>
 </td></tr>
 <tr><td style="padding:16px 28px;color:#64748b;font-size:12px;text-align:center;background:#ffffff;border-top:1px solid #e2e8f0;">

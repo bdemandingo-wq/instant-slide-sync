@@ -61,11 +61,11 @@ const GoogleMapEmbed = () => {
                 <p className="text-muted-foreground">
                   <strong>Phone:</strong>{" "}
                   <a 
-                    href="tel:+15615718725" 
+                    href="tel:+15618612752" 
                     className="text-primary hover:underline"
-                    aria-label="Call Clean Collective at 561-571-8725"
+                    aria-label="Call Clean Collective at 561-861-2752"
                   >
-                    (561) 571-8725
+                    (561) 861-2752
                   </a>
                 </p>
               </div>
