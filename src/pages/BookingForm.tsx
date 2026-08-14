@@ -75,6 +75,7 @@ const bookingSchema = z.object({
     .max(20, "Phone too long")
     .regex(/^[\d\s()+\-.]+$/, "Phone contains invalid characters"),
   address: z.string().trim().min(5, "Address required").max(300, "Address too long"),
+  beds: z.string().min(1, "Select bedroom count"),
   baths: z.string().min(1, "Select bathroom count"),
   specialInstructions: z.string().trim().max(2000, "Instructions too long").optional(),
   hasPets: z.boolean(),
@@ -109,6 +110,7 @@ const BookingForm = () => {
     email: user?.email ?? "",
     phone: "",
     address: "",
+    beds: "",
     baths: "",
     specialInstructions: "",
     hasPets: false,
@@ -317,7 +319,11 @@ const BookingForm = () => {
         customer_email: parsed.data.email,
         customer_phone: parsed.data.phone,
         address: parsed.data.address,
-        beds: `${sqft.toLocaleString()} sq ft`,
+        // The real bedroom count. This column previously held a square-footage
+        // string ("1,250 sq ft"), which is why every forwarded booking landed in
+        // the CRM with the default of 1 bedroom. Square footage is `sqft` below
+        // and is unchanged.
+        beds: parsed.data.beds,
         baths: parsed.data.baths,
         sqft,
         service_type: serviceLabel,
@@ -411,7 +417,13 @@ const BookingForm = () => {
               address: parsed.data.address,
               serviceType: serviceLabel,
               frequency: freqLabel,
-              beds: `${sqft.toLocaleString()} sq ft`,
+              // send-sms-notification's SMS TEXT does not use `beds` at all —
+              // formatBookingSms interpolates only name, service, frequency,
+              // date, address and total. This value feeds ONLY the booking-email
+              // fallback branch, used when the function's four attempts to re-read
+              // the booking row all fail. Sending the real count keeps that
+              // fallback consistent with the row it is standing in for.
+              beds: parsed.data.beds,
               baths: parsed.data.baths,
               sqft,
               totalPrice: isCustomQuote ? "Custom Quote" : breakdown.total.toString(),
@@ -865,6 +877,26 @@ const BookingForm = () => {
                       />
                     </div>
                     {errors.address && <p id="bf-address-error" className="text-sm text-destructive">{errors.address}</p>}
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="bf-beds">Bedrooms *</Label>
+                    {/* Values must be exactly '0'-'6'. These mirror the CRM's own
+                        bedroomOptions; a value outside that list renders BLANK in
+                        the CRM's Select — the same failure square footage had when
+                        it arrived as a raw number instead of a tier label. */}
+                    <Select value={formData.beds} onValueChange={(v) => handleField("beds", v)}>
+                      <SelectTrigger id="bf-beds" aria-invalid={!!errors.beds}>
+                        <SelectValue placeholder="Select number of bedrooms" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {["0", "1", "2", "3", "4", "5", "6"].map((v) => (
+                          <SelectItem key={v} value={v}>
+                            {v === "0" ? "Studio" : `${v} ${v === "1" ? "Bedroom" : "Bedrooms"}`}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                    {errors.beds && <p className="text-sm text-destructive">{errors.beds}</p>}
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="bf-baths">Bathrooms *</Label>
