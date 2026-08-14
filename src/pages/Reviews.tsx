@@ -9,58 +9,6 @@ import GoogleReviews from "@/components/seo/GoogleReviews";
 const PHONE_DISPLAY = "(561) 861-2752";
 const PHONE_TEL = "+15618612752";
 
-// Full review set (used for Schema.org markup + on-page testimonials)
-const allReviews = [
-  {
-    name: "Ashleigh Craig",
-    rating: 5,
-    date: "2025-06-10",
-    dateLabel: "June 2025",
-    city: "Fort Lauderdale, FL",
-    text: "I used Clean Collective to do a deep clean of my home, and I couldn't be happier with the results! From the moment I booked, the communication was professional and prompt. The team arrived on time, fully equipped, and ready to work. They paid attention to every detail—baseboards, windows, inside appliances—nothing was missed. My home looked and smelled amazing afterward. Highly recommend!",
-  },
-  {
-    name: "Sallie Sutherland",
-    rating: 5,
-    date: "2025-08-22",
-    dateLabel: "August 2025",
-    city: "Boca Raton, FL",
-    text: "I had an emergency due to ductwork installation that went wrong. Tidy Wise in less than 12 hours got two women to my home over a holiday weekend. They were the most efficient, fast, capable young women I've ever met. It really saved my day. Saved my home. PS: Joe sent Roxi & Yesenia!",
-  },
-  {
-    name: "Charlie Dubb",
-    rating: 5,
-    date: "2025-11-04",
-    dateLabel: "November 2025",
-    city: "Pompano Beach, FL",
-    text: "OMGoodness! The ladies cleaned my 30 year, unoccupied house FLAWLESSLY. Sadly, the Florida 'critters' had completely taken the place over, but you'd never know it now! THANK YOU!",
-  },
-  {
-    name: "Marisol Hernandez",
-    rating: 5,
-    date: "2026-01-18",
-    dateLabel: "January 2026",
-    city: "Deerfield Beach, FL",
-    text: "Booked a move-out clean for my condo. The team was prompt, friendly, and left the place spotless — I got my full deposit back. Will absolutely use Clean Collective again at my new place.",
-  },
-  {
-    name: "James O'Connor",
-    rating: 5,
-    date: "2026-02-05",
-    dateLabel: "February 2026",
-    city: "Fort Lauderdale, FL",
-    text: "Bi-weekly service has been a game changer. Same crew every visit, always on time, and they remember exactly how we like things. Best cleaning company we've used in 10 years here.",
-  },
-  {
-    name: "Priya Shah",
-    rating: 5,
-    date: "2026-03-12",
-    dateLabel: "March 2026",
-    city: "Boca Raton, FL",
-    text: "I'm very particular and they nailed it the first visit. Eco-friendly products, no harsh chemical smell, and my kitchen looks brand new. Highly recommend for anyone with kids or pets.",
-  },
-];
-
 const beforeAfterJobs = [
   { label: "Move-Out Deep Clean", location: "Pompano Beach, FL", note: "30-year unoccupied home — restored to like-new condition" },
   { label: "Post-Construction Cleanup", location: "Boca Raton, FL", note: "Drywall dust, paint splatter, and debris fully removed" },
@@ -86,20 +34,6 @@ const Reviews = () => {
       "postalCode": "33064",
       "addressCountry": "US",
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": String(allReviews.length + 121),
-      "bestRating": "5",
-      "worstRating": "1",
-    },
-    "review": allReviews.map((r) => ({
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": String(r.rating), "bestRating": "5" },
-      "author": { "@type": "Person", "name": r.name },
-      "datePublished": r.date,
-      "reviewBody": r.text,
-    })),
   };
 
   return (
@@ -146,81 +80,8 @@ const Reviews = () => {
           </div>
         </section>
 
-        {/* Star rating display */}
-        <section className="py-12 border-y border-border bg-card">
-          <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto text-center">
-              <div>
-                <div className="flex items-center justify-center gap-1 mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-7 h-7 fill-secondary text-secondary" aria-hidden="true" />
-                  ))}
-                </div>
-                <p className="font-display text-3xl font-bold text-foreground">4.9 / 5</p>
-                <p className="text-muted-foreground text-sm">Average Rating</p>
-              </div>
-              <div>
-                <p className="font-display text-3xl font-bold text-foreground">127+</p>
-                <p className="text-muted-foreground text-sm">Verified Customer Reviews</p>
-              </div>
-              <div>
-                <p className="font-display text-3xl font-bold text-foreground">98%</p>
-                <p className="text-muted-foreground text-sm">Would Recommend to a Friend</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Google reviews embed (existing component) */}
         <GoogleReviews />
-
-        {/* Customer testimonials with photo placeholders */}
-        <section className="py-16 bg-muted/30">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-10 max-w-2xl mx-auto">
-              <h2 className="font-display text-3xl font-bold text-foreground mb-3">What Our Customers Say</h2>
-              <p className="text-muted-foreground">
-                Honest feedback from real Clean Collective clients across South Florida — homes, condos, Airbnbs, and offices.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              {allReviews.map((r, i) => (
-                <article
-                  key={r.name}
-                  className="bg-card p-6 rounded-xl shadow-soft border border-border hover-lift"
-                  itemScope
-                  itemType="https://schema.org/Review"
-                >
-                  <Quote className="w-6 h-6 text-primary/30 mb-3" aria-hidden="true" />
-                  <div className="flex gap-0.5 mb-3" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                    <meta itemProp="ratingValue" content={String(r.rating)} />
-                    <meta itemProp="bestRating" content="5" />
-                    {[...Array(r.rating)].map((_, idx) => (
-                      <Star key={idx} className="w-4 h-4 fill-secondary text-secondary" aria-hidden="true" />
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground text-sm leading-relaxed mb-4" itemProp="reviewBody">
-                    {r.text}
-                  </p>
-                  <div className="flex items-center gap-3 pt-4 border-t border-border">
-                    <div
-                      className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-foreground font-semibold flex-shrink-0"
-                      aria-label={`Photo placeholder for ${r.name}`}
-                    >
-                      {r.name.charAt(0)}
-                    </div>
-                    <div className="min-w-0">
-                      <p className="font-semibold text-foreground text-sm" itemProp="author">{r.name}</p>
-                      <p className="text-xs text-muted-foreground flex items-center gap-1">
-                        <MapPin className="w-3 h-3" /> {r.city} • {r.dateLabel}
-                      </p>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Before/after photos placeholder */}
         <section className="py-16 bg-background">
