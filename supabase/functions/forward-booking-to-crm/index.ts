@@ -419,6 +419,9 @@ Deno.serve(async (req) => {
         crm_synced_at: status === "synced" ? new Date().toISOString() : null,
         // Truncated: this column is for triage, not for storing a CRM stack trace.
         crm_error: error ? error.slice(0, 500) : null,
+        // Separate column on purpose: a failed geocode is not a CRM error and
+        // must never turn a successful forward into anything but "synced".
+        geocode_status: geocodeStatus.slice(0, 500),
       })
       .eq("id", bookingId);
     if (updErr) {
