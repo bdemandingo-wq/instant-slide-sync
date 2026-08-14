@@ -18,6 +18,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import { useAuth } from "@/contexts/AuthContext";
 import { cn } from "@/lib/utils";
+import CardOnFileSection, { type CardOnFileHandle, type CardResult } from "@/components/booking/CardOnFileSection";
 import {
   ADD_ONS,
   FREQUENCIES,
@@ -125,6 +126,7 @@ const BookingForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   // Idempotency key generated once per mount; ensures retries don't double-book.
   const idempotencyKey = useRef<string>(crypto.randomUUID());
+  const cardRef = useRef<CardOnFileHandle>(null);
 
   // Load pricing tiers + blocked dates on mount. Both fetches need surfaced
   // failures: tiers→[] silently shows $0 pricing, blocked_dates→empty Set
@@ -296,6 +298,15 @@ const BookingForm = () => {
     setIsSubmitting(true);
 
     try {
+      // Card capture happens BEFORE the insert so the ids can be stored with the
+      // booking. A failed or skipped card must never block the booking itself —
+      // confirmCard resolves to null and the row stays 'pending'.
+      const cardResult: CardResult = await (cardRef.current?.confirmCard({
+        name: parsed.data.name,
+        email: parsed.data.email,
+        phone: parsed.data.phone,
+      }) ?? Promise.resolve(null));
+
       const serviceLabel = meta?.label ?? service;
       const freqLabel = FREQUENCIES.find((f) => f.key === frequency)?.label ?? frequency;
       const addOnLabels = addOnIds
@@ -339,6 +350,10 @@ const BookingForm = () => {
         sms_consent: parsed.data.smsConsent === true,
         time_slot: preferredTime,
         idempotency_key: idempotencyKey.current,
+        stripe_customer_id: cardResult?.customerId ?? null,
+        stripe_payment_method_id: cardResult?.paymentMethodId ?? null,
+        card_on_file_status: cardResult ? "saved" : "pending",
+        card_saved_at: cardResult ? new Date().toISOString() : null,
       };
 
       const { error: dbError } = await supabase
@@ -968,6 +983,13 @@ const BookingForm = () => {
                 </label>
                 {errors.smsConsent && <p className="text-sm text-destructive">{errors.smsConsent}</p>}
 
+                <CardOnFileSection
+                  ref={cardRef}
+                  email={formData.email}
+                  name={formData.name}
+                  phone={formData.phone}
+                />
+
                 <div className="rounded-lg border border-primary/20 bg-primary/5 p-4 text-center">
                   <p className="text-lg md:text-xl font-bold text-foreground flex items-center justify-center gap-2">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
@@ -980,7 +1002,7 @@ const BookingForm = () => {
                     {isSubmitting ? "Sending your booking..." : "Confirm My Booking"}
                   </Button>
                   <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1"><Shield className="w-3 h-3" /> No credit card now</span>
+                    <span className="flex items-center gap-1"><Shield className="w-3 h-3" /> No charge today</span>
                     <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> Confirmed in 15 min</span>
                     <span className="flex items-center gap-1"><Star className="w-3 h-3 fill-secondary text-secondary" /> Free re-clean guarantee</span>
                   </div>

@@ -1,1 +1,12 @@
 project_id = "skdhkyozeaduxdfarftm"
+
+# Called from the public booking form before the customer has any session.
+# Authorization is the email validation plus Stripe's own key scoping; no
+# customer data is returned beyond a client secret bound to that one intent.
+[functions.create-setup-intent]
+verify_jwt = false
+
+# Stripe cannot present a Supabase JWT. Authenticity is the signature check
+# against STRIPE_WEBHOOK_SECRET, verified before any other work.
+[functions.stripe-setup-webhook]
+verify_jwt = false
