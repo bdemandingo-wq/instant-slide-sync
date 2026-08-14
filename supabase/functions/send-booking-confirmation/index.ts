@@ -66,7 +66,7 @@ serve(async (req) => {
     const addOnsList = addOns.length ? addOns.join(", ") : "None";
     const sqft = typeof booking.sqft === "number" ? booking.sqft : 0;
 
-    const adminSms = `New Clean Collective booking!\n\nCustomer: ${booking.customer_name}\nPhone: ${booking.customer_phone}\nEmail: ${booking.customer_email}\nService: ${booking.service_type}\nDate: ${booking.preferred_date}\nAddress: ${booking.address}\n${booking.beds} bed, ${booking.baths} bath (${sqft.toLocaleString()} sq ft)\nFrequency: ${booking.frequency}\nAdd-Ons: ${addOnsList}\nTotal: $${booking.total_price}${booking.special_instructions ? `\nNotes: ${booking.special_instructions}` : ""}${booking.pet_info ? `\nPets: ${booking.pet_info}` : ""}`;
+    const adminSms = `New Clean Collective booking!\n\nCustomer: ${booking.customer_name}\nPhone: ${booking.customer_phone}\nEmail: ${booking.customer_email}\nService: ${booking.service_type}\nDate: ${booking.preferred_date}\nAddress: ${booking.address}\n${booking.beds || "?"} bed, ${booking.baths || "?"} bath (${sqft.toLocaleString()} sq ft)\nFrequency: ${booking.frequency}\nAdd-Ons: ${addOnsList}\nTotal: $${booking.total_price}${booking.special_instructions ? `\nNotes: ${booking.special_instructions}` : ""}${booking.pet_info ? `\nPets: ${booking.pet_info}` : ""}`;
 
     // Owner SMS blast
     if (fromId) {
@@ -78,7 +78,7 @@ serve(async (req) => {
 
     // Customer SMS (consent-gated)
     if (fromId && booking.sms_consent === true && customerPhone.length > 5) {
-      const customerSms = `Clean Collective Booking Confirmed!\n\nDate: ${booking.preferred_date}\nService: ${booking.service_type}\nAddress: ${booking.address}\n${booking.beds} bed, ${booking.baths} bath (${sqft.toLocaleString()} sq ft)\nFrequency: ${booking.frequency}\nTotal: $${booking.total_price}\n\nThank you! Reply STOP to opt out.`;
+      const customerSms = `Clean Collective Booking Confirmed!\n\nDate: ${booking.preferred_date}\nService: ${booking.service_type}\nAddress: ${booking.address}\n${booking.beds || "?"} bed, ${booking.baths || "?"} bath (${sqft.toLocaleString()} sq ft)\nFrequency: ${booking.frequency}\nTotal: $${booking.total_price}\n\nThank you! Reply STOP to opt out.`;
       const r = await sendOpenPhoneSms({ apiKey: OPENPHONE_API_KEY, fromId, to: customerPhone, content: customerSms });
       if (!r.ok) console.error("Customer SMS failed:", r.error);
     }
