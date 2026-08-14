@@ -6,8 +6,8 @@ import SEOSchema from "@/components/seo/SEOSchema";
 import { Button } from "@/components/ui/button";
 import GoogleReviews from "@/components/seo/GoogleReviews";
 
-const PHONE_DISPLAY = "(561) 861-2752";
-const PHONE_TEL = "+15618612752";
+const PHONE_DISPLAY = "(561) 571-8725";
+const PHONE_TEL = "+15615718725";
 
 // Full review set (used for Schema.org markup + on-page testimonials)
 const allReviews = [
@@ -75,7 +75,7 @@ const Reviews = () => {
     "@id": "https://cleancollectives.com/reviews/#business",
     "name": "Clean Collective Cleaning Services",
     "url": "https://cleancollectives.com/reviews",
-    "telephone": "+1-561-861-2752",
+    "telephone": "+1-561-571-8725",
     "image": "https://cleancollectives.com/og-image.webp",
     "priceRange": "$$",
     "address": {

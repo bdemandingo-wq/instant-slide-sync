@@ -5,7 +5,7 @@
 const OPENPHONE_BASE = "https://api.openphone.com/v1";
 
 // Our Clean Collective OpenPhone number.
-export const CLEAN_COLLECTIVE_NUMBER = "+15618612752";
+export const CLEAN_COLLECTIVE_NUMBER = "+15615718725";
 
 let cachedNumberId: string | null = null;
 let cachedForKey: string | null = null;

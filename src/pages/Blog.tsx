@@ -786,10 +786,10 @@ const Blog = () => {
                 Get Free Quote
               </Link>
               <a 
-                href="tel:+15618612752"
+                href="tel:+15615718725"
                 className="inline-flex items-center justify-center px-6 py-3 border border-border text-foreground font-medium rounded-lg hover:bg-muted transition-colors"
               >
-                Call (561) 861-2752
+                Call (561) 571-8725
               </a>
             </div>
           </div>

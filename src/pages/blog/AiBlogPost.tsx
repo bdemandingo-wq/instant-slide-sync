@@ -148,7 +148,7 @@ const AiBlogPost = () => {
                   upcharges. We're a fully insured local team with a free re-clean
                   guarantee.{" "}
                   <Link to="/booking" className="text-primary hover:underline">Book online</Link>{" "}
-                  or call <a href="tel:+15618612752" className="text-primary hover:underline">(561) 861-2752</a>.
+                  or call <a href="tel:+15615718725" className="text-primary hover:underline">(561) 571-8725</a>.
                   Have questions first? Our{" "}
                   <Link to="/faq" className="text-primary hover:underline">FAQ</Link>{" "}
                   covers pricing, what's included, scheduling, and our re-clean policy,

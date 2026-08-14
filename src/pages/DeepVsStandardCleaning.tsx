@@ -116,9 +116,9 @@ const DeepVsStandardCleaning = () => {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <a href="tel:+15615718725" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
-                    (561) 861-2752
+                    (561) 571-8725
                   </a>
                 </Button>
               </div>
