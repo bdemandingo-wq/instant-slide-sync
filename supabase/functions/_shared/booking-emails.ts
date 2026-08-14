@@ -76,7 +76,7 @@ ${row("Service", b.serviceType)}
 ${row("Frequency", b.frequency)}
 ${row("Date / Time", b.preferredDate)}
 ${row("Address", b.address)}
-${row("Beds / Baths", `${b.beds ?? "—"} bed · ${b.baths ?? "—"} bath`)}
+${row("Beds / Baths", `${b.beds || "—"} bed · ${b.baths || "—"} bath`)}
 ${row("Sq Ft", b.sqft?.toLocaleString?.() ?? b.sqft)}
 ${row("Add-ons", addOns)}
 ${row("Total", typeof b.totalPrice === "number" ? `$${b.totalPrice}` : b.totalPrice)}
