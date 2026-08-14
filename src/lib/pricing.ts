@@ -355,8 +355,9 @@ export function computePrice(
   total = Math.min(PRICE_CAP, total);
   total = Math.round(total);
 
-  // Display range: ±10% around total
-  const low = Math.round(total * 0.9);
+  // Display range: ±10% around total, but never let the low end fall below
+  // the per-service floor or the actual charged total.
+  const low = Math.max(serviceFloor, total, Math.round(total * 0.9));
   const high = Math.round(total * 1.1);
   const range = `$${low}–$${high}`;
 
