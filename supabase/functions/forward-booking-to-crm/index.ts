@@ -353,7 +353,11 @@ Deno.serve(async (req) => {
 
   // Split the single stored address into the discrete fields the CRM reads.
   // Geocoding first (handles comma-less free text), naive parser as fallback.
-  const loc = (await geocodeAddress(booking.address)) ?? parseAddress(booking.address);
+  const geo = await geocodeAddress(booking.address);
+  const loc = geo.loc ?? parseAddress(booking.address);
+  // Persisted below on the booking row so a silent geocode failure survives even
+  // when the function's console output does not. Never affects crm_sync_status.
+  const geocodeStatus = geo.loc ? geo.diag : `${geo.diag} | fell back to parseAddress`;
 
   // The CRM accepts name OR first_name/last_name. Send both: it uses `name` for
   // display and the split parts for its own first/last columns.
