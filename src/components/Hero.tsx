@@ -6,7 +6,7 @@ import heroImageSmall from "@/assets/hero-clean-living-room-960.webp";
 
 const trustPills = [
   { icon: Shield, label: "Licensed & Insured" },
-  { icon: Star, label: "4.9 Stars · 127+ Reviews" },
+  { icon: Star, label: "Google Reviews" },
   { icon: Leaf, label: "Eco-Friendly Products" },
   { icon: Lock, label: "Satisfaction Guaranteed" },
 ];

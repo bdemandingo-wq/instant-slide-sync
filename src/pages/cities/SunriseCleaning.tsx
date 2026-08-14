@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Sunrise, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Sunrise neighborhoods including Sunrise Golf Village, Inverrary, Welleby, Springtree, and North Springs. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Sunrise neighborhoods including Sunrise Golf Village, Inverrary, Welleby, Springtree, and North Springs. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Sunrise?",

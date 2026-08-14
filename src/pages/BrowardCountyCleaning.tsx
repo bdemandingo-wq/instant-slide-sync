@@ -58,7 +58,7 @@ const BrowardCountyCleaning = () => {
           <div className="container mx-auto px-4 text-center">
             <div className="inline-flex items-center gap-2 bg-secondary/20 text-secondary-foreground px-4 py-2 rounded-full mb-6">
               <Star className="w-4 h-4 fill-secondary text-secondary" />
-              <span className="text-sm font-medium">4.9★ Rated in Broward County</span>
+              <span className="text-sm font-medium">Serving All of Broward County</span>
             </div>
             
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in">

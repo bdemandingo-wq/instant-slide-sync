@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in North Miami, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all North Miami neighborhoods including Biscayne Gardens, Arch Creek, Sans Souci Estates, and Keystone Islands. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all North Miami neighborhoods including Biscayne Gardens, Arch Creek, Sans Souci Estates, and Keystone Islands. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your North Miami cleaning teams speak Spanish?",

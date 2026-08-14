@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Sunny Isles Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Sunny Isles Beach luxury towers including Acqualina, Jade Signature, Porsche Design Tower, and Turnberry Ocean Club. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Sunny Isles Beach luxury towers including Acqualina, Jade Signature, Porsche Design Tower, and Turnberry Ocean Club. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Sunny Isles Beach luxury condos and ultra-high-rise towers?",

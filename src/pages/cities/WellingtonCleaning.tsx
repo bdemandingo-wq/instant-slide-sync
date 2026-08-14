@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Wellington, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Wellington communities including Palm Beach Polo Club, Wellington Preserve, Paddock Park, Mallet Hill, and Olympia. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Wellington communities including Palm Beach Polo Club, Wellington Preserve, Paddock Park, Mallet Hill, and Olympia. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Wellington equestrian estates and large properties?",

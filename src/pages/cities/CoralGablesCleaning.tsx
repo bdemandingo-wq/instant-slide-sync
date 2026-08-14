@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Coral Gables, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Coral Gables neighborhoods including Gables Estates, Biltmore, Coral Gables Country Club, and Coconut Grove adjacent areas. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Coral Gables neighborhoods including Gables Estates, Biltmore, Coral Gables Country Club, and Coconut Grove adjacent areas. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Coral Gables Mediterranean and historic homes?",

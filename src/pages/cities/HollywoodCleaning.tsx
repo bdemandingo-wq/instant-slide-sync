@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Hollywood, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Hollywood neighborhoods including Hollywood Beach, Emerald Hills, Oakwood, Hollywood Hills, and Hollywood Lakes. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Hollywood neighborhoods including Hollywood Beach, Emerald Hills, Oakwood, Hollywood Hills, and Hollywood Lakes. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Hollywood Beach condos and waterfront properties?",

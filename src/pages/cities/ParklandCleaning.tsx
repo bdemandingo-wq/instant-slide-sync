@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Parkland, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Parkland communities including Parkland Golf & Country Club, Heron Bay, Watercrest, Parkland Reserve, and Meadow Run. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Parkland communities including Parkland Golf & Country Club, Heron Bay, Watercrest, Parkland Reserve, and Meadow Run. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Parkland Golf & Country Club and gated communities?",

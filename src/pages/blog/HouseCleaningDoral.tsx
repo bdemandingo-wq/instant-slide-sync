@@ -17,7 +17,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Doral, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Doral communities including Downtown Doral, Landmark at Doral, Waterford, Doral Isles, and the Doral business corridor. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Doral communities including Downtown Doral, Landmark at Doral, Waterford, Doral Isles, and the Doral business corridor. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Doral corporate apartments and executive rentals?",
@@ -65,7 +65,7 @@ const HouseCleaningDoral = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Hablamos español</p>
+              <p className="text-sm text-muted-foreground self-center">Hablamos español</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Doral?</h2>

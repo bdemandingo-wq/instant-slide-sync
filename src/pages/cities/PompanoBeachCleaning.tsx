@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Pompano Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Pompano Beach neighborhoods including Lighthouse Point, Cresthaven, Pompano Beach Highlands, Crystal Lake, and Palm Aire. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Pompano Beach neighborhoods including Lighthouse Point, Cresthaven, Pompano Beach Highlands, Crystal Lake, and Palm Aire. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you handle salt air and coastal cleaning challenges in Pompano Beach?",

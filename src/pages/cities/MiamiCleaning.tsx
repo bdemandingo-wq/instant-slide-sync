@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Miami, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miami neighborhoods including Brickell, Wynwood, Coconut Grove, Little Havana, and the Design District. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Miami neighborhoods including Brickell, Wynwood, Coconut Grove, Little Havana, and the Design District. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Miami condos and high-rise apartments?",

@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Palm Beach Gardens, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Palm Beach Gardens communities including PGA National, Mirasol, Ballenisles, Frenchman's Creek, Frenchman's Reserve, Alton, and Avenir. Licensed, insured, and background-checked."
+    a: "Clean Collective serves all Palm Beach Gardens communities including PGA National, Mirasol, Ballenisles, Frenchman's Creek, Frenchman's Reserve, Alton, and Avenir. Licensed, insured, and background-checked."
   },
   {
     q: "Do you clean PGA National and Mirasol homes in Palm Beach Gardens?",
@@ -65,7 +65,7 @@ const HouseCleaningPalmBeachGardens = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
+              <p className="text-sm text-muted-foreground self-center">Licensed & insured</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Palm Beach Gardens?</h2>

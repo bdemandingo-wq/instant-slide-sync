@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Boca Raton, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Boca Raton communities including Boca West, Broken Sound, Woodfield Country Club, and Royal Palm Yacht Club. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Boca Raton communities including Boca West, Broken Sound, Woodfield Country Club, and Royal Palm Yacht Club. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Boca Raton country clubs and gated communities?",

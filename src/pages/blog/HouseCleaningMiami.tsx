@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Miami, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miami neighborhoods including Brickell, Coconut Grove, Wynwood, Little Havana, Edgewater, Midtown, and the Upper East Side. Licensed, insured, and background-checked. Bilingual Spanish-speaking team."
+    a: "Clean Collective serves all Miami neighborhoods including Brickell, Coconut Grove, Wynwood, Little Havana, Edgewater, Midtown, and the Upper East Side. Licensed, insured, and background-checked. Bilingual Spanish-speaking team."
   },
   {
     q: "Do you offer cleaning in Miami in Spanish?",
@@ -65,7 +65,7 @@ const HouseCleaningMiami = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Hablamos español</p>
+              <p className="text-sm text-muted-foreground self-center">Hablamos español</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Miami?</h2>

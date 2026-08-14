@@ -14,7 +14,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Miami Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Miami Beach neighborhoods including South Beach, Mid-Beach, North Beach, Sunset Harbour, and the Venetian Islands. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Miami Beach neighborhoods including South Beach, Mid-Beach, North Beach, Sunset Harbour, and the Venetian Islands. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Miami Beach condos and oceanfront high-rises?",

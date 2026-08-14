@@ -77,7 +77,7 @@ const MerryMaidsAlternative = () => {
                 </a>
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground">4.9 ★ · 127+ verified reviews · Licensed & insured</p>
+            <p className="text-sm text-muted-foreground">Licensed & insured</p>
           </div>
         </section>
 

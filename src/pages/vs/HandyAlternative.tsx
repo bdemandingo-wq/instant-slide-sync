@@ -12,7 +12,7 @@ const faqItems = [
   },
   {
     q: "Is Clean Collective more reliable than Handy in South Florida?",
-    a: "Clean Collective maintains a 4.9-star rating across 127+ verified reviews and a satisfaction guarantee — if you're not happy, we re-clean for free. Unlike platform-based services, you work directly with our team, not a rotating pool of gig workers."
+    a: "Clean Collective offers a satisfaction guarantee — if you're not happy, we re-clean for free. Unlike platform-based services, you work directly with our team, not a rotating pool of gig workers."
   },
   {
     q: "Does Clean Collective cost more than Handy?",
@@ -42,7 +42,7 @@ const HandyAlternative = () => {
     <>
       <SEOSchema
         pageTitle="Handy Alternative South Florida | Clean Collective House Cleaning"
-        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 861-2752."
+        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners and transparent pricing. Book online or call (561) 861-2752."
         canonicalUrl="https://cleancollectives.com/handy-alternative"
         pageType="service"
         faqItems={faqItems}
@@ -77,7 +77,7 @@ const HandyAlternative = () => {
                 </a>
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground">4.9 ★ · 127+ verified reviews · Licensed & insured</p>
+            <p className="text-sm text-muted-foreground">Licensed & insured</p>
           </div>
         </section>
 

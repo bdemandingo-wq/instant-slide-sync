@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Royal Palm Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Royal Palm Beach communities including The Acreage, Crestwood, Versailles, and Royal Palm Beach Commons area. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Royal Palm Beach communities including The Acreage, Crestwood, Versailles, and Royal Palm Beach Commons area. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you service Royal Palm Beach and The Acreage?",
@@ -65,7 +65,7 @@ const HouseCleaningRoyalPalmBeach = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
+              <p className="text-sm text-muted-foreground self-center">Licensed & insured</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Royal Palm Beach?</h2>

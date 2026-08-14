@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Homestead, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Homestead neighborhoods as well as Florida City and Redland. We are licensed, insured, and background-check every cleaner before their first appointment."
+    a: "Clean Collective serves all Homestead neighborhoods as well as Florida City and Redland. We are licensed, insured, and background-check every cleaner before their first appointment."
   },
   {
     q: "Do you serve rural and agricultural properties in Homestead?",

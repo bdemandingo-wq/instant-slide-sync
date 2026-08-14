@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Deerfield Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and is based in Pompano Beach at 4611 N Federal Hwy. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, and Riverwalk. Licensed, insured, and background-checked."
+    a: "Clean Collective is based in Pompano Beach at 4611 N Federal Hwy. We serve all Deerfield Beach neighborhoods including Lighthouse Point, Deer Creek, Century Village, and Riverwalk. Licensed, insured, and background-checked."
   },
   {
     q: "Is Clean Collective local to Deerfield Beach?",

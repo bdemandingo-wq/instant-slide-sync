@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Cooper City, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Cooper City communities including Rock Creek, Embassy Lakes, Monterra, and Flamingo Gardens adjacent areas. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Cooper City communities including Rock Creek, Embassy Lakes, Monterra, and Flamingo Gardens adjacent areas. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you offer recurring cleaning in Cooper City?",

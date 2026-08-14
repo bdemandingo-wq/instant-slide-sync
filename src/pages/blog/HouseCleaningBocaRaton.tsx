@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Boca Raton, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Boca Raton neighborhoods including Boca West Country Club, Broken Sound, Woodfield Country Club, The Sanctuary, Mizner Park, and East Boca. Licensed, insured, and background-checked. Based nearby in Deerfield Beach."
+    a: "Clean Collective serves all Boca Raton neighborhoods including Boca West Country Club, Broken Sound, Woodfield Country Club, The Sanctuary, Mizner Park, and East Boca. Licensed, insured, and background-checked. Based nearby in Deerfield Beach."
   },
   {
     q: "Do you offer seasonal and snowbird cleaning in Boca Raton?",
@@ -65,7 +65,7 @@ const HouseCleaningBocaRaton = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
+              <p className="text-sm text-muted-foreground self-center">Licensed & insured</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">How Much Does House Cleaning Cost in Boca Raton?</h2>

@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Margate, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Margate neighborhoods including Century Village, Royal Crest Estates, Boulevard Heights, and Margate Isles. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Margate neighborhoods including Century Village, Royal Crest Estates, Boulevard Heights, and Margate Isles. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do you clean Century Village and active adult communities in Margate?",

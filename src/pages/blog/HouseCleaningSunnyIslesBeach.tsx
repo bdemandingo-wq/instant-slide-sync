@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Sunny Isles Beach, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves Sunny Isles Beach's premier towers including Porsche Design Tower, Regalia, Jade Ocean, Acqualina, Armani Casa, and Trump Royale. We are licensed, insured, and background-check every cleaner — essential for ultra-luxury buildings."
+    a: "Clean Collective serves Sunny Isles Beach's premier towers including Porsche Design Tower, Regalia, Jade Ocean, Acqualina, Armani Casa, and Trump Royale. We are licensed, insured, and background-check every cleaner — essential for ultra-luxury buildings."
   },
   {
     q: "Do you offer discreet cleaning service in Sunny Isles Beach?",
@@ -65,7 +65,7 @@ const HouseCleaningSunnyIslesBeach = () => {
                   <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
-              <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · White-glove service</p>
+              <p className="text-sm text-muted-foreground self-center">White-glove service</p>
             </div>
 
             <h2 className="font-display text-2xl font-bold mt-10 mb-4">Sunny Isles Beach Towers We Service</h2>

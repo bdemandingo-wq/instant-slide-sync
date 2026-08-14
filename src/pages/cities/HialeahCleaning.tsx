@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     q: "What is the best cleaning service in Hialeah, FL?",
-    a: "Clean Collective is rated 4.9 stars across 127+ verified reviews and serves all Hialeah neighborhoods including Hialeah Gardens, Miami Lakes, Westland Lakes, and Palm Springs Mile. We are licensed, insured, and background-check every cleaner."
+    a: "Clean Collective serves all Hialeah neighborhoods including Hialeah Gardens, Miami Lakes, Westland Lakes, and Palm Springs Mile. We are licensed, insured, and background-check every cleaner."
   },
   {
     q: "Do your Hialeah cleaning teams speak Spanish?",
