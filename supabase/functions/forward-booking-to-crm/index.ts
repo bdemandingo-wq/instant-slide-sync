@@ -96,19 +96,26 @@ function parseAddress(raw: unknown): { street: string | null; city: string | nul
 // made a missing key impossible to tell apart from a refused request.
 const GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json";
 
+type GeoLoc = { street: string | null; city: string | null; state: string | null; zip: string | null };
+// Returns the parsed location AND a short human-readable diagnostic. The
+// diagnostic is persisted on the booking row (geocode_status) because the
+// function's console output is not reliably retained.
 async function geocodeAddress(
   raw: unknown,
-): Promise<{ street: string | null; city: string | null; state: string | null; zip: string | null } | null> {
+): Promise<{ loc: GeoLoc | null; diag: string }> {
+  const fail = (diag: string) => {
+    console.error(`[geocode] ${diag}`);
+    return { loc: null, diag };
+  };
+
   const full = String(raw ?? "").trim();
   if (!full) {
-    console.error("[geocode] skipped: booking.address is empty");
-    return null;
+    return fail("skipped: booking.address is empty");
   }
 
   const mapsKey = Deno.env.get("GOOGLE_MAPS_API_KEY");
   if (!mapsKey) {
-    console.error("[geocode] failed: GOOGLE_MAPS_API_KEY is not set on this function");
-    return null;
+    return fail("failed: GOOGLE_MAPS_API_KEY is not set on this function");
   }
 
   try {
@@ -117,8 +124,7 @@ async function geocodeAddress(
     const url = `${GEOCODE_URL}?address=${encodeURIComponent(full)}&region=us&key=${mapsKey}`;
     const res = await fetch(url);
     if (!res.ok) {
-      console.error(`[geocode] failed: HTTP ${res.status} from maps.googleapis.com`);
-      return null;
+      return fail(`failed: HTTP ${res.status} from maps.googleapis.com`);
     }
 
     const data = await res.json();
@@ -128,17 +134,15 @@ async function geocodeAddress(
     // Geocoding API not enabled on the project), ZERO_RESULTS, OVER_QUERY_LIMIT,
     // INVALID_REQUEST. `error_message` names the cause outright.
     if (data?.status !== "OK") {
-      console.error(
-        `[geocode] failed: Google status=${data?.status ?? "missing"}` +
+      return fail(
+        `failed: Google status=${data?.status ?? "missing"}` +
           (data?.error_message ? ` error_message=${data.error_message}` : ""),
       );
-      return null;
     }
 
     const result = data?.results?.[0];
     if (!result) {
-      console.error("[geocode] failed: status was OK but results[] was empty");
-      return null;
+      return fail("failed: status was OK but results[] was empty");
     }
 
     const comps: Array<{ long_name: string; short_name: string; types: string[] }> =
@@ -156,19 +160,19 @@ async function geocodeAddress(
     const zip = get("postal_code");
 
     if (!city && !state && !zip) {
-      console.error(
-        `[geocode] failed: matched "${result.formatted_address ?? "?"}" but it yielded no city/state/zip`,
+      return fail(
+        `failed: matched "${result.formatted_address ?? "?"}" but it yielded no city/state/zip`,
       );
-      return null;
     }
 
-    console.log(`[geocode] ok: city=${city} state=${state} zip=${zip}`);
-    return { street, city, state, zip };
+    const diag = `ok: city=${city} state=${state} zip=${zip}`;
+    console.log(`[geocode] ${diag}`);
+    return { loc: { street, city, state, zip }, diag };
   } catch (e) {
-    console.error(`[geocode] failed: fetch threw: ${e}`);
-    return null;
+    return fail(`failed: fetch threw: ${e}`);
   }
 }
+
 
 // The CRM's square footage field is a fixed list of label strings, not a number.
 // Bucket up to the first tier whose max covers the value. CC's slider is
