@@ -1,3 +1,12 @@
+globalThis.localStorage = {
+  getItem: () => null,
+  setItem: () => {},
+  removeItem: () => {},
+  clear: () => {},
+  key: () => null,
+  length: 0,
+} as unknown as Storage;
+
 import { computePrice, SERVICE_PRICE_FLOOR, PRICE_CAP } from "./src/lib/pricing.ts";
 
 const standardTiers = [
