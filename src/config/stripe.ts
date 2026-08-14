@@ -1,1 +1,1 @@
-export const STRIPE_PUBLISHABLE_KEY = "<paste the pk_live_ key>";
+export const STRIPE_PUBLISHABLE_KEY = "pk_live_51U32VUFgxZDB1QUhF9XjIL6daUw1IyiaE0J7JEwZMPMyK6nl9YO3x0v1AEJGLtK6MzWFv3h92KuZfd6CQ6Sz07Qa00gH2pR01M";
