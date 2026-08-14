@@ -39,7 +39,7 @@ const GoogleMapEmbed = () => {
           {/* Google Map Embed */}
           <div className="rounded-xl overflow-hidden shadow-lg border border-border h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14305.240331609677!2d-80.13057563545063!3d26.316456932118975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91df85192d2e3%3A0x33f6970e8c4c641f!2sClean Collective!5e0!3m2!1sen!2sus!4v1766738784534!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14305.240331609677!2d-80.096755!3d26.28828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x287544fff9ddac57%3A0x93e1d88f2ebc5f7!2sClean%20Collective!5e0!3m2!1sen!2sus!4v1766738784534!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}

@@ -63,7 +63,7 @@ const cleaningServiceSchema = {
     "postalCode": "33064",
     "addressCountry": "US"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": 26.2890, "longitude": -80.0940 },
+  "geo": { "@type": "GeoCoordinates", "latitude": 26.28828, "longitude": -80.096755 },
   "hasMap": "https://maps.google.com/?q=Clean Collective+Cleaning+Pompano+Beach+FL",
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "19:00" },
@@ -320,8 +320,8 @@ const SEOSchema = ({
       {/* Geo Tags — same on every page, fine to inject via Helmet. */}
       <meta name="geo.region" content="US-FL" />
       <meta name="geo.placename" content="Pompano Beach" />
-      <meta name="geo.position" content="26.2890;-80.0940" />
-      <meta name="ICBM" content="26.2890, -80.0940" />
+      <meta name="geo.position" content="26.28828;-80.096755" />
+      <meta name="ICBM" content="26.28828, -80.096755" />
 
       {/* description, canonical, OG title/description/url/image, Twitter, and
           hreflang tags are managed via useEffect above on the static tags
