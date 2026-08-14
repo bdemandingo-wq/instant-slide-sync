@@ -138,6 +138,12 @@ fbq('track', 'PageView');
 
   <body>
     <div id="root"></div>
+
+    <!-- Meta Pixel noscript fallback -->
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1606327717733797&ev=PageView&noscript=1"
+    /></noscript>
+
     <script type="module" src="/src/main.tsx"></script>
     
     <!-- Defer GA4 load until first user interaction or 5s, then push a single config to the shared gtag instance -->
