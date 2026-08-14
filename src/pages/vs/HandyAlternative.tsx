@@ -42,7 +42,7 @@ const HandyAlternative = () => {
     <>
       <SEOSchema
         pageTitle="Handy Alternative South Florida | Clean Collective House Cleaning"
-        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 571-8725."
+        pageDescription="Looking for a Handy alternative in South Florida? Clean Collective offers vetted cleaners, transparent pricing, and 4.9★ service. Book online or call (561) 861-2752."
         canonicalUrl="https://cleancollectives.com/handy-alternative"
         pageType="service"
         faqItems={faqItems}
@@ -71,9 +71,9 @@ const HandyAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (561) 571-8725
+                  (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -184,7 +184,7 @@ const HandyAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <a href="tel:+15615718725">(561) 571-8725</a>
+                <a href="tel:+15618612752">(561) 861-2752</a>
               </Button>
             </div>
           </div>

@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "(561) 571-8725",
+    value: "(561) 861-2752",
     subtitle: "Available 24/7",
   },
   {

@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     q: "How do I book a cleaner in Miami Beach?",
-    a: "Get an instant quote online at cleancollectives.com, or call (561) 571-8725. You can book standard, deep, or move in/out cleaning for the same day or a future date. We serve all Miami Beach neighborhoods including South Beach, Sunset Harbour, Venetian Islands, Surfside, and Bal Harbour."
+    a: "Get an instant quote online at cleancollectives.com, or call (561) 861-2752. You can book standard, deep, or move in/out cleaning for the same day or a future date. We serve all Miami Beach neighborhoods including South Beach, Sunset Harbour, Venetian Islands, Surfside, and Bal Harbour."
   }
 ];
 
@@ -61,8 +61,8 @@ const HouseCleaningMiamiBeach = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> (561) 861-2752
                 </a>
               </Button>
               <p className="text-sm text-muted-foreground self-center">4.9 ★ · 127+ reviews · Licensed & insured</p>
@@ -148,7 +148,7 @@ const HouseCleaningMiamiBeach = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button variant="secondary" asChild><Link to="/#booking">Get Instant Quote</Link></Button>
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                  <a href="tel:+15615718725">(561) 571-8725</a>
+                  <a href="tel:+15618612752">(561) 861-2752</a>
                 </Button>
               </div>
             </div>

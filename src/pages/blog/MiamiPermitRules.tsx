@@ -110,7 +110,7 @@ const MiamiPermitRules = () => {
                   Need Help with Your Building's Requirements?
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Our team is experienced with Miami condos and HOA communities. Call <a href="tel:+15615718725" className="text-primary font-semibold">(561) 571-8725</a> or 
+                  Our team is experienced with Miami condos and HOA communities. Call <a href="tel:+15618612752" className="text-primary font-semibold">(561) 861-2752</a> or 
                   <Link to="/#booking" className="text-primary hover:underline ml-1">book online</Link> for 
                   <Link to="/miami-dade-cleaning" className="text-primary hover:underline ml-1">Miami-Dade cleaning services</Link>.
                 </p>

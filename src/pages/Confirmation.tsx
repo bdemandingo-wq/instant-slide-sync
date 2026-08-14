@@ -189,8 +189,8 @@ const Confirmation = () => {
             <div className="bg-muted rounded-lg p-4 mb-6">
               <p className="text-sm font-semibold text-foreground mb-2">Questions? We're here.</p>
               <div className="flex flex-col sm:flex-row gap-3 text-sm">
-                <a href="tel:+15615718725" className="flex items-center gap-2 text-primary hover:underline">
-                  <Phone className="w-4 h-4" aria-hidden="true" /> (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2 text-primary hover:underline">
+                  <Phone className="w-4 h-4" aria-hidden="true" /> (561) 861-2752
                 </a>
                 <a href="mailto:support@cleancollectives.com" className="flex items-center gap-2 text-primary hover:underline">
                   <Mail className="w-4 h-4" aria-hidden="true" /> support@cleancollectives.com
@@ -200,7 +200,7 @@ const Confirmation = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 mb-6">
               <Button variant="outline" className="flex-1" asChild>
-                <a href="tel:+15615718725" className="flex items-center justify-center gap-2">
+                <a href="tel:+15618612752" className="flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" aria-hidden="true" /> Call Us Now
                 </a>
               </Button>

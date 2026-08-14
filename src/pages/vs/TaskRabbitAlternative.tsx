@@ -75,8 +75,8 @@ const TaskRabbitAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> Call (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> Call (561) 861-2752
                 </a>
               </Button>
             </div>
@@ -270,8 +270,8 @@ const TaskRabbitAlternative = () => {
                 <Link to="/#booking">Get Instant Quote</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15615718725" className="flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> Call (561) 571-8725
+                <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> Call (561) 861-2752
                 </a>
               </Button>
             </div>
