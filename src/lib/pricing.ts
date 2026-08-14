@@ -89,6 +89,14 @@ export const isUnitAddOn = (a: AddOnDef): boolean => a.unit !== "flat";
 export const PRICE_FLOOR = 99;
 export const PRICE_CAP = 5000;
 
+/** Per-service minimums for the discounted base price, before add-ons. */
+export const SERVICE_PRICE_FLOOR: Partial<Record<ServiceKey, number>> = {
+  standard: 150,
+  deep: 200,
+  moveinout: 250,
+  postconstruction: 400,
+};
+
 /** Raw sqft slider config — used by Hero & Calculator. */
 export const SQFT_MIN = 500;
 export const SQFT_MAX = 10000;
