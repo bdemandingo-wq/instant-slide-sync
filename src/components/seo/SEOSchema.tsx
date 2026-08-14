@@ -36,12 +36,8 @@ const normalizeCanonical = (input: string): string => {
   return `${WEBSITE}${cleanPath}`;
 };
 
-// Top-level business schema. Uses @type: LocalBusiness so Google's review
-// snippet parser recognizes aggregateRating and review on this node — the
-// CleaningService subtype does technically inherit from LocalBusiness but
-// Search Console flags ratings/reviews when @type is the more specific
-// CleaningService string. The "additionalType" link below preserves the
-// cleaning-specific signal without confusing the parser.
+// Top-level business schema. No aggregateRating or review nodes are published
+// until there are verified first-party reviews to report.
 const cleaningServiceSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -74,7 +70,6 @@ const cleaningServiceSchema = {
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "17:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "09:00", "closes": "15:00" }
   ],
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
   "areaServed": [
     { "@type": "City", "name": "Fort Lauderdale", "sameAs": "https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida" },
     { "@type": "City", "name": "Boca Raton", "sameAs": "https://en.wikipedia.org/wiki/Boca_Raton,_Florida" },
@@ -102,29 +97,6 @@ const cleaningServiceSchema = {
       { "@type": "Offer", "name": "Upholstery Cleaning", "description": "Expert furniture and fabric cleaning for sofas, chairs, and all upholstered items.", "itemOffered": { "@type": "Service", "name": "Upholstery Cleaning", "serviceType": "Upholstery Cleaning" } }
     ]
   },
-  "review": [
-    {
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": "Ashleigh Craig" },
-      "datePublished": "2025-06-10",
-      "reviewBody": "I used Clean Collective to do a deep clean of my home, and I couldn't be happier with the results! The team arrived on time, fully equipped, and ready to work. They paid attention to every detail—baseboards, windows, inside appliances—nothing was missed."
-    },
-    {
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": "Sallie Sutherland" },
-      "datePublished": "2025-08-22",
-      "reviewBody": "Tidy Wise in less than 12 hours got two women to my home over a holiday weekend. They were the most efficient, fast, capable young women I've ever met. It really saved my day."
-    },
-    {
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": "Charlie Dubb" },
-      "datePublished": "2025-11-04",
-      "reviewBody": "The ladies cleaned my 30 year, unoccupied house FLAWLESSLY. Sadly, the Florida 'critters' had completely taken the place over, but you'd never know it now! THANK YOU!"
-    }
-  ],
   "sameAs": [
     "https://www.facebook.com/cleancollective",
     "https://www.instagram.com/cleancollective",
