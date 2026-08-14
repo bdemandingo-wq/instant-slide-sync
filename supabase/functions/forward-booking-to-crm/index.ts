@@ -354,6 +354,10 @@ Deno.serve(async (req) => {
     square_footage: sqftLabel(booking.sqft),
     extras: Array.isArray(booking.add_ons) ? booking.add_ons : [],
     notes: booking.special_instructions ?? null,
+    // The point of the card work: the card travels with the booking so the CRM
+    // can charge without asking the customer again. Null until a card is saved.
+    stripe_customer_id: booking.stripe_customer_id ?? null,
+    stripe_payment_method_id: booking.stripe_payment_method_id ?? null,
   };
 
   // Record the outcome on our own booking row. This is the ONLY place a failed
