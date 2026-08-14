@@ -154,7 +154,7 @@ const CustomerPortal = () => {
               <Calendar className="h-12 w-12 mx-auto text-destructive mb-4" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Couldn't load your bookings</h3>
               <p className="text-muted-foreground mb-6">
-                Something went wrong on our end. Please refresh — if the issue persists, call us at (561) 861-2752.
+                Something went wrong on our end. Please refresh — if the issue persists, call us at (561) 571-8725.
               </p>
               <Button onClick={() => window.location.reload()}>Refresh</Button>
             </CardContent>
@@ -280,11 +280,11 @@ const CustomerPortal = () => {
               </div>
               <div className="flex items-center gap-4">
                 <a 
-                  href="tel:+15618612752"
+                  href="tel:+15615718725"
                   className="inline-flex items-center gap-2 text-primary hover:underline"
                 >
                   <Phone className="h-4 w-4" />
-                  (561) 861-2752
+                  (561) 571-8725
                 </a>
                 <a 
                   href="mailto:support@cleancollectives.com" 

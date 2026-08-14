@@ -57,7 +57,7 @@ const CarpetCleaning = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-primary text-primary-foreground" asChild>
-                  <a href="tel:+15618612752" className="flex items-center gap-2">
+                  <a href="tel:+15615718725" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
                     Get Custom Quote
                   </a>
@@ -169,9 +169,9 @@ const CarpetCleaning = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="tel:+15618612752" className="flex items-center gap-2">
+                <a href="tel:+15615718725" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call (561) 861-2752
+                  Call (561) 571-8725
                 </a>
               </Button>
               <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>

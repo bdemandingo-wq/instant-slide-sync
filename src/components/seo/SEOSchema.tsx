@@ -21,7 +21,7 @@ interface SEOSchemaProps {
 
 const WEBSITE = "https://cleancollectives.com";
 const BUSINESS_NAME = "Clean Collective Cleaning Services";
-const PHONE = "+1-561-861-2752";
+const PHONE = "+1-561-571-8725";
 
 /**
  * Force every canonical URL to the www apex. Prevents non-www duplicates
