@@ -126,6 +126,7 @@ const BookingForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   // Idempotency key generated once per mount; ensures retries don't double-book.
   const idempotencyKey = useRef<string>(crypto.randomUUID());
+  const cardRef = useRef<CardOnFileHandle>(null);
 
   // Load pricing tiers + blocked dates on mount. Both fetches need surfaced
   // failures: tiers→[] silently shows $0 pricing, blocked_dates→empty Set
