@@ -99,9 +99,7 @@ const cleaningServiceSchema = {
   },
   "sameAs": [
     "https://www.facebook.com/cleancollective",
-    "https://www.instagram.com/cleancollective",
-    "https://g.page/clean collective-cleaning",
-    "https://www.yelp.com/biz/clean collective-cleaning-deerfield-beach"
+    "https://www.instagram.com/cleancollective"
   ]
 };
 
